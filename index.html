@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div id="scroll-progress" aria-hidden="true">
+    <span id="scroll-progress-bar"></span>
+  </div>
   <div class="page-bg" aria-hidden="true"></div>
 
   <header class="site-header reveal">
@@ -19,11 +22,13 @@
 
     <div class="tone-control" role="group" aria-label="Tone display selector">
       <label for="tone-select">Display Tone</label>
-      <select id="tone-select">
-        <option value="pastoral" selected>Pastoral</option>
-        <option value="debate">Debate</option>
-        <option value="academic">Academic</option>
-      </select>
+      <div class="premium-select">
+        <select id="tone-select">
+          <option value="pastoral" selected>Pastoral</option>
+          <option value="debate">Debate</option>
+          <option value="academic">Academic</option>
+        </select>
+      </div>
       <p id="tone-description" class="tone-description"></p>
     </div>
 
@@ -45,7 +50,7 @@
       </div>
     </section>
 
-    <div id="study-view">
+    <div id="study-view" class="view-panel is-visible">
       <section class="panel reveal" id="intro">
         <h2>What This App Does</h2>
         <p id="intro-copy"></p>
@@ -90,6 +95,14 @@
         <div id="reply-list" class="argument-list" aria-live="polite"></div>
       </section>
 
+      <section class="panel reveal" id="replacement-theology">
+        <div class="section-head">
+          <h2>Refuting Replacement Theology</h2>
+          <p>Major replacement-theology arguments (steelman format) with concise biblical responses and KJV passages.</p>
+        </div>
+        <div id="replacement-list" class="argument-list" aria-live="polite"></div>
+      </section>
+
       <section class="panel reveal" id="drilldown">
         <div class="section-head">
           <h2>Objection Drilldown</h2>
@@ -105,7 +118,7 @@
         </div>
         <div class="search-row">
           <label for="context-select">Reference</label>
-          <div class="context-select-wrap">
+          <div class="context-select-wrap premium-select">
             <select id="context-select"></select>
           </div>
         </div>
@@ -137,7 +150,7 @@
       </section>
     </div>
 
-    <div id="compare-view" hidden>
+    <div id="compare-view" class="view-panel" hidden>
       <section class="panel" id="comparison-panel">
         <div class="section-head">
           <h2>Side-by-Side Comparison</h2>
