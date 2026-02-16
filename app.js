@@ -8,7 +8,7 @@ const toneProfiles = {
     intro:
       "This study tool is for believers who want to test doctrine carefully without unnecessary hostility. It organizes major concerns with Calvinism and Replacement Theology by showing where key claims can conflict with plain KJV readings and coherence.",
     logicSummary: [
-      "If people are condemned for unbelief, invitations to believe appear to assume real responsibility and real opportunity.",
+      "If people are blamed for unbelief, invitations to believe should still read like real calls, not empty words.",
       "If Christ is presented as a provision for the world, readers naturally expect the gospel offer to be genuinely broad.",
       "If God binds promises to Israel to enduring covenant language, permanent erasure claims require unusually strong textual proof."
     ]
@@ -22,7 +22,7 @@ const toneProfiles = {
     intro:
       "This framework isolates high-impact contradictions in Calvinism and Replacement Theology and tests them against direct KJV statements. The goal is a falsifiable biblical and logical case.",
     logicSummary: [
-      "Commands to all lose force if most hearers are divinely unable to comply.",
+      "A sound model must keep these together: commands to all, real blame for refusal, and sincere divine invitation.",
       "Universal atonement language is strained when redefined to exclude most of humanity.",
       "Replacement claims lose force when Romans 11 and covenant continuity passages are flattened into total transfer language."
     ]
@@ -36,7 +36,7 @@ const toneProfiles = {
     intro:
       "This tool presents an analytical critique of core Calvinist and supersessionist propositions by comparing them with straightforward KJV textual phenomena: universal imperatives, covenant continuity language, restoration motifs, and warning discourse.",
     logicSummary: [
-      "Moral accountability language normally presupposes meaningful agency relative to commanded response.",
+      "Judgment language assumes meaningful agency, even while salvation is fully dependent on grace.",
       "Scope terms such as world and every man require strong contextual warrants before being reduced to subgroup meanings.",
       "Temporal and covenant markers in Romans 11 and prophetic texts resist reduction to permanent displacement models."
     ]
@@ -54,19 +54,19 @@ const argumentsData = [
         claim:
           "Calvinism says the non-elect cannot respond savingly, yet Scripture repeatedly extends broad calls to repent and come.",
         logic:
-          "A universal invitation sounds sincere when hearers are addressed as responsible responders, not as people excluded by prior inability."
+          "A universal invitation sounds sincere when people are treated as real hearers who are accountable for refusal."
       },
       debate: {
         claim:
           "Total inability clashes with global repentance commands that target all hearers as if response is expected.",
         logic:
-          "If inability is absolute for most people, universal commands become declarations of guilt without a real path to compliance."
+          "If inability is defined so tightly that no one can respond unless specially acted on, universal commands can sound more like verdicts than open calls."
       },
       academic: {
         claim:
           "The Calvinist inability thesis is difficult to reconcile with the breadth of universal imperative language in evangelistic texts.",
         logic:
-          "Imperative universality normally implies audience-level accountability grounded in meaningful response capacity."
+          "A coherent account should keep both truths together: grace is necessary, and universal commands still function as genuine summons."
       }
     },
     references: [
@@ -92,27 +92,32 @@ const argumentsData = [
     tones: {
       pastoral: {
         claim:
-          "Unconditional election is often presented as gracious mystery, but it can seem to conflict with scriptures describing God's impartial heart toward humanity.",
+          "Unconditional election is often presented as gracious mystery, yet it raises hard questions when read beside texts about God's impartial judgment and broad saving desire.",
         logic:
-          "If God truly wills all to repentance, a fixed pre-temporal exclusion of many appears difficult to harmonize with that revealed will."
+          "This is a synthesis question, not a one-verse argument. A strong model must explain how impartiality and broad desire fit with a selective decree."
       },
       debate: {
         claim:
-          "Unconditional election collides with explicit declarations that God is not partial and desires all to repentance.",
+          "Unconditional election faces pressure from texts saying God is no respecter of persons and calls all to repentance.",
         logic:
-          "A selective salvific decree for only some contradicts universal salvific desire language on its face."
+          "A selective decree can be argued, but then universal-desire language must be explained plainly, not just minimized."
       },
       academic: {
         claim:
-          "The doctrine of unconditional election faces tension with texts asserting divine non-partiality and broad salvific intent.",
+          "The doctrine of unconditional election must be synthesized with texts on divine impartiality and broad salvific intent.",
         logic:
-          "Without a robust two-wills framework, the system appears to place decretal selectivity against declared universal intent."
+          "Romans 2:11 speaks first to impartial judgment; when read with 1 Timothy 2:3-4 and 2 Peter 3:9, it still demands a clear decretal/preceptive explanation."
       }
     },
     references: [
       {
         reference: "Romans 2:11 (KJV)",
         passage: "For there is no respect of persons with God."
+      },
+      {
+        reference: "Acts 10:34 (KJV)",
+        passage:
+          "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons:"
       },
       {
         reference: "1 Timothy 2:3-4 (KJV)",
@@ -253,20 +258,30 @@ const proofTextsData = [
     claimLabel: "Calvinist Reading",
     responseLabel: "Response",
     claim:
-      "God unconditionally chooses individuals for mercy or hardening irrespective of human response.",
+      "Paul's mercy and hardening language teaches unconditional individual election and reprobation, not conditioned on foreseen faith.",
     tones: {
       pastoral:
-        "Romans 9 should be read with Romans 10 and 11. Paul still calls people to believe, grieves over unbelief, and explains Israel's condition in relation to faith and unbelief, not bare fatalism. Do not collapse Israel-level election and hardening language into a claim that individuals cannot believe.",
+        "Romans 9 strongly stresses God's freedom, including the question, Why doth he yet find fault? That must be taken seriously. But Paul still says they sought it not by faith, so sovereignty and unbelief both matter in his argument.",
       debate:
-        "Romans 9 is not a stand-alone deterministic manifesto. Paul explicitly says Israel failed because they sought righteousness not by faith (Romans 9:30-32), which reintroduces response as a live category. Treating corporate argumentation as proof of fixed individual salvation overreads the chapter.",
+        "The strongest Reformed case is Romans 9:18-24 plus 9:19. The strongest counter is Paul's own explanation in 9:30-32 and 10:21, where unbelief is treated as a real reason, not only a label for what happened.",
       academic:
-        "A contextual reading situates Romans 9 within the 9-11 discourse on covenant membership, historical roles, and faith-response dynamics. Romans 9:30-32 constrains deterministic readings by foregrounding faith versus works, and the discourse-level frame cautions against conflating corporate election categories with exhaustive individual predestination claims."
+        "Romans 9 should be read within Romans 9-11 as a whole: divine freedom, covenant history, and explicit faith/unbelief explanations. The 9:19 objection raises accountability questions, yet Paul's own wherefore and stretched-forth-hands language still gives explanatory weight to unbelief."
     },
     references: [
       {
         reference: "Romans 9:14-16 (KJV)",
         passage:
           "What shall we say then? Is there unrighteousness with God? God forbid. For he saith to Moses, I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion. So then it is not of him that willeth, nor of him that runneth, but of God that sheweth mercy."
+      },
+      {
+        reference: "Romans 9:18 (KJV)",
+        passage:
+          "Therefore hath he mercy on whom he will have mercy, and whom he will he hardeneth."
+      },
+      {
+        reference: "Romans 9:19-21 (KJV)",
+        passage:
+          "Thou wilt say then unto me, Why doth he yet find fault? For who hath resisted his will? Nay but, O man, who art thou that repliest against God? Shall the thing formed say to him that formed it, Why hast thou made me thus? Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour?"
       },
       {
         reference: "Romans 9:6-8 (KJV)",
@@ -282,6 +297,16 @@ const proofTextsData = [
         reference: "Romans 10:9-13 (KJV)",
         passage:
           "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation. For the scripture saith, Whosoever believeth on him shall not be ashamed. For there is no difference between the Jew and the Greek: for the same Lord over all is rich unto all that call upon him. For whosoever shall call upon the name of the Lord shall be saved."
+      },
+      {
+        reference: "Romans 11:23 (KJV)",
+        passage:
+          "And they also, if they abide not still in unbelief, shall be graffed in: for God is able to graff them in again."
+      },
+      {
+        reference: "Romans 11:32 (KJV)",
+        passage:
+          "For God hath concluded them all in unbelief, that he might have mercy upon all."
       }
     ]
   },
@@ -290,14 +315,14 @@ const proofTextsData = [
     claimLabel: "Calvinist Reading",
     responseLabel: "Response",
     claim:
-      "Jacob have I loved, but Esau have I hated proves God unconditionally loved one individual and hated another individual for salvation before birth.",
+      "Jacob and Esau show pre-birth discriminating choice, so individual election and reprobation are already established before works.",
     tones: {
       pastoral:
-        "Paul's quotation points back to Old Testament covenant history. It does not require reading infant Esau as eternally hated for individual salvation purposes before he had done good or evil.",
+        "Romans 9:11-13 is serious and should not be minimized. Paul uses twins to show God's choice before works. Even so, the oracle says the elder shall serve the younger, so this text can point to covenant-role priority without by itself proving Esau's final eternal fate.",
       debate:
-        "Ignoring Genesis 25:23 and Malachi 1's Israel/Edom context turns a corporate-historical argument into a deterministic individual proof-text.",
+        "Reformed readers rightly stress individuals are in view and that Paul expects justice objections. The counter is not individuals versus nations; it is purpose. The text proves God's freedom to choose the line before works, but not by itself every detail of final reprobation.",
       academic:
-        "The Romans 9:13 citation is intertextually tethered to Genesis and Malachi identity language, supporting a representative-corporate reading within Paul's Israel argument rather than an isolated decree of individual eternal destinies."
+        "Intertextual control matters: Romans 9:13 cites Malachi and echoes Genesis 25:23. The twins are central in Paul's rhetoric, yet the source frame remains covenant-historical and role-oriented, so this unit alone does not settle full final-destiny claims."
     },
     references: [
       {
@@ -327,14 +352,14 @@ const proofTextsData = [
     claimLabel: "Calvinist Reading",
     responseLabel: "Response",
     claim:
-      "The potter-clay section proves fixed individual reprobation with no conditionality in view.",
+      "The potter-clay analogy shows God's absolute right to form some individuals for mercy and others for destruction.",
     tones: {
       pastoral:
-        "Paul's rebuke addresses pride before God, but his broader argument still includes patience, repentance, and faith language. The potter image should be read with its Old Testament background.",
+        "Paul's rebuke in Romans 9 is strong and clearly teaches God's rights over the clay. That must be granted. But verse 22 also stresses endured with much longsuffering, and Paul still keeps repentance language active nearby.",
       debate:
-        "Using Romans 9:19-24 as a stand-alone determinist lock ignores Jeremiah 18's explicit if-then nation language and Paul's own repentance logic in Romans 2:4-5.",
+        "Reformed readers are right that same lump and vessels can sound strongly individual. The counter is textual pattern: verse 22 uses what if, longsuffering, and fitted language; verse 23 explicitly says God afore prepared mercy vessels. That supports judicial hardening without requiring a strict symmetric decree.",
       academic:
-        "Intertextual dependence on Jeremiah's potter oracle supports a covenant-historical and judicial reading rather than a context-free proof of immutable individual reprobation."
+        "The potter metaphor should be read with both context and intertext: Jeremiah 18 adds judicial contingency, while Romans 9:22-23 adds hypothetical framing, longsuffering, and non-identical preparation language. Together these features complicate a strict symmetric reprobation reading."
     },
     references: [
       {
@@ -356,6 +381,16 @@ const proofTextsData = [
         reference: "2 Timothy 2:20-21 (KJV)",
         passage:
           "But in a great house there are not only vessels of gold and of silver, but also of wood and of earth; and some to honour, and some to dishonour. If a man therefore purge himself from these, he shall be a vessel unto honour, sanctified, and meet for the master's use, and prepared unto every good work."
+      },
+      {
+        reference: "Romans 10:21 (KJV)",
+        passage:
+          "But to Israel he saith, All day long I have stretched forth my hands unto a disobedient and gainsaying people."
+      },
+      {
+        reference: "Romans 9:22-23 (KJV)",
+        passage:
+          "What if God, willing to shew his wrath, and to make his power known, endured with much longsuffering the vessels of wrath fitted to destruction: And that he might make known the riches of his glory on the vessels of mercy, which he had afore prepared unto glory,"
       }
     ]
   },
@@ -367,11 +402,11 @@ const proofTextsData = [
       "Only those sovereignly drawn by the Father can come, proving irresistible grace and fixed election.",
     tones: {
       pastoral:
-        "John 6 highlights the necessity of divine drawing, but it does not erase human responsibility. The same Gospel presents Jesus inviting all and rebuking refusal.",
+        "John 6 clearly teaches divine initiative: none can come unless drawn, and all given will come. But the same discourse also says seen me, and believe not, and speaks of hearing and learning, so refusal is still real in the text.",
       debate:
-        "Appealing to John 6 alone ignores John-wide universal invitation language. If John 12:32 says Christ draws all men, drawing cannot mean elect-only coercion.",
+        "A serious Calvinist reading leans on John 6:37 and 6:44. A serious counter-reading must also lean on 6:36, 6:40, and 6:45, where coming is described through seeing, believing, hearing, and learning. The burden is to explain effectual grace without emptying those terms.",
       academic:
-        "John 6 affirms divine initiative, yet Johannine intertexts (John 5:40; 12:32) complicate a strictly particularistic and irresistible construal of drawing."
+        "John 6 includes both initiative and response language: gift, drawing, hearing/learning, believing, and explicit unbelief statements. Any irresistible-grace model should explain how refusal language remains explanatorily meaningful, not merely descriptive."
     },
     references: [
       {
@@ -383,6 +418,26 @@ const proofTextsData = [
         reference: "John 6:37 (KJV)",
         passage:
           "All that the Father giveth me shall come to me; and him that cometh to me I will in no wise cast out."
+      },
+      {
+        reference: "John 6:40 (KJV)",
+        passage:
+          "And this is the will of him that sent me, that every one which seeth the Son, and believeth on him, may have everlasting life: and I will raise him up at the last day."
+      },
+      {
+        reference: "John 6:45 (KJV)",
+        passage:
+          "It is written in the prophets, And they shall be all taught of God. Every man therefore that hath heard, and hath learned of the Father, cometh unto me."
+      },
+      {
+        reference: "John 6:36 (KJV)",
+        passage:
+          "But I said unto you, That ye also have seen me, and believe not."
+      },
+      {
+        reference: "John 6:64 (KJV)",
+        passage:
+          "But there are some of you that believe not. For Jesus knew from the beginning who they were that believed not, and who should betray him."
       },
       {
         reference: "John 12:32 (KJV)",
@@ -464,20 +519,25 @@ const proofTextsData = [
     claimLabel: "Calvinist Reading",
     responseLabel: "Response",
     claim:
-      "This verse proves a fixed decree of who will believe and who will not.",
+      "As many as were ordained to eternal life believed means specific individuals were appointed to faith beforehand.",
     tones: {
       pastoral:
-        "Acts 13 records Gentiles receiving the word with joy while others reject it. The narrative context still includes genuine proclamation and accountability.",
+        "Acts 13:48 is an important text on divine initiative and must be handled carefully. In the same scene, some also judge themselves unworthy of everlasting life. Luke presents both truths at once: God's appointment and human accountability.",
       debate:
-        "One verse cannot erase the repeated New Testament pattern of universal summons, warnings, and blame for unbelief.",
+        "The strongest Calvinist reading takes ordained as appointed by God to life. Even granting that, the line explains why believers believed; it does not explicitly explain why every rejecter could not believe. Verse 46 still assigns rejection to hearers themselves.",
       academic:
-        "The lexical and narrative discussion around ordained should be evaluated in immediate context and canonical balance rather than imported as a totalizing deterministic key."
+        "The lexical/syntactical debate around tetagmenoi should be read with immediate contrast: appointment language in v48 and explicit self-rejection in v46. A high-providence reading is textually plausible; a full reprobation-causality model is a further inference."
     },
     references: [
       {
         reference: "Acts 13:46-48 (KJV)",
         passage:
           "Then Paul and Barnabas waxed bold, and said, It was necessary that the word of God should first have been spoken to you: but seeing ye put it from you, and judge yourselves unworthy of everlasting life, lo, we turn to the Gentiles. For so hath the Lord commanded us, saying, I have set thee to be a light of the Gentiles, that thou shouldest be for salvation unto the ends of the earth. And when the Gentiles heard this, they were glad, and glorified the word of the Lord: and as many as were ordained to eternal life believed."
+      },
+      {
+        reference: "Acts 13:43 (KJV)",
+        passage:
+          "Now when the congregation was broken up, many of the Jews and religious proselytes followed Paul and Barnabas: who, speaking to them, persuaded them to continue in the grace of God."
       },
       {
         reference: "Acts 17:30 (KJV)",
@@ -590,14 +650,14 @@ const commonRepliesData = [
     claimLabel: "Calvinist Reply",
     responseLabel: "Counter-Response",
     claim:
-      "If Scripture says a people is chosen or predestined, that automatically proves each individual's salvation was unconditionally fixed before faith.",
+      "Corporate election in Christ includes concrete persons, so group election language naturally implies specific elect individuals, not an abstract class.",
     tones: {
       pastoral:
-        "Scripture often speaks about a people in Christ and their promised destiny. That should not erase passages that call individuals to hear, believe, and continue.",
+        "This is a fair concern: a chosen people includes real people. The key is to read group-destiny texts together with passages showing how people enter and continue through hearing and believing.",
       debate:
-        "This is a category mistake: group destiny language is being used as a shortcut to prove individual deterministic salvation.",
+        "The issue is not corporate versus individual. The gap appears when group language is used to settle every detail of individual conversion before other texts are considered.",
       academic:
-        "Corporate-election texts identify covenant people and their Christ-shaped telos; they do not, by themselves, establish a complete model of individual conversion mechanics apart from faith-response data."
+        "Corporate-election texts define the covenant people and their goal in Christ, while inclusion texts describe hearing, faith, and perseverance. A coherent model should integrate both levels."
     },
     references: [
       {
@@ -622,14 +682,14 @@ const commonRepliesData = [
     claimLabel: "Calvinist Reply",
     responseLabel: "Counter-Response",
     claim:
-      "God has one general love for all and another salvific love only for the elect, so no real tension remains in love/wrath texts.",
+      "God's benevolent love toward all and covenant-redemptive love toward the elect explain universal-love texts without surrendering particular election.",
     tones: {
       pastoral:
-        "Scripture can present different relational categories, but those distinctions should clarify texts rather than function as a blanket override of universal invitations and warnings.",
+        "This distinction can be a sincere effort to honor all texts, and that should be acknowledged. The concern is when it overrides plain invitation and warning texts too quickly.",
       debate:
-        "Appealing to layered love categories can become a system-preserving escape if every difficult passage is filtered through it without textual controls.",
+        "Layered-love categories are not automatically evasive, but they need close textual control. If every universal text is narrowed by default, the model can become system-protection rather than exegesis.",
       academic:
-        "Multi-aspect divine-love models may be coherent, yet they require careful exegetical boundaries; otherwise they risk resolving contradictions by category inflation rather than contextual argument."
+        "A multi-aspect doctrine of divine love can be coherent, but method matters. The distinction must be shown from each context, not used as a master key that settles every disputed text in advance."
     },
     references: [
       {
@@ -646,6 +706,11 @@ const commonRepliesData = [
         reference: "Romans 11:28 (KJV)",
         passage:
           "As concerning the gospel, they are enemies for your sakes: but as touching the election, they are beloved for the fathers' sakes."
+      },
+      {
+        reference: "Matthew 5:45 (KJV)",
+        passage:
+          "That ye may be the children of your Father which is in heaven: for he maketh his sun to rise on the evil and on the good, and sendeth rain on the just and on the unjust."
       }
     ]
   },
@@ -686,16 +751,21 @@ const commonRepliesData = [
     claimLabel: "Calvinist Reply",
     responseLabel: "Counter-Response",
     claim:
-      "If atonement is truly accomplished, it must equal the actual salvation of the exact same people.",
+      "Christ's death did not merely make salvation possible; it infallibly secured redemption for the exact people for whom he died.",
     tones: {
       pastoral:
-        "Christ's cross is the necessary basis for salvation, but Scripture still calls individuals to believe so the benefits are received.",
+        "It is right to insist the cross truly saves and does not fail. Scripture also distinguishes what Christ accomplished from how remission is applied through faith, which avoids both mere possibility and universalism.",
       debate:
-        "Conflating provision and application blurs key biblical distinctions and forces passages into a tighter system than the text itself states.",
+        "A strong non-Calvinist answer should grant strong efficacy language, then keep categories clear: sufficient for all, savingly effective for believers. That keeps broad propitiation language without forcing universal salvation.",
       academic:
-        "Atonement efficacy and salvation application are related but distinguishable categories in many New Testament discussions, especially where universal provision and conditional reception language coexist."
+        "Reformed impetration/application distinctions can be coherent and should be acknowledged. The critique targets versions that collapse categories; the New Testament repeatedly pairs accomplished redemption language with faith-conditioned remission and condemnation-for-unbelief."
     },
     references: [
+      {
+        reference: "John 10:11 (KJV)",
+        passage:
+          "I am the good shepherd: the good shepherd giveth his life for the sheep."
+      },
       {
         reference: "1 John 2:2 (KJV)",
         passage:
@@ -710,6 +780,21 @@ const commonRepliesData = [
         reference: "Acts 16:31 (KJV)",
         passage:
           "And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house."
+      },
+      {
+        reference: "John 3:18 (KJV)",
+        passage:
+          "He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God."
+      },
+      {
+        reference: "1 Timothy 4:10 (KJV)",
+        passage:
+          "For therefore we both labour and suffer reproach, because we trust in the living God, who is the Saviour of all men, specially of those that believe."
+      },
+      {
+        reference: "2 Peter 2:1 (KJV)",
+        passage:
+          "But there were false prophets also among the people, even as there shall be false teachers among you, who privily shall bring in damnable heresies, even denying the Lord that bought them, and bring upon themselves swift destruction."
       }
     ]
   },
@@ -721,11 +806,11 @@ const commonRepliesData = [
       "If someone seeks God before conversion, that would make salvation earned rather than gracious.",
     tones: {
       pastoral:
-        "Seeking God does not earn grace. Scripture can describe sincere God-seeking and still insist salvation comes through Christ by grace.",
+        "Seeking God does not earn grace. In Acts, Cornelius's story starts with God's initiative, yet he still must hear and believe the gospel to receive remission.",
       debate:
-        "This conflates pre-conversion seeking with works-merit. Favorable response to light is not the same thing as purchasing salvation.",
+        "This objection rightly guards against merit theology, but it overreaches by treating preparatory response as earning. Cornelius still needed gospel words whereby he would be saved.",
       academic:
-        "The narrative pattern in Acts distinguishes prior Godward disposition from the event of explicit gospel faith, preserving both grace primacy and meaningful response."
+        "Acts distinguishes pre-conversion reverence from conversion-event faith and remission while explicitly narrating divine initiation. This avoids both merit theology and flattening all pre-conversion categories."
     },
     references: [
       {
@@ -734,9 +819,24 @@ const commonRepliesData = [
           "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons: But in every nation he that feareth him, and worketh righteousness, is accepted with him."
       },
       {
+        reference: "Acts 10:2 (KJV)",
+        passage:
+          "A devout man, and one that feared God with all his house, which gave much alms to the people, and prayed to God alway."
+      },
+      {
+        reference: "Acts 10:3 (KJV)",
+        passage:
+          "He saw in a vision evidently about the ninth hour of the day an angel of God coming in to him, and saying unto him, Cornelius."
+      },
+      {
         reference: "Acts 10:43 (KJV)",
         passage:
           "To him give all the prophets witness, that through his name whosoever believeth in him shall receive remission of sins."
+      },
+      {
+        reference: "Acts 11:14 (KJV)",
+        passage:
+          "Who shall tell thee words, whereby thou and all thy house shall be saved."
       },
       {
         reference: "Acts 16:14 (KJV)",
@@ -750,16 +850,21 @@ const commonRepliesData = [
     claimLabel: "Calvinist Reply",
     responseLabel: "Counter-Response",
     claim:
-      "Saying God merely permits evil, while decreeing all outcomes, automatically resolves every moral tension.",
+      "Distinguishing decree, permission, and secondary causes fully protects God's holiness even if all events are comprehensively ordained.",
     tones: {
       pastoral:
-        "Permission language may help in part, but we should still preserve Scripture's clear witness that God is holy and does not tempt anyone to sin.",
+        "These categories can be useful and should not be mocked. A clear model says God governs events and overrules evil for good, while creatures alone own sinful intent.",
       debate:
-        "If all outcomes are fixed by decree, swapping terms between ordain and permit does not, by itself, dissolve the core culpability problem.",
+        "Using permit instead of ordain does not solve culpability by itself. You still need a clear asymmetry account: one event can be evil in human intent and righteous in God's intent, without making God the author of sin.",
       academic:
-        "A coherent account must preserve both exhaustive providence claims and biblical moral asymmetry between divine holiness and creaturely evil intent."
+        "A coherent providence account should affirm concurrence with asymmetry: divine ordination of events, creaturely agency for evil, and non-identical moral intentions within the same act."
     },
     references: [
+      {
+        reference: "Acts 2:23 (KJV)",
+        passage:
+          "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:"
+      },
       {
         reference: "James 1:13 (KJV)",
         passage:
@@ -774,6 +879,11 @@ const commonRepliesData = [
         reference: "Genesis 50:20 (KJV)",
         passage:
           "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
+      },
+      {
+        reference: "1 John 1:5 (KJV)",
+        passage:
+          "This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all."
       }
     ]
   },
@@ -782,16 +892,21 @@ const commonRepliesData = [
     claimLabel: "Calvinist Reply",
     responseLabel: "Counter-Response",
     claim:
-      "God can command all to repent while decreeing only some will receive saving grace.",
+      "God's revealed will commands all to repent while his decretive will determines whatsoever comes to pass, so no contradiction remains.",
     tones: {
       pastoral:
-        "There may be mystery in God's ways, but Scripture's revealed invitations and warnings should still be taken with their full plain force.",
+        "The revealed/decretive distinction is a serious theological tool, not a cheap dodge. The question is whether revealed commands and invitations still keep their full practical force.",
       debate:
-        "Appealing to two wills can become a catch-all escape hatch that avoids hard contradictions rather than solving them.",
+        "A strong Reformed case can read us-ward in 2 Peter 3:9 more narrowly. Even then, Acts 17:30 and 1 Timothy 2 still require a clear account of sincere universal command and offer.",
       academic:
-        "The two-wills distinction is a serious theological proposal, yet it must still account for the pragmatic sincerity of universal commands and invitations in public proclamation texts."
+        "The preceptive/decretive distinction has real historical and theological value. Its adequacy should be tested by whether it preserves the stated scope of repentance-command and ransom-for-all passages."
     },
     references: [
+      {
+        reference: "Deuteronomy 29:29 (KJV)",
+        passage:
+          "The secret things belong unto the LORD our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law."
+      },
       {
         reference: "2 Peter 3:9 (KJV)",
         passage:
@@ -806,6 +921,11 @@ const commonRepliesData = [
         reference: "Ezekiel 18:23 (KJV)",
         passage:
           "Have I any pleasure at all that the wicked should die? saith the Lord GOD: and not that he should return from his ways, and live?"
+      },
+      {
+        reference: "1 Timothy 2:1-6 (KJV)",
+        passage:
+          "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. For this is good and acceptable in the sight of God our Saviour; Who will have all men to be saved, and to come unto the knowledge of the truth. For there is one God, and one mediator between God and men, the man Christ Jesus; Who gave himself a ransom for all, to be testified in due time."
       }
     ]
   },
@@ -1983,7 +2103,7 @@ const objectionDrilldownData = [
         calvinistReply:
           "The command reveals duty, not ability. Non-elect remain unable without effectual grace.",
         counterResponse:
-          "If the command is universal and refusal is blamed, the plain force suggests more than a merely formal duty statement.",
+          "Even granting duty-not-ability categories, the command still functions as a sincere public summons with accountable refusal, not as empty rhetoric.",
         references: ["Acts 17:30 (KJV)", "John 5:40 (KJV)"]
       },
       {
@@ -2018,8 +2138,8 @@ const objectionDrilldownData = [
         calvinistReply:
           "The offer is universal externally, while intent of atonement remains particular internally.",
         counterResponse:
-          "That distinction can preserve system logic, but many readers see unresolved tension with plain universal language.",
-        references: ["John 3:16 (KJV)", "1 Timothy 2:3-4 (KJV)"]
+          "A stronger non-Calvinist account can avoid universalism by distinguishing sufficiency and application: broad provision language with believer-specific saving application.",
+        references: ["John 3:16 (KJV)", "John 3:18 (KJV)", "1 Timothy 4:10 (KJV)"]
       }
     ]
   },
@@ -2081,20 +2201,20 @@ const objectionDrilldownData = [
         objection:
           "If Christ's atonement is real, then all categories of atonement and salvation must be identical.",
         calvinistReply:
-          "Atonement accomplishment and salvation are the same group by definition.",
+          "Definite atonement teaches Christ's death actually secures redemption for a particular people, not merely a potential salvation pool.",
         counterResponse:
-          "Scripture treats Christ's cross as necessary basis while still calling people to believe for remission. Provision and personal reception should not be collapsed into one category.",
-        references: ["1 John 2:2 (KJV)", "John 3:16 (KJV)", "Acts 16:31 (KJV)"]
+          "That claim is stronger than mere possibility and should be engaged at full strength. The counterpoint is category distinction: accomplishment is objective, while condemnation/remission language still tracks believing versus unbelief.",
+        references: ["John 10:11 (KJV)", "Acts 16:31 (KJV)", "John 3:18 (KJV)"]
       },
       {
         layer: "Layer 2",
         objection:
           "Any pre-conversion God-seeking or reverence would imply salvation by merit.",
         calvinistReply:
-          "If God responds to seekers, grace is compromised and works are reintroduced.",
+          "If positive pre-conversion response is granted independent weight, grace appears conditioned by man and merit concerns re-enter.",
         counterResponse:
-          "Seeking and hearing are not meritorious purchase of salvation. Acts can describe Godward disposition before explicit faith while still grounding forgiveness in Christ through belief.",
-        references: ["Acts 10:34-35 (KJV)", "Acts 10:43 (KJV)", "Acts 16:14 (KJV)"]
+          "Preparatory Godward disposition is not equivalent to earning salvation. Acts narrates God's initiating action (angelic visitation) and still says Cornelius needed gospel words whereby he shall be saved.",
+        references: ["Acts 10:2 (KJV)", "Acts 10:3 (KJV)", "Acts 11:14 (KJV)"]
       },
       {
         layer: "Layer 3",
@@ -2116,9 +2236,9 @@ const objectionDrilldownData = [
         objection:
           "Romans 9:13 proves two individuals were eternally loved and hated for salvation before birth.",
         calvinistReply:
-          "Jacob and Esau are straightforward individual election/reprobation examples.",
+          "Paul uses twins before birth to prove discriminating choice not based on works, and representative function does not remove individual implication.",
         counterResponse:
-          "Paul's citation is tied to Genesis and Malachi covenant history. The immediate Old Testament frame includes nation-language and redemptive-line purpose categories.",
+          "Individuals are real in Paul's argument, and that should be conceded. The Old Testament source frame still centers on covenant-line/service language, so Romans 9:13 alone does not finalize each brother's eternal destiny mechanics.",
         references: ["Romans 9:10-13 (KJV)", "Genesis 25:23 (KJV)", "Malachi 1:2-4 (KJV)"]
       },
       {
@@ -2126,10 +2246,10 @@ const objectionDrilldownData = [
         objection:
           "If Jacob was elect before birth, he must have been in saving love from eternity in a way that settles individual salvation mechanics.",
         calvinistReply:
-          "Any tension is solved by distinguishing kinds of divine love and decree levels.",
+          "Layered categories of divine love and decree preserve both particular election and broad compassion language.",
         counterResponse:
-          "Distinctions can be discussed, but they should not erase Paul's own faith-centered conclusion in Romans 9:30-32 or the broader whosoever and warning texts.",
-        references: ["Romans 9:30-32 (KJV)", "Romans 10:9-13 (KJV)", "Ephesians 2:3 (KJV)"]
+          "Those distinctions may help and should be considered, but they cannot remove Paul's own wherefore and unbelief logic in Romans 9-10. The chapter must carry both sovereignty and accountability simultaneously.",
+        references: ["Romans 9:19-21 (KJV)", "Romans 9:30-32 (KJV)", "Romans 10:9-13 (KJV)"]
       }
     ]
   }
@@ -2184,10 +2304,10 @@ const tulipDeterminismSlopeData = [
         objection:
           "When TULIP claims are maximized, many conclude all decisive salvation outcomes were fixed for individuals regardless of proclaimed invitation language.",
         reply:
-          "Determinist Inference: commands, invitations, and warnings describe what happens, not what hearers can meaningfully do.",
+          "Determinist/Compatibilist Inference: divine determination and real human willing are compatible, so commands and blame remain meaningful under providence.",
         counterResponse:
-          "Do not confuse group-destiny predestination language with a denial of individual response. Romans keeps both covenant categories and whosoever call language in view.",
-        references: ["Romans 9:6-8 (KJV)", "Romans 10:9-13 (KJV)", "Revelation 22:17 (KJV)"]
+          "That is the strongest Reformed answer and should be engaged directly. This slope test uses defined criteria, not libertarian assumptions: universal command force, genuine blame for refusal, and practical warning contingency. The concern is semantic reduction of those criteria into description-only language.",
+        references: ["Acts 17:30 (KJV)", "John 5:40 (KJV)", "Hebrews 3:14 (KJV)", "Acts 2:23 (KJV)"]
       }
     ]
   }
