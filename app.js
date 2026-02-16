@@ -256,17 +256,22 @@ const proofTextsData = [
       "God unconditionally chooses individuals for mercy or hardening irrespective of human response.",
     tones: {
       pastoral:
-        "Romans 9 should be read with Romans 10 and 11. Paul still calls people to believe, grieves over unbelief, and explains Israel's condition in relation to faith and unbelief, not bare fatalism.",
+        "Romans 9 should be read with Romans 10 and 11. Paul still calls people to believe, grieves over unbelief, and explains Israel's condition in relation to faith and unbelief, not bare fatalism. Do not collapse Israel-level election and hardening language into a claim that individuals cannot believe.",
       debate:
-        "Romans 9 is not a stand-alone deterministic manifesto. Paul explicitly says Israel failed because they sought righteousness not by faith (Romans 9:30-32), which reintroduces response as a live category.",
+        "Romans 9 is not a stand-alone deterministic manifesto. Paul explicitly says Israel failed because they sought righteousness not by faith (Romans 9:30-32), which reintroduces response as a live category. Treating corporate argumentation as proof of fixed individual salvation overreads the chapter.",
       academic:
-        "A contextual reading situates Romans 9 within the 9-11 discourse on covenant membership, historical roles, and faith-response dynamics. Romans 9:30-32 constrains deterministic readings by foregrounding faith versus works."
+        "A contextual reading situates Romans 9 within the 9-11 discourse on covenant membership, historical roles, and faith-response dynamics. Romans 9:30-32 constrains deterministic readings by foregrounding faith versus works, and the discourse-level frame cautions against conflating corporate election categories with exhaustive individual predestination claims."
     },
     references: [
       {
         reference: "Romans 9:14-16 (KJV)",
         passage:
           "What shall we say then? Is there unrighteousness with God? God forbid. For he saith to Moses, I will have mercy on whom I will have mercy, and I will have compassion on whom I will have compassion. So then it is not of him that willeth, nor of him that runneth, but of God that sheweth mercy."
+      },
+      {
+        reference: "Romans 9:6-8 (KJV)",
+        passage:
+          "Not as though the word of God hath taken none effect. For they are not all Israel, which are of Israel: Neither, because they are the seed of Abraham, are they all children: but, In Isaac shall thy seed be called. That is, They which are the children of the flesh, these are not the children of God: but the children of the promise are counted for the seed."
       },
       {
         reference: "Romans 9:30-32 (KJV)",
@@ -277,6 +282,80 @@ const proofTextsData = [
         reference: "Romans 10:9-13 (KJV)",
         passage:
           "That if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation. For the scripture saith, Whosoever believeth on him shall not be ashamed. For there is no difference between the Jew and the Greek: for the same Lord over all is rich unto all that call upon him. For whosoever shall call upon the name of the Lord shall be saved."
+      }
+    ]
+  },
+  {
+    title: "Romans 9:13 (Jacob and Esau)",
+    claimLabel: "Calvinist Reading",
+    responseLabel: "Response",
+    claim:
+      "Jacob have I loved, but Esau have I hated proves God unconditionally loved one individual and hated another individual for salvation before birth.",
+    tones: {
+      pastoral:
+        "Paul's quotation points back to Old Testament covenant history. It does not require reading infant Esau as eternally hated for individual salvation purposes before he had done good or evil.",
+      debate:
+        "Ignoring Genesis 25:23 and Malachi 1's Israel/Edom context turns a corporate-historical argument into a deterministic individual proof-text.",
+      academic:
+        "The Romans 9:13 citation is intertextually tethered to Genesis and Malachi identity language, supporting a representative-corporate reading within Paul's Israel argument rather than an isolated decree of individual eternal destinies."
+    },
+    references: [
+      {
+        reference: "Romans 9:10-13 (KJV)",
+        passage:
+          "And not only this; but when Rebecca also had conceived by one, even by our father Isaac; (For the children being not yet born, neither having done any good or evil, that the purpose of God according to election might stand, not of works, but of him that calleth;) It was said unto her, The elder shall serve the younger. As it is written, Jacob have I loved, but Esau have I hated."
+      },
+      {
+        reference: "Genesis 25:23 (KJV)",
+        passage:
+          "And the LORD said unto her, Two nations are in thy womb, and two manner of people shall be separated from thy bowels; and the one people shall be stronger than the other people; and the elder shall serve the younger."
+      },
+      {
+        reference: "Malachi 1:2-4 (KJV)",
+        passage:
+          "I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob's brother? saith the LORD: yet I loved Jacob, And I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness. Whereas Edom saith, We are impoverished, but we will return and build the desolate places; thus saith the LORD of hosts, They shall build, but I will throw down."
+      },
+      {
+        reference: "Romans 9:30-32 (KJV)",
+        passage:
+          "What shall we say then? That the Gentiles, which followed not after righteousness, have attained to righteousness, even the righteousness which is of faith. But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness. Wherefore? Because they sought it not by faith, but as it were by the works of the law."
+      }
+    ]
+  },
+  {
+    title: "Romans 9:19-24 (Potter and Vessels)",
+    claimLabel: "Calvinist Reading",
+    responseLabel: "Response",
+    claim:
+      "The potter-clay section proves fixed individual reprobation with no conditionality in view.",
+    tones: {
+      pastoral:
+        "Paul's rebuke addresses pride before God, but his broader argument still includes patience, repentance, and faith language. The potter image should be read with its Old Testament background.",
+      debate:
+        "Using Romans 9:19-24 as a stand-alone determinist lock ignores Jeremiah 18's explicit if-then nation language and Paul's own repentance logic in Romans 2:4-5.",
+      academic:
+        "Intertextual dependence on Jeremiah's potter oracle supports a covenant-historical and judicial reading rather than a context-free proof of immutable individual reprobation."
+    },
+    references: [
+      {
+        reference: "Romans 9:19-24 (KJV)",
+        passage:
+          "Thou wilt say then unto me, Why doth he yet find fault? For who hath resisted his will? Nay but, O man, who art thou that repliest against God? Shall the thing formed say to him that formed it, Why hast thou made me thus? Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour? What if God, willing to shew his wrath, and to make his power known, endured with much longsuffering the vessels of wrath fitted to destruction: And that he might make known the riches of his glory on the vessels of mercy, which he had afore prepared unto glory,"
+      },
+      {
+        reference: "Jeremiah 18:6-10 (KJV)",
+        passage:
+          "O house of Israel, cannot I do with you as this potter? saith the LORD. Behold, as the clay is in the potter's hand, so are ye in mine hand, O house of Israel. At what instant I shall speak concerning a nation, and concerning a kingdom, to pluck up, and to pull down, and to destroy it; If that nation, against whom I have pronounced, turn from their evil, I will repent of the evil that I thought to do unto them. And at what instant I shall speak concerning a nation, and concerning a kingdom, to build and to plant it; If it do evil in my sight, that it obey not my voice, then I will repent of the good, wherewith I said I would benefit them."
+      },
+      {
+        reference: "Romans 2:4-5 (KJV)",
+        passage:
+          "Or despisest thou the riches of his goodness and forbearance and longsuffering; not knowing that the goodness of God leadeth thee to repentance? But after thy hardness and impenitent heart treasurest up unto thyself wrath against the day of wrath and revelation of the righteous judgment of God;"
+      },
+      {
+        reference: "2 Timothy 2:20-21 (KJV)",
+        passage:
+          "But in a great house there are not only vessels of gold and of silver, but also of wood and of earth; and some to honour, and some to dishonour. If a man therefore purge himself from these, he shall be a vessel unto honour, sanctified, and meet for the master's use, and prepared unto every good work."
       }
     ]
   },
@@ -324,11 +403,11 @@ const proofTextsData = [
       "Election before the foundation of the world proves individual unconditional predestination to salvation.",
     tones: {
       pastoral:
-        "Ephesians 1 celebrates God's saving plan in Christ and the blessings believers now enjoy in him. The chapter also ties participation to hearing and believing the gospel.",
+        "Ephesians 1 celebrates God's saving plan in Christ and the blessings believers now enjoy in him. The chapter also ties participation to hearing and believing the gospel, so we should not confuse the destiny of the in-Christ people with a no-response list of individuals.",
       debate:
-        "Ephesians 1 describes the destiny of those in Christ, not an abstract decree with no reference to gospel faith. Verse 13 links inclusion to hearing and believing.",
+        "Ephesians 1 describes the destiny of those in Christ, not an abstract decree with no reference to gospel faith. Verse 13 links inclusion to hearing and believing, which cuts against using this text as a direct proof of fixed individual salvation regardless of response.",
       academic:
-        "The controlling phrase in Christ suggests a corporate-Christocentric election framework. Ephesians 1:13 introduces temporal appropriation through hearing and belief."
+        "The controlling phrase in Christ suggests a corporate-Christocentric election framework. Ephesians 1:13 introduces temporal appropriation through hearing and belief, indicating that group election language should not be automatically mapped onto unconditional individual conversion claims."
     },
     references: [
       {
@@ -420,11 +499,11 @@ const proofTextsData = [
       "The golden chain proves an exhaustive predestinarian system where all outcomes are fixed for a closed elect set.",
     tones: {
       pastoral:
-        "Romans 8 gives deep comfort to believers, but comforting assurance does not require denying the many warning texts that call believers to continue.",
+        "Romans 8 gives deep comfort to believers, but comforting assurance does not require denying the many warning texts that call believers to continue. Predestination here is to conformity to Christ for those in him, not a stand-alone denial of response language elsewhere.",
       debate:
-        "Using Romans 8 as a system lock ignores conditional perseverance language elsewhere in the New Testament.",
+        "Using Romans 8 as a system lock ignores conditional perseverance language elsewhere in the New Testament and confuses a believer-group assurance text with an all-individuals deterministic blueprint.",
       academic:
-        "Romans 8:29-30 should be read as assurance discourse for the faithful, not necessarily as a full metaphysical map that nullifies every conditional warning passage."
+        "Romans 8:29-30 should be read as assurance discourse for the faithful, not necessarily as a full metaphysical map that nullifies every conditional warning passage. The text can mark the eschatological destiny of the believing community without settling every question of individual pre-conversion causality."
     },
     references: [
       {
@@ -503,6 +582,198 @@ const commonRepliesData = [
         reference: "1 Timothy 2:1-4 (KJV)",
         passage:
           "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. For this is good and acceptable in the sight of God our Saviour; Who will have all men to be saved, and to come unto the knowledge of the truth."
+      }
+    ]
+  },
+  {
+    title: "Corporate election is not identical to fixed individual salvation",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If Scripture says a people is chosen or predestined, that automatically proves each individual's salvation was unconditionally fixed before faith.",
+    tones: {
+      pastoral:
+        "Scripture often speaks about a people in Christ and their promised destiny. That should not erase passages that call individuals to hear, believe, and continue.",
+      debate:
+        "This is a category mistake: group destiny language is being used as a shortcut to prove individual deterministic salvation.",
+      academic:
+        "Corporate-election texts identify covenant people and their Christ-shaped telos; they do not, by themselves, establish a complete model of individual conversion mechanics apart from faith-response data."
+    },
+    references: [
+      {
+        reference: "Ephesians 1:4-5 (KJV)",
+        passage:
+          "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love: Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will."
+      },
+      {
+        reference: "Ephesians 1:13 (KJV)",
+        passage:
+          "In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise."
+      },
+      {
+        reference: "1 Peter 2:9 (KJV)",
+        passage:
+          "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light:"
+      }
+    ]
+  },
+  {
+    title: "Two kinds of divine love resolve all contradictions",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "God has one general love for all and another salvific love only for the elect, so no real tension remains in love/wrath texts.",
+    tones: {
+      pastoral:
+        "Scripture can present different relational categories, but those distinctions should clarify texts rather than function as a blanket override of universal invitations and warnings.",
+      debate:
+        "Appealing to layered love categories can become a system-preserving escape if every difficult passage is filtered through it without textual controls.",
+      academic:
+        "Multi-aspect divine-love models may be coherent, yet they require careful exegetical boundaries; otherwise they risk resolving contradictions by category inflation rather than contextual argument."
+    },
+    references: [
+      {
+        reference: "John 3:16 (KJV)",
+        passage:
+          "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+      },
+      {
+        reference: "Ephesians 2:3 (KJV)",
+        passage:
+          "Among whom also we all had our conversation in times past in the lusts of our flesh, fulfilling the desires of the flesh and of the mind; and were by nature the children of wrath, even as others."
+      },
+      {
+        reference: "Romans 11:28 (KJV)",
+        passage:
+          "As concerning the gospel, they are enemies for your sakes: but as touching the election, they are beloved for the fathers' sakes."
+      }
+    ]
+  },
+  {
+    title: "You reject Calvinism because you misunderstand it",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "The critique fails because opponents are misrepresenting Calvinism rather than addressing its real claims.",
+    tones: {
+      pastoral:
+        "We should represent each other fairly, cite real sources, and avoid caricatures. But disagreement can still be legitimate after careful hearing.",
+      debate:
+        "Calling every objection a strawman can become a shield against substantive textual and logical testing, especially when Calvinist variants disagree among themselves.",
+      academic:
+        "Hermeneutical and theological disputes should be adjudicated by transparent definitions, primary-source claims, and exegetical argument rather than gatekeeping labels."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      },
+      {
+        reference: "Acts 17:11 (KJV)",
+        passage:
+          "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      }
+    ]
+  },
+  {
+    title: "Atonement and salvation are the same act",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If atonement is truly accomplished, it must equal the actual salvation of the exact same people.",
+    tones: {
+      pastoral:
+        "Christ's cross is the necessary basis for salvation, but Scripture still calls individuals to believe so the benefits are received.",
+      debate:
+        "Conflating provision and application blurs key biblical distinctions and forces passages into a tighter system than the text itself states.",
+      academic:
+        "Atonement efficacy and salvation application are related but distinguishable categories in many New Testament discussions, especially where universal provision and conditional reception language coexist."
+    },
+    references: [
+      {
+        reference: "1 John 2:2 (KJV)",
+        passage:
+          "And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world."
+      },
+      {
+        reference: "John 3:16 (KJV)",
+        passage:
+          "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+      },
+      {
+        reference: "Acts 16:31 (KJV)",
+        passage:
+          "And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house."
+      }
+    ]
+  },
+  {
+    title: "Finding favor with God before conversion means earning salvation",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If someone seeks God before conversion, that would make salvation earned rather than gracious.",
+    tones: {
+      pastoral:
+        "Seeking God does not earn grace. Scripture can describe sincere God-seeking and still insist salvation comes through Christ by grace.",
+      debate:
+        "This conflates pre-conversion seeking with works-merit. Favorable response to light is not the same thing as purchasing salvation.",
+      academic:
+        "The narrative pattern in Acts distinguishes prior Godward disposition from the event of explicit gospel faith, preserving both grace primacy and meaningful response."
+    },
+    references: [
+      {
+        reference: "Acts 10:34-35 (KJV)",
+        passage:
+          "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons: But in every nation he that feareth him, and worketh righteousness, is accepted with him."
+      },
+      {
+        reference: "Acts 10:43 (KJV)",
+        passage:
+          "To him give all the prophets witness, that through his name whosoever believeth in him shall receive remission of sins."
+      },
+      {
+        reference: "Acts 16:14 (KJV)",
+        passage:
+          "And a certain woman named Lydia, a seller of purple, of the city of Thyatira, which worshipped God, heard us: whose heart the Lord opened, that she attended unto the things which were spoken of Paul."
+      }
+    ]
+  },
+  {
+    title: "Permission language alone removes divine culpability tension",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Saying God merely permits evil, while decreeing all outcomes, automatically resolves every moral tension.",
+    tones: {
+      pastoral:
+        "Permission language may help in part, but we should still preserve Scripture's clear witness that God is holy and does not tempt anyone to sin.",
+      debate:
+        "If all outcomes are fixed by decree, swapping terms between ordain and permit does not, by itself, dissolve the core culpability problem.",
+      academic:
+        "A coherent account must preserve both exhaustive providence claims and biblical moral asymmetry between divine holiness and creaturely evil intent."
+    },
+    references: [
+      {
+        reference: "James 1:13 (KJV)",
+        passage:
+          "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+      },
+      {
+        reference: "Habakkuk 1:13 (KJV)",
+        passage:
+          "Thou art of purer eyes than to behold evil, and canst not look on iniquity."
+      },
+      {
+        reference: "Genesis 50:20 (KJV)",
+        passage:
+          "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
       }
     ]
   },
@@ -1568,6 +1839,24 @@ const glossaryData = [
     references: ["Ephesians 1:4-5 (KJV)", "Romans 8:29-30 (KJV)"]
   },
   {
+    term: "Corporate Election (In Christ)",
+    definition:
+      "A reading where Scripture describes the chosen people in Christ and their ordained destiny, while individuals enter that people through hearing and believing the gospel.",
+    references: ["Ephesians 1:4-5 (KJV)", "Ephesians 1:13 (KJV)", "1 Peter 2:9 (KJV)"]
+  },
+  {
+    term: "Jacob-Esau Citation Context",
+    definition:
+      "Romans 9:13 quotes Malachi's Jacob/Edom language and should be interpreted with its covenant-historical background, not by isolating one clause from its Old Testament frame.",
+    references: ["Romans 9:10-13 (KJV)", "Genesis 25:23 (KJV)", "Malachi 1:2-4 (KJV)"]
+  },
+  {
+    term: "Conflation (Theological)",
+    definition:
+      "Treating related but distinct biblical categories as if they are identical, such as atonement with salvation-application or seeking God with meriting salvation.",
+    references: ["1 John 2:2 (KJV)", "Acts 16:31 (KJV)", "Ephesians 2:8-9 (KJV)"]
+  },
+  {
     term: "Foreknowledge",
     definition:
       "God's prior knowledge in salvation discussions. Calvinist and non-Calvinist readings differ on whether foreknowledge means foreloving decree or relational knowing with response in view.",
@@ -1632,6 +1921,24 @@ const glossaryData = [
     definition:
       "Scripture's declaration that God is no respecter of persons. This term is often discussed in relation to unconditional election claims.",
     references: ["Romans 2:11 (KJV)", "1 Timothy 2:3-4 (KJV)"]
+  },
+  {
+    term: "Divine Culpability Tension",
+    definition:
+      "The challenge of explaining God's sovereign rule without making God the moral author of evil. Debate centers on decree, permission, and biblical holiness language.",
+    references: ["James 1:13 (KJV)", "Habakkuk 1:13 (KJV)", "Genesis 50:20 (KJV)"]
+  },
+  {
+    term: "Meticulous Determinism",
+    definition:
+      "The claim that every event, including sinful intentions, unfolds according to an exhaustive divine decree. Critics argue this creates severe moral and logical tensions.",
+    references: ["Romans 9:19-24 (KJV)", "James 1:13 (KJV)"]
+  },
+  {
+    term: "Lapsarian Ordering",
+    definition:
+      "An internal Calvinist debate over the logical order of God's decrees (for example, election, fall, and reprobation). It explains family differences inside Calvinism but does not settle exegesis by itself.",
+    references: ["Romans 9:19-24 (KJV)", "1 Timothy 2:3-4 (KJV)", "James 1:13 (KJV)"]
   },
   {
     term: "Supersessionism",
@@ -1757,6 +2064,124 @@ const objectionDrilldownData = [
         counterResponse:
           "The language still reads as practical contingency to many readers, not only retrospective evidence language.",
         references: ["Colossians 1:22-23 (KJV)", "Romans 11:22 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Conflation Checks in Soteriology",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "If Christ's atonement is real, then all categories of atonement and salvation must be identical.",
+        calvinistReply:
+          "Atonement accomplishment and salvation are the same group by definition.",
+        counterResponse:
+          "Scripture treats Christ's cross as necessary basis while still calling people to believe for remission. Provision and personal reception should not be collapsed into one category.",
+        references: ["1 John 2:2 (KJV)", "John 3:16 (KJV)", "Acts 16:31 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "Any pre-conversion God-seeking or reverence would imply salvation by merit.",
+        calvinistReply:
+          "If God responds to seekers, grace is compromised and works are reintroduced.",
+        counterResponse:
+          "Seeking and hearing are not meritorious purchase of salvation. Acts can describe Godward disposition before explicit faith while still grounding forgiveness in Christ through belief.",
+        references: ["Acts 10:34-35 (KJV)", "Acts 10:43 (KJV)", "Acts 16:14 (KJV)"]
+      },
+      {
+        layer: "Layer 3",
+        objection:
+          "Every critique is invalid because opponents simply misrepresent Calvinism.",
+        calvinistReply:
+          "If a critic does not mirror my preferred formulation, the rebuttal can be dismissed.",
+        counterResponse:
+          "Fair representation is essential, but dismissal by label is not exegesis. Claims should be tested with transparent definitions and scripture-level argument.",
+        references: ["Proverbs 18:13 (KJV)", "Acts 17:11 (KJV)", "1 Thessalonians 5:21 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Jacob and Esau in Romans 9",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "Romans 9:13 proves two individuals were eternally loved and hated for salvation before birth.",
+        calvinistReply:
+          "Jacob and Esau are straightforward individual election/reprobation examples.",
+        counterResponse:
+          "Paul's citation is tied to Genesis and Malachi covenant history. The immediate Old Testament frame includes nation-language and redemptive-line purpose categories.",
+        references: ["Romans 9:10-13 (KJV)", "Genesis 25:23 (KJV)", "Malachi 1:2-4 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "If Jacob was elect before birth, he must have been in saving love from eternity in a way that settles individual salvation mechanics.",
+        calvinistReply:
+          "Any tension is solved by distinguishing kinds of divine love and decree levels.",
+        counterResponse:
+          "Distinctions can be discussed, but they should not erase Paul's own faith-centered conclusion in Romans 9:30-32 or the broader whosoever and warning texts.",
+        references: ["Romans 9:30-32 (KJV)", "Romans 10:9-13 (KJV)", "Ephesians 2:3 (KJV)"]
+      }
+    ]
+  }
+];
+
+const tulipDeterminismSlopeData = [
+  {
+    title: "Step Chain: How TULIP Can Drift Toward Determinism",
+    steps: [
+      {
+        layer: "Step 1 - Total Inability (T)",
+        objection:
+          "If all non-regenerate hearers are unable to respond in any saving sense, universal calls become duty-statements without ordinary response capacity.",
+        reply:
+          "Determinist Inference: unbelief outcomes are fixed at the inability level before the command is heard.",
+        counterResponse:
+          "KJV commands and rebukes still address hearers as responsible responders. The text presents refusal as meaningful agency, not only programmed outcome.",
+        references: ["Acts 17:30 (KJV)", "John 5:40 (KJV)"]
+      },
+      {
+        layer: "Step 2 - Unconditional Election + Limited Atonement (U/L)",
+        objection:
+          "If election is fixed for individuals and atonement intent is limited to that same set, the beneficiary group is closed prior to faith-response texts.",
+        reply:
+          "Determinist Inference: salvation outcomes are settled before gospel encounter for each person.",
+        counterResponse:
+          "KJV passages still use broad-scope language and open proclamation forms. Any narrowing must be proven by context, not imported as a controlling assumption.",
+        references: ["Ephesians 1:4-5 (KJV)", "1 Timothy 2:3-4 (KJV)", "1 John 2:2 (KJV)"]
+      },
+      {
+        layer: "Step 3 - Irresistible Grace (I)",
+        objection:
+          "If the inward call is always effectual for the elect, rejection language is treated as only external resistance and never final resistance to saving grace.",
+        reply:
+          "Determinist Inference: the decisive conversion moment is unilateral and fixed for the elect alone.",
+        counterResponse:
+          "KJV resistance texts are direct and concrete. They describe divine willingness met by human refusal in ways that retain real response significance.",
+        references: ["Acts 7:51 (KJV)", "Matthew 23:37 (KJV)"]
+      },
+      {
+        layer: "Step 4 - Perseverance Lock (P)",
+        objection:
+          "If all true believers must infallibly persevere, warning passages are reduced to means language rather than real contingency.",
+        reply:
+          "Determinist Inference: future faithfulness outcomes are fixed, so warnings function as instruments only.",
+        counterResponse:
+          "KJV warning texts read as practical conditions addressed to real communities. Their force is strongest when continuation language is treated as genuine exhortation.",
+        references: ["Hebrews 3:14 (KJV)", "Romans 11:22 (KJV)", "Colossians 1:22-23 (KJV)"]
+      },
+      {
+        layer: "Step 5 - Endpoint Test: Determinism vs Moral Coherence",
+        objection:
+          "When TULIP claims are maximized, many conclude all decisive salvation outcomes were fixed for individuals regardless of proclaimed invitation language.",
+        reply:
+          "Determinist Inference: commands, invitations, and warnings describe what happens, not what hearers can meaningfully do.",
+        counterResponse:
+          "Do not confuse group-destiny predestination language with a denial of individual response. Romans keeps both covenant categories and whosoever call language in view.",
+        references: ["Romans 9:6-8 (KJV)", "Romans 10:9-13 (KJV)", "Revelation 22:17 (KJV)"]
       }
     ]
   }
@@ -1893,6 +2318,7 @@ const replacementDrilldownData = [
 const chapterContextNotes = {
   "1 Kings 4": "1 Kings 4 summarizes Solomon's reign and kingdom extent language tied to earlier land-promise patterns.",
   "Acts 1": "Acts 1 records post-resurrection instruction, kingdom expectation, and the ascension commission context.",
+  "Acts 10": "Acts 10 narrates Cornelius, Peter's preaching, and belief-remission language in a Jew-Gentile inclusion moment.",
   "Acts 2": "Acts 2 presents Pentecost proclamation, resurrection-exaltation argumentation, and Davidic citation usage.",
   "Acts 13": "Acts 13 narrates Jew-Gentile response contrast: some reject the word, Gentiles rejoice, and mission extends outward.",
   "Acts 16": "Acts 16 contains direct salvation proclamation language: Believe on the Lord Jesus Christ.",
@@ -1907,7 +2333,11 @@ const chapterContextNotes = {
   "Ezekiel 43": "Ezekiel 43 includes throne/dwelling language and temple-order instructions tied to Israel.",
   "Galatians 3": "Galatians 3 emphasizes justification by faith and unity in Christ while discussing Abrahamic promise themes.",
   "Galatians 6": "Galatians 6 closes with blessing language that includes the phrase Israel of God.",
+  "Genesis 50": "Genesis 50 frames Joseph's suffering within creaturely evil intent and God's overriding good purpose.",
+  "Habakkuk 1": "Habakkuk 1 includes holiness language and the prophet's complaint over judgment and violence.",
   "Genesis 17": "Genesis 17 presents covenant sign language and promises to Abraham and his seed, including the land promise.",
+  "Genesis 25": "Genesis 25 includes the twins oracle about two nations and the elder-younger service statement later cited in Romans 9.",
+  "Genesis 33": "Genesis 33 narrates Jacob-Esau reconciliation and unexpected mercy language in their meeting.",
   "Hebrews 10": "Hebrews 10 emphasizes Christ's once-for-all offering and its decisive sufficiency.",
   "Hebrews 11": "Hebrews 11 recounts faith-history themes, including patriarchal promise and homeland language.",
   "Hebrews 2": "Hebrews 2 stresses Christ's incarnational suffering and broad language around tasting death for every man.",
@@ -1915,9 +2345,11 @@ const chapterContextNotes = {
   "Hebrews 6": "Hebrews 6 contains one of the strongest warning passages concerning falling away after profound participation.",
   "Hebrews 8": "Hebrews 8 cites Jeremiah's New Covenant terms, including explicit mention of Israel and Judah.",
   "Isaiah 55": "Isaiah 55 is an invitation chapter calling hearers to seek the LORD, forsake wickedness, and come freely.",
+  "James 1": "James 1 addresses testing, wisdom, and explicitly denies that God tempts anyone with evil.",
   "Isaiah 2": "Isaiah 2 presents mountain-of-the-LORD and nations-to-Zion imagery with peace-among-nations language.",
   "Jeremiah 31": "Jeremiah 31 includes New Covenant promise language and affirmations of Israel's national continuity.",
   "Jeremiah 33": "Jeremiah 33 grounds covenant confidence in God's fixed order of creation and mercy to Jacob's seed.",
+  "Jeremiah 18": "Jeremiah 18 uses potter-clay imagery with explicit conditional nation language tied to repentance and judgment.",
   "Jeremiah 30": "Jeremiah 30 includes Jacob's trouble language and rescue promise framing for Israel.",
   "John 1": "John 1 presents Christ's coming, human response, and receiving-believing language tied to becoming children of God.",
   "John 3": "John 3 includes new birth discourse and broad gospel proclamation with whosoever-believeth language.",
@@ -1938,6 +2370,8 @@ const chapterContextNotes = {
   "Matthew 24": "Matthew 24 contains Jesus' Olivet discourse, including generation language and tribulation markers.",
   "Matthew 23": "Matthew 23 combines prophetic rebuke with Jesus' lament over Jerusalem's refusal.",
   "Micah 4": "Micah 4 parallels Zion-and-nations restoration language and future peace motifs.",
+  "Malachi 1": "Malachi 1 contrasts Jacob and Esau/Edom in covenant-judgment language that Paul later cites in Romans 9.",
+  "Proverbs 18": "Proverbs 18 highlights wisdom in hearing a matter fully before answering.",
   "Revelation 7": "Revelation 7 includes sealing language and explicit tribal naming for the children of Israel.",
   "Revelation 16": "Revelation 16 includes bowl judgments and the Armageddon gathering statement.",
   "Revelation 19": "Revelation 19 presents Christ's victory imagery over rebellious kings and armies.",
@@ -1952,8 +2386,10 @@ const chapterContextNotes = {
   "1 Corinthians 10": "1 Corinthians 10 warns believers from Israel's examples and exhorts vigilance against falling.",
   "1 Peter 1": "1 Peter 1 links foreknowledge language with sanctification, obedience, and redemptive identity.",
   "1 John 2": "1 John 2 includes Christ as propitiation language and broad scope wording about the whole world.",
+  "1 Peter 2": "1 Peter 2 applies covenant-people language to believers and emphasizes identity and witness themes.",
   "1 Thessalonians 5": "1 Thessalonians 5 calls believers to discernment: prove all things; hold fast what is good.",
   "1 Timothy 2": "1 Timothy 2 combines intercession for all kinds of people with God's saving desire statements.",
+  "2 Timothy 2": "2 Timothy 2 includes vessel imagery with cleansing language and readiness for honorable use.",
   "2 Peter 2": "2 Peter 2 warns of apostasy and worsening condition after escaping prior corruption.",
   "2 Peter 3": "2 Peter 3 discusses patience, repentance, and the coming day of the Lord.",
   "Ezekiel 36": "Ezekiel 36 presents regathering and renewal language linked to Israel being brought into its own land.",
@@ -2008,6 +2444,48 @@ const lensVerses = [
     reference: "2 Peter 2:20-21 (KJV)",
     passage:
       "For if after they have escaped the pollutions of the world through the knowledge of the Lord and Saviour Jesus Christ, they are again entangled therein, and overcome, the latter end is worse with them than the beginning. For it had been better for them not to have known the way of righteousness, than, after they have known it, to turn from the holy commandment delivered unto them."
+  },
+  {
+    category: "Romans 9 Context",
+    reference: "Romans 9:30-32 (KJV)",
+    passage:
+      "What shall we say then? That the Gentiles, which followed not after righteousness, have attained to righteousness, even the righteousness which is of faith. But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness. Wherefore? Because they sought it not by faith, but as it were by the works of the law."
+  },
+  {
+    category: "Romans 9 Context",
+    reference: "Jeremiah 18:6-10 (KJV)",
+    passage:
+      "O house of Israel, cannot I do with you as this potter? saith the LORD. Behold, as the clay is in the potter's hand, so are ye in mine hand, O house of Israel. At what instant I shall speak concerning a nation, and concerning a kingdom, to pluck up, and to pull down, and to destroy it; If that nation, against whom I have pronounced, turn from their evil, I will repent of the evil that I thought to do unto them. And at what instant I shall speak concerning a nation, and concerning a kingdom, to build and to plant it; If it do evil in my sight, that it obey not my voice, then I will repent of the good, wherewith I said I would benefit them."
+  },
+  {
+    category: "Conflation Check",
+    reference: "Acts 10:34-35 (KJV)",
+    passage:
+      "Then Peter opened his mouth, and said, Of a truth I perceive that God is no respecter of persons: But in every nation he that feareth him, and worketh righteousness, is accepted with him."
+  },
+  {
+    category: "Conflation Check",
+    reference: "Acts 16:31 (KJV)",
+    passage:
+      "And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house."
+  },
+  {
+    category: "Election Context",
+    reference: "Romans 9:10-13 (KJV)",
+    passage:
+      "And not only this; but when Rebecca also had conceived by one, even by our father Isaac; (For the children being not yet born, neither having done any good or evil, that the purpose of God according to election might stand, not of works, but of him that calleth;) It was said unto her, The elder shall serve the younger. As it is written, Jacob have I loved, but Esau have I hated."
+  },
+  {
+    category: "Election Context",
+    reference: "Genesis 25:23 (KJV)",
+    passage:
+      "And the LORD said unto her, Two nations are in thy womb, and two manner of people shall be separated from thy bowels; and the one people shall be stronger than the other people; and the elder shall serve the younger."
+  },
+  {
+    category: "Election Context",
+    reference: "Malachi 1:2-4 (KJV)",
+    passage:
+      "I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob's brother? saith the LORD: yet I loved Jacob, And I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness. Whereas Edom saith, We are impoverished, but we will return and build the desolate places; thus saith the LORD of hosts, They shall build, but I will throw down."
   },
   {
     category: "RT Covenant Continuity",
@@ -2082,6 +2560,7 @@ const replyList = document.querySelector("#reply-list");
 const replacementList = document.querySelector("#replacement-list");
 const glossaryList = document.querySelector("#glossary-list");
 const drilldownList = document.querySelector("#drilldown-list");
+const tulipSlopeList = document.querySelector("#tulip-slope-list");
 const replacementDrilldownList = document.querySelector("#replacement-drilldown-list");
 const contextSelect = document.querySelector("#context-select");
 const contextOutput = document.querySelector("#context-output");
@@ -2230,6 +2709,9 @@ function getReferencePool() {
   const fromDrilldown = objectionDrilldownData
     .flatMap((entry) => entry.steps)
     .flatMap((step) => step.references);
+  const fromTulipSlope = tulipDeterminismSlopeData
+    .flatMap((entry) => entry.steps)
+    .flatMap((step) => step.references);
   const fromReplacementDrilldown = replacementDrilldownData
     .flatMap((entry) => entry.steps)
     .flatMap((step) => step.references);
@@ -2238,6 +2720,7 @@ function getReferencePool() {
     ...withPassages.map((entry) => entry.reference),
     ...fromGlossary,
     ...fromDrilldown,
+    ...fromTulipSlope,
     ...fromReplacementDrilldown
   ];
 
@@ -2786,6 +3269,15 @@ function renderDrilldown() {
   );
 }
 
+function renderTulipSlope() {
+  renderDrilldownList(
+    tulipSlopeList,
+    tulipDeterminismSlopeData,
+    "No TULIP determinism slope entries matched your search.",
+    "Determinist Inference"
+  );
+}
+
 function renderReplacementDrilldown() {
   renderDrilldownList(
     replacementDrilldownList,
@@ -3002,7 +3494,7 @@ function renderComparisonFilters() {
   comparisonFilters.innerHTML = "";
   const categories = isReplacementPage
     ? ["All", "Replacement Theology", "Objection Drilldown"]
-    : ["All", "Core Challenge", "Proof-Text", "Common Reply", "Objection Drilldown"];
+    : ["All", "Core Challenge", "Proof-Text", "Common Reply", "Determinism Slope", "Objection Drilldown"];
 
   categories.forEach((category) => {
     const button = document.createElement("button");
@@ -3111,6 +3603,20 @@ function buildComparisonItems(toneKey) {
       }))
   );
 
+  const tulipSlopeItems = tulipDeterminismSlopeData.flatMap((entry) =>
+    entry.steps.map((step) => ({
+      type: "Determinism Slope",
+      title: `${entry.title} - ${step.layer}`,
+      claimLabel: "Determinist Inference",
+      claim: step.reply || "",
+      response: step.counterResponse,
+      references: step.references.map((reference) => ({
+        reference,
+        passage: lookupPassage(reference)
+      }))
+      }))
+  );
+
   const replacementDrilldownItems = replacementDrilldownData.flatMap((entry) =>
     entry.steps.map((step) => ({
       type: "Objection Drilldown",
@@ -3129,7 +3635,7 @@ function buildComparisonItems(toneKey) {
     return [...replacementItems, ...replacementDrilldownItems];
   }
 
-  return [...coreItems, ...proofItems, ...replyItems, ...drilldownItems];
+  return [...coreItems, ...proofItems, ...replyItems, ...tulipSlopeItems, ...drilldownItems];
 }
 
 function renderComparison(toneKey) {
@@ -3204,6 +3710,7 @@ function renderAllForTone(toneKey) {
       "No common replies matched your search."
     );
     renderDrilldown();
+    renderTulipSlope();
   }
   renderContextViewer();
   renderLogicSummary(toneKey);
