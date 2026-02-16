@@ -43,6 +43,9 @@ const toneProfiles = {
   }
 };
 
+const pageMode = document.body?.dataset.page || "main";
+const isReplacementPage = pageMode === "replacement";
+
 const argumentsData = [
   {
     title: "Total Inability vs God's Universal Call",
@@ -2107,7 +2110,14 @@ const chapterCache = new Map();
 let contextRenderToken = 0;
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-toneSelect.value = currentTone;
+if (isReplacementPage) {
+  currentCategory = "RT Covenant Continuity";
+  currentComparisonType = "Replacement Theology";
+}
+
+if (toneSelect) {
+  toneSelect.value = currentTone;
+}
 
 function setupRevealStagger() {
   const revealNodes = [...document.querySelectorAll(".reveal")];
@@ -2385,7 +2395,9 @@ function openContextViewer(reference) {
   currentContextReference = reference;
   renderContextViewer();
   setView("study");
-  contextViewerSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (contextViewerSection) {
+    contextViewerSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function createPassageDetail(reference, passage, showContextButton = true) {
@@ -2480,6 +2492,9 @@ function attachAccordionBehavior(root) {
 }
 
 function setView(viewName) {
+  if (!studyView || !compareView || !tabStudy || !tabCompare) {
+    return;
+  }
   currentView = viewName;
   const showStudy = viewName === "study";
   const incoming = showStudy ? studyView : compareView;
@@ -2574,12 +2589,21 @@ function hasSearchMatchLocal(fields, query) {
 
 function renderToneHeader(toneKey) {
   const profile = toneProfiles[toneKey];
-  setHighlightedText(subtitle, profile.subtitle);
-  setHighlightedText(toneDescription, profile.description);
-  setHighlightedText(introCopy, profile.intro);
+  if (subtitle) {
+    setHighlightedText(subtitle, profile.subtitle);
+  }
+  if (toneDescription) {
+    setHighlightedText(toneDescription, profile.description);
+  }
+  if (introCopy) {
+    setHighlightedText(introCopy, profile.intro);
+  }
 }
 
 function renderArguments(toneKey) {
+  if (!argumentList || !argumentTemplate) {
+    return;
+  }
   argumentList.innerHTML = "";
 
   const entries = argumentsData.filter((entry) => matchesArgument(entry, toneKey));
@@ -2612,6 +2636,9 @@ function renderArguments(toneKey) {
 }
 
 function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
+  if (!container || !proofTemplate) {
+    return;
+  }
   container.innerHTML = "";
 
   const filteredEntries = entries.filter((entry) => matchesClaimResponseEntry(entry, toneKey));
@@ -2646,6 +2673,9 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
 }
 
 function renderGlossary() {
+  if (!glossaryList || !glossaryTemplate) {
+    return;
+  }
   glossaryList.innerHTML = "";
   const entries = glossaryData.filter((entry) => matchesGlossaryEntry(entry));
 
@@ -2676,6 +2706,9 @@ function renderGlossary() {
 }
 
 function renderDrilldownList(container, entries, emptyMessage, replyLabelText) {
+  if (!container || !drilldownTemplate) {
+    return;
+  }
   container.innerHTML = "";
   const filteredEntries = entries.filter((entry) => matchesDrilldownEntry(entry));
 
@@ -2774,6 +2807,9 @@ function createChapterSkeleton(lineCount = 10) {
 }
 
 async function renderContextViewer() {
+  if (!contextOutput || !contextSelect) {
+    return;
+  }
   const renderToken = ++contextRenderToken;
   contextOutput.innerHTML = "";
 
@@ -2918,6 +2954,9 @@ async function renderContextViewer() {
 }
 
 function renderLogicSummary(toneKey) {
+  if (!logicList) {
+    return;
+  }
   logicList.innerHTML = "";
   toneProfiles[toneKey].logicSummary.forEach((line) => {
     const item = document.createElement("li");
@@ -2927,9 +2966,15 @@ function renderLogicSummary(toneKey) {
 }
 
 function renderFilters() {
+  if (!filtersContainer) {
+    return;
+  }
   filtersContainer.innerHTML = "";
 
-  const categories = ["All", ...new Set(lensVerses.map((item) => item.category))];
+  const lensSource = isReplacementPage
+    ? lensVerses.filter((item) => item.category.startsWith("RT "))
+    : lensVerses.filter((item) => !item.category.startsWith("RT "));
+  const categories = ["All", ...new Set(lensSource.map((item) => item.category))];
 
   categories.forEach((category) => {
     const button = document.createElement("button");
@@ -2951,15 +2996,13 @@ function renderFilters() {
 }
 
 function renderComparisonFilters() {
+  if (!comparisonFilters) {
+    return;
+  }
   comparisonFilters.innerHTML = "";
-  const categories = [
-    "All",
-    "Core Challenge",
-    "Proof-Text",
-    "Common Reply",
-    "Replacement Theology",
-    "Objection Drilldown"
-  ];
+  const categories = isReplacementPage
+    ? ["All", "Replacement Theology", "Objection Drilldown"]
+    : ["All", "Core Challenge", "Proof-Text", "Common Reply", "Objection Drilldown"];
 
   categories.forEach((category) => {
     const button = document.createElement("button");
@@ -2981,11 +3024,18 @@ function renderComparisonFilters() {
 }
 
 function renderVerseCards(category = "All") {
+  if (!verseCards || !verseTemplate) {
+    return;
+  }
   verseCards.innerHTML = "";
 
+  const lensSource = isReplacementPage
+    ? lensVerses.filter((item) => item.category.startsWith("RT "))
+    : lensVerses.filter((item) => !item.category.startsWith("RT "));
+
   const subset = (category === "All"
-    ? lensVerses
-    : lensVerses.filter((verse) => verse.category === category))
+    ? lensSource
+    : lensSource.filter((verse) => verse.category === category))
     .filter((verse) => matchesLensVerse(verse));
 
   if (!subset.length) {
@@ -3075,17 +3125,17 @@ function buildComparisonItems(toneKey) {
       }))
   );
 
-  return [
-    ...coreItems,
-    ...proofItems,
-    ...replyItems,
-    ...replacementItems,
-    ...drilldownItems,
-    ...replacementDrilldownItems
-  ];
+  if (isReplacementPage) {
+    return [...replacementItems, ...replacementDrilldownItems];
+  }
+
+  return [...coreItems, ...proofItems, ...replyItems, ...drilldownItems];
 }
 
 function renderComparison(toneKey) {
+  if (!comparisonGrid || !comparisonTemplate) {
+    return;
+  }
   comparisonGrid.innerHTML = "";
 
   const items = buildComparisonItems(toneKey)
@@ -3130,76 +3180,99 @@ function renderComparison(toneKey) {
 
 function renderAllForTone(toneKey) {
   renderToneHeader(toneKey);
-  renderGlossary();
-  renderArguments(toneKey);
-  renderClaimResponseList(
-    proofList,
-    proofTextsData,
-    toneKey,
-    "No proof-text rebuttals matched your search."
-  );
-  renderClaimResponseList(
-    replyList,
-    commonRepliesData,
-    toneKey,
-    "No common replies matched your search."
-  );
-  renderClaimResponseList(
-    replacementList,
-    replacementTheologyData,
-    toneKey,
-    "No replacement theology entries matched your search."
-  );
-  renderDrilldown();
-  renderReplacementDrilldown();
+  if (isReplacementPage) {
+    renderClaimResponseList(
+      replacementList,
+      replacementTheologyData,
+      toneKey,
+      "No replacement theology entries matched your search."
+    );
+    renderReplacementDrilldown();
+  } else {
+    renderGlossary();
+    renderArguments(toneKey);
+    renderClaimResponseList(
+      proofList,
+      proofTextsData,
+      toneKey,
+      "No proof-text rebuttals matched your search."
+    );
+    renderClaimResponseList(
+      replyList,
+      commonRepliesData,
+      toneKey,
+      "No common replies matched your search."
+    );
+    renderDrilldown();
+  }
   renderContextViewer();
   renderLogicSummary(toneKey);
   renderComparison(toneKey);
 }
 
-toneSelect.addEventListener("change", (event) => {
-  currentTone = event.target.value;
-  renderAllForTone(currentTone);
-});
+if (toneSelect) {
+  toneSelect.addEventListener("change", (event) => {
+    currentTone = event.target.value;
+    renderAllForTone(currentTone);
+  });
+}
 
-searchInput.addEventListener("input", (event) => {
-  currentSearchQuery = event.target.value.trim().toLowerCase();
-  renderVerseCards(currentCategory);
-  renderAllForTone(currentTone);
-});
+if (searchInput) {
+  searchInput.addEventListener("input", (event) => {
+    currentSearchQuery = event.target.value.trim().toLowerCase();
+    renderVerseCards(currentCategory);
+    renderAllForTone(currentTone);
+  });
+}
 
-searchClear.addEventListener("click", () => {
-  currentSearchQuery = "";
-  searchInput.value = "";
-  searchInput.focus();
-  renderVerseCards(currentCategory);
-  renderAllForTone(currentTone);
-});
+if (searchClear) {
+  searchClear.addEventListener("click", () => {
+    currentSearchQuery = "";
+    if (searchInput) {
+      searchInput.value = "";
+      searchInput.focus();
+    }
+    renderVerseCards(currentCategory);
+    renderAllForTone(currentTone);
+  });
+}
 
-glossaryInput.addEventListener("input", (event) => {
-  currentGlossaryQuery = event.target.value.trim().toLowerCase();
-  renderGlossary();
-});
+if (glossaryInput) {
+  glossaryInput.addEventListener("input", (event) => {
+    currentGlossaryQuery = event.target.value.trim().toLowerCase();
+    renderGlossary();
+  });
+}
 
-glossaryClear.addEventListener("click", () => {
-  currentGlossaryQuery = "";
-  glossaryInput.value = "";
-  glossaryInput.focus();
-  renderGlossary();
-});
+if (glossaryClear) {
+  glossaryClear.addEventListener("click", () => {
+    currentGlossaryQuery = "";
+    if (glossaryInput) {
+      glossaryInput.value = "";
+      glossaryInput.focus();
+    }
+    renderGlossary();
+  });
+}
 
-contextSelect.addEventListener("change", (event) => {
-  currentContextReference = event.target.value;
-  renderContextViewer();
-});
+if (contextSelect) {
+  contextSelect.addEventListener("change", (event) => {
+    currentContextReference = event.target.value;
+    renderContextViewer();
+  });
+}
 
-tabStudy.addEventListener("click", () => {
-  setView("study");
-});
+if (tabStudy) {
+  tabStudy.addEventListener("click", () => {
+    setView("study");
+  });
+}
 
-tabCompare.addEventListener("click", () => {
-  setView("compare");
-});
+if (tabCompare) {
+  tabCompare.addEventListener("click", () => {
+    setView("compare");
+  });
+}
 
 window.addEventListener(
   "scroll",

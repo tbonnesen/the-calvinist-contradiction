@@ -203,6 +203,24 @@ h1 {
   box-shadow: 0 14px 25px rgba(140, 47, 31, 0.31);
 }
 
+.cta-row {
+  display: flex;
+  gap: 0.65rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cta-alt {
+  background: #3f5f50;
+  box-shadow: 0 8px 20px rgba(30, 53, 44, 0.26);
+}
+
+.cta-alt:hover,
+.cta-alt:focus-visible {
+  box-shadow: 0 14px 25px rgba(30, 53, 44, 0.34);
+}
+
 .panel {
   margin: 1rem auto 1.3rem;
   padding: 1.4rem;
