@@ -1863,6 +1863,12 @@ const glossaryData = [
     references: ["Romans 8:29-30 (KJV)", "1 Peter 1:2 (KJV)"]
   },
   {
+    term: "Providence",
+    definition:
+      "God's active governance of creation and history toward his purposes. The key debate is how providence relates to evil, human agency, and divine holiness.",
+    references: ["Genesis 50:20 (KJV)", "James 1:13 (KJV)", "Habakkuk 1:13 (KJV)"]
+  },
+  {
     term: "Propitiation",
     definition:
       "A sacrifice that satisfies divine justice regarding sin. In this app, the main dispute is the scope of Christ's propitiatory provision.",
