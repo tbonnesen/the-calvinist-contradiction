@@ -440,7 +440,7 @@ h1 {
   color: var(--muted);
 }
 
-.section-accordion:not(.is-open) .section-head.section-toggle {
+.section-head.section-toggle {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   grid-template-areas:
@@ -451,17 +451,17 @@ h1 {
   align-items: center;
 }
 
-.section-accordion:not(.is-open) .section-head.section-toggle h2,
-.section-accordion:not(.is-open) .section-head.section-toggle h3 {
+.section-head.section-toggle h2,
+.section-head.section-toggle h3 {
   grid-area: title;
   margin: 0;
 }
 
-.section-accordion:not(.is-open) .section-head.section-toggle p {
+.section-head.section-toggle p {
   grid-area: desc;
 }
 
-.section-accordion:not(.is-open) .section-head.section-toggle .section-symbol {
+.section-head.section-toggle .section-symbol {
   grid-area: icon;
   align-self: center;
 }
@@ -474,10 +474,6 @@ h1 {
 
 .section-accordion.is-open .section-toggle {
   margin-bottom: 0.85rem;
-}
-
-.section-head.section-toggle {
-  align-items: center;
 }
 
 h2.section-toggle,
