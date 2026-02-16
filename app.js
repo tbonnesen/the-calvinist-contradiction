@@ -2,43 +2,43 @@ const toneProfiles = {
   pastoral: {
     label: "Pastoral",
     subtitle:
-      "A gentle but direct biblical and logical challenge to Calvinist doctrine, using KJV references.",
+      "A gentle but direct biblical and logical challenge to Calvinism and Replacement Theology, using KJV references.",
     description:
-      "Pastoral mode aims to be clear, charitable, and spiritually constructive while still naming contradictions.",
+      "Pastoral mode aims to be clear, charitable, and spiritually constructive while still naming contradictions in both topics.",
     intro:
-      "This study tool is for believers who want to test doctrine carefully without unnecessary hostility. It organizes major concerns with Calvinism by showing how key claims can conflict with plain KJV readings and moral coherence.",
+      "This study tool is for believers who want to test doctrine carefully without unnecessary hostility. It organizes major concerns with Calvinism and Replacement Theology by showing where key claims can conflict with plain KJV readings and coherence.",
     logicSummary: [
       "If people are condemned for unbelief, invitations to believe appear to assume real responsibility and real opportunity.",
       "If Christ is presented as a provision for the world, readers naturally expect the gospel offer to be genuinely broad.",
-      "If Scripture gives severe warnings, disciples are expected to treat those warnings as meaningful and urgent."
+      "If God binds promises to Israel to enduring covenant language, permanent erasure claims require unusually strong textual proof."
     ]
   },
   debate: {
     label: "Debate",
     subtitle:
-      "A focused case that Calvinist claims fail under textual pressure and internal logical testing.",
+      "A focused case that Calvinist and Replacement Theology claims fail under textual pressure and internal logical testing.",
     description:
       "Debate mode is concise and confronts doctrinal inconsistencies directly.",
     intro:
-      "This framework isolates high-impact contradictions in Calvinism and tests them against direct KJV statements. The goal is a falsifiable biblical and logical case.",
+      "This framework isolates high-impact contradictions in Calvinism and Replacement Theology and tests them against direct KJV statements. The goal is a falsifiable biblical and logical case.",
     logicSummary: [
       "Commands to all lose force if most hearers are divinely unable to comply.",
       "Universal atonement language is strained when redefined to exclude most of humanity.",
-      "Apostasy warnings are downgraded into hypotheticals if final falling is impossible."
+      "Replacement claims lose force when Romans 11 and covenant continuity passages are flattened into total transfer language."
     ]
   },
   academic: {
     label: "Academic",
     subtitle:
-      "A structured doctrinal critique of Calvinism using exegetical scope and coherence analysis.",
+      "A structured doctrinal critique of Calvinism and Replacement Theology using exegetical scope and coherence analysis.",
     description:
       "Academic mode emphasizes interpretive method, lexical scope, and system-level consistency.",
     intro:
-      "This tool presents an analytical critique of core Calvinist propositions by comparing them with straightforward KJV textual phenomena: universal imperatives, universal atonement language, resistance motifs, and apostasy warnings.",
+      "This tool presents an analytical critique of core Calvinist and supersessionist propositions by comparing them with straightforward KJV textual phenomena: universal imperatives, covenant continuity language, restoration motifs, and warning discourse.",
     logicSummary: [
       "Moral accountability language normally presupposes meaningful agency relative to commanded response.",
       "Scope terms such as world and every man require strong contextual warrants before being reduced to subgroup meanings.",
-      "Warning discourse functions performatively; treating warnings as merely formal weakens their pragmatic intent."
+      "Temporal and covenant markers in Romans 11 and prophetic texts resist reduction to permanent displacement models."
     ]
   }
 };
@@ -1327,7 +1327,7 @@ const replacementTheologyData = [
       {
         reference: "Jeremiah 31:35-36 (KJV)",
         passage:
-          "Thus saith the LORD, which giveth the sun for a light by day... If those ordinances depart from before me, saith the LORD, then the seed of Israel also shall cease from being a nation before me for ever."
+          "Thus saith the LORD, which giveth the sun for a light by day, and the ordinances of the moon and of the stars for a light by night, which divideth the sea when the waves thereof roar; The LORD of hosts is his name: If those ordinances depart from before me, saith the LORD, then the seed of Israel also shall cease from being a nation before me for ever."
       }
     ]
   },
@@ -1349,7 +1349,7 @@ const replacementTheologyData = [
       {
         reference: "Zechariah 14:4 (KJV)",
         passage:
-          "And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east... and the mount of Olives shall cleave in the midst thereof."
+          "And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east, and the mount of Olives shall cleave in the midst thereof toward the east and toward the west, and there shall be a very great valley."
       },
       {
         reference: "Zechariah 14:16 (KJV)",
@@ -1391,7 +1391,167 @@ const replacementTheologyData = [
       {
         reference: "Revelation 7:4 (KJV)",
         passage:
-          "And I heard the number of them which were sealed... of all the tribes of the children of Israel."
+          "And I heard the number of them which were sealed: and there were sealed an hundred and forty and four thousand of all the tribes of the children of Israel."
+      }
+    ]
+  },
+  {
+    title: "Obsolete Covenant Administration Does Not Mean Israel Is Obsolete",
+    claimLabel: "Replacement Claim",
+    responseLabel: "Response",
+    claim:
+      "Hebrews 8:13 proves Israel's covenant identity is ended and permanently replaced by the Church.",
+    tones: {
+      pastoral:
+        "Hebrews teaches covenant fulfillment in Christ, but that does not require saying God revoked every Israel-related promise in Romans 11.",
+      debate:
+        "New covenant administration replacing old does not equal national-erasure theology.",
+      academic:
+        "Hebrews' argument concerns covenant efficacy and priestly fulfillment, not an explicit cancellation thesis for Romans 11's future-Israel language."
+    },
+    references: [
+      {
+        reference: "Hebrews 8:13 (KJV)",
+        passage:
+          "In that he saith, A new covenant, he hath made the first old. Now that which decayeth and waxeth old is ready to vanish away."
+      },
+      {
+        reference: "Jeremiah 31:31 (KJV)",
+        passage:
+          "Behold, the days come, saith the LORD, that I will make a new covenant with the house of Israel, and with the house of Judah."
+      },
+      {
+        reference: "Romans 11:29 (KJV)",
+        passage:
+          "For the gifts and calling of God are without repentance."
+      }
+    ]
+  },
+  {
+    title: "Not All Israel Is Israel Is Not a National-Cancellation Text",
+    claimLabel: "Replacement Claim",
+    responseLabel: "Response",
+    claim:
+      "Romans 9:6 proves Israel now means only the spiritual elect with no future national reference.",
+    tones: {
+      pastoral:
+        "Romans 9 clarifies remnant realities, but Paul still speaks later about Israel's partial hardening and future mercy.",
+      debate:
+        "Romans 9:6 cannot be weaponized against Romans 11:25-26 in the same discourse.",
+      academic:
+        "Paul's internal distinction in Romans 9 does not erase his later ethnic-historical referent for Israel in Romans 11."
+    },
+    references: [
+      {
+        reference: "Romans 9:6-7 (KJV)",
+        passage:
+          "For they are not all Israel, which are of Israel: Neither, because they are the seed of Abraham, are they all children."
+      },
+      {
+        reference: "Romans 11:1-2 (KJV)",
+        passage:
+          "I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin. God hath not cast away his people which he foreknew."
+      },
+      {
+        reference: "Romans 11:25-26 (KJV)",
+        passage:
+          "Blindness in part is happened to Israel, until the fulness of the Gentiles be come in. And so all Israel shall be saved."
+      }
+    ]
+  },
+  {
+    title: "One New Man Unity Does Not Remove Israel-Gentile Distinctions Everywhere",
+    claimLabel: "Replacement Claim",
+    responseLabel: "Response",
+    claim:
+      "Ephesians 2:14-15 means all Israel-Gentile distinctions are dissolved in every prophetic and covenant sense.",
+    tones: {
+      pastoral:
+        "Christ gives real unity in salvation, yet the apostles still use Israel and Gentile categories in their teaching context.",
+      debate:
+        "Unity in Christ is not identical to erasing every covenant-historical category.",
+      academic:
+        "Soteriological reconciliation language in Ephesians 2 does not by itself settle all eschatological referent debates."
+    },
+    references: [
+      {
+        reference: "Ephesians 2:14-15 (KJV)",
+        passage:
+          "For he is our peace, who hath made both one, and hath broken down the middle wall of partition between us; Having abolished in his flesh the enmity."
+      },
+      {
+        reference: "Ephesians 2:12-13 (KJV)",
+        passage:
+          "That at that time ye were without Christ, being aliens from the commonwealth of Israel, and strangers from the covenants of promise, having no hope, and without God in the world: But now in Christ Jesus ye who sometimes were far off are made nigh by the blood of Christ."
+      },
+      {
+        reference: "1 Corinthians 10:32 (KJV)",
+        passage:
+          "Give none offence, neither to the Jews, nor to the Gentiles, nor to the church of God."
+      }
+    ]
+  },
+  {
+    title: "Acts 2 Davidic Fulfillment Does Not Cancel Israel-Restoration Expectation",
+    claimLabel: "Replacement Claim",
+    responseLabel: "Response",
+    claim:
+      "Because Christ is now enthroned, all kingdom promises to Israel are already fulfilled in the Church age.",
+    tones: {
+      pastoral:
+        "Acts 2 exalts Christ's present reign, and Acts 1 still leaves restoration timing in the Father's hands.",
+      debate:
+        "Present enthronement does not logically eliminate future restoration language Jesus left intact.",
+      academic:
+        "Inaugurated kingship and future consummation can be held together without collapsing one into the other."
+    },
+    references: [
+      {
+        reference: "Acts 2:29-33 (KJV)",
+        passage:
+          "Men and brethren, let me freely speak unto you of the patriarch David, that he is both dead and buried, and his sepulchre is with us unto this day. Therefore being a prophet, and knowing that God had sworn with an oath to him, that of the fruit of his loins, according to the flesh, he would raise up Christ to sit on his throne; He seeing this before spake of the resurrection of Christ, that his soul was not left in hell, neither his flesh did see corruption. This Jesus hath God raised up, whereof we all are witnesses. Therefore being by the right hand of God exalted, and having received of the Father the promise of the Holy Ghost, he hath shed forth this, which ye now see and hear."
+      },
+      {
+        reference: "Acts 1:6-7 (KJV)",
+        passage:
+          "When they therefore were come together, they asked of him, saying, Lord, wilt thou at this time restore again the kingdom to Israel? And he said unto them, It is not for you to know the times or the seasons, which the Father hath put in his own power."
+      },
+      {
+        reference: "Luke 1:32-33 (KJV)",
+        passage:
+          "The Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever."
+      }
+    ]
+  },
+  {
+    title: "Zion Prophecies Are Not Exhausted by Church-Age Spiritualization",
+    claimLabel: "Replacement Claim",
+    responseLabel: "Response",
+    claim:
+      "Isaiah 2 and Micah 4 are fully realized now in symbolic church realities, not future Israel-linked fulfillment.",
+    tones: {
+      pastoral:
+        "These passages celebrate God's future peace and instruction among nations, and many readers see remaining future elements not yet complete.",
+      debate:
+        "Total present fulfillment claims strain against obvious unfinished global-peace details in the text.",
+      academic:
+        "The prophetic horizon in Isaiah 2 and Micah 4 includes concrete international conditions that exceed straightforward present-age realization."
+    },
+    references: [
+      {
+        reference: "Isaiah 2:2-4 (KJV)",
+        passage:
+          "And it shall come to pass in the last days, that the mountain of the LORD'S house shall be established in the top of the mountains, and shall be exalted above the hills; and all nations shall flow unto it. And many people shall go and say, Come ye, and let us go up to the mountain of the LORD, to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for out of Zion shall go forth the law, and the word of the LORD from Jerusalem. And he shall judge among the nations, and shall rebuke many people: and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up sword against nation, neither shall they learn war any more."
+      },
+      {
+        reference: "Micah 4:1-3 (KJV)",
+        passage:
+          "But in the last days it shall come to pass, that the mountain of the house of the LORD shall be established in the top of the mountains, and it shall be exalted above the hills; and people shall flow unto it. And many nations shall come, and say, Come, and let us go up to the mountain of the LORD, and to the house of the God of Jacob; and he will teach us of his ways, and we will walk in his paths: for the law shall go forth of Zion, and the word of the LORD from Jerusalem. And he shall judge among many people, and rebuke strong nations afar off; and they shall beat their swords into plowshares, and their spears into pruninghooks: nation shall not lift up a sword against nation, neither shall they learn war any more."
+      },
+      {
+        reference: "Zechariah 14:16 (KJV)",
+        passage:
+          "Every one that is left of all the nations which came against Jerusalem shall even go up from year to year to worship the King."
       }
     ]
   }
@@ -1599,9 +1759,138 @@ const objectionDrilldownData = [
   }
 ];
 
+const replacementDrilldownData = [
+  {
+    title: "Romans 9 and Israel Identity",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "Romans 9:6 says not all Israel is Israel, so Israel now only means the spiritual people of God.",
+        reply:
+          "Paul redefines Israel by election, so national categories are no longer prophetic anchors.",
+        counterResponse:
+          "Romans 9 clarifies remnant identity, but Romans 11 still speaks of Israel's partial hardening and future salvation in sequence.",
+        references: ["Romans 9:6-7 (KJV)", "Romans 11:25-26 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "If Paul can redefine Israel once, he can do so consistently across all prophecy.",
+        reply:
+          "That is exactly why Church = Israel should be the default reading.",
+        counterResponse:
+          "Paul also preserves Jew/Gentile/Church distinctions and warns Gentiles not to boast against natural branches.",
+        references: ["1 Corinthians 10:32 (KJV)", "Romans 11:17 (KJV)", "Romans 11:18 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Hebrews 8 and Covenant Obsolescence",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "Hebrews 8:13 says the first covenant is obsolete, so Israel's covenant role is over.",
+        reply:
+          "Old-covenant structures are superseded; therefore national Israel has no continuing covenant category.",
+        counterResponse:
+          "Hebrews addresses covenant efficacy, while Romans still affirms ongoing calling and future mercy for Israel.",
+        references: ["Hebrews 8:13 (KJV)", "Romans 11:29 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "If the old covenant is obsolete, Israel/Judah wording in Jeremiah should be read spiritually now.",
+        reply:
+          "The Church inherits the promise substance and fulfills covenant intent.",
+        counterResponse:
+          "Jeremiah and Hebrews still name Israel and Judah explicitly; participation by Gentiles does not require erasure of named covenant parties.",
+        references: ["Jeremiah 31:31 (KJV)", "Hebrews 8:8 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Unity Texts and Ethnic Distinction",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "Ephesians 2 says Christ made both one, so Israel/Gentile distinctions should no longer matter.",
+        reply:
+          "One new man means all prior covenant distinctions are replaced in Christ.",
+        counterResponse:
+          "One new man explains reconciled access, not the elimination of every covenant-historical category in every context.",
+        references: ["Ephesians 2:14-15 (KJV)", "Ephesians 2:12-13 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "If distinctions remain in any sense, unity language is weakened.",
+        reply:
+          "Strong unity requires dissolving all former identity lines in prophetic interpretation.",
+        counterResponse:
+          "Scripture can present equal standing in Christ and still distinguish Jews, Gentiles, and the Church as discourse categories.",
+        references: ["Galatians 3:28-29 (KJV)", "1 Corinthians 10:32 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Acts 2 Fulfillment vs Future Restoration",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "Acts 2 proves the Davidic kingdom promises are fulfilled now in Christ's heavenly reign.",
+        reply:
+          "Therefore no future Israel-restoration expectation remains to be fulfilled.",
+        counterResponse:
+          "Acts 2 affirms present exaltation, but Acts 1 still preserves kingdom-restoration expectation while withholding timing.",
+        references: ["Acts 2:29-33 (KJV)", "Acts 1:6-7 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "Future restoration language is only apostolic misunderstanding corrected by Pentecost.",
+        reply:
+          "The church mission redefines restoration as global gospel spread.",
+        counterResponse:
+          "Jesus corrected timing, not the category itself; later texts still retain Israel-centered future language.",
+        references: ["Luke 1:32-33 (KJV)", "Romans 11:25-26 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Prophetic and Apocalyptic Symbolization",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "Isaiah 2 and Micah 4 are spiritually fulfilled in the Church age.",
+        reply:
+          "Prophecy language about Zion and nations should be interpreted symbolically now.",
+        counterResponse:
+          "These texts include global peace and war-ending motifs that many readers see as not yet fully realized.",
+        references: ["Isaiah 2:2-4 (KJV)", "Micah 4:1-3 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "Revelation tribal language is symbolic and does not preserve Israel-specific expectation.",
+        reply:
+          "Apocalyptic numerology removes ethnic referent weight from those passages.",
+        counterResponse:
+          "Symbolic genre does not automatically erase explicit tribal naming and parallel apostolic naming in the same vision world.",
+        references: ["Revelation 7:4 (KJV)", "Revelation 21:12 (KJV)"]
+      }
+    ]
+  }
+];
+
 const chapterContextNotes = {
   "1 Kings 4": "1 Kings 4 summarizes Solomon's reign and kingdom extent language tied to earlier land-promise patterns.",
   "Acts 1": "Acts 1 records post-resurrection instruction, kingdom expectation, and the ascension commission context.",
+  "Acts 2": "Acts 2 presents Pentecost proclamation, resurrection-exaltation argumentation, and Davidic citation usage.",
   "Acts 13": "Acts 13 narrates Jew-Gentile response contrast: some reject the word, Gentiles rejoice, and mission extends outward.",
   "Acts 16": "Acts 16 contains direct salvation proclamation language: Believe on the Lord Jesus Christ.",
   "Acts 17": "Acts 17 presents a public universal repentance command in the context of creation, judgment, and resurrection proclamation.",
@@ -1623,6 +1912,7 @@ const chapterContextNotes = {
   "Hebrews 6": "Hebrews 6 contains one of the strongest warning passages concerning falling away after profound participation.",
   "Hebrews 8": "Hebrews 8 cites Jeremiah's New Covenant terms, including explicit mention of Israel and Judah.",
   "Isaiah 55": "Isaiah 55 is an invitation chapter calling hearers to seek the LORD, forsake wickedness, and come freely.",
+  "Isaiah 2": "Isaiah 2 presents mountain-of-the-LORD and nations-to-Zion imagery with peace-among-nations language.",
   "Jeremiah 31": "Jeremiah 31 includes New Covenant promise language and affirmations of Israel's national continuity.",
   "Jeremiah 33": "Jeremiah 33 grounds covenant confidence in God's fixed order of creation and mercy to Jacob's seed.",
   "Jeremiah 30": "Jeremiah 30 includes Jacob's trouble language and rescue promise framing for Israel.",
@@ -1640,9 +1930,11 @@ const chapterContextNotes = {
   "Luke 15": "Luke 15's parables of lostness and recovery frame dead/alive language in restoration context.",
   "Luke 21": "Luke 21 discusses Jerusalem's judgment and includes an until marker for Gentile times.",
   "Luke 22": "Luke 22 includes kingdom-throne language connected to judging the twelve tribes of Israel.",
+  "Luke 1": "Luke 1 contains angelic throne and Jacob-house reign language concerning Messiah's kingdom.",
   "Matthew 19": "Matthew 19 includes Jesus' promise of future judging over the twelve tribes of Israel.",
   "Matthew 24": "Matthew 24 contains Jesus' Olivet discourse, including generation language and tribulation markers.",
   "Matthew 23": "Matthew 23 combines prophetic rebuke with Jesus' lament over Jerusalem's refusal.",
+  "Micah 4": "Micah 4 parallels Zion-and-nations restoration language and future peace motifs.",
   "Revelation 7": "Revelation 7 includes sealing language and explicit tribal naming for the children of Israel.",
   "Revelation 16": "Revelation 16 includes bowl judgments and the Armageddon gathering statement.",
   "Revelation 19": "Revelation 19 presents Christ's victory imagery over rebellious kings and armies.",
@@ -1713,6 +2005,54 @@ const lensVerses = [
     reference: "2 Peter 2:20-21 (KJV)",
     passage:
       "For if after they have escaped the pollutions of the world through the knowledge of the Lord and Saviour Jesus Christ, they are again entangled therein, and overcome, the latter end is worse with them than the beginning. For it had been better for them not to have known the way of righteousness, than, after they have known it, to turn from the holy commandment delivered unto them."
+  },
+  {
+    category: "RT Covenant Continuity",
+    reference: "Romans 11:29 (KJV)",
+    passage:
+      "For the gifts and calling of God are without repentance."
+  },
+  {
+    category: "RT Covenant Continuity",
+    reference: "Jeremiah 31:31 (KJV)",
+    passage:
+      "Behold, the days come, saith the LORD, that I will make a new covenant with the house of Israel, and with the house of Judah."
+  },
+  {
+    category: "RT Identity",
+    reference: "Romans 9:6-7 (KJV)",
+    passage:
+      "For they are not all Israel, which are of Israel: Neither, because they are the seed of Abraham, are they all children."
+  },
+  {
+    category: "RT Identity",
+    reference: "1 Corinthians 10:32 (KJV)",
+    passage:
+      "Give none offence, neither to the Jews, nor to the Gentiles, nor to the church of God."
+  },
+  {
+    category: "RT Kingdom",
+    reference: "Acts 1:6-7 (KJV)",
+    passage:
+      "When they therefore were come together, they asked of him, saying, Lord, wilt thou at this time restore again the kingdom to Israel? And he said unto them, It is not for you to know the times or the seasons, which the Father hath put in his own power."
+  },
+  {
+    category: "RT Kingdom",
+    reference: "Luke 1:32-33 (KJV)",
+    passage:
+      "The Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever."
+  },
+  {
+    category: "RT Prophecy",
+    reference: "Revelation 7:4 (KJV)",
+    passage:
+      "And I heard the number of them which were sealed: and there were sealed an hundred and forty and four thousand of all the tribes of the children of Israel."
+  },
+  {
+    category: "RT Prophecy",
+    reference: "Zechariah 14:16 (KJV)",
+    passage:
+      "And it shall come to pass, that every one that is left of all the nations which came against Jerusalem shall even go up from year to year to worship the King, the LORD of hosts."
   }
 ];
 
@@ -1739,6 +2079,7 @@ const replyList = document.querySelector("#reply-list");
 const replacementList = document.querySelector("#replacement-list");
 const glossaryList = document.querySelector("#glossary-list");
 const drilldownList = document.querySelector("#drilldown-list");
+const replacementDrilldownList = document.querySelector("#replacement-drilldown-list");
 const contextSelect = document.querySelector("#context-select");
 const contextOutput = document.querySelector("#context-output");
 const comparisonGrid = document.querySelector("#comparison-grid");
@@ -1879,11 +2220,15 @@ function getReferencePool() {
   const fromDrilldown = objectionDrilldownData
     .flatMap((entry) => entry.steps)
     .flatMap((step) => step.references);
+  const fromReplacementDrilldown = replacementDrilldownData
+    .flatMap((entry) => entry.steps)
+    .flatMap((step) => step.references);
 
   const allReferenceStrings = [
     ...withPassages.map((entry) => entry.reference),
     ...fromGlossary,
-    ...fromDrilldown
+    ...fromDrilldown,
+    ...fromReplacementDrilldown
   ];
 
   const passageMap = new Map();
@@ -2203,13 +2548,15 @@ function matchesGlossaryEntry(entry) {
   return glossaryMatch && hasSearchMatch([entry.term, entry.definition, ...entry.references]);
 }
 
-function matchesDrilldownEntry(entry, toneKey) {
+function matchesDrilldownEntry(entry) {
   return hasSearchMatch([
     entry.title,
     ...entry.steps.flatMap((step) => [
       step.layer,
       step.objection,
+      step.reply,
       step.calvinistReply,
+      step.replacementReply,
       step.counterResponse,
       ...step.references.map((reference) => lookupPassage(reference)),
       ...step.references
@@ -2328,16 +2675,16 @@ function renderGlossary() {
   applyTiltEffects(glossaryList);
 }
 
-function renderDrilldown(toneKey) {
-  drilldownList.innerHTML = "";
-  const entries = objectionDrilldownData.filter((entry) => matchesDrilldownEntry(entry, toneKey));
+function renderDrilldownList(container, entries, emptyMessage, replyLabelText) {
+  container.innerHTML = "";
+  const filteredEntries = entries.filter((entry) => matchesDrilldownEntry(entry));
 
-  if (!entries.length) {
-    renderEmptyState(drilldownList, "No objection drilldown entries matched your search.");
+  if (!filteredEntries.length) {
+    renderEmptyState(container, emptyMessage);
     return;
   }
 
-  entries.forEach((entry, index) => {
+  filteredEntries.forEach((entry, index) => {
     const node = drilldownTemplate.content.cloneNode(true);
     const article = node.querySelector(".argument-item");
     article.classList.add("tilt-surface");
@@ -2358,9 +2705,9 @@ function renderDrilldown(toneKey) {
       setHighlightedText(objectionText, step.objection);
 
       const replyLabel = document.createElement("h4");
-      replyLabel.textContent = "Calvinist Reply";
+      replyLabel.textContent = replyLabelText;
       const replyText = document.createElement("p");
-      setHighlightedText(replyText, step.calvinistReply);
+      setHighlightedText(replyText, step.reply || step.calvinistReply || step.replacementReply || "");
 
       const counterLabel = document.createElement("h4");
       counterLabel.textContent = "Counter-Response";
@@ -2391,10 +2738,28 @@ function renderDrilldown(toneKey) {
     });
 
     attachAccordionBehavior(article);
-    drilldownList.appendChild(node);
+    container.appendChild(node);
   });
 
-  applyTiltEffects(drilldownList);
+  applyTiltEffects(container);
+}
+
+function renderDrilldown() {
+  renderDrilldownList(
+    drilldownList,
+    objectionDrilldownData,
+    "No Calvinism objection drilldown entries matched your search.",
+    "Calvinist Reply"
+  );
+}
+
+function renderReplacementDrilldown() {
+  renderDrilldownList(
+    replacementDrilldownList,
+    replacementDrilldownData,
+    "No replacement theology drilldown entries matched your search.",
+    "Replacement Reply"
+  );
 }
 
 function createChapterSkeleton(lineCount = 10) {
@@ -2649,6 +3014,7 @@ function buildComparisonItems(toneKey) {
   const coreItems = argumentsData.map((entry) => ({
     type: "Core Challenge",
     title: entry.title,
+    claimLabel: "Challenge Claim",
     claim: entry.tones[toneKey].claim,
     response: entry.tones[toneKey].logic,
     references: entry.references
@@ -2657,6 +3023,7 @@ function buildComparisonItems(toneKey) {
   const proofItems = proofTextsData.map((entry) => ({
     type: "Proof-Text",
     title: entry.title,
+    claimLabel: entry.claimLabel,
     claim: entry.claim,
     response: entry.tones[toneKey],
     references: entry.references
@@ -2665,6 +3032,7 @@ function buildComparisonItems(toneKey) {
   const replyItems = commonRepliesData.map((entry) => ({
     type: "Common Reply",
     title: entry.title,
+    claimLabel: entry.claimLabel,
     claim: entry.claim,
     response: entry.tones[toneKey],
     references: entry.references
@@ -2673,6 +3041,7 @@ function buildComparisonItems(toneKey) {
   const replacementItems = replacementTheologyData.map((entry) => ({
     type: "Replacement Theology",
     title: entry.title,
+    claimLabel: entry.claimLabel,
     claim: entry.claim,
     response: entry.tones[toneKey],
     references: entry.references
@@ -2682,7 +3051,8 @@ function buildComparisonItems(toneKey) {
     entry.steps.map((step) => ({
       type: "Objection Drilldown",
       title: `${entry.title} - ${step.layer}`,
-      claim: step.calvinistReply,
+      claimLabel: "Calvinist Reply",
+      claim: step.reply || step.calvinistReply || step.replacementReply || "",
       response: step.counterResponse,
       references: step.references.map((reference) => ({
         reference,
@@ -2691,7 +3061,28 @@ function buildComparisonItems(toneKey) {
       }))
   );
 
-  return [...coreItems, ...proofItems, ...replyItems, ...replacementItems, ...drilldownItems];
+  const replacementDrilldownItems = replacementDrilldownData.flatMap((entry) =>
+    entry.steps.map((step) => ({
+      type: "Objection Drilldown",
+      title: `${entry.title} - ${step.layer}`,
+      claimLabel: "Replacement Reply",
+      claim: step.reply || step.calvinistReply || step.replacementReply || "",
+      response: step.counterResponse,
+      references: step.references.map((reference) => ({
+        reference,
+        passage: lookupPassage(reference)
+      }))
+      }))
+  );
+
+  return [
+    ...coreItems,
+    ...proofItems,
+    ...replyItems,
+    ...replacementItems,
+    ...drilldownItems,
+    ...replacementDrilldownItems
+  ];
 }
 
 function renderComparison(toneKey) {
@@ -2722,6 +3113,7 @@ function renderComparison(toneKey) {
 
     setHighlightedText(card.querySelector(".compare-type"), entry.type);
     setHighlightedText(card.querySelector(".compare-title"), entry.title);
+    setHighlightedText(card.querySelector(".compare-claim-heading"), entry.claimLabel || "Claim");
     setHighlightedText(card.querySelector(".compare-claim"), entry.claim);
     setHighlightedText(card.querySelector(".compare-response"), entry.response);
 
@@ -2758,7 +3150,8 @@ function renderAllForTone(toneKey) {
     toneKey,
     "No replacement theology entries matched your search."
   );
-  renderDrilldown(toneKey);
+  renderDrilldown();
+  renderReplacementDrilldown();
   renderContextViewer();
   renderLogicSummary(toneKey);
   renderComparison(toneKey);
