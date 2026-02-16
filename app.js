@@ -3076,6 +3076,7 @@ function openContextViewer(reference) {
   currentContextReference = reference;
   renderContextViewer();
   setView("study");
+  expandSectionPanel(contextViewerSection);
   if (contextViewerSection) {
     contextViewerSection.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -3169,6 +3170,168 @@ function attachAccordionBehavior(root) {
     root.classList.toggle("is-open", !expanded);
     symbol.textContent = expanded ? "+" : "-";
     window.setTimeout(updateScrollProgress, 60);
+  });
+}
+
+function setSectionExpanded(section, shouldExpand, instant = false) {
+  if (!section) {
+    return;
+  }
+
+  const trigger = section._sectionToggleTrigger;
+  const body = section._sectionBody;
+  const symbol = section._sectionSymbol;
+  if (!trigger || !body || !symbol) {
+    return;
+  }
+
+  const expanded = trigger.getAttribute("aria-expanded") === "true";
+  if (expanded === shouldExpand) {
+    return;
+  }
+
+  if (body._collapseHandler) {
+    body.removeEventListener("transitionend", body._collapseHandler);
+    body._collapseHandler = null;
+  }
+
+  if (prefersReducedMotion.matches || instant) {
+    trigger.setAttribute("aria-expanded", String(shouldExpand));
+    section.classList.toggle("is-open", shouldExpand);
+    body.hidden = !shouldExpand;
+    body.style.maxHeight = shouldExpand ? "none" : "0px";
+    body.style.opacity = shouldExpand ? "1" : "0";
+    symbol.textContent = shouldExpand ? "-" : "+";
+    return;
+  }
+
+  if (shouldExpand) {
+    body.hidden = false;
+    body.style.maxHeight = "0px";
+    body.style.opacity = "0";
+    requestAnimationFrame(() => {
+      body.style.maxHeight = `${body.scrollHeight}px`;
+      body.style.opacity = "1";
+    });
+
+    const expandDone = (event) => {
+      if (event.propertyName !== "max-height") {
+        return;
+      }
+      if (trigger.getAttribute("aria-expanded") === "true") {
+        body.style.maxHeight = "none";
+      }
+      body.removeEventListener("transitionend", expandDone);
+      body._collapseHandler = null;
+    };
+    body._collapseHandler = expandDone;
+    body.addEventListener("transitionend", expandDone);
+  } else {
+    const currentHeight = body.scrollHeight;
+    body.style.maxHeight = `${currentHeight}px`;
+    requestAnimationFrame(() => {
+      body.style.maxHeight = "0px";
+      body.style.opacity = "0";
+    });
+
+    const collapseDone = (event) => {
+      if (event.propertyName !== "max-height") {
+        return;
+      }
+      body.hidden = true;
+      body.removeEventListener("transitionend", collapseDone);
+      body._collapseHandler = null;
+    };
+    body._collapseHandler = collapseDone;
+    body.addEventListener("transitionend", collapseDone);
+  }
+
+  trigger.setAttribute("aria-expanded", String(shouldExpand));
+  section.classList.toggle("is-open", shouldExpand);
+  symbol.textContent = shouldExpand ? "-" : "+";
+  window.setTimeout(updateScrollProgress, 60);
+}
+
+function expandSectionPanel(section) {
+  setSectionExpanded(section, true);
+}
+
+function initSectionAccordions() {
+  const sections = [...document.querySelectorAll("section.panel")];
+
+  sections.forEach((section, index) => {
+    if (section.dataset.sectionAccordionReady === "1") {
+      return;
+    }
+
+    let trigger = section.querySelector(":scope > .section-head") ||
+      section.querySelector(":scope > h2, :scope > h3");
+    let generatedTrigger = false;
+
+    if (!trigger) {
+      generatedTrigger = true;
+      trigger = document.createElement("button");
+      trigger.type = "button";
+      trigger.className = "section-toggle section-toggle-generated";
+      trigger.textContent = section.id === "view-tabs" ? "Search and View Controls" : "Section";
+      section.prepend(trigger);
+    }
+
+    const siblings = [...section.children];
+    const triggerIndex = siblings.indexOf(trigger);
+    if (triggerIndex < 0 || triggerIndex === siblings.length - 1) {
+      return;
+    }
+
+    const body = document.createElement("div");
+    body.className = "section-collapse-body";
+    const nodesToWrap = siblings.slice(triggerIndex + 1);
+    nodesToWrap.forEach((node) => {
+      body.appendChild(node);
+    });
+    section.appendChild(body);
+
+    section.classList.add("section-accordion");
+    trigger.classList.add("section-toggle");
+    if (!generatedTrigger) {
+      trigger.setAttribute("role", "button");
+      trigger.setAttribute("tabindex", "0");
+    }
+
+    const baseBodyId = section.id || `panel-${index + 1}`;
+    let bodyId = `${baseBodyId}-body`;
+    let suffix = 1;
+    while (document.getElementById(bodyId)) {
+      bodyId = `${baseBodyId}-body-${suffix}`;
+      suffix += 1;
+    }
+    body.id = bodyId;
+    trigger.setAttribute("aria-controls", body.id);
+
+    const symbol = document.createElement("span");
+    symbol.className = "section-symbol";
+    symbol.setAttribute("aria-hidden", "true");
+    symbol.textContent = "+";
+    trigger.appendChild(symbol);
+
+    const toggle = () => {
+      const expanded = trigger.getAttribute("aria-expanded") === "true";
+      setSectionExpanded(section, !expanded);
+    };
+
+    trigger.addEventListener("click", toggle);
+    trigger.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        toggle();
+      }
+    });
+
+    section._sectionToggleTrigger = trigger;
+    section._sectionBody = body;
+    section._sectionSymbol = symbol;
+    section.dataset.sectionAccordionReady = "1";
+    setSectionExpanded(section, false, true);
   });
 }
 
@@ -4000,6 +4163,7 @@ if (typeof prefersReducedMotion.addEventListener === "function") {
 }
 
 setupRevealStagger();
+initSectionAccordions();
 renderFilters();
 renderComparisonFilters();
 renderVerseCards(currentCategory);

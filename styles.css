@@ -440,6 +440,98 @@ h1 {
   color: var(--muted);
 }
 
+.section-accordion .section-toggle {
+  cursor: pointer;
+  user-select: none;
+  margin-bottom: 0;
+}
+
+.section-accordion.is-open .section-toggle {
+  margin-bottom: 0.85rem;
+}
+
+.section-head.section-toggle {
+  align-items: center;
+}
+
+h2.section-toggle,
+h3.section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.section-toggle:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+  border-radius: 12px;
+}
+
+.section-toggle-generated {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.68rem 0.82rem;
+  margin-bottom: 0;
+  background: var(--paper-alt);
+  color: #42261a;
+  font-size: 0.95rem;
+  font-weight: 700;
+  font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    transform var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out),
+    background-color var(--dur-fast) var(--ease-out);
+}
+
+.section-toggle-generated:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-low);
+  border-color: #c8a584;
+  background: #e4d2be;
+}
+
+.section-accordion.is-open .section-toggle-generated {
+  margin-bottom: 0.85rem;
+}
+
+.section-symbol {
+  margin-left: auto;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1;
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+
+.section-accordion.is-open .section-symbol {
+  transform: scale(1.05);
+}
+
+.section-collapse-body {
+  max-height: 0;
+  opacity: 0;
+  overflow: clip;
+  transform: translateY(-4px);
+  transition:
+    max-height var(--dur-med) var(--ease-out),
+    opacity var(--dur-med) var(--ease-out),
+    transform var(--dur-med) var(--ease-out);
+}
+
+.section-accordion.is-open .section-collapse-body {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 h2 {
   font-size: clamp(1.5rem, 4vw, 2.35rem);
   color: #402313;
