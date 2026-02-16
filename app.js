@@ -99,13 +99,13 @@ const argumentsData = [
         claim:
           "Unconditional election is often presented as a gracious mystery. Even so, it raises hard questions beside texts about God's impartial judgment and broad saving desire.",
         logic:
-          "This is not a one-verse argument. A strong model should explain how impartial-judgment texts and broad-desire texts fit with claims that God chooses some for mercy and not others."
+          "This is not a one-verse argument. A strong model should explain how impartial-judgment texts, 1 Timothy 2's all men/kings flow, and 2 Peter 3:9 us-ward readings fit together without emptying universal command language."
       },
       debate: {
         claim:
           "Unconditional election faces synthesis pressure from texts saying God is no respecter of persons and calling all to repentance.",
         logic:
-          "A selective decree can be argued, but then justice/mercy categories and decretive/preceptive distinctions must be explicit and text-governed, including how 1 Timothy 2's all men/kings/ransom-for-all flow justifies any narrowing."
+          "A selective decree can be argued, but then justice/mercy categories and decretive/preceptive distinctions must be explicit and text-governed, including why 1 Timothy 2 narrows to classes if that is claimed and how 2 Peter 3:9's audience language is handled."
       },
       academic: {
         claim:
@@ -353,11 +353,11 @@ const proofTextsData = [
       "Jacob and Esau show pre-birth discriminating choice, so individual election and reprobation are already established before works.",
     tones: {
       pastoral:
-        "Romans 9:11-13 is weighty and should not be minimized. Paul uses the twins to show God's choice before works. Even so, the oracle says the elder shall serve the younger, so this passage can point to covenant role and priority without by itself proving Esau's final eternal fate.",
+        "Romans 9:11-13 is weighty and should not be minimized. Paul uses real individuals to show pre-birth divine choice not based on works. Even so, the oracle language about the elder serving the younger keeps covenant-history in view, so this text alone does not settle every final-destiny detail.",
       debate:
-        "Reformed readers rightly stress individuals are in view and that Paul expects justice objections. The counter is not individuals versus nations; it is purpose. The text proves God's freedom to choose the line before works, but not by itself every detail of final reprobation.",
+        "Reformed readers rightly stress individuals are in view and that Paul expects justice objections. The counter is not individuals versus nations; it is scope of conclusion. The text proves pre-birth discriminating choice and divine freedom, but full individual reprobation mechanics require additional passages.",
       academic:
-        "Intertextual control matters: Romans 9:13 cites Malachi and echoes Genesis 25:23. The twins are central in Paul's rhetoric, yet the source frame remains covenant-historical and role-oriented, so this unit alone does not settle full final-destiny claims."
+        "Intertextual control matters: Romans 9:13 cites Malachi and echoes Genesis 25:23. The twins function as individual exemplars inside a covenant-historical argument. Methodologically, the unit secures calling-over-works priority while underdetermining a complete doctrine of individual reprobation."
     },
     references: [
       {
@@ -390,11 +390,11 @@ const proofTextsData = [
       "The potter-clay analogy shows God's absolute right to form some individuals for mercy and others for destruction.",
     tones: {
       pastoral:
-        "Paul's rebuke in Romans 9 is strong and clearly teaches God's rights over the clay. That should be granted. But verse 22 also stresses endured with much longsuffering, and nearby Paul still uses repentance language.",
+        "Paul's rebuke in Romans 9 is strong and clearly teaches God's rights over the clay. That should be granted. Jeremiah 18 can illuminate background themes, but Romans 9 itself controls the claim; the key question is whether verses 22-23 teach strict symmetry or a textual asymmetry.",
       debate:
-        "Reformed readers are right that same lump and vessels can sound strongly individual. The counter is textual pattern: verse 22 uses what if, longsuffering, and fitted language; verse 23 explicitly says God afore prepared mercy vessels. That supports judicial hardening without requiring a strict symmetric decree.",
+        "The strongest Reformed case is same lump plus why doth he yet find fault. Even granting that force, verse 22 is framed with what if and endured in longsuffering, while verse 23 explicitly attributes afore prepared to mercy vessels. That asymmetry is textual, not imported.",
       academic:
-        "The potter metaphor should be read with both context and intertext: Jeremiah 18 adds judicial contingency, while Romans 9:22-23 adds hypothetical framing, longsuffering, and non-identical preparation language. Together these features complicate a strict symmetric reprobation reading."
+        "The potter metaphor should be read with both immediate context and intertext. Jeremiah 18 offers useful background but does not override Paul's local argument. Romans 9:22-23's hypothetical framing, longsuffering, and non-identical preparation language complicate strict symmetric reprobation models."
     },
     references: [
       {
@@ -493,11 +493,11 @@ const proofTextsData = [
       "Election before the foundation of the world proves individual unconditional predestination to salvation.",
     tones: {
       pastoral:
-        "Ephesians 1 celebrates God's saving plan in Christ and the blessings believers now enjoy in him. The chapter also ties participation to hearing and believing the gospel, so we should not confuse the destiny of the in-Christ people with a fixed list that has no response language.",
+        "Ephesians 1 celebrates God's saving plan in Christ and the blessings believers now enjoy in him. Reformed readers rightly see personal election language here, yet the chapter also ties participation to hearing and believing the gospel in time.",
       debate:
-        "Ephesians 1 describes the destiny of those in Christ, not an abstract decree with no reference to gospel faith. Verse 13 links inclusion to hearing and believing, which cuts against using this text as a direct proof of fixed individual salvation regardless of response.",
+        "A strong Reformed reading sees pretemporal personal election in Ephesians 1. The counter is not to deny that possibility, but to note that in Christ structures the paragraph and verse 13 still presents hearing/believing as the historical means of inclusion.",
       academic:
-        "The controlling phrase in Christ suggests a corporate-Christocentric election framework. Ephesians 1:13 introduces temporal appropriation through hearing and belief, indicating that group election language should not be automatically mapped onto unconditional individual conversion claims."
+        "The controlling phrase in Christ supports a corporate-Christocentric frame while remaining compatible with personal election claims. Ephesians 1:13 adds temporal appropriation through hearing and belief, so the passage should not be used in isolation to settle every conversion-causality question."
     },
     references: [
       {
@@ -525,11 +525,11 @@ const proofTextsData = [
       "You are not my sheep, therefore you cannot believe; election must precede faith in an exclusive sense.",
     tones: {
       pastoral:
-        "John 10 distinguishes genuine followers from hostile hearers, but that does not cancel the broader gospel invitation and call to believe.",
+        "John 10 includes a hard causal line: ye believe not, because ye are not of my sheep. That must be taken seriously. Even so, John also presents public calls to believe and moral blame for refusing light.",
       debate:
-        "Reading John 10 as closed fatalism ignores wider Johannine material where belief is commanded and refusal is blamed.",
+        "The strongest Reformed reading takes identity-to-belief causality from John 10:26. A strong counter argues this scene addresses hardened opponents and should be integrated with wider Johannine command, invitation, and culpability texts rather than treated as a stand-alone metaphysical rule.",
       academic:
-        "John 10 identity language should be interpreted within the Gospel's larger belief-unbelief framework, not as an isolated metaphysical proof of immutable preclassification."
+        "John 10 identity language should be interpreted within the Gospel's broader belief-unbelief discourse. Exegesis must account for local causality claims while also integrating global Johannine imperatives and blame-language."
     },
     references: [
       {
@@ -557,11 +557,11 @@ const proofTextsData = [
       "As many as were ordained to eternal life believed means specific individuals were appointed to faith beforehand.",
     tones: {
       pastoral:
-        "Acts 13:48 is an important text on divine initiative and should be handled carefully. In the same scene, some also judge themselves unworthy of everlasting life. Luke presents both truths at once: God's appointment and human accountability.",
+        "Acts 13:48 is an important text on divine initiative and should be handled carefully. The ordinary reading of ordained points to divine appointment. In the same scene, Luke also says some judge themselves unworthy of everlasting life, so appointment and accountability are both present.",
       debate:
-        "The strongest Calvinist reading takes ordained as appointed by God to life. Even granting that, the line explains why believers believed; it does not explicitly explain why every rejecter could not believe. Verse 46 still assigns rejection to hearers themselves.",
+        "The strongest Calvinist reading takes tetagmenoi as divine appointment to life, and that should be conceded as weighty. Even then, verse 48 explains why believers believed, while verse 46 still assigns culpable rejection to hearers, so total explanatory closure is not achieved by one clause.",
       academic:
-        "The lexical/syntactical debate around tetagmenoi should be read with immediate contrast: appointment language in v48 and explicit self-rejection in v46. A high-providence reading is textually plausible; a full reprobation-causality model is a further inference."
+        "The lexical/syntactical debate around tetagmenoi should be read with immediate contrast: appointment language in v48 and explicit self-rejection in v46. A high-providence reading is textually strong; a full reprobation-causality model remains a further inference."
     },
     references: [
       {
@@ -594,11 +594,11 @@ const proofTextsData = [
       "The golden chain proves an exhaustive predestinarian system where all outcomes are fixed for a closed elect set.",
     tones: {
       pastoral:
-        "Romans 8 gives deep comfort to believers, but that assurance does not require denying the many warning texts that call believers to continue. Predestination here is to conformity to Christ for those in him, not a denial of response language elsewhere.",
+        "Romans 8 gives deep comfort to believers, and the golden chain is personal and weighty. The question is not whether God completes his saving work, but whether this assurance text by itself settles every warning text and every pre-conversion causality question.",
       debate:
-        "Using Romans 8 as a system lock ignores conditional perseverance language elsewhere in the New Testament and confuses a believer-group assurance text with an all-individuals deterministic blueprint.",
+        "Using Romans 8 as a full system lock can overextend the passage. The chain strongly supports divine certainty for the justified, but warnings and conditionals elsewhere still require integration rather than cancellation.",
       academic:
-        "Romans 8:29-30 should be read as assurance discourse for the faithful, not necessarily as a full metaphysical map that nullifies every conditional warning passage. The text can mark the eschatological destiny of the believing community without settling every question of individual pre-conversion causality."
+        "Romans 8:29-30 should be read as high-assurance discourse with personal chain logic. It need not be collapsed into either mere corporate abstraction or a total metaphysical map that nullifies all warning discourse; intertextual synthesis remains required."
     },
     references: [
       {
@@ -626,11 +626,11 @@ const proofTextsData = [
       "Faith is a unilateral gift only given to the elect, so human response language is ultimately non-meaningful.",
     tones: {
       pastoral:
-        "Salvation is fully by grace, yet Scripture still calls people to believe and treats that call as sincerely addressed to hearers.",
+        "Salvation is fully by grace, and Reformed readers rightly guard that point. The passage still includes through faith language, and Scripture continues to call hearers to believe in ways treated as sincere and accountable.",
       debate:
-        "Grace alone does not imply faith is irresistibly injected into a preselected group; the text itself does not make that leap.",
+        "Grace alone does not automatically imply irresistibly implanted faith for a preselected group; the text itself does not explicitly make that leap and must be integrated with broader call-and-response passages.",
       academic:
-        "Ephesians 2:8-9 affirms grace-based salvation and excludes boasting, but the passage does not by itself settle debates over the mechanics and scope of faith enablement."
+        "Ephesians 2:8-9 affirms grace-based salvation and excludes boasting, including strong monergist concerns. The passage does not by itself settle debates over the mechanics, sequencing, and scope of faith enablement."
     },
     references: [
       {
@@ -661,11 +661,11 @@ const commonRepliesData = [
       "Universal words such as all and world usually mean all kinds of people, not every individual.",
     tones: {
       pastoral:
-        "Context can narrow terms, but we should not narrow them by default. Several passages read naturally as broad provision and broad invitation.",
+        "Context can narrow terms, and sometimes it truly does. The concern is narrowing by default when passages are framed as broad contrast or broad invitation.",
       debate:
-        "This move can be valid in some contexts, but repeated narrowing still needs passage-by-passage proof, especially where the wording is deliberately expansive.",
+        "All-kinds readings can be valid in context, especially in 1 Timothy 2's kings/all-men flow. But repeated narrowing still needs passage-by-passage proof, especially where wording is deliberately expansive.",
       academic:
-        "Semantic restriction is legitimate when context requires it; however, consistent restrictive readings across multiple universal texts, including contrast patterns such as ours only and whole world, require stronger contextual warrants than are often presented."
+        "Semantic restriction is legitimate when context requires it. A strong method allows class-language where context signals it, yet still requires local warrants when texts use broad contrasts such as ours only and whole world."
     },
     references: [
       {
@@ -791,9 +791,9 @@ const commonRepliesData = [
       pastoral:
         "It is right to insist the cross truly saves and does not fail. Scripture also distinguishes what Christ accomplished from how forgiveness is applied through faith, which avoids both mere possibility and universalism.",
       debate:
-        "A strong non-Calvinist answer should grant strong efficacy language, then keep categories clear: sufficient for all, savingly effective for believers. That keeps broad propitiation language without forcing universal salvation.",
+        "A strong non-Calvinist answer should grant definite efficacy concerns, then keep categories clear: sufficient for all, savingly effective for believers. It should also engage Reformed covenantal readings of texts like 2 Peter 2:1 rather than bypassing them.",
       academic:
-        "Reformed impetration/application distinctions can be coherent and should be acknowledged. The critique targets versions that collapse categories; the New Testament repeatedly pairs accomplished redemption language with faith-conditioned remission and condemnation-for-unbelief."
+        "Reformed impetration/application distinctions can be coherent and should be acknowledged. The critique targets category-collapse claims, while also interacting with alternative lexical proposals (for example, covenant/master readings) on disputed texts such as 2 Peter 2:1."
     },
     references: [
       {
@@ -932,9 +932,9 @@ const commonRepliesData = [
       pastoral:
         "The revealed/decretive distinction is a serious theological tool, not a cheap dodge. The question is whether God's commands and invitations still carry their full force in real life.",
       debate:
-        "A strong Reformed case can read us-ward in 2 Peter 3:9 and all in 1 Timothy 2 more narrowly. Even then, Acts 17:30 and 1 Timothy 2:1-6 still require a clear account of sincere universal command and offer.",
+        "A strong Reformed case can read us-ward in 2 Peter 3:9 covenantally and all in 1 Timothy 2 as classes. Even then, Acts 17:30 and the public prayer/ransom flow still require a clear account of sincere universal command and offer.",
       academic:
-        "The preceptive/decretive distinction has real historical and theological value. Its adequacy should be tested by whether it preserves the stated scope and argument-flow of repentance-command and ransom-for-all passages."
+        "The preceptive/decretive distinction has real historical and theological value. Its adequacy should be tested by whether it preserves the stated scope and argument-flow of repentance-command, public-prayer, and ransom-for-all passages under competing audience analyses."
     },
     references: [
       {
@@ -972,11 +972,11 @@ const commonRepliesData = [
       "Human objections to election are invalid by definition; we are not permitted to challenge the doctrine's moral coherence.",
     tones: {
       pastoral:
-        "Humility before God is right, but Scripture also invites careful reasoning and testing of what is taught.",
+        "Humility before God is right, and Romans 9 does rebuke arrogant creaturely protest. Scripture also calls believers to examine teachings carefully, so reverence and rigorous testing should work together.",
       debate:
-        "Invoking mystery is not the same as answering the objection; it can shut down valid textual and logical analysis.",
+        "Invoking mystery can be appropriate at limits of creaturely knowledge, but it is not a substitute for exegesis. It can shut down valid textual and logical analysis when used too early.",
       academic:
-        "Appeals to creaturely limitation do not remove the need for coherent exegesis and theological consistency across the canon."
+        "Appeals to creaturely limitation can set epistemic boundaries, but they do not remove the need for coherent exegesis and theological consistency across the canon."
     },
     references: [
       {
@@ -1004,11 +1004,11 @@ const commonRepliesData = [
       "Any non-irresistible model makes human choice the decisive savior and diminishes grace.",
     tones: {
       pastoral:
-        "Receiving a gift does not mean earning a gift. Scripture can affirm both grace as the source and faith as a real response.",
+        "Receiving a gift does not mean earning a gift. Scripture can affirm grace as the sole saving source while still speaking of faith as a real response enabled by grace.",
       debate:
-        "This is a false dilemma: either monergistic irresistibility or works-righteousness. The New Testament presents grace plus accountable response.",
+        "This is often framed as a false dilemma: either monergistic irresistibility or works-righteousness. The New Testament presents grace primacy alongside accountable response language.",
       academic:
-        "Synergistic response does not entail merit causation. One can preserve grace primacy while retaining meaningful human assent and resistance categories."
+        "Synergistic response does not entail merit causation by definition. One can preserve grace primacy while retaining meaningful human assent and resistance categories, though formulations must guard anti-Pelagian boundaries."
     },
     references: [
       {
@@ -1036,11 +1036,11 @@ const commonRepliesData = [
       "Warning passages are instruments God uses for the elect, not statements about any true risk.",
     tones: {
       pastoral:
-        "God may use warnings as means, but believers are still taught to hear them as real cautions with real consequences if ignored.",
+        "God may use warnings as means, but believers are still taught to hear them as real cautions with real consequences if ignored. When Hebrews addresses brethren directly, the warning is meant to be felt, not merely observed.",
       debate:
-        "If the threatened outcome cannot happen for any addressed true believer, warning language risks sounding performative rather than genuinely cautionary.",
+        "If the threatened outcome cannot happen for any addressed true believer, warning language risks sounding performative rather than genuinely cautionary. Mixed-audience proposals must be shown from local audience markers, not assumed.",
       academic:
-        "Instrumental-warning models should still explain direct contingency forms and audience-address features without treating the warnings as merely hypothetical rhetoric, while also integrating assurance passages."
+        "Instrumental-warning models should still explain direct contingency forms and audience-address features (for example brethren address) without treating warnings as merely hypothetical rhetoric, while also integrating assurance passages."
     },
     references: [
       {
@@ -1078,11 +1078,11 @@ const commonRepliesData = [
       "Dead in sin means absolute inability in every sense, so non-elect hearers cannot meaningfully respond to gospel calls.",
     tones: {
       pastoral:
-        "Scripture uses dead language for serious spiritual condition, but it still calls sinners to repent and return and treats refusal as blameworthy.",
+        "Scripture uses dead language for serious spiritual inability and alienation, and that point should be granted. It also calls sinners to repent and treats refusal as blameworthy within God's appointed means.",
       debate:
-        "Dead does not have to mean metaphysically incapable in every sense; the same Bible uses dead-alive language relationally and morally.",
+        "Reformed readers are right that dead language includes inability categories. The counter is that inability language need not erase command-responsibility or reduce all dead metaphors to one metaphysical template.",
       academic:
-        "Metaphorical death language should be interpreted by discourse function, not automatically mapped to total anthropological incapacity in all domains."
+        "Death language should be interpreted by discourse function and canonical usage. It can denote profound inability while still operating within imperative/blame frameworks that preserve responsible address."
     },
     references: [
       {
@@ -1113,11 +1113,11 @@ const replacementTheologyData = [
       "Because many Jews rejected Christ, God permanently rejected Israel and transferred all covenant identity to the Church.",
     tones: {
       pastoral:
-        "The New Testament plainly says God has not cast away his people and warns Gentiles not to boast over natural branches.",
+        "The New Testament plainly says God has not cast away his people and warns Gentiles not to boast over natural branches. Any replacement model must explain that language directly.",
       debate:
-        "Paul rejects total-rejection language. Romans 11 says Israel's stumbling is not final and warns Gentiles against replacement triumphalism.",
+        "Paul rejects total-rejection language. Romans 11 says Israel's stumbling is not final and warns Gentiles against replacement triumphalism, even while affirming present inclusion of Gentiles.",
       academic:
-        "Romans 11 denies total rejection of Israel and frames present hardening as partial and temporary in a larger redemptive sequence."
+        "Romans 11 denies total rejection of Israel and frames present hardening as partial and temporary in a larger redemptive sequence. Opposing one-people readings must demonstrate a referent shift the chapter itself marks."
     },
     references: [
       {
@@ -1145,11 +1145,11 @@ const replacementTheologyData = [
       "Israel's role is over; there is no future turning of national Israel in biblical prophecy.",
     tones: {
       pastoral:
-        "Paul says Israel's blindness is in part and tied to a time marker, which points away from permanent cancellation.",
+        "Paul says Israel's blindness is in part and tied to a time marker, which points away from permanent cancellation. The debate is over what all Israel means in that sequence.",
       debate:
-        "Replacement theology struggles with Paul's sequence: partial hardening until Gentile fullness, then all Israel shall be saved.",
+        "Replacement theology struggles with Paul's sequence: partial hardening until Gentile fullness, then all Israel shall be saved. Reformed alternatives (elect-totality or Jew-Gentile fullness) should be stated, then tested against Paul's immediate Israel referent in verses 25-26.",
       academic:
-        "The marker until in Romans 11:25 signals a time limit, not final displacement of Israel."
+        "The marker until in Romans 11:25 signals a time-structured sequence. Competing readings of all Israel should be evaluated by nearest-referent flow, discourse continuity, and covenant-unto-them language."
     },
     references: [
       {
@@ -1177,11 +1177,11 @@ const replacementTheologyData = [
       "Old Testament covenant promises to Israel are now only spiritual metaphors for the Church.",
     tones: {
       pastoral:
-        "Scripture ties Israel's covenant future to God's own faithfulness, not to cancellation.",
+        "Scripture ties Israel's covenant future to God's own faithfulness, not to cancellation, even while salvation remains only through Christ.",
       debate:
-        "Paul says Israel is still beloved for the fathers' sakes and that God's gifts and calling are without repentance.",
+        "Paul says Israel is still beloved for the fathers' sakes and that God's gifts and calling are without repentance. Fulfillment-in-Christ readings still need to explain why this covenant language remains future-facing.",
       academic:
-        "Romans 11:28-29 and Jeremiah's covenant language resist total transfer by grounding Israel's future in irrevocable divine commitment."
+        "Romans 11:28-29 and Jeremiah's covenant language resist total transfer by grounding Israel's future in irrevocable divine commitment, while allowing one-covenant salvation structure."
     },
     references: [
       {
@@ -1209,11 +1209,11 @@ const replacementTheologyData = [
       "The New Covenant erased Israel as a people and now belongs to the Church in a way that nullifies Israel-specific terms.",
     tones: {
       pastoral:
-        "The Church shares New Covenant blessings, but the text still names the house of Israel and the house of Judah.",
+        "The Church shares New Covenant blessings, but the text still names the house of Israel and the house of Judah. Participation does not automatically require erasure.",
       debate:
-        "Replacement readings often bypass the plain covenant wording and force a full Israel-language redefinition.",
+        "Replacement readings often argue fulfillment expands covenant membership. The challenge is that Hebrews still quotes Jeremiah's named parties without textual deletion language.",
       academic:
-        "Hebrews cites Jeremiah's New Covenant formula without deleting the original covenant partners, suggesting participation without erasure."
+        "Hebrews cites Jeremiah's New Covenant formula without deleting the original covenant partners, suggesting participation without erasure. Strong supersession models must establish explicit referent-transfer indicators."
     },
     references: [
       {
@@ -1241,11 +1241,11 @@ const replacementTheologyData = [
       "Because believers are one in Christ, all Israel-Gentile distinctions and future Israel language are canceled.",
     tones: {
       pastoral:
-        "Unity in Christ removes boasting and hostility, but it does not require deleting every category or promise tied to Israel.",
+        "Unity in Christ removes boasting and hostility, and that must be affirmed. It does not automatically delete every category or promise tied to Israel in other contexts.",
       debate:
-        "Galatians 3:28 governs equal standing in salvation; Romans 11:25-27 addresses future Israel mercy. One should not cancel the other.",
+        "Galatians 3:28 governs equal standing in salvation; Romans 11:25-27 addresses future Israel mercy. A full model should integrate both rather than flatten one into the other.",
       academic:
-        "Salvation unity and historical-eschatological distinction can coexist; Paul's letters maintain both in different contexts, with Romans 9-11 carrying primary weight for Israel's future."
+        "Salvation unity and historical-eschatological distinction can coexist; Paul's letters maintain both in different contexts. Methodologically, local discourse purpose should control which category is foregrounded."
     },
     references: [
       {
@@ -1273,11 +1273,11 @@ const replacementTheologyData = [
       "Israel's land and restoration promises were symbolic only and now have no future fulfillment language.",
     tones: {
       pastoral:
-        "Many restoration texts speak concretely about regathering and dwelling in the land, which is hard to reduce to pure symbolism.",
+        "Many restoration texts speak concretely about regathering and dwelling in the land, which is hard to reduce to pure symbolism without clear textual signals.",
       debate:
-        "If God repeatedly names land, regathering, and national restoration, replacement-only readings are textually thin.",
+        "If God repeatedly names land, regathering, and national restoration, replacement-only readings are textually thin unless explicit transformation markers are shown.",
       academic:
-        "Prophetic restoration passages often include territorial, agricultural, and national markers that resist total spiritualization."
+        "Prophetic restoration passages often include territorial, agricultural, and national markers. Symbolic-escalation readings remain possible, but they require disciplined warrant criteria."
     },
     references: [
       {
@@ -1305,11 +1305,11 @@ const replacementTheologyData = [
       "After the resurrection, the apostles no longer expected any kingdom future tied to Israel.",
     tones: {
       pastoral:
-        "Jesus did not rebuke the disciples for asking about restoring the kingdom to Israel; he redirected their focus to timing and mission, while not canceling the category itself.",
+        "Jesus did not rebuke the disciples for asking about restoring the kingdom to Israel; he redirected their focus to timing and mission. The debate is whether that reframing postpones or cancels the category.",
       debate:
-        "Acts 1 undercuts replacement certainty: even granting mission-reframing and inaugurated-kingdom readings, Israel-restoration wording remains intact.",
+        "Acts 1 undercuts replacement certainty: even granting mission-reframing and inaugurated-kingdom readings, Israel-restoration wording remains intact and later restoration language still appears in apostolic preaching.",
       academic:
-        "Acts 1:6-8 preserves kingdom-Israel expectation while shifting the disciples to Spirit-empowered mission and placing timing in the Father's authority; strong opposing readings should explain why this reframing cancels rather than postpones category fulfillment."
+        "Acts 1:6-8 preserves kingdom-Israel expectation while shifting the disciples to Spirit-empowered mission and placing timing in the Father's authority. Strong opposing readings should demonstrate why this reframing implies cancellation rather than deferral."
     },
     references: [
       {
@@ -1342,11 +1342,11 @@ const replacementTheologyData = [
       "The Church replaced Israel as a new root, making Israel obsolete in God's redemptive storyline.",
     tones: {
       pastoral:
-        "Paul's olive tree image says Gentiles are grafted in among them and warns against arrogance; that sounds like inclusion, not erasure.",
+        "Paul's olive tree image says Gentiles are grafted in among them and warns against arrogance; that reads as inclusion into an existing root, not creation of a replacement root.",
       debate:
-        "Romans 11 rejects replacement triumphalism: Gentiles stand by faith and can be cut off, while natural branches can be grafted in again.",
+        "Romans 11 rejects replacement triumphalism: Gentiles stand by faith and can be cut off, while natural branches can be grafted in again. One-people language must still respect this branch asymmetry.",
       academic:
-        "The olive tree metaphor keeps continuity of root and covenant history while allowing branch-level judgment and restoration."
+        "The olive tree metaphor keeps continuity of root and covenant history while allowing branch-level judgment and restoration. This continuity constrains hostile-displacement readings."
     },
     references: [
       {
@@ -1374,11 +1374,11 @@ const replacementTheologyData = [
       "Romans 11 teaches one olive tree, so there can be no distinct future for ethnic Israel.",
     tones: {
       pastoral:
-        "Paul's one-tree image teaches continuity and humility, but it still distinguishes natural branches and speaks of Israel's future turning.",
+        "Paul's one-tree image teaches continuity and humility, but it still distinguishes natural branches and speaks of Israel's future turning. Unity and distinction are both present.",
       debate:
-        "One tree refutes two-salvation systems, not Israel's future. Romans 11 still says blindness in part and all Israel shall be saved.",
+        "One tree refutes two-salvation systems, not Israel's future by default. Romans 11 still says blindness in part and all Israel shall be saved in sequence language.",
       academic:
-        "The olive-tree metaphor supports continuity of the redemptive root while preserving branch distinctions and time-structured restoration language."
+        "The olive-tree metaphor supports continuity of the redemptive root while preserving branch distinctions and time-structured restoration language, requiring careful referent consistency."
     },
     references: [
       {
@@ -1406,11 +1406,11 @@ const replacementTheologyData = [
       "Verses about inward circumcision prove Israel now only means the Church.",
     tones: {
       pastoral:
-        "Paul teaches heart-level covenant reality, but he still speaks of Israel and Gentiles in distinct historical terms.",
+        "Paul teaches heart-level covenant reality, but he still speaks of Israel and Gentiles in distinct historical terms. Inwardness does not by itself erase people-group reference.",
       debate:
-        "Romans 2 does not cancel Romans 11. Paul can affirm inward reality and still refer to ethnic Israel in prophecy.",
+        "Romans 2 does not cancel Romans 11. Paul can affirm inward covenant reality and still refer to ethnic Israel in prophecy and future-mercy argumentation.",
       academic:
-        "Paul's inwardness language is covenantal and personal, yet Romans 9-11 still preserve ethnic-historical reference categories for Israel."
+        "Paul's inwardness language is covenantal and personal, yet Romans 9-11 preserve ethnic-historical reference categories for Israel. Galatians 6:16 debates should be integrated, not absolutized."
     },
     references: [
       {
@@ -1443,11 +1443,11 @@ const replacementTheologyData = [
       "Galatians 3:16 proves all Abrahamic promise language terminates in Christ only, with no future for ethnic Israel.",
     tones: {
       pastoral:
-        "Christ is the promised Seed, and all blessing flows through him, yet Scripture still speaks of God's covenant faithfulness toward Israel through history.",
+        "Christ is the promised Seed, and all blessing flows through him. Scripture still speaks of God's covenant faithfulness toward Israel through history, so Christ-centered fulfillment and Israel-language must be synthesized.",
       debate:
-        "Appealing to singular seed cannot erase Paul's explicit statements about Israel's ongoing calling and future mercy.",
+        "Appealing to singular seed cannot erase Paul's explicit statements about Israel's ongoing calling and future mercy without further textual argument.",
       academic:
-        "The Christ-focused argument in Galatians 3:16 does not require canceling the corporate-national dimensions affirmed in Romans 11."
+        "The Christ-focused argument in Galatians 3:16 does not require canceling the corporate-national dimensions affirmed in Romans 11; fulfillment and continuity categories can be jointly modeled."
     },
     references: [
       {
@@ -1477,9 +1477,9 @@ const replacementTheologyData = [
       pastoral:
         "Scripture's global scope is beautiful, but the prophets still speak clearly of return to the land given to Israel's fathers.",
       debate:
-        "Expansion is not cancellation. Heir of the world does not erase own land language in restoration prophecy.",
+        "Expansion is not cancellation. Heir of the world and heavenly-country themes can broaden promise horizons, yet they do not automatically erase own land language in restoration prophecy.",
       academic:
-        "Universal inheritance motifs and territorial covenant motifs can complement each other rather than cancel each other."
+        "Universal inheritance motifs and territorial covenant motifs can complement each other. A valid synthesis must show by textual markers when expansion transforms rather than retains territorial commitments."
     },
     references: [
       {
@@ -1512,11 +1512,11 @@ const replacementTheologyData = [
       "Because Israel could be expelled for disobedience, no covenantal expectation remains for national restoration.",
     tones: {
       pastoral:
-        "The Bible includes both warning and mercy: exile warnings are real, and promised regathering mercy is real too.",
+        "The Bible includes both warning and mercy: exile warnings are real, and promised regathering mercy is real too. A complete reading should keep both.",
       debate:
-        "Using judgment texts to erase restoration texts is selective reading. Torah and prophets include both.",
+        "Using judgment texts to erase restoration texts is selective reading. Torah and prophets include both sanctions and restoration trajectories.",
       academic:
-        "Covenant sanctions and covenant restoration operate together in Deuteronomic theology; one does not automatically cancel the other."
+        "Covenant sanctions and covenant restoration operate together in Deuteronomic theology; one does not automatically cancel the other unless the text explicitly marks cancellation."
     },
     references: [
       {
@@ -1549,11 +1549,11 @@ const replacementTheologyData = [
       "Land promises were fully completed in Israel's early monarchy, so no future national fulfillment remains.",
     tones: {
       pastoral:
-        "God truly kept his word in earlier stages, yet later Scripture still speaks of future, enduring restoration.",
+        "God truly kept his word in earlier stages, yet later Scripture still speaks of future, enduring restoration. Early fulfillment need not mean exhaustive fulfillment.",
       debate:
-        "Past fulfillment does not equal total fulfillment. Amos still promises no more uprooting.",
+        "Past fulfillment does not equal total fulfillment. Amos still promises no more uprooting, which many readers see as exceeding earlier monarchy conditions.",
       academic:
-        "Initial historical fulfillment and later eschatological fulfillment can coexist without contradiction."
+        "Initial historical fulfillment and later eschatological fulfillment can coexist without contradiction in prophetic fulfillment models."
     },
     references: [
       {
@@ -1588,9 +1588,9 @@ const replacementTheologyData = [
       pastoral:
         "AD 70 was a real judgment event, but Paul still describes a future order involving Gentile fullness and Israel's salvation.",
       debate:
-        "AD 70 does not resolve Romans 11:25-26. The text itself points beyond a first-century endpoint.",
+        "AD 70 does not by itself resolve Romans 11:25-26. Partial-preterist readings should be engaged directly, yet Paul's own sequence still points beyond a first-century endpoint in this context.",
       academic:
-        "Preterist compression must account for Paul's time-structured until-then logic in Romans 11."
+        "Preterist compression must account for Paul's time-structured until-then logic in Romans 11, including referential continuity of Israel across the sequence."
     },
     references: [
       {
@@ -1623,11 +1623,11 @@ const replacementTheologyData = [
       "Since Christ's kingdom is not of this world, restoration themes for Israel must be spiritualized.",
     tones: {
       pastoral:
-        "Jesus taught the kingdom's source is not earthly power, yet he never canceled the apostles' expectation of Israel's restoration.",
+        "Jesus taught the kingdom's source is not earthly power, yet he never canceled the apostles' expectation of Israel's restoration. Source and scope are related but not identical claims.",
       debate:
-        "John 18:36 denies worldly origin, not eventual earthly expression under Christ's reign.",
+        "John 18:36 denies worldly origin, not eventual earthly expression under Christ's reign. Reformed present-reign readings should still show why restoration texts are fully exhausted now.",
       academic:
-        "The kingdom's source and its historical manifestation should not be treated as mutually exclusive."
+        "The kingdom's source and its historical manifestation should not be treated as mutually exclusive; inaugurated and consummative dimensions can coexist."
     },
     references: [
       {
@@ -1655,11 +1655,11 @@ const replacementTheologyData = [
       "Ezekiel's temple must be purely symbolic, so Israel-specific future expectations are no longer textual categories.",
     tones: {
       pastoral:
-        "Faithful believers can disagree on temple details, but Ezekiel's language stays closely tied to Israel's land and worship pattern.",
+        "Faithful believers can disagree on temple details, but Ezekiel's language stays closely tied to Israel's land and worship pattern. Symbolic readings should explain those anchors, not skip them.",
       debate:
-        "Declaring the whole vision symbolic does not erase the chapter's repeated territorial and covenant markers.",
+        "Declaring the whole vision symbolic does not erase the chapter's repeated territorial and covenant markers; each symbolic move needs textual justification.",
       academic:
-        "Typological interpretation should still be disciplined by the text's sustained geographic and national specificity."
+        "Typological interpretation should still be disciplined by the text's sustained geographic and national specificity, with explicit control criteria."
     },
     references: [
       {
@@ -1687,11 +1687,11 @@ const replacementTheologyData = [
       "Revelation's Israel language is purely symbolic for the Church with no enduring distinction.",
     tones: {
       pastoral:
-        "Revelation uses strong symbolism, yet explicit naming of tribes and apostles suggests the symbols still point to real covenant identities rather than dissolving them.",
+        "Revelation uses strong symbolism, and that should be granted. Even so, explicit naming of tribes and apostles suggests symbols still track covenant identities rather than dissolving all referents.",
       debate:
         "Symbolic genre does not automatically erase referents. A symbolic reading is possible, but it still must explain why Revelation 7 enumerates tribes and then distinguishes a separate all-nations multitude.",
       academic:
-        "Apocalyptic symbolism permits typology but does not require referent erasure; repeated identity markers and category sequencing still demand a positive referential account."
+        "Apocalyptic symbolism permits typology but does not require referent erasure. A strong account must define how symbols map to referents and why repeated identity markers are retained if total replacement is intended."
     },
     references: [
       {
@@ -1724,11 +1724,11 @@ const replacementTheologyData = [
       "Until-language in prophecy does not imply any future Israel-specific turning or restoration.",
     tones: {
       pastoral:
-        "Until language does not always mean reversal. In these passages, however, the flow still shows a present condition with a forward marker rather than simple permanent closure.",
+        "Until language does not always mean reversal. The argument here is not from until alone, but from until plus nearby sequence statements that describe what follows.",
       debate:
         "The case does not rest on until alone. It rests on until plus adjacent sequence claims such as and so all Israel shall be saved and covenant-unto-them language.",
       academic:
-        "The time semantics of until clauses in Luke 21, Matthew 23, and Romans 11, read with immediate co-text and post-marker assertions, carry a state-to-marker structure that challenges flat finality readings."
+        "The time semantics of until clauses in Luke 21, Matthew 23, and Romans 11 should be read with immediate co-text and post-marker assertions; that combined structure challenges flat finality readings."
     },
     references: [
       {
@@ -1758,9 +1758,9 @@ const replacementTheologyData = [
       pastoral:
         "We should read God's warnings and restorations with a consistent method. Picture-fulfillment patterns can deepen meaning, but they should not erase clear restoration commitments without signals in the text.",
       debate:
-        "Taking exile literally but regathering metaphorically can be a method shift unless the text itself marks typological escalation and covenant-transfer intent.",
+        "Taking exile literally but regathering metaphorically can be a method shift unless the text itself marks typological escalation and covenant-transfer intent. A fair steelman should name explicit controls: genre cues, apostolic reinterpretation, and immediate covenant-context signals.",
       academic:
-        "Hermeneutical asymmetry across neighboring covenant texts risks system-driven conclusions unless typological escalation criteria are explicitly defined, consistently applied, and textually demonstrated."
+        "Hermeneutical asymmetry across neighboring covenant texts risks system-driven conclusions unless typological escalation criteria are explicitly defined, consistently applied, and textually demonstrated. Practical controls include genre markers, authorial reinterpretation, and repeated covenant-identity continuity language."
     },
     references: [
       {
@@ -1788,11 +1788,11 @@ const replacementTheologyData = [
       "Jerusalem-centered future passages are either symbolic only or exhausted in earlier history.",
     tones: {
       pastoral:
-        "Zechariah 14 presents strong future-oriented language that many readers see as still awaiting full realization.",
+        "Zechariah 14 presents strong future-oriented language that many readers see as still awaiting full realization, though genre questions should be handled carefully.",
       debate:
-        "Past-only models struggle with Zechariah 14's concrete mountain, nations, and worship sequence.",
+        "Past-only models struggle with Zechariah 14's concrete mountain, nations, and worship sequence, unless strong genre controls are shown for each element.",
       academic:
-        "The chapter's geopolitical and worship specificity creates pressure against purely retrospective or purely spiritualized closure."
+        "The chapter's geopolitical and worship specificity creates pressure against purely retrospective or purely spiritualized closure; symbolic proposals should specify which elements are transposed and by what textual warrant."
     },
     references: [
       {
@@ -1820,11 +1820,11 @@ const replacementTheologyData = [
       "Revelation is cyclical symbolism only, so references to Israel and Armageddon cannot indicate any future Israel-related fulfillment.",
     tones: {
       pastoral:
-        "Revelation certainly uses symbols, but symbols can still point to real future events and covenant identities.",
+        "Revelation certainly uses symbols, but symbols can still point to real future events and covenant identities; symbolism and referentiality are not opposites.",
       debate:
-        "Symbolic genre is not a license to erase explicit references whenever they challenge a system.",
+        "Symbolic genre is not a license to erase explicit references whenever they challenge a system; symbolic mapping still needs stable referent logic.",
       academic:
-        "Apocalyptic recapitulation as a literary pattern does not by itself settle the referential scope of Israel-language passages."
+        "Apocalyptic recapitulation as a literary pattern does not by itself settle the referential scope of Israel-language passages; semantic mapping rules must be argued."
     },
     references: [
       {
@@ -1852,11 +1852,11 @@ const replacementTheologyData = [
       "Hebrews 8:13 proves Israel's covenant identity is ended and permanently replaced by the Church.",
     tones: {
       pastoral:
-        "Hebrews teaches covenant fulfillment in Christ and that the old covenant administration has passed, but that does not require saying God revoked every Israel-related promise in Romans 11.",
+        "Hebrews teaches covenant fulfillment in Christ and that the old covenant administration has passed. The question is whether that administrative obsolescence also cancels Romans 11's explicit future-Israel covenant language.",
       debate:
-        "Typological fulfillment and old-covenant obsolescence do not by themselves prove national-erasure theology; one coherent reading is one new covenant fulfilled in Christ and later mercy to Israel within that same covenant.",
+        "Typological fulfillment and old-covenant obsolescence do not by themselves prove national-erasure theology. A coherent alternative is one fulfilled new covenant in Christ with later mercy to Israel under that same covenant.",
       academic:
-        "Hebrews focuses on covenant efficacy and priestly fulfillment; this supports a single-covenant fulfillment model and is not an explicit cancellation thesis for Romans 11's future-Israel language."
+        "Hebrews focuses on covenant efficacy and priestly fulfillment. This supports a single-covenant fulfillment model and does not function as an explicit cancellation thesis for Romans 11's future-Israel language."
     },
     references: [
       {
@@ -1889,11 +1889,11 @@ const replacementTheologyData = [
       "Romans 9:6 proves Israel now means only the spiritual elect with no future national reference.",
     tones: {
       pastoral:
-        "Romans 9 clarifies remnant realities, and Romans 11 still speaks of Israel's partial hardening followed by future mercy. In this reading, all Israel points to a future broad ethnic turning under one covenant mercy.",
+        "Romans 9 clarifies remnant realities, and Romans 11 still speaks of Israel's partial hardening followed by future mercy. This reading takes all Israel as a future broad ethnic turning under one covenant mercy, while acknowledging other historic proposals.",
       debate:
         "Romans 9:6 cannot cancel Romans 11:25-27 in the same discourse. The thesis here is remnant now and future large-scale ethnic-Israel turning later, not every Jew in all eras.",
       academic:
-        "Paul's distinction in Romans 9 does not erase his later ethnic-historical referent for Israel in Romans 11; all Israel is best read here as post-Gentile-fullness covenant mercy to ethnic Israel in aggregate, not every individual Jew of all times."
+        "Paul's distinction in Romans 9 does not erase his later ethnic-historical referent for Israel in Romans 11. All Israel is argued here as post-Gentile-fullness covenant mercy to ethnic Israel in aggregate, while recognizing covenantal-remnant alternatives in the literature."
     },
     references: [
       {
@@ -1921,11 +1921,11 @@ const replacementTheologyData = [
       "Ephesians 2:14-15 means all Israel-Gentile distinctions are dissolved in every prophetic and covenant sense.",
     tones: {
       pastoral:
-        "Christ gives real unity in salvation, yet the apostles still use Israel and Gentile categories in their teaching contexts.",
+        "Christ gives real unity in salvation, yet the apostles still use Israel and Gentile categories in their teaching contexts. The debate is where unity ends hostility and where historical categories remain for prophecy.",
       debate:
-        "Unity in Christ is not the same as erasing every covenant-historical category; Romans 11 still provides primary future-Israel framing.",
+        "Unity in Christ is not the same as erasing every covenant-historical category; Romans 11 still provides primary future-Israel framing even while Ephesians 2 gives strong ecclesial unity language.",
       academic:
-        "Reconciliation language in Ephesians 2 does not by itself settle all eschatological referent debates, which are addressed more directly in Romans 11."
+        "Reconciliation language in Ephesians 2 does not by itself settle all eschatological referent debates. A full account must integrate both one-new-man ecclesiology and Romans 11's time-structured Israel statements."
     },
     references: [
       {
@@ -1995,11 +1995,11 @@ const replacementTheologyData = [
       "Isaiah 2 and Micah 4 are fully realized now in symbolic church realities, not future Israel-linked fulfillment.",
     tones: {
       pastoral:
-        "These passages celebrate God's future peace and instruction among nations, and many readers see future elements not yet complete.",
+        "These passages celebrate God's future peace and instruction among nations, and many readers see future elements not yet complete. Present spiritual fulfillment and future global completion are both argued in the discussion.",
       debate:
-        "Total present-fulfillment claims strain against obvious unfinished global-peace details in the text.",
+        "Total present-fulfillment claims strain against unfinished global-peace details in the text, unless those elements are systematically transposed with clear warrants.",
       academic:
-        "The prophetic horizon in Isaiah 2 and Micah 4 includes concrete international conditions that exceed straightforward present-age realization."
+        "The prophetic horizon in Isaiah 2 and Micah 4 includes concrete international conditions that exceed straightforward present-age realization, though inaugurated readings may capture partial fulfillment."
     },
     references: [
       {
@@ -2025,13 +2025,13 @@ const glossaryData = [
   {
     term: "Election",
     definition:
-      "God's choosing language in Scripture. The key debate is whether election is strictly unconditional for individuals or Christ-centered and connected to faith response.",
+      "God's choosing language in Scripture. Key debates include individual and corporate dimensions, relation to foreknowledge, and how election language connects to faith and union with Christ.",
     references: ["Ephesians 1:4-5 (KJV)", "Romans 8:29-30 (KJV)"]
   },
   {
     term: "Corporate Election (In Christ)",
     definition:
-      "A reading where Scripture describes the chosen people in Christ and their ordained destiny, while individuals enter that people through hearing and believing the gospel.",
+      "A reading where Scripture describes the chosen people in Christ and their ordained destiny, while individuals enter that people through hearing and believing the gospel. Some theologians hold this with personal election rather than against it.",
     references: ["Ephesians 1:4-5 (KJV)", "Ephesians 1:13 (KJV)", "1 Peter 2:9 (KJV)"]
   },
   {
@@ -2049,7 +2049,7 @@ const glossaryData = [
   {
     term: "Foreknowledge",
     definition:
-      "God's prior knowledge in salvation discussions. Calvinist and non-Calvinist readings differ on whether foreknowledge means foreloving decree or relational knowing with response in view.",
+      "God's prior knowledge in salvation discussions. Readings differ on whether foreknowledge emphasizes foreloving covenant choice, foreordaining intent, or relational knowing with response in view.",
     references: ["Romans 8:29-30 (KJV)", "1 Peter 1:2 (KJV)"]
   },
   {
@@ -2103,13 +2103,13 @@ const glossaryData = [
   {
     term: "Monergism",
     definition:
-      "The claim that God alone is the effective cause of regeneration and saving response. Critics argue some passages still attribute meaningful resistance and refusal to people.",
+      "The claim that God alone is the decisive effective cause of regeneration and saving response. Debates focus on how this relates to commands, invitations, and refusal language in Scripture.",
     references: ["John 6:44 (KJV)", "Acts 7:51 (KJV)"]
   },
   {
     term: "Synergism",
     definition:
-      "The claim that salvation is by grace while still involving real human response enabled by grace. This does not require works-merit theology.",
+      "The claim that salvation is by grace while still involving real human response enabled by grace. Advocates deny merit-causation; critics argue this can weaken grace-monergism depending on formulation.",
     references: ["John 5:40 (KJV)", "Acts 16:31 (KJV)"]
   },
   {
@@ -2127,7 +2127,7 @@ const glossaryData = [
   {
     term: "Meticulous Determinism",
     definition:
-      "The claim that every event, including sinful intentions, unfolds according to an exhaustive divine decree. Critics argue this creates severe moral and logical tensions.",
+      "The claim that every event, including sinful intentions, unfolds according to an exhaustive divine decree. Debates center on compatibilism, providence, and divine holiness/culpability distinctions.",
     references: ["Romans 9:19-24 (KJV)", "James 1:13 (KJV)"]
   },
   {
@@ -2376,7 +2376,7 @@ const tulipDeterminismSlopeData = [
         reply:
           "Strong Compatibilist Inference: divine determination and real human willing are compatible, so commands and blame remain meaningful under providence.",
         counterResponse:
-          "That is the strongest Reformed answer and should be engaged directly. This is a conditional stress test, not an inevitability claim. Operational checks are explicit: Summons check (universal imperatives promise life on response without hidden audience qualifiers in the address), Blame check (wherefore/ye would not clauses function as explanatory reasons, not decree labels), and Warning check (if/otherwise warnings to addressed communities retain practical contingency). If all three remain robust, the slope claim fails; if they collapse into description-only language, drift toward determinism is indicated.",
+          "That is the strongest Reformed answer and should be engaged directly. This is a conditional stress test, not an inevitability claim, and compatibilism may pass it. Operational checks are explicit: Summons check (universal imperatives promise life on response without hidden audience qualifiers in the address), Blame check (wherefore/ye would not clauses function as explanatory reasons, not decree labels), and Warning check (if/otherwise warnings to addressed communities retain practical contingency). If all three remain robust, the slope claim fails; only if they collapse into description-only language is determinist drift indicated.",
         references: ["Acts 17:30 (KJV)", "John 5:40 (KJV)", "Hebrews 3:14 (KJV)", "Acts 2:23 (KJV)"]
       }
     ]
@@ -2404,7 +2404,7 @@ const replacementDrilldownData = [
         reply:
           "That is exactly why Church = Israel should be the default reading.",
         counterResponse:
-          "Paul also preserves Israel language and natural-branch logic in Romans 11. Romans 9-11 itself carries decisive weight for this identity question.",
+          "Paul also preserves Israel language and natural-branch logic in Romans 11. Romans 9-11 carries decisive local weight here because it is Paul's most concentrated treatment of this exact Israel question.",
         references: ["Romans 11:1-2 (KJV)", "Romans 11:17 (KJV)", "Romans 11:18 (KJV)"]
       }
     ]
@@ -2454,7 +2454,7 @@ const replacementDrilldownData = [
         reply:
           "Strong unity requires dissolving all former identity lines in prophetic interpretation.",
         counterResponse:
-          "Scripture can present equal standing in Christ and still retain contextual identity terms. Romans 11 remains primary for the future-Israel question.",
+          "Scripture can present equal standing in Christ and still retain contextual identity terms. Romans 11 remains primary for the future-Israel question because that chapter directly addresses Israel's hardening/future sequence.",
         references: ["Galatians 3:28-29 (KJV)", "Romans 11:25-26 (KJV)"]
       }
     ]
