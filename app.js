@@ -4210,6 +4210,8 @@ let currentCategory = "All";
 let currentComparisonType = "All";
 let currentSearchQuery = "";
 let currentGlossaryQuery = "";
+let currentSearchTokens = [];
+let currentGlossaryTokens = [];
 let currentReplyTheme = "All";
 let currentGlossaryTheme = "All";
 let currentReplacementTheme = "All";
@@ -4228,6 +4230,14 @@ if (isReplacementPage) {
 if (toneSelect) {
   toneSelect.value = currentTone;
 }
+
+const scriptureAliasPatterns = [
+  { pattern: /\bjn\b/g, replacement: "john" },
+  { pattern: /\bjhn\b/g, replacement: "john" },
+  { pattern: /\brom\b/g, replacement: "romans" },
+  { pattern: /\b1\s*cor\b/g, replacement: "1 corinthians" },
+  { pattern: /\b2\s*cor\b/g, replacement: "2 corinthians" }
+];
 
 function setupRevealStagger() {
   const revealNodes = [...document.querySelectorAll(".reveal")];
@@ -4471,13 +4481,88 @@ function escapeRegExp(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+function applyScriptureAliases(value) {
+  let normalized = value;
+  scriptureAliasPatterns.forEach(({ pattern, replacement }) => {
+    normalized = normalized.replace(pattern, replacement);
+  });
+  return normalized;
+}
+
+function normalizeSearchText(value) {
+  const normalized = applyScriptureAliases(
+    String(value || "")
+      .toLowerCase()
+      .replace(/[’']/g, "")
+      .replace(/[^a-z0-9]+/g, " ")
+  );
+  return normalized.replace(/\s+/g, " ").trim();
+}
+
+function buildSearchTokens(query) {
+  const normalizedQuery = normalizeSearchText(query);
+  return normalizedQuery ? normalizedQuery.split(" ").filter(Boolean) : [];
+}
+
+function setCurrentSearchQuery(value) {
+  currentSearchQuery = String(value || "").trim().toLowerCase();
+  currentSearchTokens = buildSearchTokens(currentSearchQuery);
+}
+
+function setCurrentGlossaryQuery(value) {
+  currentGlossaryQuery = String(value || "").trim().toLowerCase();
+  currentGlossaryTokens = buildSearchTokens(currentGlossaryQuery);
+}
+
+function getHighlightTerms() {
+  if (!currentSearchQuery) {
+    return [];
+  }
+
+  const rawTerms = currentSearchQuery
+    .split(/\s+/)
+    .map((term) => term.trim())
+    .filter(Boolean);
+  const normalizedTerms = currentSearchTokens;
+  const uniqueTerms = new Set([...rawTerms, ...normalizedTerms]);
+  return [...uniqueTerms].sort((left, right) => right.length - left.length);
+}
+
+function debounce(handler, delayMs = 180) {
+  let timerId = null;
+
+  const debounced = (...args) => {
+    if (timerId) {
+      window.clearTimeout(timerId);
+    }
+    timerId = window.setTimeout(() => {
+      timerId = null;
+      handler(...args);
+    }, delayMs);
+  };
+
+  debounced.cancel = () => {
+    if (timerId) {
+      window.clearTimeout(timerId);
+      timerId = null;
+    }
+  };
+
+  return debounced;
+}
+
 function getHighlightedHtml(text) {
   const rawText = String(text);
   if (!currentSearchQuery) {
     return escapeHtml(rawText);
   }
 
-  const regex = new RegExp(escapeRegExp(currentSearchQuery), "ig");
+  const highlightTerms = getHighlightTerms();
+  if (!highlightTerms.length) {
+    return escapeHtml(rawText);
+  }
+
+  const regex = new RegExp(highlightTerms.map(escapeRegExp).join("|"), "ig");
   let cursor = 0;
   let result = "";
   let match = regex.exec(rawText);
@@ -4813,16 +4898,13 @@ function renderEmptyState(container, message) {
 }
 
 function hasSearchMatch(fields) {
-  if (!currentSearchQuery) {
+  if (!currentSearchTokens.length) {
     return true;
   }
 
-  const haystack = fields
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
+  const haystack = normalizeSearchText(fields.filter(Boolean).join(" "));
 
-  return haystack.includes(currentSearchQuery);
+  return currentSearchTokens.every((token) => haystack.includes(token));
 }
 
 function getReplyTheme(entry) {
@@ -4944,9 +5026,9 @@ function matchesLensVerse(entry) {
 }
 
 function matchesGlossaryEntry(entry) {
-  const glossaryMatch = !currentGlossaryQuery || hasSearchMatchLocal(
+  const glossaryMatch = hasSearchMatchLocal(
     [entry.term, entry.definition, ...entry.references],
-    currentGlossaryQuery
+    currentGlossaryTokens
   );
 
   return (
@@ -4972,12 +5054,13 @@ function matchesDrilldownEntry(entry) {
   ]);
 }
 
-function hasSearchMatchLocal(fields, query) {
-  const haystack = fields
-    .filter(Boolean)
-    .join(" ")
-    .toLowerCase();
-  return haystack.includes(query);
+function hasSearchMatchLocal(fields, tokens) {
+  if (!tokens.length) {
+    return true;
+  }
+
+  const haystack = normalizeSearchText(fields.filter(Boolean).join(" "));
+  return tokens.every((token) => haystack.includes(token));
 }
 
 function renderToneHeader(toneKey) {
@@ -5797,17 +5880,22 @@ if (toneSelect) {
   });
 }
 
+const debouncedSearchRender = debounce((query) => {
+  setCurrentSearchQuery(query);
+  renderVerseCards(currentCategory);
+  renderAllForTone(currentTone);
+});
+
 if (searchInput) {
   searchInput.addEventListener("input", (event) => {
-    currentSearchQuery = event.target.value.trim().toLowerCase();
-    renderVerseCards(currentCategory);
-    renderAllForTone(currentTone);
+    debouncedSearchRender(event.target.value);
   });
 }
 
 if (searchClear) {
   searchClear.addEventListener("click", () => {
-    currentSearchQuery = "";
+    debouncedSearchRender.cancel();
+    setCurrentSearchQuery("");
     if (searchInput) {
       searchInput.value = "";
       searchInput.focus();
@@ -5817,21 +5905,28 @@ if (searchClear) {
   });
 }
 
+const debouncedGlossaryRender = debounce((query) => {
+  setCurrentGlossaryQuery(query);
+  renderGlossary();
+  updateQuickJumpCounts(currentTone);
+});
+
 if (glossaryInput) {
   glossaryInput.addEventListener("input", (event) => {
-    currentGlossaryQuery = event.target.value.trim().toLowerCase();
-    renderGlossary();
+    debouncedGlossaryRender(event.target.value);
   });
 }
 
 if (glossaryClear) {
   glossaryClear.addEventListener("click", () => {
-    currentGlossaryQuery = "";
+    debouncedGlossaryRender.cancel();
+    setCurrentGlossaryQuery("");
     if (glossaryInput) {
       glossaryInput.value = "";
       glossaryInput.focus();
     }
     renderGlossary();
+    updateQuickJumpCounts(currentTone);
   });
 }
 
@@ -5892,6 +5987,8 @@ if (typeof prefersReducedMotion.addEventListener === "function") {
 
 setupRevealStagger();
 initSectionAccordions();
+setCurrentSearchQuery(searchInput ? searchInput.value : "");
+setCurrentGlossaryQuery(glossaryInput ? glossaryInput.value : "");
 renderFilters();
 renderComparisonFilters();
 renderVerseCards(currentCategory);
