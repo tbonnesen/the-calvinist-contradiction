@@ -284,6 +284,51 @@ const argumentsData = [
           "Take heed, brethren, lest there be in any of you an evil heart of unbelief, in departing from the living God."
       }
     ]
+  },
+  {
+    title: "Sovereignty and Providence vs Exhaustive Determinism",
+    tones: {
+      pastoral: {
+        claim:
+          "Christians can fully affirm God's sovereignty without saying every human decision is caused in the same deterministic way.",
+        logic:
+          "The Bible shows God governing history and still holding people accountable for real refusal, so providence should not be collapsed into exhaustive causal necessity."
+      },
+      debate: {
+        claim:
+          "Sovereignty language does not automatically prove meticulous determinism of every intention and belief.",
+        logic:
+          "Texts like Acts 2:23 and Genesis 50:20 show one event with divine purpose and human evil intent. That supports robust providence, not a forced identity between sovereignty and universal necessitation."
+      },
+      academic: {
+        claim:
+          "Classical sovereignty claims require careful distinction between teleological governance, concurrence, permission, and causal necessitation.",
+        logic:
+          "A coherent model can affirm decisive providence while refusing lexical collapse between ordain, foreknow, and determine. Exegetical burden remains passage-specific."
+      }
+    },
+    references: [
+      {
+        reference: "Acts 2:23 (KJV)",
+        passage:
+          "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:"
+      },
+      {
+        reference: "Genesis 50:20 (KJV)",
+        passage:
+          "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
+      },
+      {
+        reference: "James 1:13 (KJV)",
+        passage:
+          "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+      },
+      {
+        reference: "Psalm 115:3 (KJV)",
+        passage:
+          "But our God is in the heavens: he hath done whatsoever he hath pleased."
+      }
+    ]
   }
 ];
 
@@ -298,9 +343,9 @@ const proofTextsData = [
       pastoral:
         "Romans 9 strongly stresses God's freedom, including the question, Why doth he yet find fault? We should take that seriously. But Paul still says they sought it not by faith, so both sovereignty and unbelief matter in his argument.",
       debate:
-        "The strongest Reformed case is Romans 9:18-24 plus 9:19. The strongest counter is Paul's own explanation in 9:30-32 and 10:21, where unbelief is treated as a real reason, not only a label for what happened.",
+        "The strongest Reformed case is Romans 9:18-24 plus 9:19. The strongest counter is Paul's own explanation in 9:30-32 and 10:21, where unbelief is treated as a real reason, not only a label for what happened. Group-election language should not be used to skip that wherefore logic.",
       academic:
-        "Romans 9 should be read within Romans 9-11 as a whole: divine freedom, covenant history, and explicit faith/unbelief explanations. The 9:19 objection raises accountability questions, yet Paul's own wherefore and stretched-forth-hands language still gives explanatory weight to unbelief."
+        "Romans 9 should be read within Romans 9-11 as a whole: divine freedom, covenant history, and explicit faith/unbelief explanations. The 9:19 objection raises accountability questions, yet Paul's own wherefore and stretched-forth-hands language still gives explanatory weight to unbelief and prevents easy collapse from corporate argument to exhaustive individual causality."
     },
     references: [
       {
@@ -441,7 +486,7 @@ const proofTextsData = [
       debate:
         "A serious Calvinist reading leans on John 6:37 and 6:44. A serious counter-reading must also lean on 6:36, 6:40, and 6:45, where coming is described through seeing, believing, hearing, and learning. The burden is to explain effectual grace without emptying those terms.",
       academic:
-        "John 6 includes both initiative and response language: gift, drawing, hearing/learning, believing, and explicit unbelief statements. Any irresistible-grace model should explain how refusal language remains explanatorily meaningful, not merely descriptive."
+        "John 6 includes both initiative and response language: gift, drawing, hearing/learning, believing, and explicit unbelief statements. Any irresistible-grace model should explain how refusal language remains explanatorily meaningful, not merely descriptive, and should avoid collapsing grant-language into a denial of the chapter's hear/learn structure."
     },
     references: [
       {
@@ -482,6 +527,43 @@ const proofTextsData = [
       {
         reference: "John 5:40 (KJV)",
         passage: "And ye will not come to me, that ye might have life."
+      }
+    ]
+  },
+  {
+    title: "John 6:65 (Granted by the Father)",
+    claimLabel: "Calvinist Reading",
+    responseLabel: "Response",
+    claim:
+      "No one can come unless it is granted by the Father, therefore coming is unconditional election for a fixed individual subset.",
+    tones: {
+      pastoral:
+        "John 6:65 is a strong statement of divine initiative and should be taken seriously. The same chapter still addresses hearers as responsible for unbelief and ties coming language to hearing and learning.",
+      debate:
+        "A strong Reformed case reads granted as effectual and selective. A strong counter asks whether this verse settles unconditional election by itself when John also uses refusal language and hearing-learning categories in the same discourse.",
+      academic:
+        "Verse 65 reiterates incapacity apart from divine grant and belongs to the larger 6:36-45 unit. Exegetical judgment should integrate grant, draw, hear/learn, and explicit unbelief statements before deriving a full conversion-causality system."
+    },
+    references: [
+      {
+        reference: "John 6:65 (KJV)",
+        passage:
+          "And he said, Therefore said I unto you, that no man can come unto me, except it were given unto him of my Father."
+      },
+      {
+        reference: "John 6:44 (KJV)",
+        passage:
+          "No man can come to me, except the Father which hath sent me draw him: and I will raise him up at the last day."
+      },
+      {
+        reference: "John 6:45 (KJV)",
+        passage:
+          "It is written in the prophets, And they shall be all taught of God. Every man therefore that hath heard, and hath learned of the Father, cometh unto me."
+      },
+      {
+        reference: "John 5:40 (KJV)",
+        passage:
+          "And ye will not come to me, that ye might have life."
       }
     ]
   },
@@ -587,6 +669,43 @@ const proofTextsData = [
     ]
   },
   {
+    title: "Acts 4:27-28 (Crucifixion and Dual Causation)",
+    claimLabel: "Calvinist Reading",
+    responseLabel: "Response",
+    claim:
+      "Acts 4:28 proves exhaustive determinism because God predestined the crucifixion, so all sinful intentions in that event were equally determined.",
+    tones: {
+      pastoral:
+        "Acts 4 is a key text and should be treated with care. It clearly says Christ's death occurred according to God's counsel. The same passage still names human agents as morally accountable, so providence and blame must both stay real.",
+      debate:
+        "The strongest Reformed use of Acts 4 is that God's hand and counsel determined this event. The counterpoint is scope: this proves purposeful ordination of the cross, not automatically a universal thesis that every human intention is determined in the same way.",
+      academic:
+        "Acts 4:27-28 and Acts 2:23 support a robust providence model in which one event carries divine teleology and creaturely culpability simultaneously. Inferring exhaustive causal determinism for all acts from this redemptive-historical node requires additional premises not explicit in the text."
+    },
+    references: [
+      {
+        reference: "Acts 4:27-28 (KJV)",
+        passage:
+          "For of a truth against thy holy child Jesus, whom thou hast anointed, both Herod, and Pontius Pilate, with the Gentiles, and the people of Israel, were gathered together, For to do whatsoever thy hand and thy counsel determined before to be done."
+      },
+      {
+        reference: "Acts 2:23 (KJV)",
+        passage:
+          "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:"
+      },
+      {
+        reference: "Genesis 50:20 (KJV)",
+        passage:
+          "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
+      },
+      {
+        reference: "James 1:13 (KJV)",
+        passage:
+          "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+      }
+    ]
+  },
+  {
     title: "Romans 8:29-30",
     claimLabel: "Calvinist Reading",
     responseLabel: "Response",
@@ -647,6 +766,43 @@ const proofTextsData = [
         reference: "Acts 16:31 (KJV)",
         passage:
           "And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house."
+      }
+    ]
+  },
+  {
+    title: "Ephesians 5:25",
+    claimLabel: "Calvinist Reading",
+    responseLabel: "Response",
+    claim:
+      "Christ loved the church and gave himself for her, so his atoning death was only for the elect church.",
+    tones: {
+      pastoral:
+        "Ephesians 5 does teach Christ's special covenant love for his church, and that should be affirmed clearly. The text says he gave himself for her; it does not by itself add only for her as an exclusion of all gospel offer language elsewhere.",
+      debate:
+        "This proof-text often assumes what it needs to prove: that church means a pre-limited atonement target rather than the redeemed people formed through the gospel call. Special marital-covenant love does not cancel broader atonement and invitation texts.",
+      academic:
+        "Ephesians 5:25-27 is ecclesiological and sanctificational in argument-flow: Christ's self-giving for the church grounds husbandly love and church-cleansing imagery. Exclusive-extent conclusions require additional premises not explicitly supplied by this local pericope."
+    },
+    references: [
+      {
+        reference: "Ephesians 5:25-27 (KJV)",
+        passage:
+          "Husbands, love your wives, even as Christ also loved the church, and gave himself for it; That he might sanctify and cleanse it with the washing of water by the word, That he might present it to himself a glorious church, not having spot, or wrinkle, or any such thing; but that it should be holy and without blemish."
+      },
+      {
+        reference: "John 3:16 (KJV)",
+        passage:
+          "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+      },
+      {
+        reference: "1 John 2:2 (KJV)",
+        passage:
+          "And he is the propitiation for our sins: and not for ours only, but also for the sins of the whole world."
+      },
+      {
+        reference: "1 Timothy 2:3-4 (KJV)",
+        passage:
+          "For this is good and acceptable in the sight of God our Saviour; Who will have all men to be saved, and to come unto the knowledge of the truth."
       }
     ]
   }
@@ -881,6 +1037,148 @@ const commonRepliesData = [
     ]
   },
   {
+    title: "Repent and be saved are related but not identical claims",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Because God alone saves, repentance and salvation should be treated as one collapsed event in argumentation.",
+    tones: {
+      pastoral:
+        "Repentance and salvation belong together in Scripture, but they are not the same claim. God commands repentance broadly and promises forgiveness through faith in Christ.",
+      debate:
+        "Collapsing repent and be saved creates a category error. Human responsibility to repent is not equivalent to saying sinners save themselves.",
+      academic:
+        "A careful model distinguishes summons-response categories from forensic-remissive outcome categories. Conflation here distorts both command texts and salvation-application texts."
+    },
+    references: [
+      {
+        reference: "Acts 17:30 (KJV)",
+        passage:
+          "And the times of this ignorance God winked at; but now commandeth all men every where to repent:"
+      },
+      {
+        reference: "Acts 11:14 (KJV)",
+        passage:
+          "Who shall tell thee words, whereby thou and all thy house shall be saved."
+      },
+      {
+        reference: "Acts 16:31 (KJV)",
+        passage:
+          "And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house."
+      },
+      {
+        reference: "John 3:18 (KJV)",
+        passage:
+          "He that believeth on him is not condemned: but he that believeth not is condemned already."
+      }
+    ]
+  },
+  {
+    title: "Praying for conversion does not prove irresistible causation",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Because believers pray for others to be saved, prayer itself proves conversion is unilaterally and irresistibly caused.",
+    tones: {
+      pastoral:
+        "Prayer shows dependence on God, not a full deterministic mechanism. Scripture presents prayer, preaching, and response together.",
+      debate:
+        "The prayer argument can overreach. Asking God to work does not by itself prove that no meaningful human response is involved.",
+      academic:
+        "Intercessory practice evidences divine dependence but underdetermines a specific conversion-causality model. New Testament prayer discourse is integrated with proclamation and accountable response."
+    },
+    references: [
+      {
+        reference: "1 Timothy 2:1-6 (KJV)",
+        passage:
+          "I exhort therefore, that, first of all, supplications, prayers, intercessions, and giving of thanks, be made for all men; For kings, and for all that are in authority; that we may lead a quiet and peaceable life in all godliness and honesty. For this is good and acceptable in the sight of God our Saviour; Who will have all men to be saved, and to come unto the knowledge of the truth. For there is one God, and one mediator between God and men, the man Christ Jesus; Who gave himself a ransom for all, to be testified in due time."
+      },
+      {
+        reference: "Romans 10:1 (KJV)",
+        passage:
+          "Brethren, my heart's desire and prayer to God for Israel is, that they might be saved."
+      },
+      {
+        reference: "Colossians 4:3 (KJV)",
+        passage:
+          "Withal praying also for us, that God would open unto us a door of utterance, to speak the mystery of Christ."
+      },
+      {
+        reference: "2 Thessalonians 3:1 (KJV)",
+        passage:
+          "Finally, brethren, pray for us, that the word of the Lord may have free course, and be glorified."
+      }
+    ]
+  },
+  {
+    title: "Will happen is not the same as must happen",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If God infallibly knows what will happen, then the event must happen by the same kind of causal necessity.",
+    tones: {
+      pastoral:
+        "God's perfect knowledge is certain, but certainty and coercion are not identical ideas. Scripture can present foretold events and still speak with real woe and warning language.",
+      debate:
+        "This is a modal jump: from certainty to necessity by definition. The burden is to prove causal necessitation, not assume it from foreknowledge alone.",
+      academic:
+        "The inference from epistemic certainty to metaphysical necessity is non-trivial and requires argument. Biblical texts can couple determined outcomes with culpability language without lexical identity between foreknowledge and efficient causation."
+    },
+    references: [
+      {
+        reference: "Luke 22:22 (KJV)",
+        passage:
+          "And truly the Son of man goeth, as it was determined: but woe unto that man by whom he is betrayed!"
+      },
+      {
+        reference: "Acts 2:23 (KJV)",
+        passage:
+          "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:"
+      },
+      {
+        reference: "1 Corinthians 10:13 (KJV)",
+        passage:
+          "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape."
+      }
+    ]
+  },
+  {
+    title: "Programmed obedience is not the same as covenant love",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If God fully determines every moral decision, love and obedience remain equally meaningful because outcomes still match his plan.",
+    tones: {
+      pastoral:
+        "Love in Scripture is relational and covenantal, not robotic performance. Commands to choose, repent, and return are given as meaningful summons.",
+      debate:
+        "If every yes and no is equally necessitated at the same level, biblical love-language can start sounding like scripted output. Any determinist model should explain how choice-language keeps practical force.",
+      academic:
+        "The concern is not anti-sovereignty rhetoric; it is semantic integrity. Volitional covenant terms such as choose and ye would not should retain non-trivial agency content under proposed causal models."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 30:19 (KJV)",
+        passage:
+          "I have set before you life and death, blessing and cursing: therefore choose life."
+      },
+      {
+        reference: "Joshua 24:15 (KJV)",
+        passage:
+          "Choose you this day whom ye will serve."
+      },
+      {
+        reference: "Matthew 23:37 (KJV)",
+        passage:
+          "O Jerusalem, Jerusalem, thou that killest the prophets, and stonest them which are sent unto thee, how often would I have gathered thy children together, and ye would not!"
+      },
+      {
+        reference: "John 14:15 (KJV)",
+        passage: "If ye love me, keep my commandments."
+      }
+    ]
+  },
+  {
     title: "Permission language alone removes divine culpability tension",
     claimLabel: "Calvinist Reply",
     responseLabel: "Counter-Response",
@@ -1071,6 +1369,166 @@ const commonRepliesData = [
     ]
   },
   {
+    title: "I am not interpreting, I am just reading the text",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "The biblical wording is plain, so interpretive objections are just evasions.",
+    tones: {
+      pastoral:
+        "Scripture is clear on many core truths, but every reading still involves interpretation. Good faith study asks what the author meant in context, not only what a phrase sounds like in modern shorthand.",
+      debate:
+        "No one reads without interpretation. Genre, covenant context, lexical range, and discourse flow are not liberal extras; they are basic exegesis.",
+      academic:
+        "The claim collapses hermeneutics into surface-level lexical immediacy. Responsible interpretation requires authorial-intent controls: historical setting, intertextual echoes, argument-flow, and semantic range."
+    },
+    references: [
+      {
+        reference: "2 Timothy 2:15 (KJV)",
+        passage:
+          "Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth."
+      },
+      {
+        reference: "Luke 24:27 (KJV)",
+        passage:
+          "And beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself."
+      },
+      {
+        reference: "2 Peter 3:16 (KJV)",
+        passage:
+          "In which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction."
+      }
+    ]
+  },
+  {
+    title: "Calvinism comes from the totality of Scripture",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Even if no single text states all Calvinist conclusions explicitly, the whole canon together requires that system.",
+    tones: {
+      pastoral:
+        "Whole-Bible theology is right and necessary. The concern is when totality language is used to bypass close passage-level testing.",
+      debate:
+        "A system must be shown text by text, not asserted by slogan. If a claim cannot be grounded in concrete exegesis, totality language can become a shield for assumptions.",
+      academic:
+        "Canonical synthesis is essential but method-governed. Legitimate whole-Bible claims require demonstrable inferential steps from specific pericopes rather than global-system assertion."
+    },
+    references: [
+      {
+        reference: "Acts 17:11 (KJV)",
+        passage:
+          "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "Isaiah 28:10 (KJV)",
+        passage:
+          "For precept must be upon precept, precept upon precept; line upon line, line upon line; here a little, and there a little."
+      }
+    ]
+  },
+  {
+    title: "There are no maverick molecules, therefore determinism",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If God is truly sovereign, every event and micro-event must be causally determined by him.",
+    tones: {
+      pastoral:
+        "God's sovereignty means nothing surprises or defeats him. That does not require saying every created movement is causally necessitated in the same way.",
+      debate:
+        "Sovereignty and exhaustive determination are not identical terms. God can foreknow, govern, and ordain outcomes without reducing all creaturely action to direct causal necessitation.",
+      academic:
+        "The inference moves from providential supremacy to meticulous causal determinism without argument. A stronger model distinguishes governance, concurrence, permission, and teleological ordination."
+    },
+    references: [
+      {
+        reference: "Psalm 115:3 (KJV)",
+        passage:
+          "But our God is in the heavens: he hath done whatsoever he hath pleased."
+      },
+      {
+        reference: "Daniel 4:35 (KJV)",
+        passage:
+          "And all the inhabitants of the earth are reputed as nothing: and he doeth according to his will in the army of heaven, and among the inhabitants of the earth."
+      },
+      {
+        reference: "Proverbs 16:9 (KJV)",
+        passage:
+          "A man's heart deviseth his way: but the LORD directeth his steps."
+      }
+    ]
+  },
+  {
+    title: "Ordain and decree always mean determine",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If God ordains or decrees an outcome, that means he directly determines every will-action involved in that outcome.",
+    tones: {
+      pastoral:
+        "Scripture affirms God's purpose and decree, yet it also keeps creaturely blame and intention meaningful. Those truths should be held together without semantic collapsing.",
+      debate:
+        "Treating ordain as a synonym for determine is a category move, not an exegetical necessity. Biblical narratives often show one event with distinct divine and human intentions.",
+      academic:
+        "A lexical identity claim between ordination language and exhaustive causal determination is underargued. Texts such as Acts 2:23 and Genesis 50:20 support multi-agent intentional asymmetry."
+    },
+    references: [
+      {
+        reference: "Acts 2:23 (KJV)",
+        passage:
+          "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:"
+      },
+      {
+        reference: "Genesis 50:20 (KJV)",
+        passage:
+          "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
+      },
+      {
+        reference: "James 1:13 (KJV)",
+        passage:
+          "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+      }
+    ]
+  },
+  {
+    title: "Only eight were saved in the flood, so broad saving desire is irrelevant",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "The flood shows God only saves a tiny subset, so universal-offer and broad-desire claims should not shape soteriology.",
+    tones: {
+      pastoral:
+        "The flood is a severe judgment text and should be treated with reverence. It does not automatically settle every New Testament soteriology question about Christ's atonement scope and universal command language.",
+      debate:
+        "Temporal judgment in Noah's generation is not identical to proving a fixed eternal-atonement extent model. Category distinctions matter: historical judgment, gospel proclamation, and final salvation discourse are not interchangeable.",
+      academic:
+        "The argument risks illicit transfer between narrative-judgment context and doctrinal-extent conclusions. Proper method requires contextual differentiation across covenants and discourse genres."
+    },
+    references: [
+      {
+        reference: "Genesis 6:5 (KJV)",
+        passage:
+          "And GOD saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually."
+      },
+      {
+        reference: "1 Peter 3:20 (KJV)",
+        passage:
+          "When once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water."
+      },
+      {
+        reference: "2 Peter 3:9 (KJV)",
+        passage:
+          "The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance."
+      }
+    ]
+  },
+  {
     title: "The spiritually dead cannot respond at all",
     claimLabel: "Calvinist Reply",
     responseLabel: "Counter-Response",
@@ -1099,6 +1557,775 @@ const commonRepliesData = [
         reference: "Acts 17:30 (KJV)",
         passage:
           "And the times of this ignorance God winked at; but now commandeth all men every where to repent:"
+      }
+    ]
+  },
+  {
+    title: "Predestination, determination, and sovereignty always mean the same thing",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If God is sovereign and predestines outcomes, determination is implied and the terms are interchangeable.",
+    tones: {
+      pastoral:
+        "These words are related, so confusion is easy. But they are not always identical in meaning. Clear definitions help both sides avoid talking past each other.",
+      debate:
+        "This is often a definition drift move. Sovereignty and predestination can be affirmed without proving exhaustive causal determination in every case. The burden is to show the equivalence from specific texts, not assume it.",
+      academic:
+        "A semantic-equivalence thesis across sovereignty, predestination, and determination is under-argued unless lexical and discourse controls are supplied per context. Category distinction is not doctrinal evasion; it is basic method."
+    },
+    references: [
+      {
+        reference: "Acts 4:27-28 (KJV)",
+        passage:
+          "For of a truth against thy holy child Jesus, whom thou hast anointed, both Herod, and Pontius Pilate, with the Gentiles, and the people of Israel, were gathered together, For to do whatsoever thy hand and thy counsel determined before to be done."
+      },
+      {
+        reference: "Romans 9:30-32 (KJV)",
+        passage:
+          "What shall we say then? That the Gentiles, which followed not after righteousness, have attained to righteousness, even the righteousness which is of faith. But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness. Wherefore? Because they sought it not by faith, but as it were by the works of the law."
+      },
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      }
+    ]
+  },
+  {
+    title: "Compatibilism only requires responsibility language, not libertarian freedom",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Compatibilism does not need libertarian freedom; it only requires real responsibility under divine determination.",
+    tones: {
+      pastoral:
+        "That is a serious and historic claim, and it should be heard fairly. The question is whether biblical summons, blame, and warning language still function as more than description when outcomes are fixed.",
+      debate:
+        "This is the strongest Reformed defense and should be engaged at full strength. The challenge is operational: do ye would not, wherefore, and if ye continue statements retain explanatory force or become retrospective labels?",
+      academic:
+        "Compatibilist responsibility claims are internally coherent in many analytic models. The present critique is text-functional: whether imperative, explanatory, and conditional discourse in Scripture preserves practical contingency under an exhaustive deterministic frame."
+    },
+    references: [
+      {
+        reference: "John 5:40 (KJV)",
+        passage: "And ye will not come to me, that ye might have life."
+      },
+      {
+        reference: "Romans 10:21 (KJV)",
+        passage:
+          "But to Israel he saith, All day long I have stretched forth my hands unto a disobedient and gainsaying people."
+      },
+      {
+        reference: "Colossians 1:22-23 (KJV)",
+        passage:
+          "In the body of his flesh through death, to present you holy and unblameable and unreproveable in his sight: If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel."
+      }
+    ]
+  },
+  {
+    title: "Corporate and individual election are a forced either-or",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Either election is corporate or individual; once individual election is admitted, Calvinist determinism follows.",
+    tones: {
+      pastoral:
+        "Scripture can speak at both levels: a chosen people and real persons within that people. A balanced reading does not force an unnecessary either-or.",
+      debate:
+        "Admitting individual election does not automatically prove exhaustive determinism. The key dispute remains conversion-causality and accountability, not whether persons are included in election language.",
+      academic:
+        "Corporate and individual election are analytically distinguishable but not mutually exclusive categories. Determinist conclusions require further argument about causal mechanism, not merely ontological granularity."
+    },
+    references: [
+      {
+        reference: "Ephesians 1:4-5 (KJV)",
+        passage:
+          "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love: Having predestinated us unto the adoption of children by Jesus Christ to himself, according to the good pleasure of his will."
+      },
+      {
+        reference: "Ephesians 1:13 (KJV)",
+        passage:
+          "In whom ye also trusted, after that ye heard the word of truth, the gospel of your salvation: in whom also after that ye believed, ye were sealed with that holy Spirit of promise."
+      },
+      {
+        reference: "Romans 9:30-32 (KJV)",
+        passage:
+          "What shall we say then? That the Gentiles, which followed not after righteousness, have attained to righteousness, even the righteousness which is of faith. But Israel, which followed after the law of righteousness, hath not attained to the law of righteousness. Wherefore? Because they sought it not by faith, but as it were by the works of the law."
+      }
+    ]
+  },
+  {
+    title: "Appeal to mystery resolves contradiction by itself",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If a tension is difficult, appeal to divine mystery should end the critique without further analysis.",
+    tones: {
+      pastoral:
+        "Some things are truly mysterious, and humility is right. Still, Scripture also tells us to test and reason, so mystery should be the end of careful work, not the start.",
+      debate:
+        "Mystery is not a free pass for contradiction. A strong approach distinguishes what is beyond us from what is incoherent and keeps pressing text-level argument before concluding mystery.",
+      academic:
+        "Epistemic humility and logical non-contradiction are compatible commitments. Methodologically, mystery claims should be constrained by prior exegetical work and consistency checks across related passages."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 29:29 (KJV)",
+        passage:
+          "The secret things belong unto the LORD our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law."
+      },
+      {
+        reference: "Acts 17:11 (KJV)",
+        passage:
+          "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      }
+    ]
+  },
+  {
+    title: "1 Corinthians 10:13 and the Could-Have-Done-Otherwise Test",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Responsibility does not require alternative possibilities, so way-of-escape language does not challenge compatibilism.",
+    tones: {
+      pastoral:
+        "This is a serious compatibilist point and should be engaged respectfully. The text still says God makes a way of escape so believers need not yield, which keeps real moral decision language in view.",
+      debate:
+        "If every sin-outcome is fixed in the same deterministic sense, 1 Corinthians 10:13's way-of-escape framing becomes hard to read as practical alternative. The burden is to show how this remains more than rhetorical duty language.",
+      academic:
+        "The verse's modal structure (not suffer... above that ye are able; but... make a way to escape) supports robust exhortational force. Compatibilist readings may preserve accountability, but must explain how alternative-avoidance discourse functions under exhaustive necessity claims."
+    },
+    references: [
+      {
+        reference: "1 Corinthians 10:13 (KJV)",
+        passage:
+          "There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it."
+      },
+      {
+        reference: "Hebrews 3:12 (KJV)",
+        passage:
+          "Take heed, brethren, lest there be in any of you an evil heart of unbelief, in departing from the living God."
+      },
+      {
+        reference: "James 1:13 (KJV)",
+        passage:
+          "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+      }
+    ]
+  },
+  {
+    title: "Internal Critique Should Use Defined Premises, Not Framing Assumptions",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Your critique fails because it does not stay on our terms, so it can be rejected before premise-level engagement.",
+    tones: {
+      pastoral:
+        "Fairness matters for both sides. The best path is to define terms clearly, restate each side in good faith, and then test the actual premises.",
+      debate:
+        "A framing objection is not yet a refutation. Internal critique requires engaging the opponent's stated premises and showing where the inference fails.",
+      academic:
+        "Methodologically, internal critique is premise-dependent and inferentially constrained. Prejudging by rhetorical framing risks question-filtering before argument evaluation."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      },
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "Acts 17:11 (KJV)",
+        passage:
+          "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      }
+    ]
+  },
+  {
+    title: "Classical Theism by Definition Is Not a Full Rebuttal",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Because classical theism says God cannot deceive, deception-based critiques are invalid by definition.",
+    tones: {
+      pastoral:
+        "All orthodox believers affirm God is true and cannot lie. The remaining question is whether a specific determinist model preserves that confession coherently in how belief-formation is explained.",
+      debate:
+        "Appealing to classical theism can protect core doctrine, but it does not automatically answer model-level tensions. You still have to show where the argument's premises fail.",
+      academic:
+        "This is a potential question-begging move if definitional orthodoxy is used to bypass structural critique. The proper response is to identify the invalid premise or inference while preserving the non-deceptive divine attribute claim."
+    },
+    references: [
+      {
+        reference: "Titus 1:2 (KJV)",
+        passage:
+          "In hope of eternal life, which God, that cannot lie, promised before the world began;"
+      },
+      {
+        reference: "Numbers 23:19 (KJV)",
+        passage:
+          "God is not a man, that he should lie; neither the son of man, that he should repent."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      }
+    ]
+  },
+  {
+    title: "Changing the Label Does Not Remove the Underlying Problem",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If the term deception is too loaded, replacing it with softer wording dissolves the objection.",
+    tones: {
+      pastoral:
+        "Word choice can affect tone and we should be careful. But changing a label does not change the underlying logic if the same structure and implications remain.",
+      debate:
+        "Renaming the problem is not solving the problem. If the model still entails indistinguishable determination of true and false doctrinal belief, the epistemic pressure is unchanged.",
+      academic:
+        "This is a semantic-substitution issue: lexical moderation does not alter entailment relations. The decisive question is model structure, not rhetorical intensity."
+    },
+    references: [
+      {
+        reference: "Isaiah 5:20 (KJV)",
+        passage:
+          "Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter!"
+      },
+      {
+        reference: "Acts 17:11 (KJV)",
+        passage:
+          "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      }
+    ]
+  },
+  {
+    title: "Judicial Delusion Is Judgment After Truth-Rejection",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Texts about God sending delusion prove exhaustive divine determination of false beliefs in general.",
+    tones: {
+      pastoral:
+        "Scripture does describe judicial delusion, and that should be acknowledged honestly. The same texts present a sequence: people reject truth first, then delusion follows as judgment.",
+      debate:
+        "The key distinction is scope and order. 2 Thessalonians 2 says they refused to love the truth, then God sends delusion. That is not the same thesis as God determining every believer's theological errors from the start.",
+      academic:
+        "Judicial-delusion pericopes are context-bound acts of retributive hardening. Methodologically, they do not license a universal belief-formation model unless additional premises establish that transfer."
+    },
+    references: [
+      {
+        reference: "2 Thessalonians 2:9-12 (KJV)",
+        passage:
+          "Even him, whose coming is after the working of Satan with all power and signs and lying wonders, And with all deceivableness of unrighteousness in them that perish; because they received not the love of the truth, that they might be saved. And for this cause God shall send them strong delusion, that they should believe a lie: That they all might be damned who believed not the truth, but had pleasure in unrighteousness."
+      },
+      {
+        reference: "Romans 1:21-25 (KJV)",
+        passage:
+          "Because that, when they knew God, they glorified him not as God, neither were thankful; but became vain in their imaginations, and their foolish heart was darkened. Professing themselves to be wise, they became fools... Wherefore God also gave them up to uncleanness through the lusts of their own hearts... Who changed the truth of God into a lie, and worshipped and served the creature more than the Creator."
+      },
+      {
+        reference: "James 1:13 (KJV)",
+        passage:
+          "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+      }
+    ]
+  },
+  {
+    title: "Ahab and the Lying Spirit Are Not a Global Belief Template",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Because God permits deception in 1 Kings 22, exhaustive determination of all false theological belief is biblically established.",
+    tones: {
+      pastoral:
+        "1 Kings 22 is a sobering judgment text and should be handled with reverence. It describes a specific judicial event against a hardened king, not a universal rule for every believer's doctrinal mistakes.",
+      debate:
+        "Ahab's case can support judicial hardening, but it does not automatically prove a comprehensive all-person/all-belief deterministic thesis. Narrative judgment episodes should not be stretched into a total metaphysical system without warrant.",
+      academic:
+        "The pericope presents prophetic courtroom imagery and targeted royal judgment. Exegetical transfer from local narrative function to universal doxastic determinism is a category expansion requiring explicit argument."
+    },
+    references: [
+      {
+        reference: "1 Kings 22:19-23 (KJV)",
+        passage:
+          "And he said, Hear thou therefore the word of the LORD: I saw the LORD sitting on his throne, and all the host of heaven standing by him... And there came forth a spirit, and stood before the LORD, and said, I will persuade him... I will go forth, and I will be a lying spirit in the mouth of all his prophets. And he said, Thou shalt persuade him, and prevail also: go forth, and do so."
+      },
+      {
+        reference: "1 Kings 22:8 (KJV)",
+        passage:
+          "There is yet one man, Micaiah the son of Imlah, by whom we may enquire of the LORD: but I hate him; for he doth not prophesy good concerning me, but evil."
+      },
+      {
+        reference: "1 Kings 22:18 (KJV)",
+        passage:
+          "Did I not tell thee that he would prophesy no good concerning me, but evil?"
+      }
+    ]
+  },
+  {
+    title: "Tu Quoque Is Not a Direct Refutation",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Your theology also has unresolved tensions, so this criticism of Calvinism can be dismissed.",
+    tones: {
+      pastoral:
+        "It is fair to compare systems, and every side should accept scrutiny. Still, one argument should be answered on its own merits before moving to counter-accusations.",
+      debate:
+        "Pointing to another model's problems does not invalidate the current critique. That is at best a second discussion unless it directly defeats a premise here and now.",
+      academic:
+        "Tu quoque can expose inconsistency but does not by itself undercut an argument's validity or soundness. Rebuttal requires premise-denial, inference-failure, or defeater evidence specific to the target claim."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "2 Corinthians 10:5 (KJV)",
+        passage:
+          "Casting down imaginations, and every high thing that exalteth itself against the knowledge of God, and bringing into captivity every thought to the obedience of Christ;"
+      }
+    ]
+  },
+  {
+    title: "Judicial Hardening Is Not Identical to Universal Total Inability",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Judicial hardening language in Scripture simply restates the same universal inability all people already have from birth.",
+    tones: {
+      pastoral:
+        "Scripture certainly teaches deep human sinfulness. It also presents hardening episodes with historical and redemptive timing language, which suggests more than a flat restatement of one condition.",
+      debate:
+        "If judicial hardening is functionally identical to total inability in every respect, many narrative and temporal markers lose force. Romans 11's in part and until language points to a specific hardening function in redemptive history.",
+      academic:
+        "Total inability and judicial hardening can overlap conceptually without being coextensive categories. Exegetically, hardening texts often include temporal, covenantal, and mission-related functions that resist strict identity claims."
+    },
+    references: [
+      {
+        reference: "Romans 11:7-8 (KJV)",
+        passage:
+          "What then? Israel hath not obtained that which he seeketh for; but the election hath obtained it, and the rest were blinded. (According as it is written, God hath given them the spirit of slumber, eyes that they should not see, and ears that they should not hear;) unto this day."
+      },
+      {
+        reference: "Romans 11:25 (KJV)",
+        passage:
+          "For I would not, brethren, that ye should be ignorant of this mystery, lest ye should be wise in your own conceits; that blindness in part is happened to Israel, until the fulness of the Gentiles be come in."
+      },
+      {
+        reference: "Romans 11:32 (KJV)",
+        passage:
+          "For God hath concluded them all in unbelief, that he might have mercy upon all."
+      }
+    ]
+  },
+  {
+    title: "Parables as Judicial Hardening, Not Mere Theater",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Parables only illustrate truth neutrally; they do not function in judicial hardening dynamics.",
+    tones: {
+      pastoral:
+        "Jesus used parables to reveal and conceal, and that should be acknowledged carefully. This does not deny God's sovereignty; it highlights how judicial hardening can operate in history.",
+      debate:
+        "The text itself says seeing they may see, and not perceive and links this to forgiveness language. That is difficult to reduce to neutral illustration only.",
+      academic:
+        "Synoptic parable explanations and Isaiah 6 citation patterns indicate a dual function: revelatory for some, judicially concealing for others. The debate is mechanism and scope, not whether the hardening note exists."
+    },
+    references: [
+      {
+        reference: "Mark 4:11-12 (KJV)",
+        passage:
+          "And he said unto them, Unto you it is given to know the mystery of the kingdom of God: but unto them that are without, all these things are done in parables: That seeing they may see, and not perceive; and hearing they may hear, and not understand; lest at any time they should be converted, and their sins should be forgiven them."
+      },
+      {
+        reference: "Matthew 13:13-15 (KJV)",
+        passage:
+          "Therefore speak I to them in parables: because they seeing see not; and hearing they hear not, neither do they understand. And in them is fulfilled the prophecy of Esaias, which saith, By hearing ye shall hear, and shall not understand; and seeing ye shall see, and shall not perceive: For this people's heart is waxed gross, and their ears are dull of hearing, and their eyes they have closed; lest at any time they should see with their eyes and hear with their ears, and should understand with their heart, and should be converted, and I should heal them."
+      },
+      {
+        reference: "Isaiah 6:9-10 (KJV)",
+        passage:
+          "And he said, Go, and tell this people, Hear ye indeed, but understand not; and see ye indeed, but perceive not. Make the heart of this people fat, and make their ears heavy, and shut their eyes; lest they see with their eyes, and hear with their ears, and understand with their heart, and convert, and be healed."
+      }
+    ]
+  },
+  {
+    title: "Foreknowledge Is Not The Same Claim as Causation",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "If God foreknows an event, that foreknowledge itself means God causally determines the event.",
+    tones: {
+      pastoral:
+        "God's perfect foreknowledge should comfort believers. The philosophical question is whether knowing an act before it happens is identical to causally producing that act.",
+      debate:
+        "Foreknowledge and causation are not automatically interchangeable terms. Scripture can join foreknowledge and purpose without collapsing all distinctions between knowing, permitting, and directly causing.",
+      academic:
+        "The inference from epistemic certainty to efficient causation is a substantive metaphysical step, not a definitional truth. Exegesis and philosophical argument both are needed before equating the two."
+    },
+    references: [
+      {
+        reference: "Acts 2:23 (KJV)",
+        passage:
+          "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain:"
+      },
+      {
+        reference: "Romans 8:29 (KJV)",
+        passage:
+          "For whom he did foreknow, he also did predestinate to be conformed to the image of his Son."
+      },
+      {
+        reference: "1 Peter 1:2 (KJV)",
+        passage:
+          "Elect according to the foreknowledge of God the Father, through sanctification of the Spirit, unto obedience and sprinkling of the blood of Jesus Christ."
+      }
+    ]
+  },
+  {
+    title: "Unable to Save Self Is Not Identical to Unable to Respond to Revelation",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Because sinners cannot save themselves, they also cannot meaningfully respond to God's revelation when confronted by it.",
+    tones: {
+      pastoral:
+        "No one saves himself; salvation is by grace. Scripture still presents summons, hearing, and refusal language that treats response as meaningful and blameworthy.",
+      debate:
+        "Inability to self-atone is not the same proposition as inability to repent when confronted with divine truth. Category distinctions matter in evangelistic and warning texts.",
+      academic:
+        "Soteriological inability claims (self-redemption) should not be conflated with doxastic-volitional response categories under proclamation. Canonical data includes both grace primacy and accountable response discourse."
+    },
+    references: [
+      {
+        reference: "Romans 10:14-17 (KJV)",
+        passage:
+          "How then shall they call on him in whom they have not believed? and how shall they believe in him of whom they have not heard? and how shall they hear without a preacher? And how shall they preach, except they be sent? as it is written, How beautiful are the feet of them that preach the gospel of peace, and bring glad tidings of good things! But they have not all obeyed the gospel. For Esaias saith, Lord, who hath believed our report? So then faith cometh by hearing, and hearing by the word of God."
+      },
+      {
+        reference: "Acts 17:30 (KJV)",
+        passage:
+          "And the times of this ignorance God winked at; but now commandeth all men every where to repent:"
+      },
+      {
+        reference: "John 5:40 (KJV)",
+        passage:
+          "And ye will not come to me, that ye might have life."
+      }
+    ]
+  },
+  {
+    title: "Infant Accountability and Reprobation Pressure",
+    claimLabel: "Calvinist Reply",
+    responseLabel: "Counter-Response",
+    claim:
+      "Unconditional election/reprobation creates no additional moral pressure regarding infants beyond ordinary human sinfulness.",
+    tones: {
+      pastoral:
+        "This is a sensitive issue and should be handled with care and humility. Scripture gives less detail than many want, so dogmatism should be avoided while still asking hard coherence questions.",
+      debate:
+        "The concern is not sentimentality but moral-theological consistency: how fixed reprobation claims interact with texts about justice, little ones, and accountability categories.",
+      academic:
+        "Any systematic account must integrate doctrines of original sin, divine justice, and infant destiny with clear epistemic modesty where Scripture is less explicit. Pressure points here are coherence and warranted inference limits."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 1:39 (KJV)",
+        passage:
+          "Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither."
+      },
+      {
+        reference: "2 Samuel 12:23 (KJV)",
+        passage:
+          "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me."
+      },
+      {
+        reference: "Genesis 18:25 (KJV)",
+        passage:
+          "That be far from thee to do after this manner, to slay the righteous with the wicked... Shall not the Judge of all the earth do right?"
+      }
+    ]
+  }
+];
+
+const epistemicChallengeData = [
+  {
+    title: "Exhaustive Determinism and Epistemic Self-Defeat",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "If God determines every theological conclusion, including false ones held by sincere believers, confidence in our own conclusions becomes unstable.",
+    tones: {
+      pastoral:
+        "This concern is not saying God cannot guide his people. It is asking how believers can trust their theological judgments if every error and every judgment-step is equally determined by the same exhaustive decree.",
+      debate:
+        "If exhaustive determinism includes God determining believers into false theology, the model risks undercutting doctrinal confidence from inside. The challenge is not mere mystery but epistemic coherence.",
+      academic:
+        "The argument targets internal warrant conditions: when true and false theological beliefs are both exhaustively determined, a defeater pressure emerges against confidence that one has tracked truth rather than merely instantiated decree."
+    },
+    references: [
+      {
+        reference: "1 Timothy 2:4 (KJV)",
+        passage:
+          "Who will have all men to be saved, and to come unto the knowledge of the truth."
+      },
+      {
+        reference: "John 8:32 (KJV)",
+        passage:
+          "And ye shall know the truth, and the truth shall make you free."
+      },
+      {
+        reference: "1 John 1:5 (KJV)",
+        passage:
+          "God is light, and in him is no darkness at all."
+      }
+    ]
+  },
+  {
+    title: "Trustworthiness Pressure Under Exhaustive False-Belief Determination",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "If God determines all believers to hold at least some false theological beliefs, trust in theological conclusions faces an undercutting defeater.",
+    tones: {
+      pastoral:
+        "This is not claiming God lies. It asks whether a model that equally determines true and false doctrinal conclusions can still give ordinary confidence that our current conclusions are truth-tracking.",
+      debate:
+        "The challenge is model-level trustworthiness: if all parties are determination-level outputs including false theology, confidence can become assertion without independent warrant.",
+      academic:
+        "The objection is an undercutting-defeater argument about doxastic justification. It targets epistemic position under exhaustive doxastic determination, not divine moral character directly."
+    },
+    references: [
+      {
+        reference: "Titus 1:2 (KJV)",
+        passage:
+          "In hope of eternal life, which God, that cannot lie, promised before the world began;"
+      },
+      {
+        reference: "John 8:32 (KJV)",
+        passage:
+          "And ye shall know the truth, and the truth shall make you free."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      }
+    ]
+  },
+  {
+    title: "Circular Reliability Claims Need Independent Grounding",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "A determinist cannot simply say, my reasoning is reliable because the determining cause made it reliable, without offering non-circular grounds.",
+    tones: {
+      pastoral:
+        "Believers should test claims carefully, not assume reliability by bare assertion. Scripture calls us to examine and prove, which pushes us away from circular certainty claims.",
+      debate:
+        "Saying my reasoning is reliable because my system says it is reliable is question-begging. The challenge is to show independent warrant, especially amid peer-level disagreement.",
+      academic:
+        "The objection is a regress/circularity pressure on first-order doxastic confidence. Methodologically, reliability claims require warrant not reducible to the same contested inferential chain."
+    },
+    references: [
+      {
+        reference: "Acts 17:11 (KJV)",
+        passage:
+          "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "Isaiah 1:18 (KJV)",
+        passage:
+          "Come now, and let us reason together, saith the LORD."
+      }
+    ]
+  },
+  {
+    title: "Rebellion Language Becomes Strained Under Exhaustive Causation",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "If sinful refusal is exhaustively determined in the same way as every other event, ordinary biblical rebellion language can appear semantically weakened.",
+    tones: {
+      pastoral:
+        "Scripture presents both God's rule and real human refusal. Any model should preserve both truths without making calls to repent sound only formal.",
+      debate:
+        "The burden is to explain how ye would not and gainsaying language remain genuine rebellion if every contrary intention is antecedently fixed at the same exhaustive level.",
+      academic:
+        "This is a semantic-coherence challenge: rebellion and culpable refusal categories must remain robust in discourse where divine sovereignty is also affirmed."
+    },
+    references: [
+      {
+        reference: "Romans 10:21 (KJV)",
+        passage:
+          "All day long I have stretched forth my hands unto a disobedient and gainsaying people."
+      },
+      {
+        reference: "James 1:13 (KJV)",
+        passage:
+          "Let no man say when he is tempted, I am tempted of God: for God cannot be tempted with evil, neither tempteth he any man:"
+      },
+      {
+        reference: "Habakkuk 1:13 (KJV)",
+        passage:
+          "Thou art of purer eyes than to behold evil, and canst not look on iniquity."
+      }
+    ]
+  },
+  {
+    title: "Strongest-Desire Compatibilism and Truth-Tracking Rationality",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "If belief-choice is reduced to strongest present desire, it is not obvious how reasoning remains a truth-tracking norm rather than desire-tracking output.",
+    tones: {
+      pastoral:
+        "Scripture often calls us to reject self-trust and submit our thoughts to God's truth. That pattern fits active reasoning responsibility, not mere desire-following.",
+      debate:
+        "Desire can influence judgment, but it cannot be the whole account of rational normativity. Facts can require conclusions that run against our strongest immediate preference.",
+      academic:
+        "The objection distinguishes motivational psychology from epistemic normativity: desire-selection alone does not explain why a conclusion should count as rationally warranted."
+    },
+    references: [
+      {
+        reference: "Proverbs 28:26 (KJV)",
+        passage:
+          "He that trusteth in his own heart is a fool: but whoso walketh wisely, he shall be delivered."
+      },
+      {
+        reference: "Jeremiah 17:9 (KJV)",
+        passage:
+          "The heart is deceitful above all things, and desperately wicked: who can know it?"
+      },
+      {
+        reference: "2 Corinthians 10:5 (KJV)",
+        passage:
+          "Casting down imaginations, and every high thing that exalteth itself against the knowledge of God, and bringing into captivity every thought to the obedience of Christ;"
+      }
+    ]
+  },
+  {
+    title: "Rejecting Exhaustive Determinism Is Not Rejecting Divine Action",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "One can deny exhaustive determination of all reasoning while still affirming strong divine action, including Scripture inspiration and providential governance.",
+    tones: {
+      pastoral:
+        "This is an important clarification: denying exhaustive divine determinism does not mean God is absent or weak. It means preserving both God's sovereignty and meaningful human responsibility.",
+      debate:
+        "The false dilemma is common: either exhaustive determinism or practical deism. Scripture affirms decisive divine acts without requiring a totalized determinist model for every human inference.",
+      academic:
+        "A non-exhaustive-determinist framework can still affirm robust providence and inspiration claims by distinguishing special divine acts from a universal causal-totality thesis."
+    },
+    references: [
+      {
+        reference: "2 Peter 1:21 (KJV)",
+        passage:
+          "For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost."
+      },
+      {
+        reference: "2 Timothy 3:16 (KJV)",
+        passage:
+          "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness:"
+      },
+      {
+        reference: "Luke 1:3-4 (KJV)",
+        passage:
+          "It seemed good to me also, having had perfect understanding of all things from the very first, to write unto thee in order, most excellent Theophilus, That thou mightest know the certainty of those things, wherein thou hast been instructed."
+      }
+    ]
+  },
+  {
+    title: "Assurance and Temporary-Faith Pressure Under Fixed Election",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "If assurance is tied to signs that can appear in non-elect hearers, confidence can become psychologically strong but epistemically unstable.",
+    tones: {
+      pastoral:
+        "Believers should rest in Christ, not in panic. Even so, systems should explain how assurance remains meaningful when Scripture warns about temporary or non-enduring responses.",
+      debate:
+        "The issue is not whether Calvinists teach assurance; they do. The pressure point is whether assurance criteria can distinguish true perseverance from temporary confidence without circularity.",
+      academic:
+        "This challenge targets warrant conditions for assurance under fixed-election schemas: if phenomenology of faith can be mimicked by non-persevering cases, a principled non-circular discriminator is required."
+    },
+    references: [
+      {
+        reference: "Romans 8:29-30 (KJV)",
+        passage:
+          "For whom he did foreknow, he also did predestinate to be conformed to the image of his Son, that he might be the firstborn among many brethren. Moreover whom he did predestinate, them he also called: and whom he called, them he also justified: and whom he justified, them he also glorified."
+      },
+      {
+        reference: "Hebrews 3:14 (KJV)",
+        passage:
+          "For we are made partakers of Christ, if we hold the beginning of our confidence stedfast unto the end."
+      },
+      {
+        reference: "2 Peter 2:20-21 (KJV)",
+        passage:
+          "For if after they have escaped the pollutions of the world through the knowledge of the Lord and Saviour Jesus Christ, they are again entangled therein, and overcome, the latter end is worse with them than the beginning. For it had been better for them not to have known the way of righteousness, than, after they have known it, to turn from the holy commandment delivered unto them."
+      }
+    ]
+  },
+  {
+    title: "Command Language and Agency Under Exhaustive Determination",
+    claimLabel: "Argument",
+    responseLabel: "Response",
+    claim:
+      "If all trust-and-obey outcomes are fixed at the same determination level, imperative language risks becoming descriptive rather than action-guiding.",
+    tones: {
+      pastoral:
+        "God's commands are given to be obeyed, not merely observed. Any model should preserve the lived force of trust, repent, and believe as real summons.",
+      debate:
+        "Duty-not-ability distinctions may stand, but command language still has to function as practical address. If no alternative response is possible in any relevant sense, the force of exhortation is reduced.",
+      academic:
+        "The concern is speech-act integrity: biblical imperatives and rebukes appear to presuppose meaningful agency participation. Exhaustive deterministic readings must specify how directive force survives without collapsing into post hoc description."
+    },
+    references: [
+      {
+        reference: "Acts 17:30 (KJV)",
+        passage:
+          "And the times of this ignorance God winked at; but now commandeth all men every where to repent:"
+      },
+      {
+        reference: "John 5:40 (KJV)",
+        passage: "And ye will not come to me, that ye might have life."
+      },
+      {
+        reference: "Hebrews 3:12 (KJV)",
+        passage:
+          "Take heed, brethren, lest there be in any of you an evil heart of unbelief, in departing from the living God."
       }
     ]
   }
@@ -2131,10 +3358,82 @@ const glossaryData = [
     references: ["Romans 9:19-24 (KJV)", "James 1:13 (KJV)"]
   },
   {
+    term: "Compatibilism",
+    definition:
+      "A model claiming divine determination and meaningful human responsibility are compatible. The key debate is whether commands, blame, and warnings retain full explanatory force under this model.",
+    references: ["Romans 9:19-21 (KJV)", "John 5:40 (KJV)", "Romans 10:21 (KJV)"]
+  },
+  {
+    term: "Concurrence",
+    definition:
+      "A doctrine that one event can involve both divine providential purpose and creaturely action. The question is whether this implies exhaustive determination of every creaturely intention.",
+    references: ["Acts 4:27-28 (KJV)", "Acts 2:23 (KJV)", "Genesis 50:20 (KJV)"]
+  },
+  {
+    term: "Definition Drift",
+    definition:
+      "Shifting meanings of terms like sovereignty, predestination, and determination mid-argument. Stable definitions are necessary before evaluating claims.",
+    references: ["Proverbs 18:13 (KJV)", "Acts 17:11 (KJV)", "1 Thessalonians 5:21 (KJV)"]
+  },
+  {
+    term: "Determination (Technical)",
+    definition:
+      "A technical claim that antecedent conditions are sufficient to necessitate an event. This is stronger than saying an event is merely foreknown or certain.",
+    references: ["Acts 2:23 (KJV)", "Luke 22:22 (KJV)", "1 Corinthians 10:13 (KJV)"]
+  },
+  {
+    term: "Certainty vs Necessity",
+    definition:
+      "Certainty means something will happen; necessity means it could not be otherwise. Debates often fail when these are treated as identical without argument.",
+    references: ["Luke 22:22 (KJV)", "Acts 2:23 (KJV)", "1 Corinthians 10:13 (KJV)"]
+  },
+  {
+    term: "Contingency",
+    definition:
+      "A contingent act is one that truly could be otherwise under the relevant conditions. Many command, warning, and way-of-escape texts are read as practical contingency language.",
+    references: ["1 Corinthians 10:13 (KJV)", "Colossians 1:23 (KJV)", "Hebrews 3:12 (KJV)"]
+  },
+  {
+    term: "Judicial Delusion",
+    definition:
+      "A judgment pattern where people first reject truth and are then given over to deeper deception. This is different from claiming God universally determines every person's false theological beliefs from the outset.",
+    references: ["2 Thessalonians 2:9-12 (KJV)", "Romans 1:21-25 (KJV)", "1 Kings 22:19-23 (KJV)"]
+  },
+  {
+    term: "Assurance Under Fixed Election",
+    definition:
+      "The pastoral and epistemic question of how believers distinguish true perseverance from temporary confidence when election is treated as fixed and hidden.",
+    references: ["Romans 8:29-30 (KJV)", "Hebrews 3:14 (KJV)", "2 Peter 2:20-21 (KJV)"]
+  },
+  {
     term: "Lapsarian Ordering",
     definition:
       "An internal Calvinist debate over the logical order of God's decrees (for example, election, fall, and reprobation). It explains family differences inside Calvinism but does not settle exegesis by itself.",
     references: ["Romans 9:19-24 (KJV)", "1 Timothy 2:3-4 (KJV)", "James 1:13 (KJV)"]
+  },
+  {
+    term: "Hermeneutics",
+    definition:
+      "The disciplined process of interpreting Scripture by context, genre, language, and argument-flow rather than surface phrasing alone.",
+    references: ["2 Timothy 2:15 (KJV)", "Luke 24:27 (KJV)", "2 Peter 3:16 (KJV)"]
+  },
+  {
+    term: "Ordain vs Determine",
+    definition:
+      "A distinction between God's sovereign ordaining of outcomes and the claim that God directly causes every intention and decision in the same deterministic manner.",
+    references: ["Acts 2:23 (KJV)", "Genesis 50:20 (KJV)", "James 1:13 (KJV)"]
+  },
+  {
+    term: "Maverick Molecules (Slogan)",
+    definition:
+      "A sovereignty slogan often used in debate. The key question is whether sovereignty requires exhaustive causal determinism or can include providential governance with real creaturely agency.",
+    references: ["Psalm 115:3 (KJV)", "Daniel 4:35 (KJV)", "Proverbs 16:9 (KJV)"]
+  },
+  {
+    term: "Totality Claim (System-First Risk)",
+    definition:
+      "Appealing to the whole Bible can be valid, but it becomes risky when used to avoid passage-level exegesis and concrete textual warrants.",
+    references: ["Acts 17:11 (KJV)", "1 Thessalonians 5:21 (KJV)", "Isaiah 28:10 (KJV)"]
   },
   {
     term: "Supersessionism",
@@ -2299,6 +3598,76 @@ const objectionDrilldownData = [
     ]
   },
   {
+    title: "Prayer, Conflation, and Modal Clarity",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "If you pray for someone to repent, you are effectively praying for God to save them, so repentance and salvation are one collapsed category.",
+        calvinistReply:
+          "Prayer for repentance implies God must be decisive in both repentance and salvation outcomes.",
+        counterResponse:
+          "Prayer and category clarity can coexist: repentance is commanded to all, while salvation is granted through Christ to believers. Distinguishing those claims is not Pelagianism; it is basic biblical precision.",
+        references: ["Acts 17:30 (KJV)", "Acts 16:31 (KJV)", "Acts 11:14 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "Because believers pray for conversion, prayer itself proves irresistible causation.",
+        calvinistReply:
+          "Intercession only makes sense if God unilaterally determines who will convert.",
+        counterResponse:
+          "Intercession shows dependence on God, not necessarily a full deterministic model. The New Testament joins prayer with proclamation, open doors, and accountable hearing.",
+        references: ["1 Timothy 2:1-6 (KJV)", "Romans 10:1 (KJV)", "Colossians 4:3 (KJV)"]
+      },
+      {
+        layer: "Layer 3",
+        objection:
+          "If God infallibly knows what will happen, it must happen in a necessitated causal sense.",
+        calvinistReply:
+          "Divine certainty and event necessity are practically identical in outcome.",
+        counterResponse:
+          "Outcome certainty is not automatically the same proposition as causal necessity. Scripture can pair determined redemptive events with real woe/blame language and way-of-escape exhortation.",
+        references: ["Luke 22:22 (KJV)", "Acts 2:23 (KJV)", "1 Corinthians 10:13 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Omni-Attributes and Irresistible Grace",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "If grace is irresistible for every person God wills to save, then no one God salvifically wills to save can finally be lost.",
+        calvinistReply:
+          "God's decretive will infallibly saves the elect while his revealed will can address all in command-form without identical salvific intent.",
+        counterResponse:
+          "That distinction can be argued, but it must still account for broad salvation-desire and command language without reducing it to non-operative rhetoric.",
+        references: ["1 Timothy 2:3-4 (KJV)", "Acts 17:30 (KJV)", "2 Peter 3:9 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "If God is all-good, all-powerful, and all-knowing, why does a strict irresistible-grace model not result in all being saved?",
+        calvinistReply:
+          "God is not obligated to save all; justice and mercy are displayed differently according to his sovereign freedom.",
+        counterResponse:
+          "Divine freedom is biblical, yet the model still must preserve God's stated delight in repentance and broad invitation language as meaningful disclosures of character.",
+        references: ["Ezekiel 18:23 (KJV)", "Matthew 23:37 (KJV)", "1 John 4:8 (KJV)"]
+      },
+      {
+        layer: "Layer 3",
+        objection:
+          "If believers can hold false theology under exhaustive determination, how are they to trust which conclusions are true?",
+        calvinistReply:
+          "God ordinarily uses means, teachers, and sanctification processes to bring the elect toward truth over time.",
+        counterResponse:
+          "Means language helps pastorally, but the epistemic pressure remains if true and false doctrinal conclusions are equally determination-level outputs. Independent warrant structure still needs explicit account.",
+        references: ["Acts 17:11 (KJV)", "1 Thessalonians 5:21 (KJV)", "John 8:32 (KJV)"]
+      }
+    ]
+  },
+  {
     title: "Jacob and Esau in Romans 9",
     steps: [
       {
@@ -2320,6 +3689,41 @@ const objectionDrilldownData = [
         counterResponse:
           "Those distinctions may help and should be considered, but they cannot remove Paul's own wherefore and unbelief logic in Romans 9-10. The chapter must carry both sovereignty and accountability simultaneously.",
         references: ["Romans 9:19-21 (KJV)", "Romans 9:30-32 (KJV)", "Romans 10:9-13 (KJV)"]
+      }
+    ]
+  },
+  {
+    title: "Mystery vs Contradiction Triage",
+    steps: [
+      {
+        layer: "Layer 1",
+        objection:
+          "Sovereignty and responsibility are both biblical, so any tension should simply be labeled mystery.",
+        calvinistReply:
+          "Finite minds cannot resolve all divine truths, so pressing for full explanatory coherence is misplaced.",
+        counterResponse:
+          "Humility is right, but triage matters: first test definitions and local context; only then appeal to mystery where Scripture leaves the mechanism unrevealed.",
+        references: ["Deuteronomy 29:29 (KJV)", "Acts 17:11 (KJV)", "1 Thessalonians 5:21 (KJV)"]
+      },
+      {
+        layer: "Layer 2",
+        objection:
+          "If a contradiction appears, creatures must submit and stop analysis.",
+        calvinistReply:
+          "Who are you, O man? The creature is not entitled to demand logical reconciliation.",
+        counterResponse:
+          "Romans 9 rebukes arrogance, not disciplined exegesis. Scripture itself commands proving, reasoning, and comparing texts while remaining reverent.",
+        references: ["Romans 9:20-21 (KJV)", "Isaiah 1:18 (KJV)", "1 Thessalonians 5:21 (KJV)"]
+      },
+      {
+        layer: "Layer 3",
+        objection:
+          "Practical rule: mystery should settle disputes early to preserve worship.",
+        calvinistReply:
+          "Extended logical probing risks rationalism and can harden hearts against revelation.",
+        counterResponse:
+          "A better rule is: do not force full mechanism where text is silent, but do reject semantic collapse and direct contradiction where text gives real explanatory language like wherefore and ye would not.",
+        references: ["Romans 9:30-32 (KJV)", "John 5:40 (KJV)", "Romans 10:21 (KJV)"]
       }
     ]
   }
@@ -2346,7 +3750,7 @@ const tulipDeterminismSlopeData = [
         reply:
           "Possible Determinist Inference: salvation outcomes are settled before gospel encounter for each person.",
         counterResponse:
-          "KJV passages still use broad-scope language and open proclamation forms. Strong Calvinist formulations can be stated cleanly, but narrowing claims must be shown text by text, not presumed globally.",
+          "KJV passages still use broad-scope language and open proclamation forms. Group-election language does not by itself settle each individual conversion-mechanism claim. Strong Calvinist formulations can be stated cleanly, but narrowing claims must be shown text by text, not presumed globally.",
         references: ["Ephesians 1:4-5 (KJV)", "1 Timothy 2:3-4 (KJV)", "1 John 2:2 (KJV)"]
       },
       {
@@ -2376,7 +3780,7 @@ const tulipDeterminismSlopeData = [
         reply:
           "Strong Compatibilist Inference: divine determination and real human willing are compatible, so commands and blame remain meaningful under providence.",
         counterResponse:
-          "That is the strongest Reformed answer and should be engaged directly. This is a conditional stress test, not an inevitability claim, and compatibilism may pass it. Operational checks are explicit: Summons check (universal imperatives promise life on response without hidden audience qualifiers in the address), Blame check (wherefore/ye would not clauses function as explanatory reasons, not decree labels), and Warning check (if/otherwise warnings to addressed communities retain practical contingency). If all three remain robust, the slope claim fails; only if they collapse into description-only language is determinist drift indicated.",
+          "That is the strongest Reformed answer and should be engaged directly. This is a conditional stress test, not an inevitability claim, and compatibilism may pass it. Operational checks are explicit: Summons check (universal imperatives promise life on response without hidden audience qualifiers in the address), Blame check (wherefore/ye would not clauses function as explanatory reasons, not decree labels), Warning check (if/otherwise warnings to addressed communities retain practical contingency), and Modal check (will happen language is not silently converted into must happen necessity claims). If all four remain robust, the slope claim fails; only if they collapse into description-only language is determinist drift indicated.",
         references: ["Acts 17:30 (KJV)", "John 5:40 (KJV)", "Hebrews 3:14 (KJV)", "Acts 2:23 (KJV)"]
       }
     ]
@@ -2520,10 +3924,12 @@ const chapterContextNotes = {
   "Acts 16": "Acts 16 contains direct salvation proclamation language: Believe on the Lord Jesus Christ.",
   "Acts 17": "Acts 17 presents a public universal repentance command in the context of creation, judgment, and resurrection proclamation.",
   "Acts 3": "Acts 3 records Peter's post-Pentecost call to repentance and includes times of refreshing/restitution language tied to prophetic expectation.",
+  "Acts 4": "Acts 4 records the apostolic prayer after persecution and states that Christ's crucifixion occurred according to God's determined counsel while naming responsible human actors.",
   "Amos 9": "Amos 9 closes with restoration language about Israel's return, rebuilding, and secure planting in the land.",
   "Colossians 1": "Colossians 1 emphasizes Christ's supremacy and reconciliation with conditional continuation language in verse 23.",
   "Deuteronomy 28": "Deuteronomy 28 details covenant blessings and curses, including dispersion warnings for disobedience.",
   "Deuteronomy 30": "Deuteronomy 30 presents post-exile restoration language, including regathering and return to the fathers' land.",
+  "Deuteronomy 1": "Deuteronomy 1 recounts wilderness judgment and includes little-ones accountability language in Israel's generation shift.",
   "Ephesians 1": "Ephesians 1 centers blessings in Christ and includes hearing and believing language as part of participation.",
   "Ephesians 2": "Ephesians 2 highlights salvation by grace through faith and transformation from prior spiritual death.",
   "Ezekiel 40": "Ezekiel 40 begins the temple-vision sequence in explicit land-of-Israel framing.",
@@ -2533,6 +3939,7 @@ const chapterContextNotes = {
   "Genesis 50": "Genesis 50 frames Joseph's suffering within creaturely evil intent and God's overriding good purpose.",
   "Habakkuk 1": "Habakkuk 1 includes holiness language and the prophet's complaint over judgment and violence.",
   "Genesis 17": "Genesis 17 presents covenant sign language and promises to Abraham and his seed, including the land promise.",
+  "Genesis 18": "Genesis 18 includes Abraham's intercession and the Judge of all the earth do right declaration on divine justice.",
   "Genesis 25": "Genesis 25 includes the twins oracle about two nations and the elder-younger service statement later cited in Romans 9.",
   "Genesis 33": "Genesis 33 narrates Jacob-Esau reconciliation and unexpected mercy language in their meeting.",
   "Hebrews 10": "Hebrews 10 emphasizes Christ's once-for-all offering and its decisive sufficiency.",
@@ -2542,6 +3949,8 @@ const chapterContextNotes = {
   "Hebrews 6": "Hebrews 6 contains one of the strongest warning passages concerning falling away after profound participation.",
   "Hebrews 8": "Hebrews 8 cites Jeremiah's New Covenant terms, including explicit mention of Israel and Judah.",
   "Isaiah 55": "Isaiah 55 is an invitation chapter calling hearers to seek the LORD, forsake wickedness, and come freely.",
+  "Isaiah 6": "Isaiah 6 contains the prophet's commission and hardening-language later cited in Gospel parable contexts.",
+  "Isaiah 5": "Isaiah 5 includes covenant lawsuit themes, moral inversion warnings, and a series of woes against corruption.",
   "James 1": "James 1 addresses testing, wisdom, and explicitly denies that God tempts anyone with evil.",
   "Isaiah 2": "Isaiah 2 presents mountain-of-the-LORD and nations-to-Zion imagery with peace-among-nations language.",
   "Jeremiah 31": "Jeremiah 31 includes New Covenant promise language and affirmations of Israel's national continuity.",
@@ -2563,11 +3972,14 @@ const chapterContextNotes = {
   "Luke 21": "Luke 21 discusses Jerusalem's judgment and includes an until marker for Gentile times.",
   "Luke 22": "Luke 22 includes kingdom-throne language connected to judging the twelve tribes of Israel.",
   "Luke 1": "Luke 1 contains angelic throne and Jacob-house reign language concerning Messiah's kingdom.",
+  "Mark 4": "Mark 4 includes Jesus' parable teaching and the mystery-given/without-concealment explanation.",
+  "Matthew 13": "Matthew 13 develops kingdom parables and explicitly applies Isaiah hardening language to hearers.",
   "Matthew 19": "Matthew 19 includes Jesus' promise of future judging over the twelve tribes of Israel.",
   "Matthew 24": "Matthew 24 contains Jesus' Olivet discourse, including generation language and tribulation markers.",
   "Matthew 23": "Matthew 23 combines prophetic rebuke with Jesus' lament over Jerusalem's refusal.",
   "Micah 4": "Micah 4 parallels Zion-and-nations restoration language and future peace motifs.",
   "Malachi 1": "Malachi 1 contrasts Jacob and Esau/Edom in covenant-judgment language that Paul later cites in Romans 9.",
+  "Numbers 23": "Numbers 23 records Balaam oracles and includes direct statements on God's truthfulness and unchangeable fidelity.",
   "Philippians 1": "Philippians 1 combines thanksgiving, gospel partnership, and confidence language about God's ongoing work in believers.",
   "Proverbs 18": "Proverbs 18 highlights wisdom in hearing a matter fully before answering.",
   "Revelation 7": "Revelation 7 includes sealing language and explicit tribal naming for the children of Israel.",
@@ -2587,9 +3999,11 @@ const chapterContextNotes = {
   "1 Peter 2": "1 Peter 2 applies covenant-people language to believers and emphasizes identity and witness themes.",
   "1 Thessalonians 5": "1 Thessalonians 5 calls believers to discernment: prove all things; hold fast what is good.",
   "1 Timothy 2": "1 Timothy 2 combines intercession for all kinds of people with God's saving desire statements.",
+  "2 Samuel 12": "2 Samuel 12 narrates David's repentance and his statement of hope concerning his deceased child.",
   "2 Timothy 2": "2 Timothy 2 includes vessel imagery with cleansing language and readiness for honorable use.",
   "2 Peter 2": "2 Peter 2 warns of apostasy and worsening condition after escaping prior corruption.",
   "2 Peter 3": "2 Peter 3 discusses patience, repentance, and the coming day of the Lord.",
+  "Titus 1": "Titus 1 opens with gospel mission framing and includes God's cannot-lie declaration tied to promise.",
   "Ezekiel 36": "Ezekiel 36 presents regathering and renewal language linked to Israel being brought into its own land.",
   "Zechariah 12": "Zechariah 12 includes Jerusalem-focused prophecy and national mourning around the pierced one.",
   "Zechariah 14": "Zechariah 14 presents Jerusalem-centered day-of-the-LORD language with nations and worship themes."
@@ -2755,6 +4169,7 @@ const contextViewerSection = document.querySelector("#context-viewer");
 const argumentList = document.querySelector("#argument-list");
 const proofList = document.querySelector("#proof-list");
 const replyList = document.querySelector("#reply-list");
+const epistemicList = document.querySelector("#epistemic-list");
 const replacementList = document.querySelector("#replacement-list");
 const glossaryList = document.querySelector("#glossary-list");
 const drilldownList = document.querySelector("#drilldown-list");
@@ -2899,6 +4314,7 @@ function getReferencePool() {
     ...extractReferenceObjects(argumentsData),
     ...extractReferenceObjects(proofTextsData),
     ...extractReferenceObjects(commonRepliesData),
+    ...extractReferenceObjects(epistemicChallengeData),
     ...extractReferenceObjects(replacementTheologyData),
     ...lensVerses
   ];
@@ -3648,6 +5064,15 @@ function renderReplacementDrilldown() {
   );
 }
 
+function renderEpistemicChallenges(toneKey) {
+  renderClaimResponseList(
+    epistemicList,
+    epistemicChallengeData,
+    toneKey,
+    "No epistemic challenge entries matched your search."
+  );
+}
+
 function createChapterSkeleton(lineCount = 10) {
   const skeleton = document.createElement("div");
   skeleton.className = "chapter-skeleton";
@@ -3855,7 +5280,15 @@ function renderComparisonFilters() {
   comparisonFilters.innerHTML = "";
   const categories = isReplacementPage
     ? ["All", "Replacement Theology", "Objection Drilldown"]
-    : ["All", "Core Challenge", "Proof-Text", "Common Reply", "Determinism Slope", "Objection Drilldown"];
+    : [
+        "All",
+        "Core Challenge",
+        "Proof-Text",
+        "Common Reply",
+        "Epistemic Challenge",
+        "Determinism Slope",
+        "Objection Drilldown"
+      ];
 
   categories.forEach((category) => {
     const button = document.createElement("button");
@@ -3941,6 +5374,15 @@ function buildComparisonItems(toneKey) {
     references: entry.references
   }));
 
+  const epistemicItems = epistemicChallengeData.map((entry) => ({
+    type: "Epistemic Challenge",
+    title: entry.title,
+    claimLabel: entry.claimLabel,
+    claim: entry.claim,
+    response: entry.tones[toneKey],
+    references: entry.references
+  }));
+
   const replacementItems = replacementTheologyData.map((entry) => ({
     type: "Replacement Theology",
     title: entry.title,
@@ -3996,7 +5438,14 @@ function buildComparisonItems(toneKey) {
     return [...replacementItems, ...replacementDrilldownItems];
   }
 
-  return [...coreItems, ...proofItems, ...replyItems, ...tulipSlopeItems, ...drilldownItems];
+  return [
+    ...coreItems,
+    ...proofItems,
+    ...replyItems,
+    ...epistemicItems,
+    ...tulipSlopeItems,
+    ...drilldownItems
+  ];
 }
 
 function renderComparison(toneKey) {
@@ -4070,6 +5519,7 @@ function renderAllForTone(toneKey) {
       toneKey,
       "No common replies matched your search."
     );
+    renderEpistemicChallenges(toneKey);
     renderDrilldown();
     renderTulipSlope();
   }
