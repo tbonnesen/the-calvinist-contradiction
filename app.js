@@ -4190,12 +4190,29 @@ const comparisonTemplate = document.querySelector("#comparison-template");
 const filtersContainer = document.querySelector("#filters");
 const verseCards = document.querySelector("#verse-cards");
 const logicList = document.querySelector("#logic-list");
+const replyThemeFilters = document.querySelector("#reply-theme-filters");
+const glossaryThemeFilters = document.querySelector("#glossary-theme-filters");
+const replacementThemeFilters = document.querySelector("#replacement-theme-filters");
+const quickJumpLinks = [...document.querySelectorAll(".quick-jump-link[data-jump-target]")];
+
+const countCore = document.querySelector("#count-core");
+const countProof = document.querySelector("#count-proof");
+const countReplies = document.querySelector("#count-replies");
+const countDrilldown = document.querySelector("#count-drilldown");
+const countSlope = document.querySelector("#count-slope");
+const countEpistemic = document.querySelector("#count-epistemic");
+const countGlossary = document.querySelector("#count-glossary");
+const countReplacement = document.querySelector("#count-replacement");
+const countReplacementDrilldown = document.querySelector("#count-replacement-drilldown");
 
 let currentTone = "pastoral";
 let currentCategory = "All";
 let currentComparisonType = "All";
 let currentSearchQuery = "";
 let currentGlossaryQuery = "";
+let currentReplyTheme = "All";
+let currentGlossaryTheme = "All";
+let currentReplacementTheme = "All";
 let currentContextReference = "";
 let currentView = "study";
 const chapterCache = new Map();
@@ -4205,6 +4222,7 @@ const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)
 if (isReplacementPage) {
   currentCategory = "RT Covenant Continuity";
   currentComparisonType = "Replacement Theology";
+  currentGlossaryTheme = "Replacement Theology";
 }
 
 if (toneSelect) {
@@ -4488,13 +4506,34 @@ function lookupPassage(reference) {
   );
 }
 
+function expandPanelChainFor(element) {
+  if (!element) {
+    return;
+  }
+
+  const panelChain = [];
+  let cursor = element.closest("section.panel");
+  while (cursor) {
+    panelChain.push(cursor);
+    cursor = cursor.parentElement?.closest("section.panel");
+  }
+
+  panelChain.reverse().forEach((panel) => {
+    if (panel._sectionToggleTrigger) {
+      setSectionExpanded(panel, true);
+    }
+  });
+}
+
 function openContextViewer(reference) {
   currentContextReference = reference;
   renderContextViewer();
   setView("study");
-  expandSectionPanel(contextViewerSection);
+  expandPanelChainFor(contextViewerSection);
   if (contextViewerSection) {
-    contextViewerSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.setTimeout(() => {
+      contextViewerSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, prefersReducedMotion.matches ? 0 : 180);
   }
 }
 
@@ -4668,10 +4707,6 @@ function setSectionExpanded(section, shouldExpand, instant = false) {
   window.setTimeout(updateScrollProgress, 60);
 }
 
-function expandSectionPanel(section) {
-  setSectionExpanded(section, true);
-}
-
 function initSectionAccordions() {
   const sections = [...document.querySelectorAll("section.panel")];
 
@@ -4790,6 +4825,100 @@ function hasSearchMatch(fields) {
   return haystack.includes(currentSearchQuery);
 }
 
+function getReplyTheme(entry) {
+  const title = entry.title.toLowerCase();
+  if (title.includes("romans 9") || title.includes("jacob") || title.includes("esau")) {
+    return "Romans 9 / Election";
+  }
+  if (
+    title.includes("atonement") ||
+    title.includes("world") ||
+    title.includes("all means") ||
+    title.includes("ransom")
+  ) {
+    return "Atonement Scope";
+  }
+  if (
+    title.includes("determin") ||
+    title.includes("compatibil") ||
+    title.includes("maverick") ||
+    title.includes("ordain") ||
+    title.includes("foreknowledge") ||
+    title.includes("dead")
+  ) {
+    return "Determinism / Agency";
+  }
+  if (
+    title.includes("deception") ||
+    title.includes("trust") ||
+    title.includes("reliability") ||
+    title.includes("epistem")
+  ) {
+    return "Epistemic";
+  }
+  return "Method / Hermeneutics";
+}
+
+function getGlossaryTheme(entry) {
+  const blob = `${entry.term} ${entry.definition}`.toLowerCase();
+  if (
+    blob.includes("supersession") ||
+    blob.includes("preter") ||
+    blob.includes("amillennial") ||
+    blob.includes("recapitulation") ||
+    blob.includes("israel") ||
+    blob.includes("covenant")
+  ) {
+    return "Replacement Theology";
+  }
+  if (
+    blob.includes("determin") ||
+    blob.includes("providence") ||
+    blob.includes("compatibil") ||
+    blob.includes("concurrence") ||
+    blob.includes("culpability") ||
+    blob.includes("maverick")
+  ) {
+    return "Determinism / Providence";
+  }
+  if (
+    blob.includes("hermeneutic") ||
+    blob.includes("definition drift") ||
+    blob.includes("certainty") ||
+    blob.includes("contingency") ||
+    blob.includes("totality claim")
+  ) {
+    return "Method / Epistemology";
+  }
+  return "Soteriology";
+}
+
+function getReplacementTheme(entry) {
+  const title = entry.title.toLowerCase();
+  if (title.includes("covenant") || title.includes("obsolete")) {
+    return "Covenant Continuity";
+  }
+  if (title.includes("israel") || title.includes("grafted") || title.includes("hardening")) {
+    return "Israel Identity";
+  }
+  if (title.includes("land") || title.includes("kingdom") || title.includes("acts")) {
+    return "Kingdom / Land";
+  }
+  return "Prophecy / Symbolism";
+}
+
+function matchesReplyTheme(entry) {
+  return currentReplyTheme === "All" || getReplyTheme(entry) === currentReplyTheme;
+}
+
+function matchesGlossaryTheme(entry) {
+  return currentGlossaryTheme === "All" || getGlossaryTheme(entry) === currentGlossaryTheme;
+}
+
+function matchesReplacementTheme(entry) {
+  return currentReplacementTheme === "All" || getReplacementTheme(entry) === currentReplacementTheme;
+}
+
 function matchesArgument(entry, toneKey) {
   return hasSearchMatch([
     entry.title,
@@ -4820,7 +4949,11 @@ function matchesGlossaryEntry(entry) {
     currentGlossaryQuery
   );
 
-  return glossaryMatch && hasSearchMatch([entry.term, entry.definition, ...entry.references]);
+  return (
+    glossaryMatch &&
+    matchesGlossaryTheme(entry) &&
+    hasSearchMatch([entry.term, entry.definition, ...entry.references])
+  );
 }
 
 function matchesDrilldownEntry(entry) {
@@ -4932,6 +5065,78 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
   applyTiltEffects(container);
 }
 
+function renderReplyThemeFilters() {
+  if (!replyThemeFilters || isReplacementPage) {
+    return;
+  }
+
+  replyThemeFilters.innerHTML = "";
+  const themes = ["All", ...new Set(commonRepliesData.map((entry) => getReplyTheme(entry)))];
+  themes.forEach((theme) => {
+    const count = theme === "All"
+      ? commonRepliesData.length
+      : commonRepliesData.filter((entry) => getReplyTheme(entry) === theme).length;
+    const button = document.createElement("button");
+    button.className = "filter-btn";
+    button.type = "button";
+    button.textContent = `${theme} (${count})`;
+    button.classList.toggle("active", theme === currentReplyTheme);
+    button.addEventListener("click", () => {
+      currentReplyTheme = theme;
+      renderAllForTone(currentTone);
+    });
+    replyThemeFilters.appendChild(button);
+  });
+}
+
+function renderGlossaryThemeFilters() {
+  if (!glossaryThemeFilters) {
+    return;
+  }
+
+  glossaryThemeFilters.innerHTML = "";
+  const themes = ["All", ...new Set(glossaryData.map((entry) => getGlossaryTheme(entry)))];
+  themes.forEach((theme) => {
+    const count = theme === "All"
+      ? glossaryData.length
+      : glossaryData.filter((entry) => getGlossaryTheme(entry) === theme).length;
+    const button = document.createElement("button");
+    button.className = "filter-btn";
+    button.type = "button";
+    button.textContent = `${theme} (${count})`;
+    button.classList.toggle("active", theme === currentGlossaryTheme);
+    button.addEventListener("click", () => {
+      currentGlossaryTheme = theme;
+      renderAllForTone(currentTone);
+    });
+    glossaryThemeFilters.appendChild(button);
+  });
+}
+
+function renderReplacementThemeFilters() {
+  if (!replacementThemeFilters || !isReplacementPage) {
+    return;
+  }
+
+  replacementThemeFilters.innerHTML = "";
+  const themes = ["All", ...new Set(replacementTheologyData.map((entry) => getReplacementTheme(entry)))];
+  themes.forEach((theme) => {
+    const count = theme === "All"
+      ? replacementTheologyData.length
+      : replacementTheologyData.filter((entry) => getReplacementTheme(entry) === theme).length;
+    const button = document.createElement("button");
+    button.className = "filter-btn";
+    button.type = "button";
+    button.textContent = `${theme} (${count})`;
+    button.classList.toggle("active", theme === currentReplacementTheme);
+    button.addEventListener("click", () => {
+      currentReplacementTheme = theme;
+      renderAllForTone(currentTone);
+    });
+    replacementThemeFilters.appendChild(button);
+  });
+}
+
 function renderGlossary() {
   if (!glossaryList || !glossaryTemplate) {
     return;
@@ -4963,6 +5168,58 @@ function renderGlossary() {
   });
 
   applyTiltEffects(glossaryList);
+}
+
+function updateQuickJumpCounts(toneKey) {
+  if (countCore) {
+    countCore.textContent = String(
+      argumentsData.filter((entry) => matchesArgument(entry, toneKey)).length
+    );
+  }
+  if (countProof) {
+    countProof.textContent = String(
+      proofTextsData.filter((entry) => matchesClaimResponseEntry(entry, toneKey)).length
+    );
+  }
+  if (countReplies) {
+    countReplies.textContent = String(
+      commonRepliesData
+        .filter((entry) => matchesReplyTheme(entry))
+        .filter((entry) => matchesClaimResponseEntry(entry, toneKey)).length
+    );
+  }
+  if (countDrilldown) {
+    countDrilldown.textContent = String(
+      objectionDrilldownData.filter((entry) => matchesDrilldownEntry(entry)).length
+    );
+  }
+  if (countSlope) {
+    countSlope.textContent = String(
+      tulipDeterminismSlopeData.filter((entry) => matchesDrilldownEntry(entry)).length
+    );
+  }
+  if (countEpistemic) {
+    countEpistemic.textContent = String(
+      epistemicChallengeData.filter((entry) => matchesClaimResponseEntry(entry, toneKey)).length
+    );
+  }
+  if (countGlossary) {
+    countGlossary.textContent = String(
+      glossaryData.filter((entry) => matchesGlossaryEntry(entry)).length
+    );
+  }
+  if (countReplacement) {
+    countReplacement.textContent = String(
+      replacementTheologyData
+        .filter((entry) => matchesReplacementTheme(entry))
+        .filter((entry) => matchesClaimResponseEntry(entry, toneKey)).length
+    );
+  }
+  if (countReplacementDrilldown) {
+    countReplacementDrilldown.textContent = String(
+      replacementDrilldownData.filter((entry) => matchesDrilldownEntry(entry)).length
+    );
+  }
 }
 
 function renderDrilldownList(container, entries, emptyMessage, replyLabelText) {
@@ -5496,15 +5753,20 @@ function renderComparison(toneKey) {
 
 function renderAllForTone(toneKey) {
   renderToneHeader(toneKey);
+  renderGlossaryThemeFilters();
+  updateQuickJumpCounts(toneKey);
   if (isReplacementPage) {
+    renderReplacementThemeFilters();
     renderClaimResponseList(
       replacementList,
-      replacementTheologyData,
+      replacementTheologyData.filter((entry) => matchesReplacementTheme(entry)),
       toneKey,
       "No replacement theology entries matched your search."
     );
+    renderGlossary();
     renderReplacementDrilldown();
   } else {
+    renderReplyThemeFilters();
     renderGlossary();
     renderArguments(toneKey);
     renderClaimResponseList(
@@ -5515,7 +5777,7 @@ function renderAllForTone(toneKey) {
     );
     renderClaimResponseList(
       replyList,
-      commonRepliesData,
+      commonRepliesData.filter((entry) => matchesReplyTheme(entry)),
       toneKey,
       "No common replies matched your search."
     );
@@ -5591,6 +5853,22 @@ if (tabCompare) {
     setView("compare");
   });
 }
+
+quickJumpLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const targetId = link.dataset.jumpTarget;
+    const target = targetId ? document.getElementById(targetId) : null;
+    if (!target) {
+      return;
+    }
+    event.preventDefault();
+    setView("study");
+    expandPanelChainFor(target);
+    window.setTimeout(() => {
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, prefersReducedMotion.matches ? 0 : 180);
+  });
+});
 
 window.addEventListener(
   "scroll",

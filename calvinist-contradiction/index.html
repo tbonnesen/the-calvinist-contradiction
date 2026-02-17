@@ -33,7 +33,7 @@
     </div>
 
     <div class="cta-row">
-      <a href="#arguments" class="cta">Explore the Case</a>
+      <a href="#start-here" class="cta">Explore the Case</a>
       <a href="replacement.html" class="cta cta-alt">Replacement Theology Page</a>
     </div>
   </header>
@@ -54,110 +54,186 @@
     </section>
 
     <div id="study-view" class="view-panel is-visible">
-      <section class="panel reveal" id="intro">
-        <h2>What This App Does</h2>
-        <p id="intro-copy"></p>
+      <section class="panel reveal" id="quick-jump">
+        <div class="section-head">
+          <h2>Quick Jump</h2>
+          <p>Jump to major sections quickly. Counts update from loaded content.</p>
+        </div>
+        <nav class="quick-jump-grid" aria-label="Quick jump sections">
+          <a class="quick-jump-link" href="#module-core-challenges" data-jump-target="module-core-challenges">
+            Core Challenges
+            <span class="count-pill" id="count-core">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-proof-texts" data-jump-target="module-proof-texts">
+            Proof-Texts
+            <span class="count-pill" id="count-proof">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-common-replies" data-jump-target="module-common-replies">
+            Common Replies
+            <span class="count-pill" id="count-replies">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-calvinism-drilldown" data-jump-target="module-calvinism-drilldown">
+            Objection Drilldown
+            <span class="count-pill" id="count-drilldown">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-determinism-slope" data-jump-target="module-determinism-slope">
+            Determinism Slope
+            <span class="count-pill" id="count-slope">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-epistemic-challenge" data-jump-target="module-epistemic-challenge">
+            Epistemic Challenges
+            <span class="count-pill" id="count-epistemic">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-glossary" data-jump-target="module-glossary">
+            Glossary
+            <span class="count-pill" id="count-glossary">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-study-tools" data-jump-target="module-study-tools">
+            Study Tools
+          </a>
+        </nav>
       </section>
 
-      <section class="panel reveal" id="glossary">
+      <section class="panel reveal" id="start-here">
         <div class="section-head">
-          <h2>Term Glossary</h2>
-          <p>Definitions and key KJV references for theological terms in this debate.</p>
+          <h2>Start Here</h2>
+          <p>Core framing, foundational tensions, and a guided path.</p>
         </div>
-        <div class="search-row">
-          <label for="glossary-input">Glossary Filter</label>
-          <div class="search-input-wrap">
-            <input id="glossary-input" type="search" placeholder="Example: monergism, propitiation, foreknowledge" />
-            <button id="glossary-clear" type="button">Clear</button>
+
+        <div class="module-block" id="intro">
+          <div class="module-head">
+            <h3>What This App Does</h3>
           </div>
+          <p id="intro-copy"></p>
         </div>
-        <div id="glossary-list" class="argument-list" aria-live="polite"></div>
-      </section>
 
-      <section class="panel reveal" id="arguments">
-        <div class="section-head">
-          <h2>Five Core Challenges</h2>
-          <p>Open each section to view analysis and KJV references.</p>
-        </div>
-        <div id="argument-list" class="argument-list" aria-live="polite"></div>
-      </section>
-
-      <section class="panel reveal" id="proof-texts">
-        <div class="section-head">
-          <h2>Common Calvinist Proof-Texts</h2>
-          <p>Each entry gives a concise rebuttal and supporting KJV references.</p>
-        </div>
-        <div id="proof-list" class="argument-list" aria-live="polite"></div>
-      </section>
-
-      <section class="panel reveal" id="replies">
-        <div class="section-head">
-          <h2>Common Calvinist Replies</h2>
-          <p>Frequent responses to objections, with brief counter-analysis.</p>
-        </div>
-        <div id="reply-list" class="argument-list" aria-live="polite"></div>
-      </section>
-
-      <section class="panel reveal" id="drilldown">
-        <div class="section-head">
-          <h2>Calvinism Objection Drilldown</h2>
-          <p>Layer-by-layer handling of common Calvinist back-and-forth arguments.</p>
-        </div>
-        <div id="drilldown-list" class="argument-list" aria-live="polite"></div>
-      </section>
-
-      <section class="panel reveal" id="tulip-slope">
-        <div class="section-head">
-          <h2>From TULIP to Determinism: Logical Slope Test</h2>
-          <p>A step-by-step chain showing how strict TULIP assumptions can trend toward determinism, with KJV anchors at each step.</p>
-        </div>
-        <div id="tulip-slope-list" class="argument-list" aria-live="polite"></div>
-      </section>
-
-      <section class="panel reveal" id="epistemic-challenge">
-        <div class="section-head">
-          <h2>Epistemic Challenge to Exhaustive Determinism</h2>
-          <p>A focused test of whether exhaustive determinism preserves trustworthy theological reasoning and responsibility.</p>
-        </div>
-        <div id="epistemic-list" class="argument-list" aria-live="polite"></div>
-      </section>
-
-      <section class="panel reveal" id="context-viewer">
-        <div class="section-head">
-          <h2>Verse Context Viewer</h2>
-          <p>Select a KJV reference to inspect context notes and related chapter references.</p>
-        </div>
-        <div class="search-row">
-          <label for="context-select">Reference</label>
-          <div class="context-select-wrap premium-select">
-            <select id="context-select"></select>
+        <div class="module-block" id="module-core-challenges">
+          <div class="module-head" id="arguments">
+            <h3>Core Challenges</h3>
+            <p>Open each section to view analysis and KJV references.</p>
           </div>
+          <div id="argument-list" class="argument-list" aria-live="polite"></div>
         </div>
-        <div id="context-output"></div>
+
+        <div class="module-block" id="logic-check">
+          <div class="module-head">
+            <h3>Logic Check Summary</h3>
+          </div>
+          <ul class="logic-list" id="logic-list"></ul>
+        </div>
+
+        <div class="module-block" id="study-path">
+          <div class="module-head">
+            <h3>Suggested Study Path</h3>
+          </div>
+          <ol>
+            <li>Select a tone that fits your audience.</li>
+            <li>Read each challenge with the cited references.</li>
+            <li>Click each reference to inspect full KJV passage text.</li>
+            <li>Compare theological claims with the plain textual flow.</li>
+          </ol>
+        </div>
       </section>
 
-      <section class="panel reveal" id="verse-lens">
+      <section class="panel reveal" id="text-disputes">
         <div class="section-head">
-          <h2>KJV Verse Lens</h2>
-          <p>Filter references by theme, then click to reveal full passage text.</p>
+          <h2>Text Disputes</h2>
+          <p>Direct handling of proof-texts, standard replies, and layered objection exchanges.</p>
         </div>
-        <div class="filters" role="group" aria-label="Verse categories" id="filters"></div>
-        <div id="verse-cards" class="verse-cards"></div>
+
+        <div class="module-block" id="module-proof-texts">
+          <div class="module-head" id="proof-texts">
+            <h3>Common Calvinist Proof-Texts</h3>
+            <p>Each entry gives a concise rebuttal and supporting KJV references.</p>
+          </div>
+          <div id="proof-list" class="argument-list" aria-live="polite"></div>
+        </div>
+
+        <div class="module-block" id="module-common-replies">
+          <div class="module-head" id="replies">
+            <h3>Common Calvinist Replies</h3>
+            <p>Frequent responses to objections, with brief counter-analysis.</p>
+          </div>
+          <div class="filters section-filters" role="group" aria-label="Common replies themes" id="reply-theme-filters"></div>
+          <div id="reply-list" class="argument-list" aria-live="polite"></div>
+        </div>
+
+        <div class="module-block" id="module-calvinism-drilldown">
+          <div class="module-head" id="drilldown">
+            <h3>Calvinism Objection Drilldown</h3>
+            <p>Layer-by-layer handling of common Calvinist back-and-forth arguments.</p>
+          </div>
+          <div id="drilldown-list" class="argument-list" aria-live="polite"></div>
+        </div>
       </section>
 
-      <section class="panel reveal" id="logic-check">
-        <h2>Logic Check Summary</h2>
-        <ul class="logic-list" id="logic-list"></ul>
+      <section class="panel reveal" id="determinism-epistemics">
+        <div class="section-head">
+          <h2>Determinism and Epistemics</h2>
+          <p>Stress-tests of determinist inferences and their impact on accountability and theological confidence.</p>
+        </div>
+
+        <div class="module-block" id="module-determinism-slope">
+          <div class="module-head" id="tulip-slope">
+            <h3>From TULIP to Determinism: Logical Slope Test</h3>
+            <p>A step-by-step chain showing how strict TULIP assumptions can trend toward determinism, with KJV anchors at each step.</p>
+          </div>
+          <div id="tulip-slope-list" class="argument-list" aria-live="polite"></div>
+        </div>
+
+        <div class="module-block" id="module-epistemic-challenge">
+          <div class="module-head" id="epistemic-challenge">
+            <h3>Epistemic Challenge to Exhaustive Determinism</h3>
+            <p>A focused test of whether exhaustive determinism preserves trustworthy theological reasoning and responsibility.</p>
+          </div>
+          <div id="epistemic-list" class="argument-list" aria-live="polite"></div>
+        </div>
       </section>
 
-      <section class="panel reveal" id="study-path">
-        <h2>Suggested Study Path</h2>
-        <ol>
-          <li>Select a tone that fits your audience.</li>
-          <li>Read each challenge with the cited references.</li>
-          <li>Click each reference to inspect full KJV passage text.</li>
-          <li>Compare theological claims with the plain textual flow.</li>
-        </ol>
+      <section class="panel reveal" id="study-tools">
+        <div class="section-head" id="module-study-tools">
+          <h2>Study Tools</h2>
+          <p>Definitions, chapter context, and searchable KJV reference lenses.</p>
+        </div>
+
+        <div class="module-block" id="module-glossary">
+          <div class="module-head" id="glossary">
+            <h3>Term Glossary</h3>
+            <p>Definitions and key KJV references for theological terms in this debate.</p>
+          </div>
+          <div class="search-row">
+            <label for="glossary-input">Glossary Filter</label>
+            <div class="search-input-wrap">
+              <input id="glossary-input" type="search" placeholder="Example: monergism, propitiation, foreknowledge" />
+              <button id="glossary-clear" type="button">Clear</button>
+            </div>
+          </div>
+          <div class="filters section-filters" role="group" aria-label="Glossary themes" id="glossary-theme-filters"></div>
+          <div id="glossary-list" class="argument-list" aria-live="polite"></div>
+        </div>
+
+        <div class="module-block" id="context-viewer">
+          <div class="module-head">
+            <h3>Verse Context Viewer</h3>
+            <p>Select a KJV reference to inspect context notes and related chapter references.</p>
+          </div>
+          <div class="search-row">
+            <label for="context-select">Reference</label>
+            <div class="context-select-wrap premium-select">
+              <select id="context-select"></select>
+            </div>
+          </div>
+          <div id="context-output"></div>
+        </div>
+
+        <div class="module-block" id="verse-lens">
+          <div class="module-head">
+            <h3>KJV Verse Lens</h3>
+            <p>Filter references by theme, then click to reveal full passage text.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Verse categories" id="filters"></div>
+          <div id="verse-cards" class="verse-cards"></div>
+        </div>
       </section>
     </div>
 

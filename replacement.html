@@ -33,7 +33,7 @@
     </div>
 
     <div class="cta-row">
-      <a href="#replacement-theology" class="cta">Explore This Page</a>
+      <a href="#start-here" class="cta">Explore This Page</a>
       <a href="index.html" class="cta cta-alt">Back To Main Case</a>
     </div>
   </header>
@@ -54,63 +54,131 @@
     </section>
 
     <div id="study-view" class="view-panel is-visible">
-      <section class="panel reveal" id="intro">
-        <h2>What This Page Does</h2>
-        <p id="intro-copy"></p>
+      <section class="panel reveal" id="quick-jump">
+        <div class="section-head">
+          <h2>Quick Jump</h2>
+          <p>Jump directly to major sections on this page.</p>
+        </div>
+        <nav class="quick-jump-grid" aria-label="Quick jump sections">
+          <a class="quick-jump-link" href="#module-replacement-claims" data-jump-target="module-replacement-claims">
+            Major Claims
+            <span class="count-pill" id="count-replacement">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-replacement-drilldown" data-jump-target="module-replacement-drilldown">
+            Objection Drilldown
+            <span class="count-pill" id="count-replacement-drilldown">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-glossary" data-jump-target="module-glossary">
+            Glossary
+            <span class="count-pill" id="count-glossary">0</span>
+          </a>
+          <a class="quick-jump-link" href="#module-study-tools" data-jump-target="module-study-tools">
+            Study Tools
+          </a>
+        </nav>
       </section>
 
-      <section class="panel reveal" id="replacement-theology">
+      <section class="panel reveal" id="start-here">
         <div class="section-head">
-          <h2>Refuting Replacement Theology</h2>
-          <p>Major replacement-theology arguments (steelman format) with concise biblical responses and KJV passages.</p>
+          <h2>Start Here</h2>
+          <p>Purpose, summary logic, and recommended reading path.</p>
         </div>
-        <div id="replacement-list" class="argument-list" aria-live="polite"></div>
-      </section>
 
-      <section class="panel reveal" id="replacement-drilldown">
-        <div class="section-head">
-          <h2>Replacement Theology Objection Drilldown</h2>
-          <p>Layer-by-layer handling of common supersessionist and covenant-theology responses.</p>
-        </div>
-        <div id="replacement-drilldown-list" class="argument-list" aria-live="polite"></div>
-      </section>
-
-      <section class="panel reveal" id="context-viewer">
-        <div class="section-head">
-          <h2>Verse Context Viewer</h2>
-          <p>Select a KJV reference to inspect context notes and related chapter references.</p>
-        </div>
-        <div class="search-row">
-          <label for="context-select">Reference</label>
-          <div class="context-select-wrap premium-select">
-            <select id="context-select"></select>
+        <div class="module-block" id="intro">
+          <div class="module-head">
+            <h3>What This Page Does</h3>
           </div>
+          <p id="intro-copy"></p>
         </div>
-        <div id="context-output"></div>
+
+        <div class="module-block" id="logic-check">
+          <div class="module-head">
+            <h3>Logic Check Summary</h3>
+          </div>
+          <ul class="logic-list" id="logic-list"></ul>
+        </div>
+
+        <div class="module-block" id="study-path">
+          <div class="module-head">
+            <h3>Suggested Study Path</h3>
+          </div>
+          <ol>
+            <li>Select a tone that fits your audience.</li>
+            <li>Work through the major replacement-theology claims and responses.</li>
+            <li>Use drilldown cards to practice common back-and-forth objections.</li>
+            <li>Click references and inspect chapter context before conclusions.</li>
+          </ol>
+        </div>
       </section>
 
-      <section class="panel reveal" id="verse-lens">
+      <section class="panel reveal" id="text-disputes">
         <div class="section-head">
-          <h2>KJV Verse Lens</h2>
-          <p>Filter references by replacement-theology themes, then click to reveal passage text.</p>
+          <h2>Text Disputes</h2>
+          <p>Steelman claims and responses, then layered objections.</p>
         </div>
-        <div class="filters" role="group" aria-label="Verse categories" id="filters"></div>
-        <div id="verse-cards" class="verse-cards"></div>
+
+        <div class="module-block" id="module-replacement-claims">
+          <div class="module-head" id="replacement-theology">
+            <h3>Refuting Replacement Theology</h3>
+            <p>Major replacement-theology arguments (steelman format) with concise biblical responses and KJV passages.</p>
+          </div>
+          <div class="filters section-filters" role="group" aria-label="Replacement theology themes" id="replacement-theme-filters"></div>
+          <div id="replacement-list" class="argument-list" aria-live="polite"></div>
+        </div>
+
+        <div class="module-block" id="module-replacement-drilldown">
+          <div class="module-head" id="replacement-drilldown">
+            <h3>Replacement Theology Objection Drilldown</h3>
+            <p>Layer-by-layer handling of common supersessionist and covenant-theology responses.</p>
+          </div>
+          <div id="replacement-drilldown-list" class="argument-list" aria-live="polite"></div>
+        </div>
       </section>
 
-      <section class="panel reveal" id="logic-check">
-        <h2>Logic Check Summary</h2>
-        <ul class="logic-list" id="logic-list"></ul>
-      </section>
+      <section class="panel reveal" id="study-tools">
+        <div class="section-head" id="module-study-tools">
+          <h2>Study Tools</h2>
+          <p>Shared definitions, context checks, and KJV reference tools.</p>
+        </div>
 
-      <section class="panel reveal" id="study-path">
-        <h2>Suggested Study Path</h2>
-        <ol>
-          <li>Select a tone that fits your audience.</li>
-          <li>Work through the major replacement-theology claims and responses.</li>
-          <li>Use drilldown cards to practice common back-and-forth objections.</li>
-          <li>Click references and inspect chapter context before conclusions.</li>
-        </ol>
+        <div class="module-block" id="module-glossary">
+          <div class="module-head" id="glossary">
+            <h3>Term Glossary</h3>
+            <p>Definitions and key KJV references for theological terms used across the app.</p>
+          </div>
+          <div class="search-row">
+            <label for="glossary-input">Glossary Filter</label>
+            <div class="search-input-wrap">
+              <input id="glossary-input" type="search" placeholder="Example: supersessionism, covenant, recapitulation" />
+              <button id="glossary-clear" type="button">Clear</button>
+            </div>
+          </div>
+          <div class="filters section-filters" role="group" aria-label="Glossary themes" id="glossary-theme-filters"></div>
+          <div id="glossary-list" class="argument-list" aria-live="polite"></div>
+        </div>
+
+        <div class="module-block" id="context-viewer">
+          <div class="module-head">
+            <h3>Verse Context Viewer</h3>
+            <p>Select a KJV reference to inspect context notes and related chapter references.</p>
+          </div>
+          <div class="search-row">
+            <label for="context-select">Reference</label>
+            <div class="context-select-wrap premium-select">
+              <select id="context-select"></select>
+            </div>
+          </div>
+          <div id="context-output"></div>
+        </div>
+
+        <div class="module-block" id="verse-lens">
+          <div class="module-head">
+            <h3>KJV Verse Lens</h3>
+            <p>Filter references by replacement-theology themes, then click to reveal passage text.</p>
+          </div>
+          <div class="filters" role="group" aria-label="Verse categories" id="filters"></div>
+          <div id="verse-cards" class="verse-cards"></div>
+        </div>
       </section>
     </div>
 
@@ -151,6 +219,20 @@
     <article class="verse-card">
       <span class="verse-tag"></span>
       <div class="reference-list"></div>
+    </article>
+  </template>
+
+  <template id="glossary-template">
+    <article class="argument-item">
+      <button class="argument-toggle" aria-expanded="false">
+        <span class="argument-title"></span>
+        <span class="symbol" aria-hidden="true">+</span>
+      </button>
+      <div class="argument-body" hidden>
+        <p class="glossary-definition"></p>
+        <h3>KJV References</h3>
+        <div class="reference-list"></div>
+      </div>
     </article>
   </template>
 
