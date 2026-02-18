@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Calvinist Contradiction</title>
+  <meta name="description" content="An interactive theological study tool examining logical tensions in Calvinist doctrine against KJV scripture." />
+  <meta name="theme-color" content="#2f241d" />
+  <meta property="og:title" content="The Calvinist Contradiction" />
+  <meta property="og:description" content="An interactive theological study tool examining logical tensions in Calvinist doctrine against KJV scripture." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✝</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -15,11 +21,8 @@
   </div>
   <div class="page-bg" aria-hidden="true"></div>
 
-  <header class="site-header reveal">
-    <p class="kicker">Scripture + Coherence</p>
-    <h1>The Calvinist Contradiction</h1>
-    <p class="subtitle" id="subtitle"></p>
-
+  <div class="site-toolbar">
+    <span class="toolbar-brand">The Calvinist Contradiction</span>
     <div class="tone-control" role="group" aria-label="Tone display selector">
       <label for="tone-select">Display Tone</label>
       <div class="premium-select">
@@ -31,6 +34,12 @@
       </div>
       <p id="tone-description" class="tone-description"></p>
     </div>
+  </div>
+
+  <header class="site-header reveal">
+    <p class="kicker">Scripture + Coherence</p>
+    <h1>The Calvinist Contradiction</h1>
+    <p class="subtitle" id="subtitle"></p>
 
     <div class="cta-row">
       <a href="#start-here" class="cta">Explore the Case</a>
@@ -41,10 +50,12 @@
   <main>
     <section class="panel reveal" id="view-tabs">
       <div class="search-row">
-        <label for="search-input">Search Keyword or Phrase</label>
+        <label for="search-input">Search</label>
         <div class="search-input-wrap">
-          <input id="search-input" type="search" placeholder="Example: predestinate, world, draw all men" />
-          <button id="search-clear" type="button">Clear</button>
+          <div class="search-input-inner">
+            <input id="search-input" type="search" placeholder="predestinate, world, draw all men&hellip;" />
+            <button class="search-clear-inline" id="search-clear" type="button" aria-label="Clear search">&times;</button>
+          </div>
         </div>
       </div>
       <div class="tab-row" role="tablist" aria-label="Content views">
@@ -204,8 +215,10 @@
           <div class="search-row">
             <label for="glossary-input">Glossary Filter</label>
             <div class="search-input-wrap">
-              <input id="glossary-input" type="search" placeholder="Example: monergism, propitiation, foreknowledge" />
-              <button id="glossary-clear" type="button">Clear</button>
+              <div class="search-input-inner">
+                <input id="glossary-input" type="search" placeholder="monergism, propitiation, foreknowledge&hellip;" />
+                <button class="search-clear-inline" id="glossary-clear" type="button" aria-label="Clear glossary filter">&times;</button>
+              </div>
             </div>
           </div>
           <div class="filters section-filters" role="group" aria-label="Glossary themes" id="glossary-theme-filters"></div>
@@ -250,7 +263,13 @@
   </main>
 
   <footer class="site-footer reveal">
-    <p>Built for Berean-style testing of doctrine (Acts 17:11, KJV).</p>
+    <div class="footer-divider"></div>
+    <p class="footer-title">The Calvinist Contradiction</p>
+    <p class="footer-sub">Built for Berean-style testing of doctrine &mdash; Acts 17:11, KJV</p>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="#start-here">Study View</a>
+      <a href="replacement.html">Replacement Theology</a>
+    </nav>
   </footer>
 
   <template id="argument-template">

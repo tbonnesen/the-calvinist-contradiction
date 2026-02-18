@@ -4665,7 +4665,7 @@ function attachAccordionBehavior(root) {
       root.classList.toggle("is-open", !expanded);
       body.style.maxHeight = !expanded ? "" : "0px";
       body.style.opacity = !expanded ? "1" : "0";
-      symbol.textContent = expanded ? "+" : "-";
+      symbol.textContent = "";
       return;
     }
 
@@ -4708,7 +4708,7 @@ function attachAccordionBehavior(root) {
 
     toggle.setAttribute("aria-expanded", String(!expanded));
     root.classList.toggle("is-open", !expanded);
-    symbol.textContent = expanded ? "+" : "-";
+    symbol.textContent = "";
     window.setTimeout(updateScrollProgress, 60);
   });
 }
@@ -4788,7 +4788,7 @@ function setSectionExpanded(section, shouldExpand, instant = false) {
 
   trigger.setAttribute("aria-expanded", String(shouldExpand));
   section.classList.toggle("is-open", shouldExpand);
-  symbol.textContent = shouldExpand ? "-" : "+";
+  symbol.textContent = "";
   window.setTimeout(updateScrollProgress, 60);
 }
 
@@ -4847,7 +4847,7 @@ function initSectionAccordions() {
     const symbol = document.createElement("span");
     symbol.className = "section-symbol";
     symbol.setAttribute("aria-hidden", "true");
-    symbol.textContent = "+";
+    symbol.textContent = "";
     trigger.appendChild(symbol);
 
     const toggle = () => {
@@ -5888,6 +5888,8 @@ const debouncedSearchRender = debounce((query) => {
 
 if (searchInput) {
   searchInput.addEventListener("input", (event) => {
+    const inner = event.target.closest(".search-input-inner");
+    if (inner) inner.classList.toggle("has-value", event.target.value.length > 0);
     debouncedSearchRender(event.target.value);
   });
 }
@@ -5898,6 +5900,8 @@ if (searchClear) {
     setCurrentSearchQuery("");
     if (searchInput) {
       searchInput.value = "";
+      const inner = searchInput.closest(".search-input-inner");
+      if (inner) inner.classList.remove("has-value");
       searchInput.focus();
     }
     renderVerseCards(currentCategory);
@@ -5913,6 +5917,8 @@ const debouncedGlossaryRender = debounce((query) => {
 
 if (glossaryInput) {
   glossaryInput.addEventListener("input", (event) => {
+    const inner = event.target.closest(".search-input-inner");
+    if (inner) inner.classList.toggle("has-value", event.target.value.length > 0);
     debouncedGlossaryRender(event.target.value);
   });
 }
@@ -5923,6 +5929,8 @@ if (glossaryClear) {
     setCurrentGlossaryQuery("");
     if (glossaryInput) {
       glossaryInput.value = "";
+      const inner = glossaryInput.closest(".search-input-inner");
+      if (inner) inner.classList.remove("has-value");
       glossaryInput.focus();
     }
     renderGlossary();
