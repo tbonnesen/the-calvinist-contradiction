@@ -4522,8 +4522,8 @@ function getHighlightTerms() {
   const rawTerms = currentSearchQuery
     .split(/\s+/)
     .map((term) => term.trim())
-    .filter(Boolean);
-  const normalizedTerms = currentSearchTokens;
+    .filter((term) => term.length > 1);
+  const normalizedTerms = currentSearchTokens.filter((term) => term.length > 1);
   const uniqueTerms = new Set([...rawTerms, ...normalizedTerms]);
   return [...uniqueTerms].sort((left, right) => right.length - left.length);
 }
