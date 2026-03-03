@@ -924,6 +924,72 @@ p {
   color: var(--text-body-deep);
 }
 
+.proof-truth-links-wrap {
+  margin: var(--sp-3) 0 0;
+}
+
+.proof-truth-links {
+  margin: 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.proof-truth-link-item {
+  margin: 0;
+}
+
+.proof-truth-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.13em;
+}
+
+.proof-truth-link:hover,
+.proof-truth-link:focus-visible {
+  color: var(--text-heading-deep);
+}
+
+.proof-skeptic,
+.proof-why-fails,
+.proof-falsify {
+  margin: 0;
+}
+
+.proof-sources-wrap {
+  margin: var(--sp-3) 0 0;
+}
+
+.proof-sources-list {
+  margin: 0;
+  padding-left: 1.15rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.proof-source-item {
+  margin: 0;
+}
+
+.proof-source-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.13em;
+}
+
+.proof-source-link:hover,
+.proof-source-link:focus-visible {
+  color: var(--text-heading-deep);
+}
+
+.proof-source-summary {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .reference-list {
   display: grid;
   gap: 0.55rem;

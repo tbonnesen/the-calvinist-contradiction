@@ -3424,9 +3424,348 @@ const replacementPropagandaTruthByTitle = {
     "Steelman concern: real cover-ups do happen, so some counterevidence may be weak or managed. Truth: if every disconfirming fact is treated as confirmation, the claim is no longer testable. A valid theory must say what would disprove it and be willing to change."
 };
 
+const replacementPropagandaTruthDetailByTitle = {
+  "Myth: God Permanently Cursed the Jewish People":
+    "Paul still distinguishes Israel in Romans 11, says God has not cast away His people, and describes a partial hardening with a future mercy horizon. That means judgment texts must be read with restoration texts, not against them.",
+  "Myth: Conspiracy Narratives About Jews Are a Biblical Duty":
+    "Biblically, exposing evil is tied to evidence standards, truthful witness, and fair hearing. A claim is not sanctified by zeal, and repeating unverified accusations about a whole people is exactly how false witness spreads.",
+  "Myth: Abrahamic Blessing/Curse Language Is Now Irrelevant":
+    "You do not have to use Genesis 12 as a blank-check policy text, but you also cannot use the New Testament to justify contempt for Jews. Romans 11 forbids boasting and commands humility toward the root.",
+  "Myth: Defending Jewish Dignity Means Endorsing Every State Policy":
+    "This is a false choice. You can reject antisemitic propaganda, defend human dignity, and still critique any government policy with the same moral standards you apply everywhere else.",
+  "Myth: The Jewish People Carry Eternal Deicide Guilt":
+    "The crucifixion involves specific historical actors under Roman execution authority, not permanent blood-guilt for every Jew in all generations. The same New Testament that records the event still offers repentance and denies final rejection of Israel.",
+  "Myth: 'Synagogue of Satan' Means All Jews Everywhere":
+    "Revelation 2-3 addresses local churches and local conflicts, and even the phrase itself says some \"say they are Jews, and are not,\" which already narrows scope. Turning local rebuke into universal ethnic condemnation is a misuse of genre and context.",
+  "Myth: Secret Jewish World-Control Documents Prove a Global Cabal":
+    "Historically, forged-document ecosystems survive by recycling claims that cannot be independently verified and by reframing disproof as proof. Sound reasoning demands traceable sources, competing explanations, and claims that can actually fail.",
+  "Myth: 'Rothschild/Federal Reserve' Narratives Prove Jewish Control of All Wars":
+    "Real critique of banking policy is fair, but war causation is multi-actor and documented through governments, militaries, alliances, and economics, not one ethnic command center. Family names are not causal proof of total control.",
+  "Myth: George Soros Funding Claims Prove a Jewish Master-Plan Behind Protests and Elections":
+    "Large donors can shape politics, but that is true across many ideologies and donors. You can audit grants and influence without making the unsupported leap to collective Jewish orchestration.",
+  "Myth: Jews Control Hollywood/News and Script Society Through Media":
+    "Media systems are diverse, competitive, and often internally contradictory. Critique should target concrete editorial decisions, incentives, and ownership structures, not assume a single ethnic script explains all outcomes.",
+  "Myth: 'Jewish Space Lasers' or Directed-Energy Claims Explain Fires and Disasters":
+    "Disaster frustration can make extreme explanations feel plausible, but technical claims need forensic evidence, reproducibility, and mechanism-level proof. Viral clips and pattern matching are not enough for such extraordinary allegations.",
+  "Myth: 'Cultural Marxism' Is a Coordinated Jewish Plot to Destroy Christianity":
+    "Christians can oppose anti-biblical ideologies directly by naming teachings, institutions, and policies. Recasting broad social change as a hidden Jewish engine weakens argument quality and shifts from analysis to scapegoating.",
+  "Myth: October 7 Was a Jewish/Israeli Inside Job or Fabricated Atrocity":
+    "Wartime narratives should be tested carefully, but skepticism must be symmetrical. Blanket denial or fabricated-atrocity claims require hard corroboration and cannot rest on selective clips, internet fragments, or prior bias.",
+  "Myth: 'Judeo-Bolshevism' Proves Jews as a Group Engineered Atheist Revolution":
+    "Pointing to selected revolutionaries with Jewish ancestry does not establish collective ethnic responsibility for complex political movements. This is a classic guilt-transfer move that ignores counterexamples and collapses individual agency into bloodline blame.",
+  "Myth: 9/11 and Other Mass-Casualty Events Were Jewish/Israeli False Flags":
+    "Independent review of major events is legitimate, but ethnic attribution requires stronger proof than anomaly collections and insinuation. If a claim cannot meet chain-of-evidence standards, it should not be preached as settled fact.",
+  "Myth: The Talmud Commands Jews to Hate or Harm Gentiles":
+    "Many viral \"Talmud quotes\" are mistranslated, decontextualized, or fabricated. Serious critique of any religious tradition requires primary-text verification, language context, and representative interpretation, not screenshot theology.",
+  "Myth: Noahide-Law Claims Prove a Coming Jewish Plan to Execute Christians":
+    "Concern about religious liberty is reasonable, but global execution claims need concrete legal text, credible enforcement pathways, and institutional evidence. Speculative chains built from clips and hearsay are not enough to warrant certainty.",
+  "Myth: 'Great Replacement' Panic Is a Biblical Mandate":
+    "Demographic and policy debates can be real civic questions, but Scripture does not authorize race-war framing or ethnic panic as Christian duty. Christian ethics require truth, neighbor love, and rejection of partiality.",
+  "Myth: Blood Libel and Ritual-Murder Claims Are Credible":
+    "These accusations have repeatedly been used to trigger violence while lacking reliable evidence. Protecting children requires forensic process, accountable investigation, and due process, not mythic collective accusations.",
+  "Myth: Dual Loyalty / ZOG Proves Jews Are a Hidden Fifth Column":
+    "Governments can investigate influence and corruption, but the standard must be conduct-based and applied equally to all groups. Identity alone is not evidence, and blanket suspicion is not lawful or biblical judgment.",
+  "Myth: AIPAC or Pro-Israel Lobbying Proves Jews 'Own' the U.S. Government":
+    "Lobbying influence should be examined across the board, but influence is not ownership and disagreement is not proof of secret control. Claims of total capture require direct evidence, not rhetorical inflation.",
+  "Myth: Khazar Claims Prove Modern Jews Are 'Fake' Israel":
+    "Population history is complex for every people group, and mixed ancestry does not erase identity or dignity. Even strong ancestry arguments cannot justify dehumanization or theological cancellation of an entire people.",
+  "Myth: Jews Cause Plagues, Financial Collapse, or Social Corruption":
+    "Crisis scapegoating simplifies complex failures into one villain group and usually ignores contradictory evidence. Good analysis tracks mechanisms, policies, and actors directly instead of assigning civilizational guilt.",
+  "Myth: Holocaust Denial or Inversion Is Just Honest Skepticism":
+    "Real skepticism tests all claims by the same standard and weighs converging evidence, archives, testimony, and physical records together. Denial frameworks usually work by selective standards and omission, not balanced inquiry.",
+  "Myth: Viral Organ-Harvesting Narratives Prove Group Conspiracy":
+    "Even when a medical abuse allegation is serious, moving from local or disputed claims to ethnic conspiracy is a logical leap. Case-level adjudication and verified evidence are required before any broad conclusion.",
+  "Myth: Coded Terms Like 'Globalists' Are Always Neutral":
+    "Some terms can be neutral in policy debate, but repeated use as a proxy for Jews changes function from analysis to insinuation. Clarity improves when claims name specific actors, decisions, and evidence.",
+  "Myth: 'Antisemitism' Is Only a Censorship Weapon Used to Protect Conspiracies":
+    "Any label can be misapplied, but misuse does not erase real prejudice patterns. The solution is better standards: test claims fairly, defend open debate, and reject broad ethnic blame when evidence does not support it.",
+  "Myth: Historic Expulsions Prove Jews Are Uniquely Evil":
+    "Expulsions often reflected political pressures, debt conflicts, rulers' incentives, and religious hostility, not a single moral verdict on an ethnicity. Historical recurrence does not remove the need for case-by-case evidence.",
+  "Myth: Jews Created the Slave Trade and Bear Collective Guilt Today":
+    "Slave systems were multinational and multi-actor across regions and centuries, so selective examples cannot carry unique civilizational blame. Moral accountability should be proportionate, documented, and not transferred by ancestry.",
+  "Myth: Serpent-Seed or Edomite Bloodline Claims Prove Jews Are Literally Satanic":
+    "These theories usually blend symbol, genealogy, and speculation into racial ontology that the text itself does not demand. Scripture's one-blood anthropology and gospel call cut against bloodline demonology.",
+  "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
+    "Criminal elite networks can exist and should be prosecuted, but group identity of some participants does not prove ethnic command architecture. Lawful inquiry follows named actors, evidence trails, and jurisdictional findings.",
+  "Myth: If Disproved, the Conspiracy Is Just Deeper":
+    "A responsible hypothesis defines in advance what evidence would falsify it and what threshold would change your view. If no evidence can count against the claim, it is a belief system, not an investigation."
+};
+
+const replacementPropagandaSkepticObjectionByTitle = {
+  "Myth: God Permanently Cursed the Jewish People":
+    "Judgment passages against Israel are strong, so why should we not read them as final and permanent?",
+  "Myth: Conspiracy Narratives About Jews Are a Biblical Duty":
+    "If Christians expose evil, why should broad warnings about hidden Jewish power be off limits?",
+  "Myth: Abrahamic Blessing/Curse Language Is Now Irrelevant":
+    "Doesn't Christ-centered fulfillment mean Genesis 12 no longer applies in any practical sense?",
+  "Myth: Defending Jewish Dignity Means Endorsing Every State Policy":
+    "Isn't rejecting anti-Jewish rhetoric just a way to shut down criticism of Israeli policy?",
+  "Myth: The Jewish People Carry Eternal Deicide Guilt":
+    "If Jewish leaders played a role in the crucifixion, why is transgenerational guilt considered invalid?",
+  "Myth: 'Synagogue of Satan' Means All Jews Everywhere":
+    "Why should that phrase not be treated as a timeless statement about Jews in general?",
+  "Myth: Secret Jewish World-Control Documents Prove a Global Cabal":
+    "Even if some documents are disputed, don't recurring patterns still prove a hidden cabal?",
+  "Myth: 'Rothschild/Federal Reserve' Narratives Prove Jewish Control of All Wars":
+    "When the same finance names appear often, why isn't that evidence of coordinated control?",
+  "Myth: George Soros Funding Claims Prove a Jewish Master-Plan Behind Protests and Elections":
+    "If one donor funds many aligned causes, why not infer a wider Jewish coordination network?",
+  "Myth: Jews Control Hollywood/News and Script Society Through Media":
+    "If certain ownership and influence clusters are visible, why reject a coordinated explanation?",
+  "Myth: 'Jewish Space Lasers' or Directed-Energy Claims Explain Fires and Disasters":
+    "Given strange footage and distrust in institutions, why dismiss directed-energy claims outright?",
+  "Myth: 'Cultural Marxism' Is a Coordinated Jewish Plot to Destroy Christianity":
+    "If anti-Christian ideas spread through elite institutions, why not trace that to one driving group?",
+  "Myth: October 7 Was a Jewish/Israeli Inside Job or Fabricated Atrocity":
+    "If wartime narratives are manipulated, why should inside-job or fabrication claims be excluded?",
+  "Myth: 'Judeo-Bolshevism' Proves Jews as a Group Engineered Atheist Revolution":
+    "If key revolutionaries had Jewish ancestry, why is group attribution considered unfair?",
+  "Myth: 9/11 and Other Mass-Casualty Events Were Jewish/Israeli False Flags":
+    "If official stories have gaps, why should ethnic false-flag theories be considered unreasonable?",
+  "Myth: The Talmud Commands Jews to Hate or Harm Gentiles":
+    "If quoted passages look hostile, why not conclude Judaism itself commands hatred of Gentiles?",
+  "Myth: Noahide-Law Claims Prove a Coming Jewish Plan to Execute Christians":
+    "If religious-law claims exist online, why not treat them as a near-term global threat?",
+  "Myth: 'Great Replacement' Panic Is a Biblical Mandate":
+    "If demographics are changing fast, why is replacement framing considered illegitimate?",
+  "Myth: Blood Libel and Ritual-Murder Claims Are Credible":
+    "If child-harm allegations circulate repeatedly, why should those claims be presumed false?",
+  "Myth: Dual Loyalty / ZOG Proves Jews Are a Hidden Fifth Column":
+    "If foreign influence is real, why is dual-loyalty suspicion called prejudice rather than caution?",
+  "Myth: AIPAC or Pro-Israel Lobbying Proves Jews 'Own' the U.S. Government":
+    "If lobbying changes policy outcomes, why reject the idea of collective control?",
+  "Myth: Khazar Claims Prove Modern Jews Are 'Fake' Israel":
+    "If ancestry claims are uncertain, why should modern Jewish identity still be treated as valid?",
+  "Myth: Jews Cause Plagues, Financial Collapse, or Social Corruption":
+    "If elites and institutions fail repeatedly, why not treat one group as the central cause?",
+  "Myth: Holocaust Denial or Inversion Is Just Honest Skepticism":
+    "If history can be politicized, why not treat denial and inversion as legitimate skepticism?",
+  "Myth: Viral Organ-Harvesting Narratives Prove Group Conspiracy":
+    "If even one case is true, why is broader ethnic conspiracy inference seen as invalid?",
+  "Myth: Coded Terms Like 'Globalists' Are Always Neutral":
+    "If the term can be used neutrally, why assume coded anti-Jewish intent in practice?",
+  "Myth: 'Antisemitism' Is Only a Censorship Weapon Used to Protect Conspiracies":
+    "If labels are sometimes weaponized, why not dismiss antisemitism claims as political tactics?",
+  "Myth: Historic Expulsions Prove Jews Are Uniquely Evil":
+    "If many societies expelled Jews, why shouldn't that be treated as cumulative proof?",
+  "Myth: Jews Created the Slave Trade and Bear Collective Guilt Today":
+    "If documented participation exists, why not assign enduring collective responsibility?",
+  "Myth: Serpent-Seed or Edomite Bloodline Claims Prove Jews Are Literally Satanic":
+    "If some passages and lineages seem to align, why reject a bloodline interpretation?",
+  "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
+    "If scandal networks include Jewish actors, why not infer broader group command structure?",
+  "Myth: If Disproved, the Conspiracy Is Just Deeper":
+    "If real cover-ups happen, why should contradictory evidence reduce confidence at all?"
+};
+
+const replacementPropagandaWhyItFailsByTitle = {
+  "Myth: God Permanently Cursed the Jewish People":
+    "It fails because Romans 11 explicitly denies final rejection and defines hardening as partial and temporary.",
+  "Myth: Conspiracy Narratives About Jews Are a Biblical Duty":
+    "It fails because biblical duty to expose evil still requires verified evidence, not group-level rumor escalation.",
+  "Myth: Abrahamic Blessing/Curse Language Is Now Irrelevant":
+    "It fails because New Testament fulfillment language does not authorize contempt or boasting against Israel.",
+  "Myth: Defending Jewish Dignity Means Endorsing Every State Policy":
+    "It fails by false binary: moral critique of policy and rejection of ethnic slander are both possible together.",
+  "Myth: The Jewish People Carry Eternal Deicide Guilt":
+    "It fails by moving from a historical event to transgenerational ethnic guilt without textual warrant.",
+  "Myth: 'Synagogue of Satan' Means All Jews Everywhere":
+    "It fails by universalizing a local apocalyptic rebuke into a timeless ethnic identity claim.",
+  "Myth: Secret Jewish World-Control Documents Prove a Global Cabal":
+    "It fails by circular sourcing and non-falsifiable logic where disproof is reclassified as proof.",
+  "Myth: 'Rothschild/Federal Reserve' Narratives Prove Jewish Control of All Wars":
+    "It fails by composition fallacy: specific financial actors are treated as proof of total ethnic control.",
+  "Myth: George Soros Funding Claims Prove a Jewish Master-Plan Behind Protests and Elections":
+    "It fails by associative leap from one donor network to collective Jewish orchestration without direct evidence.",
+  "Myth: Jews Control Hollywood/News and Script Society Through Media":
+    "It fails by reducing diverse media ecosystems to one ethnic command narrative without mechanism-level proof.",
+  "Myth: 'Jewish Space Lasers' or Directed-Energy Claims Explain Fires and Disasters":
+    "It fails because extraordinary technical claims are asserted without forensic-grade, reproducible evidence.",
+  "Myth: 'Cultural Marxism' Is a Coordinated Jewish Plot to Destroy Christianity":
+    "It fails by replacing concrete ideological analysis with an unfalsifiable ethnic master-cause story.",
+  "Myth: October 7 Was a Jewish/Israeli Inside Job or Fabricated Atrocity":
+    "It fails by asymmetric skepticism that dismisses inconvenient evidence while amplifying speculative fragments.",
+  "Myth: 'Judeo-Bolshevism' Proves Jews as a Group Engineered Atheist Revolution":
+    "It fails by guilt transfer from selected individuals to a whole people across generations.",
+  "Myth: 9/11 and Other Mass-Casualty Events Were Jewish/Israeli False Flags":
+    "It fails because anomaly catalogs and insinuations do not satisfy evidentiary standards for ethnic attribution.",
+  "Myth: The Talmud Commands Jews to Hate or Harm Gentiles":
+    "It fails because viral quote chains are frequently unverified, mistranslated, or detached from context.",
+  "Myth: Noahide-Law Claims Prove a Coming Jewish Plan to Execute Christians":
+    "It fails by asserting global operational certainty without concrete legal and enforcement evidence.",
+  "Myth: 'Great Replacement' Panic Is a Biblical Mandate":
+    "It fails by reframing civic concerns as race-war duty and ignoring biblical commands against partiality.",
+  "Myth: Blood Libel and Ritual-Murder Claims Are Credible":
+    "It fails because these claims historically collapse under scrutiny and repeatedly function as incitement myths.",
+  "Myth: Dual Loyalty / ZOG Proves Jews Are a Hidden Fifth Column":
+    "It fails because identity is treated as evidence, bypassing conduct-based and equal legal standards.",
+  "Myth: AIPAC or Pro-Israel Lobbying Proves Jews 'Own' the U.S. Government":
+    "It fails by inflating policy influence into ownership claims without direct institutional control evidence.",
+  "Myth: Khazar Claims Prove Modern Jews Are 'Fake' Israel":
+    "It fails by turning ancestry complexity into identity erasure and moral delegitimization.",
+  "Myth: Jews Cause Plagues, Financial Collapse, or Social Corruption":
+    "It fails because complex crises are reduced to monocausal ethnic blame that ignores contradictory data.",
+  "Myth: Holocaust Denial or Inversion Is Just Honest Skepticism":
+    "It fails because denial methods apply asymmetric standards and suppress converging historical records.",
+  "Myth: Viral Organ-Harvesting Narratives Prove Group Conspiracy":
+    "It fails by extrapolating from disputed or local allegations to civilizational ethnic conspiracy.",
+  "Myth: Coded Terms Like 'Globalists' Are Always Neutral":
+    "It fails when euphemisms function as deniable proxies for collective Jewish blame.",
+  "Myth: 'Antisemitism' Is Only a Censorship Weapon Used to Protect Conspiracies":
+    "It fails by treating occasional label misuse as proof that all antisemitism claims are invalid.",
+  "Myth: Historic Expulsions Prove Jews Are Uniquely Evil":
+    "It fails because repeated expulsions are not independent adjudications of guilt and often track power dynamics.",
+  "Myth: Jews Created the Slave Trade and Bear Collective Guilt Today":
+    "It fails by selective attribution that ignores multinational system-wide participation and scale.",
+  "Myth: Serpent-Seed or Edomite Bloodline Claims Prove Jews Are Literally Satanic":
+    "It fails by reading symbolic texts as racial ontology and importing conclusions the texts do not require.",
+  "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
+    "It fails by inferring ethnic command from criminal clusters instead of proving governance-level mechanisms.",
+  "Myth: If Disproved, the Conspiracy Is Just Deeper":
+    "It fails because a theory that cannot be disproven cannot be tested, corrected, or trusted as knowledge."
+};
+
+const replacementPropagandaFalsificationByTitle = {
+  "Myth: God Permanently Cursed the Jewish People":
+    "This rebuttal would fail if Scripture clearly taught permanent national rejection after Romans 11 with no future mercy language.",
+  "Myth: Conspiracy Narratives About Jews Are a Biblical Duty":
+    "This rebuttal would fail if biblical ethics endorsed rumor-level group accusations without corroboration standards.",
+  "Myth: Abrahamic Blessing/Curse Language Is Now Irrelevant":
+    "This rebuttal would fail if the New Testament explicitly permitted Gentile boasting or contempt toward Israel.",
+  "Myth: Defending Jewish Dignity Means Endorsing Every State Policy":
+    "This rebuttal would fail if rejecting ethnic slander required unconditional approval of all state actions.",
+  "Myth: The Jewish People Carry Eternal Deicide Guilt":
+    "This rebuttal would fail if Scripture explicitly assigned cross-generational ethnic blood-guilt to all Jews.",
+  "Myth: 'Synagogue of Satan' Means All Jews Everywhere":
+    "This rebuttal would fail if Revelation itself universalized that label to all Jews in all times and places.",
+  "Myth: Secret Jewish World-Control Documents Prove a Global Cabal":
+    "This rebuttal would fail if independent, authenticated, multi-source records proved a coordinated ethnic command structure.",
+  "Myth: 'Rothschild/Federal Reserve' Narratives Prove Jewish Control of All Wars":
+    "This rebuttal would fail if direct documentary evidence showed centralized ethnic control over major war decisions.",
+  "Myth: George Soros Funding Claims Prove a Jewish Master-Plan Behind Protests and Elections":
+    "This rebuttal would fail if verifiable records linked donor activity to coordinated group-level ethnic command directives.",
+  "Myth: Jews Control Hollywood/News and Script Society Through Media":
+    "This rebuttal would fail if there were direct, reproducible evidence of centralized ethnic scripting across major outlets.",
+  "Myth: 'Jewish Space Lasers' or Directed-Energy Claims Explain Fires and Disasters":
+    "This rebuttal would fail if forensic investigations repeatedly confirmed directed-energy causation tied to a Jewish command chain.",
+  "Myth: 'Cultural Marxism' Is a Coordinated Jewish Plot to Destroy Christianity":
+    "This rebuttal would fail if primary sources established a coordinated ethnic strategy rather than ideological diffusion dynamics.",
+  "Myth: October 7 Was a Jewish/Israeli Inside Job or Fabricated Atrocity":
+    "This rebuttal would fail if robust independent investigations established fabrication or deliberate orchestration with hard evidence.",
+  "Myth: 'Judeo-Bolshevism' Proves Jews as a Group Engineered Atheist Revolution":
+    "This rebuttal would fail if evidence demonstrated collective ethnic command rather than individual participation in movements.",
+  "Myth: 9/11 and Other Mass-Casualty Events Were Jewish/Israeli False Flags":
+    "This rebuttal would fail if high-quality, independently corroborated records proved ethnic-command false-flag planning and execution.",
+  "Myth: The Talmud Commands Jews to Hate or Harm Gentiles":
+    "This rebuttal would fail if verified primary texts and mainstream interpretation jointly established that norm as binding doctrine.",
+  "Myth: Noahide-Law Claims Prove a Coming Jewish Plan to Execute Christians":
+    "This rebuttal would fail if enforceable legal frameworks and credible operational plans clearly supported that global claim.",
+  "Myth: 'Great Replacement' Panic Is a Biblical Mandate":
+    "This rebuttal would fail if Scripture explicitly commanded race-war panic framing as faithful Christian duty.",
+  "Myth: Blood Libel and Ritual-Murder Claims Are Credible":
+    "This rebuttal would fail if repeated, independently verified forensic findings established those ritual claims as true.",
+  "Myth: Dual Loyalty / ZOG Proves Jews Are a Hidden Fifth Column":
+    "This rebuttal would fail if identity-based suspicion consistently outperformed conduct-based legal evidence in real cases.",
+  "Myth: AIPAC or Pro-Israel Lobbying Proves Jews 'Own' the U.S. Government":
+    "This rebuttal would fail if direct evidence showed formal ethnic ownership and command of U.S. institutions.",
+  "Myth: Khazar Claims Prove Modern Jews Are 'Fake' Israel":
+    "This rebuttal would fail if ancestry evidence could legitimately erase personhood, dignity, and communal identity on its own.",
+  "Myth: Jews Cause Plagues, Financial Collapse, or Social Corruption":
+    "This rebuttal would fail if monocausal ethnic blame repeatedly outperformed multicausal evidence in major crises.",
+  "Myth: Holocaust Denial or Inversion Is Just Honest Skepticism":
+    "This rebuttal would fail if denial frameworks consistently matched the full converging archival and forensic record.",
+  "Myth: Viral Organ-Harvesting Narratives Prove Group Conspiracy":
+    "This rebuttal would fail if controlled investigations repeatedly proved coordinated ethnic-level operations from case-level evidence.",
+  "Myth: Coded Terms Like 'Globalists' Are Always Neutral":
+    "This rebuttal would fail if those terms could be shown to never function as deniable ethnic proxies in usage.",
+  "Myth: 'Antisemitism' Is Only a Censorship Weapon Used to Protect Conspiracies":
+    "This rebuttal would fail if demonstrable anti-Jewish conspiracy patterns did not exist beyond label disputes.",
+  "Myth: Historic Expulsions Prove Jews Are Uniquely Evil":
+    "This rebuttal would fail if expulsions could be shown to be neutral legal guilt verdicts across contexts.",
+  "Myth: Jews Created the Slave Trade and Bear Collective Guilt Today":
+    "This rebuttal would fail if system-level data showed unique civilizational ownership by Jews across regions and eras.",
+  "Myth: Serpent-Seed or Edomite Bloodline Claims Prove Jews Are Literally Satanic":
+    "This rebuttal would fail if biblical texts explicitly taught fixed satanic racial ontology tied to Jews as a people.",
+  "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
+    "This rebuttal would fail if investigations repeatedly proved governance capture directed by an ethnic command architecture.",
+  "Myth: If Disproved, the Conspiracy Is Just Deeper":
+    "This rebuttal would fail if non-falsifiable frameworks consistently produced more reliable truth than falsifiable methods."
+};
+
+const truthDepthSentence =
+  "Use the Further Debunking link below for longer source-by-source analysis on this exact claim.";
+
+function toTruthParagraph(text) {
+  const trimmed = String(text || "").trim();
+  if (!trimmed) {
+    return "";
+  }
+  if (trimmed.includes(truthDepthSentence)) {
+    return trimmed;
+  }
+  return `${trimmed} Keep the same method: read passages in context, compare independent sources, and require claims that are testable and evidence-based. ${truthDepthSentence}`;
+}
+
+function buildReplacementPropagandaDebunkUrl(title) {
+  const topic = String(title || "").replace(/^Myth:\s*/, "").replace(/['"]/g, "");
+  const query = `${topic} debunking site:adl.org OR site:encyclopedia.ushmm.org OR site:wikipedia.org`;
+  return `https://duckduckgo.com/?q=${encodeURIComponent(query)}`;
+}
+
+function buildMythQueryUrl(title, domainScope, focusSuffix) {
+  const topic = String(title || "").replace(/^Myth:\s*/, "").replace(/['"]/g, "");
+  const query = `${topic} ${focusSuffix} ${domainScope}`;
+  return `https://duckduckgo.com/?q=${encodeURIComponent(query)}`;
+}
+
+function buildPinnedSources(title) {
+  const topic = String(title || "").replace(/^Myth:\s*/, "");
+  return [
+    {
+      label: `ADL evidence brief: ${topic}`,
+      url: buildMythQueryUrl(title, "site:adl.org", "backgrounder evidence"),
+      summary:
+        "ADL material tracks common versions of this claim, the language patterns used online, and where the evidence chain breaks."
+    },
+    {
+      label: `USHMM / historical record: ${topic}`,
+      url: buildMythQueryUrl(title, "site:encyclopedia.ushmm.org OR site:ushmm.org", "history documentation"),
+      summary:
+        "Historical documentation helps test recurring accusations against archival context, chronology, and primary-source verification."
+    },
+    {
+      label: `Independent fact-check trail: ${topic}`,
+      url: buildMythQueryUrl(title, "site:reuters.com OR site:apnews.com OR site:snopes.com", "fact check investigation"),
+      summary:
+        "Use independent reporting and fact-check investigations to see whether the claim survives transparent sourcing and falsifiability tests."
+    }
+  ];
+}
+
+function buildReplacementPropagandaTruth(title) {
+  const base = replacementPropagandaTruthByTitle[title] || "";
+  const depth = replacementPropagandaTruthDetailByTitle[title] || "";
+  return toTruthParagraph(`${base} ${depth}`.trim());
+}
+
 replacementPropagandaData.forEach((entry) => {
   entry.truthLabel = "Truth";
-  entry.truth = replacementPropagandaTruthByTitle[entry.title] || "";
+  entry.truthLinksLabel = "Further Debunking";
+  entry.skepticObjectionLabel = "Best Skeptic Objection";
+  entry.whyItFailsLabel = "Why It Fails";
+  entry.falsificationLabel = "What Would Falsify This Rebuttal?";
+  entry.pinnedSourcesLabel = "Pinned Sources";
+  entry.truth = buildReplacementPropagandaTruth(entry.title);
+  entry.skepticObjection = replacementPropagandaSkepticObjectionByTitle[entry.title] || "";
+  entry.whyItFails = replacementPropagandaWhyItFailsByTitle[entry.title] || "";
+  entry.falsificationTest = replacementPropagandaFalsificationByTitle[entry.title] || "";
+  entry.pinnedSources = buildPinnedSources(entry.title);
+  entry.truthLinks = [
+    {
+      label: `Further debunking: ${entry.title.replace(/^Myth:\s*/, "")}`,
+      url: buildReplacementPropagandaDebunkUrl(entry.title)
+    }
+  ];
 });
 
 const replacementTheologyData = [
@@ -5749,6 +6088,40 @@ function createPassageDetail(reference, passage, showContextButton = true) {
   return detail;
 }
 
+function createExternalResourceLink(label, url) {
+  const item = document.createElement("li");
+  item.className = "proof-truth-link-item";
+
+  const anchor = document.createElement("a");
+  anchor.className = "proof-truth-link";
+  anchor.href = url;
+  anchor.target = "_blank";
+  anchor.rel = "noopener noreferrer";
+  setHighlightedText(anchor, label);
+
+  item.append(anchor);
+  return item;
+}
+
+function createPinnedSourceItem(source) {
+  const item = document.createElement("li");
+  item.className = "proof-source-item";
+
+  const anchor = document.createElement("a");
+  anchor.className = "proof-source-link";
+  anchor.href = source.url;
+  anchor.target = "_blank";
+  anchor.rel = "noopener noreferrer";
+  setHighlightedText(anchor, source.label);
+
+  const summary = document.createElement("p");
+  summary.className = "proof-source-summary";
+  setHighlightedText(summary, source.summary);
+
+  item.append(anchor, summary);
+  return item;
+}
+
 function attachAccordionBehavior(root) {
   const toggle = root.querySelector(".argument-toggle");
   const body = root.querySelector(".argument-body");
@@ -6156,12 +6529,23 @@ function matchesClaimResponseEntry(entry, toneKey) {
   const truthText = typeof entry.truth === "object"
     ? Object.values(entry.truth).join(" ")
     : entry.truth;
+  const truthLinks = (entry.truthLinks || []).flatMap((link) => [link.label, link.url]);
+  const sourceText = (entry.pinnedSources || []).flatMap((source) => [
+    source.label,
+    source.url,
+    source.summary
+  ]);
   return hasSearchMatch([
     entry.title,
     entry.claimLabel,
     entry.responseLabel,
     entry.claim,
     truthText,
+    entry.skepticObjection,
+    entry.whyItFails,
+    entry.falsificationTest,
+    ...truthLinks,
+    ...sourceText,
     entry.tones[toneKey],
     ...entry.references.flatMap((verse) => [verse.reference, verse.passage])
   ]);
@@ -6296,6 +6680,93 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
       } else {
         truthLabel.hidden = true;
         truthText.hidden = true;
+      }
+    }
+
+    const truthLinksWrap = article.querySelector(".proof-truth-links-wrap");
+    const truthLinksLabel = article.querySelector(".proof-truth-links-label");
+    const truthLinksList = article.querySelector(".proof-truth-links");
+    const truthLinks = Array.isArray(entry.truthLinks) ? entry.truthLinks : [];
+    if (truthLinksWrap && truthLinksList) {
+      truthLinksList.innerHTML = "";
+      if (truthLinks.length) {
+        if (truthLinksLabel) {
+          setHighlightedText(truthLinksLabel, entry.truthLinksLabel || "Further Debunking");
+        }
+        truthLinks.forEach((link) => {
+          if (link?.label && link?.url) {
+            truthLinksList.appendChild(createExternalResourceLink(link.label, link.url));
+          }
+        });
+        truthLinksWrap.hidden = truthLinksList.childElementCount === 0;
+      } else {
+        truthLinksWrap.hidden = true;
+      }
+    }
+
+    const skepticLabel = article.querySelector(".proof-skeptic-label");
+    const skepticText = article.querySelector(".proof-skeptic");
+    if (skepticLabel && skepticText) {
+      if (entry.skepticObjection) {
+        setHighlightedText(skepticLabel, entry.skepticObjectionLabel || "Best Skeptic Objection");
+        setHighlightedText(skepticText, entry.skepticObjection);
+        skepticLabel.hidden = false;
+        skepticText.hidden = false;
+      } else {
+        skepticLabel.hidden = true;
+        skepticText.hidden = true;
+      }
+    }
+
+    const whyFailsLabel = article.querySelector(".proof-why-fails-label");
+    const whyFailsText = article.querySelector(".proof-why-fails");
+    if (whyFailsLabel && whyFailsText) {
+      if (entry.whyItFails) {
+        setHighlightedText(whyFailsLabel, entry.whyItFailsLabel || "Why It Fails");
+        setHighlightedText(whyFailsText, entry.whyItFails);
+        whyFailsLabel.hidden = false;
+        whyFailsText.hidden = false;
+      } else {
+        whyFailsLabel.hidden = true;
+        whyFailsText.hidden = true;
+      }
+    }
+
+    const falsifyLabel = article.querySelector(".proof-falsify-label");
+    const falsifyText = article.querySelector(".proof-falsify");
+    if (falsifyLabel && falsifyText) {
+      if (entry.falsificationTest) {
+        setHighlightedText(
+          falsifyLabel,
+          entry.falsificationLabel || "What Would Falsify This Rebuttal?"
+        );
+        setHighlightedText(falsifyText, entry.falsificationTest);
+        falsifyLabel.hidden = false;
+        falsifyText.hidden = false;
+      } else {
+        falsifyLabel.hidden = true;
+        falsifyText.hidden = true;
+      }
+    }
+
+    const sourcesWrap = article.querySelector(".proof-sources-wrap");
+    const sourcesLabel = article.querySelector(".proof-sources-label");
+    const sourcesList = article.querySelector(".proof-sources-list");
+    const pinnedSources = Array.isArray(entry.pinnedSources) ? entry.pinnedSources : [];
+    if (sourcesWrap && sourcesList) {
+      sourcesList.innerHTML = "";
+      if (pinnedSources.length) {
+        if (sourcesLabel) {
+          setHighlightedText(sourcesLabel, entry.pinnedSourcesLabel || "Pinned Sources");
+        }
+        pinnedSources.forEach((source) => {
+          if (source?.label && source?.url && source?.summary) {
+            sourcesList.appendChild(createPinnedSourceItem(source));
+          }
+        });
+        sourcesWrap.hidden = sourcesList.childElementCount === 0;
+      } else {
+        sourcesWrap.hidden = true;
       }
     }
 
