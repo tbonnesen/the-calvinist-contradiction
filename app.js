@@ -2556,6 +2556,326 @@ const replacementPropagandaData = [
     ]
   },
   {
+    title: "Myth: 'Rothschild/Federal Reserve' Narratives Prove Jewish Control of All Wars",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because some Jewish families were historically active in finance, Jews as a group secretly control central banks, manufacture wars, and rule nations through debt.",
+    tones: {
+      pastoral:
+        "Scripture warns against false witness and hasty accusation. Moving from a few historical actors to total group guilt is not discernment; it is slander.",
+      debate:
+        "This is a composition fallacy: from some people in finance to total ethnic control of global wars and policy. Claims that broad need auditable evidence, not family-name mythmaking.",
+      academic:
+        "The argument illegitimately aggregates particular financial histories into civilizational ethnic causation. Biblical legal reasoning requires case-specific proof and rejects inherited collective liability."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 24:16 (KJV)",
+        passage:
+          "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin."
+      },
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      }
+    ]
+  },
+  {
+    title: "Myth: George Soros Funding Claims Prove a Jewish Master-Plan Behind Protests and Elections",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because one Jewish billionaire funds political causes, Jews as a group are coordinating riots, migration waves, and election manipulation through a hidden global network.",
+    tones: {
+      pastoral:
+        "Christians can evaluate political funding transparently, but Scripture forbids turning one donor into a story about an entire people. Truth requires fairness and restraint.",
+      debate:
+        "Scrutinizing influence operations is valid; converting donor criticism into ethnic control claims is not. This move shifts from evidence to scapegoating.",
+      academic:
+        "The narrative commits associative transfer: actor-specific political activity is generalized into collective ethnic agency. Biblical witness standards require claim-level proof and reject inherited group culpability."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      },
+      {
+        reference: "Deuteronomy 24:16 (KJV)",
+        passage:
+          "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin."
+      }
+    ]
+  },
+  {
+    title: "Myth: Jews Control Hollywood/News and Script Society Through Media",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Jewish ownership or participation in entertainment and journalism proves a coordinated ethnic program to deceive nations and corrupt morals.",
+    tones: {
+      pastoral:
+        "Believers are called to test every message without turning neighbors into conspiratorial enemies. Broad ethnic blame is not biblical discernment.",
+      debate:
+        "Media criticism can be legitimate, but ethnic conspiracy framing is lazy and unbiblical. Evaluate specific outlets and claims, not bloodlines.",
+      academic:
+        "The claim conflates sector participation with centralized ethnic intent and then imputes uniform agency to a heterogeneous population. Biblical ethics forbid slanderous generalization."
+    },
+    references: [
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "James 2:1 (KJV)",
+        passage:
+          "My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons."
+      },
+      {
+        reference: "Ephesians 4:25 (KJV)",
+        passage:
+          "Wherefore putting away lying, speak every man truth with his neighbour: for we are members one of another."
+      }
+    ]
+  },
+  {
+    title: "Myth: 'Jewish Space Lasers' or Directed-Energy Claims Explain Fires and Disasters",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Wildfires and large disasters are caused by hidden Jewish or Zionist directed-energy weapons, proving global sabotage by Jews as a people.",
+    tones: {
+      pastoral:
+        "In fearful moments, dramatic stories spread quickly. God calls His people to sober testing, not panic-based accusations against whole communities.",
+      debate:
+        "Extraordinary technical claims require extraordinary chain-of-evidence. Most of these narratives rely on clips and speculation, then jump to ethnic blame.",
+      academic:
+        "The claim combines technical overreach with ethnic essentialism: contested anomaly interpretations are converted into trans-group intent attribution without forensic continuity. Biblical legal method rejects this inference pattern."
+    },
+    references: [
+      {
+        reference: "Proverbs 14:15 (KJV)",
+        passage:
+          "The simple believeth every word: but the prudent man looketh well to his going."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      }
+    ]
+  },
+  {
+    title: "Myth: 'Cultural Marxism' Is a Coordinated Jewish Plot to Destroy Christianity",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Social change, secularization, and moral confusion are primarily driven by a hidden Jewish strategy often labeled 'Cultural Marxism'.",
+    tones: {
+      pastoral:
+        "Spiritual decline should lead Christians to repentance and truth, not ethnic scapegoating. Scripture calls us to judge righteously, not by rumor frameworks.",
+      debate:
+        "This narrative repackages group blame into one master-cause and excuses the church from self-examination. Biblical critique targets sin everywhere, not one ethnicity as secret engine.",
+      academic:
+        "The thesis is monocausal and ethnically essentialist: disparate cultural processes are reduced to covert Jewish agency. Biblical moral analysis resists such reductionism and demands evidential specificity."
+    },
+    references: [
+      {
+        reference: "John 7:24 (KJV)",
+        passage:
+          "Judge not according to the appearance, but judge righteous judgment."
+      },
+      {
+        reference: "Romans 2:1 (KJV)",
+        passage:
+          "Therefore thou art inexcusable, O man, whosoever thou art that judgest: for wherein thou judgest another, thou condemnest thyself; for thou that judgest doest the same things."
+      },
+      {
+        reference: "Titus 3:9 (KJV)",
+        passage:
+          "But avoid foolish questions, and genealogies, and contentions, and strivings about the law; for they are unprofitable and vain."
+      }
+    ]
+  },
+  {
+    title: "Myth: 'Judeo-Bolshevism' Proves Jews as a Group Engineered Atheist Revolution",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because some revolutionaries had Jewish ancestry, Jews as a people are responsible for communist terror and modern anti-Christian politics.",
+    tones: {
+      pastoral:
+        "God does not permit inherited guilt by ethnicity. Every person is judged for his own deeds, not for someone else's ancestry.",
+      debate:
+        "The argument is guilt-by-association on a group scale. It cherry-picks individuals, ignores contrary cases, and then blames millions with no direct evidence.",
+      academic:
+        "This is an ethnicized attribution fallacy: selective biographical data is generalized into transgenerational collective culpability. Biblical jurisprudence explicitly denies that transfer of guilt."
+    },
+    references: [
+      {
+        reference: "Ezekiel 18:20 (KJV)",
+        passage:
+          "The soul that sinneth, it shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son: the righteousness of the righteous shall be upon him, and the wickedness of the wicked shall be upon him."
+      },
+      {
+        reference: "Deuteronomy 24:16 (KJV)",
+        passage:
+          "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin."
+      },
+      {
+        reference: "Proverbs 24:24 (KJV)",
+        passage:
+          "He that saith unto the wicked, Thou art righteous; him shall the people curse, nations shall abhor him:"
+      }
+    ]
+  },
+  {
+    title: "Myth: October 7 Was a Jewish/Israeli Inside Job or Fabricated Atrocity",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "The October 7 massacre was staged, faked, or deliberately allowed by Jews/Israel, and reports of atrocities were fabricated for political gain.",
+    tones: {
+      pastoral:
+        "Christians should handle atrocity claims with care for victims and commitment to truth. Denial language can harden hearts and spread cruelty.",
+      debate:
+        "Policy disagreement does not justify atrocity denial or inside-job accusations without hard evidence. Replacing investigation with narrative certainty is reckless.",
+      academic:
+        "The discourse mirrors known denial structures: selective sourcing, asymmetric skepticism, and conspiratorial closure. Biblical ethics demand truthful witness and refusal to weaponize suffering."
+    },
+    references: [
+      {
+        reference: "Exodus 20:16 (KJV)",
+        passage:
+          "Thou shalt not bear false witness against thy neighbour."
+      },
+      {
+        reference: "Proverbs 12:22 (KJV)",
+        passage:
+          "Lying lips are abomination to the LORD: but they that deal truly are his delight."
+      },
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      }
+    ]
+  },
+  {
+    title: "Myth: 9/11 and Other Mass-Casualty Events Were Jewish/Israeli False Flags",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "High-casualty events are actually secret operations by Jews or Israel, and skepticism toward these claims proves complicity.",
+    tones: {
+      pastoral:
+        "Serious accusations about mass murder require serious evidence and careful speech. Scripture forbids rushing into accusations that inflame hatred.",
+      debate:
+        "False-flag narratives often depend on speculation chains, not verifiable chain-of-evidence. Calling all disagreement 'complicity' is a self-sealing tactic, not investigation.",
+      academic:
+        "The claim exhibits conspiracist closure: weak inferential links are treated as decisive while disconfirming evidence is dismissed a priori. Biblical testimony law rejects that method."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 19:15 (KJV)",
+        passage:
+          "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+      },
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "Proverbs 14:15 (KJV)",
+        passage:
+          "The simple believeth every word: but the prudent man looketh well to his going."
+      }
+    ]
+  },
+  {
+    title: "Myth: The Talmud Commands Jews to Hate or Harm Gentiles",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Quote lists on social media prove Judaism teaches Jews to deceive, abuse, or kill non-Jews, so hostility to Jews is justified.",
+    tones: {
+      pastoral:
+        "Christians should not build moral judgments on anonymous quote dumps and rumor screenshots. Truth requires verification, context, and love of neighbor.",
+      debate:
+        "Most viral 'Talmud says...' lists are mistranslated, decontextualized, or fabricated. You cannot justify group hostility from unverifiable excerpts.",
+      academic:
+        "The method is text-fragment weaponization: unattributed snippets are detached from language, genre, and interpretive context, then converted into ethnic indictment. Biblical witness standards prohibit this."
+    },
+    references: [
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "Leviticus 19:18 (KJV)",
+        passage:
+          "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD."
+      }
+    ]
+  },
+  {
+    title: "Myth: Noahide-Law Claims Prove a Coming Jewish Plan to Execute Christians",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Jewish teaching on Noahide categories proves a coordinated global plan by Jews or Israel to behead Christians and impose anti-Christian law everywhere.",
+    tones: {
+      pastoral:
+        "Fear-heavy prophecy rumors can spread quickly, but Christians are called to sober testing and truthful speech. We should not turn speculative chains into certainty.",
+      debate:
+        "This claim usually jumps from scattered statements to a global execution plot without evidentiary continuity. Serious claims require verifiable policy evidence, not clip compilations.",
+      academic:
+        "The thesis relies on inferential escalation: legal/religious discourse is reinterpreted as imminent transnational extermination intent without demonstrable institutional pathway. Biblical witness ethics reject such overreach."
+    },
+    references: [
+      {
+        reference: "Proverbs 14:15 (KJV)",
+        passage:
+          "The simple believeth every word: but the prudent man looketh well to his going."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      }
+    ]
+  },
+  {
     title: "Myth: 'Great Replacement' Panic Is a Biblical Mandate",
     claimLabel: "Conspiracy Claim",
     responseLabel: "Biblical Response",
@@ -2648,6 +2968,38 @@ const replacementPropagandaData = [
         reference: "Romans 13:1 (KJV)",
         passage:
           "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God."
+      }
+    ]
+  },
+  {
+    title: "Myth: AIPAC or Pro-Israel Lobbying Proves Jews 'Own' the U.S. Government",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because pro-Israel lobbying exists, Jews as a group secretly control American politicians, courts, and foreign policy decisions.",
+    tones: {
+      pastoral:
+        "Christians can critique lobbying influence, but should not treat an entire people as puppet masters. Truthful speech distinguishes policy disputes from ethnic accusations.",
+      debate:
+        "Lobby scrutiny is legitimate across all interest groups. The error is moving from influence claims to ownership claims about Jews as a whole.",
+      academic:
+        "The narrative conflates pluralist interest-group dynamics with ethnic-total governance capture and then imputes coordinated group intent. Biblical legal ethics require specific evidence of specific acts, not civilizational blame transfer."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "Deuteronomy 19:15 (KJV)",
+        passage:
+          "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+      },
+      {
+        reference: "James 2:1 (KJV)",
+        passage:
+          "My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons."
       }
     ]
   },
@@ -2812,6 +3164,166 @@ const replacementPropagandaData = [
     ]
   },
   {
+    title: "Myth: 'Antisemitism' Is Only a Censorship Weapon Used to Protect Conspiracies",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Warnings about antisemitism are merely tactics by Jewish groups to silence truth, so Christians should ignore those warnings and press broad ethnic accusations.",
+    tones: {
+      pastoral:
+        "Believers can pursue honest critique while still rejecting hatred and slander. Dismissing every warning as manipulation hardens the heart against needed correction.",
+      debate:
+        "This framing is often used to pre-immunize conspiracies from moral scrutiny. Legitimate policy criticism is possible without turning into ethnicized accusation campaigns.",
+      academic:
+        "The claim is immunizing rhetoric: it reclassifies all critique of prejudice as bad-faith suppression, thereby insulating conspiratorial discourse from ethical evaluation. Biblical ethics require both truth-telling and neighbor-love, not a false choice between them."
+    },
+    references: [
+      {
+        reference: "Ephesians 4:15 (KJV)",
+        passage:
+          "But speaking the truth in love, may grow up into him in all things, which is the head, even Christ:"
+      },
+      {
+        reference: "Proverbs 12:1 (KJV)",
+        passage:
+          "Whoso loveth instruction loveth knowledge: but he that hateth reproof is brutish."
+      },
+      {
+        reference: "James 1:19 (KJV)",
+        passage:
+          "Wherefore, my beloved brethren, let every man be swift to hear, slow to speak, slow to wrath:"
+      }
+    ]
+  },
+  {
+    title: "Myth: Historic Expulsions Prove Jews Are Uniquely Evil",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because Jewish communities were expelled from various nations in history, those expulsions prove Jews as a people are uniquely dangerous and morally corrupt.",
+    tones: {
+      pastoral:
+        "History includes real conflict, but Scripture forbids treating repeated accusation as automatic proof of collective guilt. God calls us to truthful judgment, not inherited suspicion.",
+      debate:
+        "Expulsions can reflect politics, debt conflicts, theology, or scapegoating pressures; they are not self-authenticating moral verdicts on an ethnicity. You still need case-level evidence.",
+      academic:
+        "The claim commits a historical circularity fallacy: prior punishment is treated as proof of guilt without independent adjudication. Biblical jurisprudence requires demonstrated offense, not retrospective ethnic inference."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 24:16 (KJV)",
+        passage:
+          "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin."
+      },
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "James 2:9 (KJV)",
+        passage:
+          "But if ye have respect to persons, ye commit sin, and are convinced of the law as transgressors."
+      }
+    ]
+  },
+  {
+    title: "Myth: Jews Created the Slave Trade and Bear Collective Guilt Today",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because some Jewish merchants participated in slave economies, Jews as a people uniquely created the slave trade and remain collectively culpable now.",
+    tones: {
+      pastoral:
+        "Slavery was a grave evil across many empires and actors. Scripture calls for truth and justice, not selective blame that turns complex history into ethnic indictment.",
+      debate:
+        "Participation by some individuals does not prove unique ethnic ownership of a transnational system. Broad moral claims require proportionate data and consistent standards.",
+      academic:
+        "This narrative relies on selection bias and aggregation error by elevating chosen cases into group-total causation. Biblical ethics reject transgenerational collective guilt transfers."
+    },
+    references: [
+      {
+        reference: "Ezekiel 18:20 (KJV)",
+        passage:
+          "The soul that sinneth, it shall die. The son shall not bear the iniquity of the father, neither shall the father bear the iniquity of the son: the righteousness of the righteous shall be upon him, and the wickedness of the wicked shall be upon him."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      },
+      {
+        reference: "Micah 6:8 (KJV)",
+        passage:
+          "He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?"
+      }
+    ]
+  },
+  {
+    title: "Myth: Serpent-Seed or Edomite Bloodline Claims Prove Jews Are Literally Satanic",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Esoteric bloodline theories prove Jews are biologically or spiritually satanic as a people, so hostility toward them is framed as spiritual warfare.",
+    tones: {
+      pastoral:
+        "These theories weaponize fear and strip people of God-given human dignity. Scripture calls believers to truth, repentance, and gospel witness, not bloodline demonology.",
+      debate:
+        "Serpent-seed style claims are speculative systems built on leaps between symbols, genealogies, and modern populations. They fail basic hermeneutics and invite dehumanization.",
+      academic:
+        "The thesis conflates typological and polemical texts with immutable ethnic ontology, producing an essentialist anthropology foreign to biblical witness. It functions as mythic identity construction rather than exegesis."
+    },
+    references: [
+      {
+        reference: "Acts 17:26 (KJV)",
+        passage:
+          "And hath made of one blood all nations of men for to dwell on all the face of the earth, and hath determined the times before appointed, and the bounds of their habitation;"
+      },
+      {
+        reference: "James 3:9 (KJV)",
+        passage:
+          "Therewith bless we God, even the Father; and therewith curse we men, which are made after the similitude of God."
+      },
+      {
+        reference: "1 John 4:1 (KJV)",
+        passage:
+          "Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world."
+      }
+    ]
+  },
+  {
+    title: "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because some high-profile scandal networks involved individuals with Jewish ties, those scandals prove a broader Jewish system of political blackmail and control.",
+    tones: {
+      pastoral:
+        "Corruption must be exposed, but Scripture forbids jumping from scandal to collective ethnic accusation. Justice names real perpetrators and protects truth.",
+      debate:
+        "Network-crime investigation is valid; ethnic extrapolation is not. You can prosecute real conspirators without converting one case into an all-Jews control thesis.",
+      academic:
+        "The argument commits ecological fallacy by inferring group-level hidden governance from bounded criminal clusters. Biblical legal standards require specific culpability, corroborated evidence, and non-collectivized judgment."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 19:15 (KJV)",
+        passage:
+          "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+      },
+      {
+        reference: "Proverbs 14:15 (KJV)",
+        passage:
+          "The simple believeth every word: but the prudent man looketh well to his going."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      }
+    ]
+  },
+  {
     title: "Myth: If Disproved, the Conspiracy Is Just Deeper",
     claimLabel: "Conspiracy Claim",
     responseLabel: "Biblical Response",
@@ -2844,6 +3356,78 @@ const replacementPropagandaData = [
     ]
   }
 ];
+
+const replacementPropagandaTruthByTitle = {
+  "Myth: God Permanently Cursed the Jewish People":
+    "Steelman concern: strong judgment passages make some readers think Israel was finally rejected. Truth: Romans 11 says that rejection is not final and hardening is partial. The biblical pattern is discipline in history, not permanent ethnic abandonment.",
+  "Myth: Conspiracy Narratives About Jews Are a Biblical Duty":
+    "Steelman concern: Christians should expose real evil, including elite corruption. Truth: that duty still requires evidence, fair process, and truthful witness. Rumor chains and ethnic blame are not biblical discernment.",
+  "Myth: Abrahamic Blessing/Curse Language Is Now Irrelevant":
+    "Steelman concern: people worry Genesis 12 can be used too mechanically in modern politics. Truth: that concern does not permit contempt for Jews or boasting over Israel. Romans 11 still requires Gentile humility.",
+  "Myth: Defending Jewish Dignity Means Endorsing Every State Policy":
+    "Steelman concern: no state should be above moral criticism. Truth: that is valid, but criticism of policy is different from blaming Jews as a people. Biblical justice keeps both: no slander, and honest case-by-case review.",
+  "Myth: The Jewish People Carry Eternal Deicide Guilt":
+    "Steelman concern: the passion narratives include Jewish leaders and crowds, so people ask how blame should be handled. Truth: Scripture does not teach permanent ethnic guilt across generations. The event is historically specific, and Romans still denies total rejection of Israel.",
+  "Myth: 'Synagogue of Satan' Means All Jews Everywhere":
+    "Steelman concern: Revelation uses sharp language against hostile opponents. Truth: those rebukes are to specific first-century settings, not all Jews in all times. Good exegesis keeps local rebuke local.",
+  "Myth: Secret Jewish World-Control Documents Prove a Global Cabal":
+    "Steelman concern: elites sometimes do conspire, so suspicion is understandable. Truth: that does not validate forged-document ecosystems or one-cause ethnic cabal stories. Claims this large need independent sources, testable standards, and real cross-checking.",
+  "Myth: 'Rothschild/Federal Reserve' Narratives Prove Jewish Control of All Wars":
+    "Steelman concern: banking power, debt policy, and war profit should be examined. Truth: that review must stay actor-specific and evidence-based. Moving from finance criticism to total ethnic control is a category error.",
+  "Myth: George Soros Funding Claims Prove a Jewish Master-Plan Behind Protests and Elections":
+    "Steelman concern: major donors can shape policy and public debate. Truth: that can be investigated without jumping from one donor to a Jewish master-plan. One actor's influence is not proof of collective ethnic control.",
+  "Myth: Jews Control Hollywood/News and Script Society Through Media":
+    "Steelman concern: media bias and concentrated ownership are real concerns. Truth: those facts do not prove a coordinated Jewish script for society. Honest critique stays at outlet, policy, and ownership facts, not bloodline claims.",
+  "Myth: 'Jewish Space Lasers' or Directed-Energy Claims Explain Fires and Disasters":
+    "Steelman concern: poor transparency during disasters can create distrust. Truth: extraordinary technical claims require forensic evidence and reproducible analysis. Clip-based speculation is not enough to assign a hidden Jewish plot.",
+  "Myth: 'Cultural Marxism' Is a Coordinated Jewish Plot to Destroy Christianity":
+    "Steelman concern: Christians rightly challenge ideas that undermine biblical morality. Truth: that fight should target ideas and institutions directly, not a hidden ethnic plot. Moral critique stays stronger when causation is specific and testable.",
+  "Myth: October 7 Was a Jewish/Israeli Inside Job or Fabricated Atrocity":
+    "Steelman concern: wartime information can be shaped, so independent checking matters. Truth: that does not justify blanket atrocity denial or inside-job claims without hard corroboration. Evidence standards must stay consistent across all sides.",
+  "Myth: 'Judeo-Bolshevism' Proves Jews as a Group Engineered Atheist Revolution":
+    "Steelman concern: some anti-religious revolutionaries had Jewish ancestry. Truth: ancestry does not justify assigning guilt to Jews as a whole across generations. Both history and biblical justice reject that transfer.",
+  "Myth: 9/11 and Other Mass-Casualty Events Were Jewish/Israeli False Flags":
+    "Steelman concern: major events deserve independent review because governments can hide facts. Truth: review is not the same as ethnic accusation from edited clips and hints. Mass-casualty claims require very high, traceable, falsifiable proof.",
+  "Myth: The Talmud Commands Jews to Hate or Harm Gentiles":
+    "Steelman concern: Christians should assess teachings that conflict with Scripture. Truth: that must be done with verified sources and context, not viral quote dumps. Doctrinal disagreement never justifies fabricated evidence or group hatred.",
+  "Myth: Noahide-Law Claims Prove a Coming Jewish Plan to Execute Christians":
+    "Steelman concern: Christians should watch legal trends that could restrict conscience. Truth: concern is not proof of a current global execution plan. That claim needs concrete legal text, enforceable structure, and operational evidence.",
+  "Myth: 'Great Replacement' Panic Is a Biblical Mandate":
+    "Steelman concern: rapid social change can raise real civic concerns. Truth: those concerns should be addressed with policy reasoning and neighbor ethics, not race-war panic or anti-Jewish scapegoating. Scripture rules out ethnic enemy narratives.",
+  "Myth: Blood Libel and Ritual-Murder Claims Are Credible":
+    "Steelman concern: child protection is a moral duty, and abuse claims must be investigated. Truth: blood-libel claims repeatedly fail evidence tests and often fuel mob violence. Real protection needs forensics and due process, not mythic group charges.",
+  "Myth: Dual Loyalty / ZOG Proves Jews Are a Hidden Fifth Column":
+    "Steelman concern: foreign influence and conflicts of interest are real governance issues. Truth: those issues must be judged by role and evidence, not ethnic identity. One standard should apply to all citizens.",
+  "Myth: AIPAC or Pro-Israel Lobbying Proves Jews 'Own' the U.S. Government":
+    "Steelman concern: lobbying can distort policy and should be debated openly. Truth: that critique must stay specific to actors and systems. It does not prove Jews collectively own U.S. institutions.",
+  "Myth: Khazar Claims Prove Modern Jews Are 'Fake' Israel":
+    "Steelman concern: ancestry and migration history are valid research topics. Truth: ancestry complexity does not justify calling an entire people fake or stripping dignity. Historical claims cannot be used to justify dehumanization.",
+  "Myth: Jews Cause Plagues, Financial Collapse, or Social Corruption":
+    "Steelman concern: people want accountability when institutions fail in crises. Truth: complex events rarely reduce to one ethnic cause. Good analysis follows mechanisms and actors case by case, not collective blame.",
+  "Myth: Holocaust Denial or Inversion Is Just Honest Skepticism":
+    "Steelman concern: history should be examined rigorously and not politicized. Truth: denial and inversion methods use selective standards and omit converging evidence. Honest skepticism applies the same standard to all sources.",
+  "Myth: Viral Organ-Harvesting Narratives Prove Group Conspiracy":
+    "Steelman concern: medical abuse allegations can be real and deserve investigation. Truth: isolated or disputed cases do not prove an ethnic conspiracy. Sound judgment needs chain-of-custody evidence and case-level findings.",
+  "Myth: Coded Terms Like 'Globalists' Are Always Neutral":
+    "Steelman concern: terms like globalism can be used in real policy debate. Truth: they become propaganda when used as a coded stand-in for Jews. Clear argument names specific policies and actors directly.",
+  "Myth: 'Antisemitism' Is Only a Censorship Weapon Used to Protect Conspiracies":
+    "Steelman concern: labels can be misused and should not end debate by themselves. Truth: misuse does not erase real anti-Jewish prejudice or justify broad ethnic accusations. Mature debate protects open speech and rejects demonstrable bias.",
+  "Myth: Historic Expulsions Prove Jews Are Uniquely Evil":
+    "Steelman concern: repeated expulsions can look like proof of a repeating group problem. Truth: expulsions alone do not prove guilt because they also reflect power struggles, debt politics, and scapegoating. Each case still needs independent evidence.",
+  "Myth: Jews Created the Slave Trade and Bear Collective Guilt Today":
+    "Steelman concern: some cite real cases of Jewish participation in slave economies. Truth: those cases can be studied without distorting scale or assigning unique blame to Jews as a whole. Slave systems were multinational and multi-actor.",
+  "Myth: Serpent-Seed or Edomite Bloodline Claims Prove Jews Are Literally Satanic":
+    "Steelman concern: difficult biblical texts can push readers toward broad bloodline theories. Truth: bloodline demonology overreads symbolic passages and turns theology into racial ontology. Scripture teaches one human family and rejects ethnic essentialism.",
+  "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
+    "Steelman concern: elite abuse networks are real in some cases, and distrust is understandable. Truth: exposing those crimes requires forensic evidence tied to named actors. Scandal clusters do not prove ethnic-total control.",
+  "Myth: If Disproved, the Conspiracy Is Just Deeper":
+    "Steelman concern: real cover-ups do happen, so some counterevidence may be weak or managed. Truth: if every disconfirming fact is treated as confirmation, the claim is no longer testable. A valid theory must say what would disprove it and be willing to change."
+};
+
+replacementPropagandaData.forEach((entry) => {
+  entry.truthLabel = "Truth";
+  entry.truth = replacementPropagandaTruthByTitle[entry.title] || "";
+});
 
 const replacementTheologyData = [
   {
@@ -5569,11 +6153,15 @@ function matchesArgument(entry, toneKey) {
 }
 
 function matchesClaimResponseEntry(entry, toneKey) {
+  const truthText = typeof entry.truth === "object"
+    ? Object.values(entry.truth).join(" ")
+    : entry.truth;
   return hasSearchMatch([
     entry.title,
     entry.claimLabel,
     entry.responseLabel,
     entry.claim,
+    truthText,
     entry.tones[toneKey],
     ...entry.references.flatMap((verse) => [verse.reference, verse.passage])
   ]);
@@ -5693,6 +6281,23 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
     setHighlightedText(article.querySelector(".proof-response-label"), entry.responseLabel);
     setHighlightedText(article.querySelector(".proof-claim"), entry.claim);
     setHighlightedText(article.querySelector(".proof-response"), entry.tones[toneKey]);
+
+    const truthLabel = article.querySelector(".proof-truth-label");
+    const truthText = article.querySelector(".proof-truth");
+    const entryTruth = typeof entry.truth === "object"
+      ? (entry.truth[toneKey] || entry.truth.pastoral || "")
+      : (entry.truth || "");
+    if (truthLabel && truthText) {
+      if (entryTruth) {
+        setHighlightedText(truthLabel, entry.truthLabel || "Truth");
+        setHighlightedText(truthText, entryTruth);
+        truthLabel.hidden = false;
+        truthText.hidden = false;
+      } else {
+        truthLabel.hidden = true;
+        truthText.hidden = true;
+      }
+    }
 
     const referenceList = article.querySelector(".reference-list");
     entry.references.forEach((verse) => {
