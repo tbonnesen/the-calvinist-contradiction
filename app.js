@@ -5229,6 +5229,36 @@ function attachAccordionBehavior(root) {
   });
 }
 
+function expandAllArgumentItems(container, instant = false) {
+  if (!container) {
+    return;
+  }
+
+  const items = [...container.querySelectorAll(".argument-item")];
+  items.forEach((item) => {
+    const toggle = item.querySelector(".argument-toggle");
+    const body = item.querySelector(".argument-body");
+    const symbol = item.querySelector(".symbol");
+    if (!toggle || !body || !symbol) {
+      return;
+    }
+
+    const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+    if (isExpanded) {
+      return;
+    }
+
+    toggle.setAttribute("aria-expanded", "true");
+    item.classList.add("is-open");
+    body.hidden = false;
+    body.style.opacity = "1";
+    body.style.maxHeight = instant || prefersReducedMotion.matches ? "none" : `${body.scrollHeight}px`;
+    symbol.textContent = "";
+  });
+
+  window.setTimeout(updateScrollProgress, instant ? 0 : 60);
+}
+
 function setSectionExpanded(section, shouldExpand, instant = false) {
   if (!section) {
     return;
@@ -5306,6 +5336,18 @@ function setSectionExpanded(section, shouldExpand, instant = false) {
   section.classList.toggle("is-open", shouldExpand);
   symbol.textContent = "";
   window.setTimeout(updateScrollProgress, 60);
+}
+
+function ensureReplacementMythsOpen() {
+  if (!isReplacementPage) {
+    return;
+  }
+
+  const mythsSection = document.querySelector("#israel-myths");
+  if (mythsSection?._sectionToggleTrigger) {
+    setSectionExpanded(mythsSection, true, true);
+  }
+  expandAllArgumentItems(propagandaList, true);
 }
 
 function initSectionAccordions() {
@@ -6371,6 +6413,7 @@ function renderAllForTone(toneKey) {
       toneKey,
       "No myth-check entries matched your search."
     );
+    ensureReplacementMythsOpen();
     renderClaimResponseList(
       replacementList,
       replacementTheologyData.filter((entry) => matchesReplacementTheme(entry)),
@@ -6532,6 +6575,7 @@ renderFilters();
 renderComparisonFilters();
 renderVerseCards(currentCategory);
 renderAllForTone(currentTone);
+ensureReplacementMythsOpen();
 setView(currentView);
 applyTiltEffects(document);
 updateScrollProgress();
