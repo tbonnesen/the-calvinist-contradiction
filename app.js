@@ -2331,6 +2331,520 @@ const epistemicChallengeData = [
   }
 ];
 
+const replacementPropagandaData = [
+  {
+    title: "Myth: God Permanently Cursed the Jewish People",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because many Jews rejected Jesus in the first century, the Jewish people are now a permanently cursed people with no future mercy from God.",
+    tones: {
+      pastoral:
+        "Scripture does not permit writing off an entire people as beyond mercy. Romans 11 says God has not cast away his people and still speaks of covenant mercy.",
+      debate:
+        "Permanent-curse rhetoric conflicts with Paul's explicit language: God has not cast away his people, and the gifts and calling of God are without repentance. National hardening is partial, not final.",
+      academic:
+        "The claim fails on direct textual grounds in Romans 11, where rejection is denied and covenantal continuity is affirmed. Totalized curse language overextends judgment texts beyond Pauline qualifiers."
+    },
+    references: [
+      {
+        reference: "Romans 11:1-2 (KJV)",
+        passage:
+          "I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin. God hath not cast away his people which he foreknew."
+      },
+      {
+        reference: "Romans 11:28-29 (KJV)",
+        passage:
+          "As concerning the gospel, they are enemies for your sakes: but as touching the election, they are beloved for the fathers' sakes. For the gifts and calling of God are without repentance."
+      },
+      {
+        reference: "Jeremiah 31:37 (KJV)",
+        passage:
+          "Thus saith the LORD; If heaven above can be measured, and the foundations of the earth searched out beneath, I will also cast off all the seed of Israel for all that they have done, saith the LORD."
+      }
+    ]
+  },
+  {
+    title: "Myth: Conspiracy Narratives About Jews Are a Biblical Duty",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Christians must spread sweeping claims that Jews secretly control governments, media, or world events, even when claims are unverified.",
+    tones: {
+      pastoral:
+        "God forbids false witness and rumor. Christians are called to truth, sobriety, and love of neighbor, not fear-based speculation about whole people groups.",
+      debate:
+        "Generalized conspiracy rhetoric violates biblical ethics of testimony. Scripture rejects false reports and calls believers away from fables and unprofitable disputes.",
+      academic:
+        "This claim collapses under biblical norms for epistemic responsibility: truthfulness, evidential restraint, and prohibition of false witness. Theological framing cannot legitimize rumor propagation."
+    },
+    references: [
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      },
+      {
+        reference: "1 Timothy 1:4 (KJV)",
+        passage:
+          "Neither give heed to fables and endless genealogies, which minister questions, rather than godly edifying which is in faith: so do."
+      },
+      {
+        reference: "Titus 3:9 (KJV)",
+        passage:
+          "But avoid foolish questions, and genealogies, and contentions, and strivings about the law; for they are unprofitable and vain."
+      }
+    ]
+  },
+  {
+    title: "Myth: Abrahamic Blessing/Curse Language Is Now Irrelevant",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Because the Church exists, cursing Jews or treating Israel with contempt has no biblical consequence.",
+    tones: {
+      pastoral:
+        "Believers should speak and act with fear of God, not contempt. The biblical pattern warns against boasting over Israel and against cursing what God has covenanted to preserve.",
+      debate:
+        "Supersessionist contempt runs into explicit warnings: bless/curse language in Abrahamic framing and Paul's command not to boast against natural branches. You cannot defend hostility with Romans 11 open.",
+      academic:
+        "The claim neglects continuity markers tying Israel to ongoing covenant discourse and Gentile humility ethics. Romans 11 and Genesis 12 together constrain triumphalist hostility readings."
+    },
+    references: [
+      {
+        reference: "Genesis 12:3 (KJV)",
+        passage:
+          "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed."
+      },
+      {
+        reference: "Romans 11:18 (KJV)",
+        passage:
+          "Boast not against the branches. But if thou boast, thou bearest not the root, but the root thee."
+      },
+      {
+        reference: "Romans 11:20 (KJV)",
+        passage:
+          "Well; because of unbelief they were broken off, and thou standest by faith. Be not highminded, but fear:"
+      }
+    ]
+  },
+  {
+    title: "Myth: Defending Jewish Dignity Means Endorsing Every State Policy",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "If Christians reject anti-Jewish propaganda, they must support every action of the modern Israeli state without discernment.",
+    tones: {
+      pastoral:
+        "Scripture allows moral discernment while still forbidding slander and hatred. You can reject propaganda, honor human dignity, and still evaluate policies by biblical justice.",
+      debate:
+        "This is a false binary. Opposing antisemitic conspiracy rhetoric is not the same as granting blank-check approval to any government action.",
+      academic:
+        "Category confusion drives this claim: peoplehood dignity ethics and policy-level prudential judgments are analytically distinct. Biblical justice requires truthful witness and case-by-case moral assessment."
+    },
+    references: [
+      {
+        reference: "Micah 6:8 (KJV)",
+        passage:
+          "He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?"
+      },
+      {
+        reference: "Ephesians 4:25 (KJV)",
+        passage:
+          "Wherefore putting away lying, speak every man truth with his neighbour: for we are members one of another."
+      },
+      {
+        reference: "Acts 17:11 (KJV)",
+        passage:
+          "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so."
+      }
+    ]
+  },
+  {
+    title: "Myth: The Jewish People Carry Eternal Deicide Guilt",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "All Jews in every generation are under a permanent blood-curse for the crucifixion, so hostility toward Jews is biblically justified.",
+    tones: {
+      pastoral:
+        "The gospel calls us to truth and mercy, not inherited hatred. Scripture shows the crucifixion happened under Roman sentence and still says God has not cast away His people.",
+      debate:
+        "Collective eternal deicide language is a theological overreach. The text records Roman execution authority, acknowledges first-century ignorance, and explicitly denies total rejection of Israel.",
+      academic:
+        "This claim conflates a first-century passion narrative with transgenerational ethnic culpability. Canonical controls in Luke-Acts and Romans 11 block that move by locating legal agency historically and preserving covenant continuity."
+    },
+    references: [
+      {
+        reference: "Luke 23:24 (KJV)",
+        passage: "And Pilate gave sentence that it should be as they required."
+      },
+      {
+        reference: "Acts 3:17 (KJV)",
+        passage:
+          "And now, brethren, I wot that through ignorance ye did it, as did also your rulers."
+      },
+      {
+        reference: "Romans 11:1-2 (KJV)",
+        passage:
+          "I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin. God hath not cast away his people which he foreknew."
+      }
+    ]
+  },
+  {
+    title: "Myth: 'Synagogue of Satan' Means All Jews Everywhere",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Revelation's phrase 'synagogue of Satan' proves the Jewish people as a whole are demonic and should be treated as enemies.",
+    tones: {
+      pastoral:
+        "That reading turns a local rebuke into ethnic hatred. Scripture calls believers to careful handling of the Word and gentle correction, not broad-brush demonizing.",
+      debate:
+        "Revelation addresses specific conflict settings, not a blanket ontology of all Jews. Expanding a targeted rebuke into race-wide condemnation is textually irresponsible.",
+      academic:
+        "The argument commits illegitimate totalization: a polemical designation in particular assemblies is universalized into a transhistorical ethnic predicate. Broader canonical and hermeneutical controls do not permit that extension."
+    },
+    references: [
+      {
+        reference: "Revelation 2:9 (KJV)",
+        passage:
+          "I know thy works, and tribulation, and poverty, (but thou art rich) and I know the blasphemy of them which say they are Jews, and are not, but are the synagogue of Satan."
+      },
+      {
+        reference: "Revelation 3:9 (KJV)",
+        passage:
+          "Behold, I will make them of the synagogue of Satan, which say they are Jews, and are not, but do lie; behold, I will make them to come and worship before thy feet, and to know that I have loved thee."
+      },
+      {
+        reference: "2 Timothy 2:15 (KJV)",
+        passage:
+          "Study to shew thyself approved unto God, a workman that needeth not to be ashamed, rightly dividing the word of truth."
+      }
+    ]
+  },
+  {
+    title: "Myth: Secret Jewish World-Control Documents Prove a Global Cabal",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Claims of hidden Jewish control over governments, money, and media are self-evidently true and need no careful evidence testing.",
+    tones: {
+      pastoral:
+        "God commands His people to reject false reports and rash judgments. Christians must test claims carefully before repeating them.",
+      debate:
+        "Conspiracy frameworks that treat all disproof as proof violate biblical standards of witness. Scripture requires corroboration, fair hearing, and sober discernment.",
+      academic:
+        "The logic is epistemically self-sealing and therefore resistant to falsification. Biblical jurisprudence instead imposes evidentiary thresholds and adversarial testing before moral accusation."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 19:15 (KJV)",
+        passage:
+          "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+      },
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      }
+    ]
+  },
+  {
+    title: "Myth: 'Great Replacement' Panic Is a Biblical Mandate",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Christians should treat demographic fear narratives as a holy duty and view ethnic groups as existential enemies in a divinely sanctioned racial conflict.",
+    tones: {
+      pastoral:
+        "Scripture teaches that all people share one Creator and calls believers away from partiality. Ethnic panic and hatred are not fruits of the Spirit.",
+      debate:
+        "Great-replacement rhetoric is built on fear and group demonization, not biblical exegesis. The New Testament vision is multi-ethnic worship under Christ, not race-war theology.",
+      academic:
+        "The claim collapses under biblical anthropology and ecclesiology: common human origin, prohibition of partiality, and eschatological inclusion of all nations are incompatible with racialized conspiracy frameworks."
+    },
+    references: [
+      {
+        reference: "Acts 17:26 (KJV)",
+        passage:
+          "And hath made of one blood all nations of men for to dwell on all the face of the earth, and hath determined the times before appointed, and the bounds of their habitation;"
+      },
+      {
+        reference: "James 2:1 (KJV)",
+        passage:
+          "My brethren, have not the faith of our Lord Jesus Christ, the Lord of glory, with respect of persons."
+      },
+      {
+        reference: "Revelation 7:9 (KJV)",
+        passage:
+          "After this I beheld, and, lo, a great multitude, which no man could number, of all nations, and kindreds, and people, and tongues, stood before the throne, and before the Lamb, clothed with white robes, and palms in their hands;"
+      }
+    ]
+  },
+  {
+    title: "Myth: Blood Libel and Ritual-Murder Claims Are Credible",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Jews supposedly use Christian children or blood in religious rituals, so hostility is justified as self-defense.",
+    tones: {
+      pastoral:
+        "This is a cruel falsehood that has fueled violence for centuries. Scripture forbids false report and forbids blood consumption, so this trope fails biblically and morally.",
+      debate:
+        "Blood-libel claims collapse under both evidence and Torah ethics. They rely on fabricated accusations, then recycle panic through modern rumor channels.",
+      academic:
+        "The libel is a persistent accusation-pattern unsupported by admissible evidence and contradicted by biblical dietary law. It functions as scapegoating propaganda rather than historical argument."
+    },
+    references: [
+      {
+        reference: "Leviticus 17:10 (KJV)",
+        passage:
+          "And whatsoever man there be of the house of Israel, or of the strangers that sojourn among you, that eateth any manner of blood; I will even set my face against that soul that eateth blood, and will cut him off from among his people."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      },
+      {
+        reference: "Proverbs 6:16-19 (KJV)",
+        passage:
+          "These six things doth the LORD hate: yea, seven are an abomination unto him: A proud look, a lying tongue, and hands that shed innocent blood, An heart that deviseth wicked imaginations, feet that be swift in running to mischief, A false witness that speaketh lies, and he that soweth discord among brethren."
+      }
+    ]
+  },
+  {
+    title: "Myth: Dual Loyalty / ZOG Proves Jews Are a Hidden Fifth Column",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Jews or Zionists are inherently disloyal to their countries and secretly run governments against the public.",
+    tones: {
+      pastoral:
+        "God calls His people to truth, not collective suspicion. Blanket accusations about hidden ethnic disloyalty are slander, not discernment.",
+      debate:
+        "Dual-loyalty rhetoric treats identity as guilt and bypasses evidence standards. It is the same old charge repackaged with modern labels like ZOG.",
+      academic:
+        "This trope operationalizes essentialist guilt by association and immunizes itself from falsification. Biblical legal norms require particularized evidence, not ethnically generalized suspicion."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 19:15 (KJV)",
+        passage:
+          "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+      },
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      },
+      {
+        reference: "Romans 13:1 (KJV)",
+        passage:
+          "Let every soul be subject unto the higher powers. For there is no power but of God: the powers that be are ordained of God."
+      }
+    ]
+  },
+  {
+    title: "Myth: Khazar Claims Prove Modern Jews Are 'Fake' Israel",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Ashkenazi Jews are merely Khazars with no real continuity to Israel, so Jewish peoplehood and historic claims are fraudulent.",
+    tones: {
+      pastoral:
+        "This claim is often used to strip a people of dignity and history. Scripture warns against fables and genealogical obsession used to stir strife.",
+      debate:
+        "Khazar absolutism overreaches and is used polemically to erase Jewish continuity. It functions more as identity warfare than as careful history.",
+      academic:
+        "The argument confuses selective ancestry narratives with total identity invalidation. Biblically, weaponized genealogical polemics are explicitly warned against as unprofitable and divisive."
+    },
+    references: [
+      {
+        reference: "Titus 3:9 (KJV)",
+        passage:
+          "But avoid foolish questions, and genealogies, and contentions, and strivings about the law; for they are unprofitable and vain."
+      },
+      {
+        reference: "1 Timothy 1:4 (KJV)",
+        passage:
+          "Neither give heed to fables and endless genealogies, which minister questions, rather than godly edifying which is in faith: so do."
+      },
+      {
+        reference: "Romans 11:1-2 (KJV)",
+        passage:
+          "I say then, Hath God cast away his people? God forbid. For I also am an Israelite, of the seed of Abraham, of the tribe of Benjamin. God hath not cast away his people which he foreknew."
+      }
+    ]
+  },
+  {
+    title: "Myth: Jews Cause Plagues, Financial Collapse, or Social Corruption",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Crisis events such as disease, economic stress, or social instability are secretly engineered by Jews as a group.",
+    tones: {
+      pastoral:
+        "In times of fear, people look for scapegoats. Scripture calls us to truth, patience, and mercy, not blame narratives that demonize whole communities.",
+      debate:
+        "Crisis scapegoating recycles medieval poisoning and greed tropes with modern language. It blames one minority for contradictory outcomes and ignores actual evidence.",
+      academic:
+        "This pattern is structurally conspiracist: diffuse causation is collapsed into monocausal ethnic blame. Biblical epistemology rejects rumor-based accusation and commands tested judgment."
+    },
+    references: [
+      {
+        reference: "Proverbs 14:15 (KJV)",
+        passage:
+          "The simple believeth every word: but the prudent man looketh well to his going."
+      },
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "Zechariah 7:10 (KJV)",
+        passage:
+          "And oppress not the widow, nor the fatherless, the stranger, nor the poor; and let none of you imagine evil against his brother in your heart."
+      }
+    ]
+  },
+  {
+    title: "Myth: Holocaust Denial or Inversion Is Just Honest Skepticism",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Denying, minimizing, or inverting mass atrocity history is neutral truth-seeking rather than propaganda.",
+    tones: {
+      pastoral:
+        "God calls us to truth, not memory-erasing narratives. Denial rhetoric harms survivors and trains people to treat lies as wisdom.",
+      debate:
+        "Denial and inversion tactics are not neutral skepticism. They selectively discard evidence and then brand correction as censorship.",
+      academic:
+        "This claim weaponizes pseudo-skepticism: it imposes asymmetrical standards of proof, suppresses contrary records, and reframes motivated distortion as method."
+    },
+    references: [
+      {
+        reference: "Exodus 20:16 (KJV)",
+        passage:
+          "Thou shalt not bear false witness against thy neighbour."
+      },
+      {
+        reference: "Proverbs 12:22 (KJV)",
+        passage:
+          "Lying lips are abomination to the LORD: but they that deal truly are his delight."
+      },
+      {
+        reference: "John 8:32 (KJV)",
+        passage:
+          "And ye shall know the truth, and the truth shall make you free."
+      }
+    ]
+  },
+  {
+    title: "Myth: Viral Organ-Harvesting Narratives Prove Group Conspiracy",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "A disputed or local medical scandal proves an ethnic or national program of organ theft by Jews or Israel.",
+    tones: {
+      pastoral:
+        "Serious accusations require serious evidence. God forbids rushing from fear and rumor to sweeping blame against whole peoples.",
+      debate:
+        "Moving from isolated allegations to ethnic conspiracy is textbook hasty generalization. Claims this serious need chain-of-evidence, not social-media extrapolation.",
+      academic:
+        "The inference pattern is invalid: from bounded claims to essentialized collective guilt without evidentiary continuity. Biblical legal ethics require corroboration and case-level adjudication."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      },
+      {
+        reference: "Deuteronomy 19:15 (KJV)",
+        passage:
+          "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      }
+    ]
+  },
+  {
+    title: "Myth: Coded Terms Like 'Globalists' Are Always Neutral",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Using coded words and insinuation to signal anti-Jewish meaning is harmless because explicit slurs are avoided.",
+    tones: {
+      pastoral:
+        "God hears the heart behind words. Hidden malice in coded speech is still sinful and still harms neighbors made in God's image.",
+      debate:
+        "Dog-whistle language is rhetorical laundering: same accusation, softer label. Avoiding explicit slurs does not turn prejudice into truth.",
+      academic:
+        "Semantic masking does not alter propositional content. Coded discourse preserves deniability while transmitting ethnic blame schemas to in-group audiences."
+    },
+    references: [
+      {
+        reference: "Ephesians 4:29 (KJV)",
+        passage:
+          "Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying, that it may minister grace unto the hearers."
+      },
+      {
+        reference: "Matthew 12:36 (KJV)",
+        passage:
+          "But I say unto you, That every idle word that men shall speak, they shall give account thereof in the day of judgment."
+      },
+      {
+        reference: "Proverbs 10:18 (KJV)",
+        passage:
+          "He that hideth hatred with lying lips, and he that uttereth a slander, is a fool."
+      }
+    ]
+  },
+  {
+    title: "Myth: If Disproved, the Conspiracy Is Just Deeper",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Any evidence against a conspiracy is itself proof of cover-up, so the theory can never be falsified.",
+    tones: {
+      pastoral:
+        "Truth welcomes testing; deception fears it. A claim that cannot be corrected cannot guide people in wisdom.",
+      debate:
+        "Self-sealing logic is not discernment. If every disconfirming fact is reclassified as confirmation, you are defending a narrative, not investigating reality.",
+      academic:
+        "This is classic non-falsifiability: evidentiary asymmetry that immunizes a thesis from correction. Biblical epistemology instead demands examinability and accountable witness."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "1 John 4:1 (KJV)",
+        passage:
+          "Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world."
+      },
+      {
+        reference: "2 Timothy 4:3-4 (KJV)",
+        passage:
+          "For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears; And they shall turn away their ears from the truth, and shall be turned unto fables."
+      }
+    ]
+  }
+];
+
 const replacementTheologyData = [
   {
     title: "God Has Not Cast Away Israel",
@@ -4170,6 +4684,7 @@ const argumentList = document.querySelector("#argument-list");
 const proofList = document.querySelector("#proof-list");
 const replyList = document.querySelector("#reply-list");
 const epistemicList = document.querySelector("#epistemic-list");
+const propagandaList = document.querySelector("#propaganda-list");
 const replacementList = document.querySelector("#replacement-list");
 const glossaryList = document.querySelector("#glossary-list");
 const drilldownList = document.querySelector("#drilldown-list");
@@ -4343,6 +4858,7 @@ function getReferencePool() {
     ...extractReferenceObjects(proofTextsData),
     ...extractReferenceObjects(commonRepliesData),
     ...extractReferenceObjects(epistemicChallengeData),
+    ...extractReferenceObjects(replacementPropagandaData),
     ...extractReferenceObjects(replacementTheologyData),
     ...lensVerses
   ];
@@ -5619,7 +6135,7 @@ function renderComparisonFilters() {
   }
   comparisonFilters.innerHTML = "";
   const categories = isReplacementPage
-    ? ["All", "Replacement Theology", "Objection Drilldown"]
+    ? ["All", "Myth / Propaganda", "Replacement Theology", "Objection Drilldown"]
     : [
         "All",
         "Core Challenge",
@@ -5732,6 +6248,15 @@ function buildComparisonItems(toneKey) {
     references: entry.references
   }));
 
+  const propagandaItems = replacementPropagandaData.map((entry) => ({
+    type: "Myth / Propaganda",
+    title: entry.title,
+    claimLabel: entry.claimLabel,
+    claim: entry.claim,
+    response: entry.tones[toneKey],
+    references: entry.references
+  }));
+
   const drilldownItems = objectionDrilldownData.flatMap((entry) =>
     entry.steps.map((step) => ({
       type: "Objection Drilldown",
@@ -5775,7 +6300,7 @@ function buildComparisonItems(toneKey) {
   );
 
   if (isReplacementPage) {
-    return [...replacementItems, ...replacementDrilldownItems];
+    return [...propagandaItems, ...replacementItems, ...replacementDrilldownItems];
   }
 
   return [
@@ -5840,6 +6365,12 @@ function renderAllForTone(toneKey) {
   updateQuickJumpCounts(toneKey);
   if (isReplacementPage) {
     renderReplacementThemeFilters();
+    renderClaimResponseList(
+      propagandaList,
+      replacementPropagandaData,
+      toneKey,
+      "No myth-check entries matched your search."
+    );
     renderClaimResponseList(
       replacementList,
       replacementTheologyData.filter((entry) => matchesReplacementTheme(entry)),
