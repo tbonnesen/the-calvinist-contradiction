@@ -99,6 +99,10 @@
             Glossary
             <span class="count-pill" id="count-glossary">0</span>
           </a>
+          <a class="quick-jump-link" href="#module-propaganda" data-jump-target="module-propaganda">
+            Propaganda Checks
+            <span class="count-pill" id="count-propaganda">0</span>
+          </a>
           <a class="quick-jump-link" href="#module-study-tools" data-jump-target="module-study-tools">
             Study Tools
           </a>
@@ -201,6 +205,21 @@
         </div>
       </section>
 
+      <section class="panel reveal" id="propaganda-checks">
+        <div class="section-head">
+          <h2>Conspiracy Theories &amp; Myth Checks</h2>
+          <p>Historical and factual rebuttal of antisemitic propaganda and myths about Israel and Jewish people, cross-referenced with KJV scripture.</p>
+        </div>
+
+        <div class="module-block" id="module-propaganda">
+          <div class="module-head">
+            <h3>Propaganda &amp; Myth Debunking</h3>
+            <p>Each myth is examined with specific historical evidence. Use the search bar to find any myth by keyword.</p>
+          </div>
+          <div id="propaganda-list" class="argument-list" aria-live="polite"></div>
+        </div>
+      </section>
+
       <section class="panel reveal" id="study-tools">
         <div class="section-head" id="module-study-tools">
           <h2>Study Tools</h2>
@@ -291,32 +310,45 @@
   <template id="proof-template">
     <article class="argument-item">
       <button class="argument-toggle" aria-expanded="false">
-        <span class="argument-title"></span>
+        <span class="argument-toggle-inner">
+          <span class="myth-badge" hidden>MYTH</span>
+          <span class="argument-title"></span>
+        </span>
         <span class="symbol" aria-hidden="true">+</span>
       </button>
       <div class="argument-body" hidden>
-        <h3 class="proof-claim-label">Calvinist Reading</h3>
-        <p class="proof-claim"></p>
-        <h3 class="proof-truth-label">Truth</h3>
-        <p class="proof-truth"></p>
-        <div class="proof-truth-links-wrap" hidden>
-          <h3 class="proof-truth-links-label">Further Debunking</h3>
-          <ul class="proof-truth-links"></ul>
+        <div class="proof-claim-block">
+          <h3 class="proof-claim-label">Claim</h3>
+          <p class="proof-claim"></p>
         </div>
-        <h3 class="proof-skeptic-label" hidden>Best Skeptic Objection</h3>
-        <p class="proof-skeptic" hidden></p>
-        <h3 class="proof-why-fails-label" hidden>Why It Fails</h3>
-        <p class="proof-why-fails" hidden></p>
-        <h3 class="proof-falsify-label" hidden>What Would Falsify This Rebuttal?</h3>
-        <p class="proof-falsify" hidden></p>
-        <div class="proof-sources-wrap" hidden>
-          <h3 class="proof-sources-label">Pinned Sources</h3>
-          <ul class="proof-sources-list"></ul>
+        <div class="proof-response-block">
+          <h3 class="proof-response-label">Response</h3>
+          <p class="proof-response"></p>
+          <h3 class="proof-kvj-label">KJV References</h3>
+          <div class="reference-list"></div>
         </div>
-        <h3 class="proof-response-label">Response</h3>
-        <p class="proof-response"></p>
-        <h3>KJV References</h3>
-        <div class="reference-list"></div>
+        <div class="proof-analysis-block">
+          <h3 class="proof-truth-label">Truth</h3>
+          <p class="proof-truth"></p>
+          <div class="proof-truth-links-wrap" hidden>
+            <h3 class="proof-truth-links-label">Further Debunking</h3>
+            <ul class="proof-truth-links"></ul>
+          </div>
+          <div class="proof-evidence-wrap" hidden>
+            <h3 class="proof-evidence-label">Evidence Anchors</h3>
+            <ul class="proof-evidence-list"></ul>
+          </div>
+          <h3 class="proof-skeptic-label" hidden>Best Skeptic Objection</h3>
+          <p class="proof-skeptic" hidden></p>
+          <h3 class="proof-why-fails-label" hidden>Why It Fails</h3>
+          <p class="proof-why-fails" hidden></p>
+          <h3 class="proof-falsify-label" hidden>What Would Falsify This Rebuttal?</h3>
+          <p class="proof-falsify" hidden></p>
+          <div class="proof-sources-wrap" hidden>
+            <h3 class="proof-sources-label">Pinned Sources</h3>
+            <ul class="proof-sources-list"></ul>
+          </div>
+        </div>
       </div>
     </article>
   </template>

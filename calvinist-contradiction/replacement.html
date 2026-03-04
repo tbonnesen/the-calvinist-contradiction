@@ -43,8 +43,10 @@
       <div class="search-row">
         <label for="search-input">Search Keyword or Phrase</label>
         <div class="search-input-wrap">
-          <input id="search-input" type="search" placeholder="Example: Israel, covenant, Zion, kingdom" />
-          <button id="search-clear" type="button">Clear</button>
+          <div class="search-input-inner">
+            <input id="search-input" type="search" placeholder="Example: Israel, covenant, Zion, kingdom" />
+            <button id="search-clear" class="search-clear-inline" type="button" aria-label="Clear search">&#x2715;</button>
+          </div>
         </div>
       </div>
       <div class="tab-row" role="tablist" aria-label="Content views">
@@ -141,32 +143,45 @@
   <template id="proof-template">
     <article class="argument-item">
       <button class="argument-toggle" aria-expanded="false">
-        <span class="argument-title"></span>
+        <span class="argument-toggle-inner">
+          <span class="myth-badge" hidden>MYTH</span>
+          <span class="argument-title"></span>
+        </span>
         <span class="symbol" aria-hidden="true">+</span>
       </button>
       <div class="argument-body" hidden>
-        <h3 class="proof-claim-label">Claim</h3>
-        <p class="proof-claim"></p>
-        <h3 class="proof-truth-label">Truth</h3>
-        <p class="proof-truth"></p>
-        <div class="proof-truth-links-wrap" hidden>
-          <h3 class="proof-truth-links-label">Further Debunking</h3>
-          <ul class="proof-truth-links"></ul>
+        <div class="proof-claim-block">
+          <h3 class="proof-claim-label">Claim</h3>
+          <p class="proof-claim"></p>
         </div>
-        <h3 class="proof-skeptic-label" hidden>Best Skeptic Objection</h3>
-        <p class="proof-skeptic" hidden></p>
-        <h3 class="proof-why-fails-label" hidden>Why It Fails</h3>
-        <p class="proof-why-fails" hidden></p>
-        <h3 class="proof-falsify-label" hidden>What Would Falsify This Rebuttal?</h3>
-        <p class="proof-falsify" hidden></p>
-        <div class="proof-sources-wrap" hidden>
-          <h3 class="proof-sources-label">Pinned Sources</h3>
-          <ul class="proof-sources-list"></ul>
+        <div class="proof-response-block">
+          <h3 class="proof-response-label">Response</h3>
+          <p class="proof-response"></p>
+          <h3 class="proof-kvj-label">KJV References</h3>
+          <div class="reference-list"></div>
         </div>
-        <h3 class="proof-response-label">Response</h3>
-        <p class="proof-response"></p>
-        <h3>KJV References</h3>
-        <div class="reference-list"></div>
+        <div class="proof-analysis-block">
+          <h3 class="proof-truth-label">Truth</h3>
+          <p class="proof-truth"></p>
+          <div class="proof-truth-links-wrap" hidden>
+            <h3 class="proof-truth-links-label">Further Debunking</h3>
+            <ul class="proof-truth-links"></ul>
+          </div>
+          <div class="proof-evidence-wrap" hidden>
+            <h3 class="proof-evidence-label">Evidence Anchors</h3>
+            <ul class="proof-evidence-list"></ul>
+          </div>
+          <h3 class="proof-skeptic-label" hidden>Best Skeptic Objection</h3>
+          <p class="proof-skeptic" hidden></p>
+          <h3 class="proof-why-fails-label" hidden>Why It Fails</h3>
+          <p class="proof-why-fails" hidden></p>
+          <h3 class="proof-falsify-label" hidden>What Would Falsify This Rebuttal?</h3>
+          <p class="proof-falsify" hidden></p>
+          <div class="proof-sources-wrap" hidden>
+            <h3 class="proof-sources-label">Pinned Sources</h3>
+            <ul class="proof-sources-list"></ul>
+          </div>
+        </div>
       </div>
     </article>
   </template>

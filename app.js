@@ -3354,6 +3354,198 @@ const replacementPropagandaData = [
           "For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears; And they shall turn away their ears from the truth, and shall be turned unto fables."
       }
     ]
+  },
+  {
+    title: "Myth: The Protocols of the Elders of Zion Proves a Jewish Plan for World Domination",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "The Protocols document real Jewish council minutes plotting world control through banking, media, and governments, so Jewish conspiracy claims rest on verified historical proof.",
+    tones: {
+      pastoral:
+        "God calls His people to verify evidence before repeating accusations. The Protocols were proved in open court to be a fabrication copied from a French political satire that had nothing to do with Jews.",
+      debate:
+        "This fails at the document level. A Swiss court in 1935 declared the Protocols 'plagiarisms and obscene literature' after demonstrating that over 160 passages were lifted word-for-word from an 1864 satire about Napoleon III. A court-adjudicated forgery cannot serve as historical proof.",
+      academic:
+        "The Protocols' fraudulent provenance has been adjudicated by multiple courts and confirmed by archival research. The text plagiarizes Maurice Joly's 1864 satirical critique of Napoleon III, substituting 'the Jews' for the emperor. Using it as historical evidence is a foundational epistemic failure."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 19:15 (KJV)",
+        passage:
+          "One witness shall not rise up against a man for any iniquity, or for any sin, in any sin that he sinneth: at the mouth of two witnesses, or at the mouth of three witnesses, shall the matter be established."
+      },
+      {
+        reference: "Proverbs 18:13 (KJV)",
+        passage:
+          "He that answereth a matter before he heareth it, it is folly and shame unto him."
+      },
+      {
+        reference: "2 Timothy 4:3-4 (KJV)",
+        passage:
+          "For the time will come when they will not endure sound doctrine; but after their own lusts shall they heap to themselves teachers, having itching ears; And they shall turn away their ears from the truth, and shall be turned unto fables."
+      }
+    ]
+  },
+  {
+    title: "Myth: Jews Stabbed Germany in the Back and Caused the Loss of World War I",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Germany's WWI defeat was caused not by military failure but by Jewish and socialist betrayal from within, proving Jews are inherently disloyal enemies of host nations.",
+    tones: {
+      pastoral:
+        "Scripture demands we test accusations with evidence, not rumor. The German army itself counted Jewish soldiers in 1916, found they served at above-average rates, and suppressed those results because they disproved the betrayal narrative.",
+      debate:
+        "The stab-in-the-back claim was manufactured by the same generals who lost the war. Germany's military collapse by late 1918 was documented on the battlefield. The army's own 1916 census showed Jewish soldiers over-represented in frontline combat roles — a result the military suppressed.",
+      academic:
+        "The Dolchstoßlegende was politically constructed to shield military leadership from accountability for documented strategic failures. The suppressed Judenzählung of 1916 directly contradicts the betrayal thesis. The myth was later weaponized by Nazi propaganda as ideological justification for genocide."
+    },
+    references: [
+      {
+        reference: "Deuteronomy 24:16 (KJV)",
+        passage:
+          "The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin."
+      },
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      }
+    ]
+  },
+  {
+    title: "Myth: QAnon's Adrenochrome Narrative Exposes a Real Jewish Blood-Harvesting Network",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "A secret cabal of Jewish-tied elites harvests children's blood for adrenochrome to extend their lives, making QAnon a legitimate warning about a real Jewish-run child-murder system.",
+    tones: {
+      pastoral:
+        "This mirrors the medieval blood libel that killed thousands across Jewish communities for nine centuries. It has no forensic support. Adrenochrome is a common chemical compound with no proven rejuvenating effect, and no law enforcement investigation has found the networks described.",
+      debate:
+        "QAnon's core narrative is structurally identical to the medieval blood libel, substituting 'adrenochrome' for ritual blood use. Adrenochrome is an ordinary oxidation product of adrenaline, commercially purchasable as a lab compound, with no proven life-extending properties. The original Q drops never mentioned it.",
+      academic:
+        "QAnon recycles an ancient accusation pattern — a secret elite ritually sacrificing children for their blood, with Jewish figures at the center. The FBI has classified QAnon as a domestic terrorism threat. Prominent QAnon influencers are openly antisemitic, and the term 'cabal' itself derives from Kabbalah."
+    },
+    references: [
+      {
+        reference: "Leviticus 17:10 (KJV)",
+        passage:
+          "And whatsoever man there be of the house of Israel, or of the strangers that sojourn among you, that eateth any manner of blood; I will even set my face against that soul that eateth blood, and will cut him off from among his people."
+      },
+      {
+        reference: "Exodus 23:1 (KJV)",
+        passage:
+          "Thou shalt not raise a false report: put not thine hand with the wicked to be an unrighteous witness."
+      },
+      {
+        reference: "Proverbs 14:15 (KJV)",
+        passage:
+          "The simple believeth every word: but the prudent man looketh well to his going."
+      }
+    ]
+  },
+  {
+    title: "Myth: Jews Created or Profited from COVID-19 as a Control Operation",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Jews engineered the coronavirus, manipulated vaccine development for profit, or used the pandemic as cover for global population control.",
+    tones: {
+      pastoral:
+        "This mirrors what was said about Jews during the Black Death of 1348-1351, when over 200 Jewish communities were annihilated for supposedly poisoning wells — despite Jews dying at the same rate as everyone else. Christians must not repeat history's worst scapegoating.",
+      debate:
+        "COVID-19 originated from documented natural zoonotic transmission. The Pfizer/BioNTech vaccine was co-developed by scientists of Muslim heritage. Jewish communities were among the hardest hit by COVID-19. A UK government report found 79 percent of anti-vaccine networks contained antisemitic content.",
+      academic:
+        "Pandemic scapegoating of Jews is a recurring historical pattern predating COVID-19 by 700 years. It follows identical structural logic: a community crisis is attributed to secret Jewish causation, producing violence against a group that suffered equally from the actual event."
+    },
+    references: [
+      {
+        reference: "Proverbs 18:17 (KJV)",
+        passage:
+          "He that is first in his own cause seemeth just; but his neighbour cometh and searcheth him."
+      },
+      {
+        reference: "1 Thessalonians 5:21 (KJV)",
+        passage:
+          "Prove all things; hold fast that which is good."
+      },
+      {
+        reference: "Zechariah 7:10 (KJV)",
+        passage:
+          "And oppress not the widow, nor the fatherless, the stranger, nor the poor; and let none of you imagine evil against his brother in your heart."
+      }
+    ]
+  },
+  {
+    title: "Myth: Jesus Was Not Jewish and His Teaching Validates Hostility Toward Jews",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Jesus was not truly Jewish, or was so opposed to Jewish practice that appeals to Jesus validate treating Jewish people and their identity as spiritually corrupt.",
+    tones: {
+      pastoral:
+        "Every piece of evidence Scripture gives places Jesus within Jewish life: circumcised on the eighth day, presented at the Temple, attending synagogue on the Sabbath, celebrating Passover. He is addressed as Rabbi. Denying his Jewishness contradicts the text directly.",
+      debate:
+        "The claim fails biblically and historically. Jesus was circumcised, observed the Sabbath, wore tzitzit, was called Rabbi, observed Passover, and debated Torah with fellow Jews. Every credible scholar in the field — regardless of faith tradition — places Jesus firmly within first-century Judaism.",
+      academic:
+        "Scholars including E.P. Sanders, Paula Fredriksen, and Amy-Jill Levine place Jesus unambiguously within first-century Jewish practice. The Nazi 'Aryan Jesus' project was politically motivated pseudoscholarship universally rejected by the academy, documented by historian Susannah Heschel in The Aryan Jesus (Princeton, 2008)."
+    },
+    references: [
+      {
+        reference: "Luke 2:21 (KJV)",
+        passage:
+          "And when eight days were accomplished for the circumcising of the child, his name was called JESUS, which was so named of the angel before he was conceived in the womb."
+      },
+      {
+        reference: "Luke 4:16 (KJV)",
+        passage:
+          "And he came to Nazareth, where he had been brought up: and, as his custom was, he went into the synagogue on the sabbath day, and stood up for to read."
+      },
+      {
+        reference: "Matthew 26:17-18 (KJV)",
+        passage:
+          "Now the first day of the feast of unleavened bread the disciples came to Jesus, saying unto him, Where wilt thou that we prepare for thee to eat the passover? And he said, Go into the city to such a man, and say unto him, The Master saith, My time is at hand; I will keep the passover at thy house with my disciples."
+      }
+    ]
+  },
+  {
+    title: "Myth: Modern Jews Are Impostors and Another Group Are the True Biblical Israelites",
+    claimLabel: "Conspiracy Claim",
+    responseLabel: "Biblical Response",
+    claim:
+      "Modern Jewish people have no genuine connection to biblical Israel, their identity is fraudulent, and another group is the authentic Chosen People, so Jewish religious and cultural claims are illegitimate.",
+    tones: {
+      pastoral:
+        "God forbids false witness against neighbors. Claims that strip an entire people of history and identity cause real violence — the 2019 Jersey City kosher market attack that killed four people was motivated in part by this belief.",
+      debate:
+        "Multiple independent genetic studies confirm all major Jewish populations share Middle Eastern Levantine ancestry. The claim fails on genetic, linguistic, archaeological, and literary grounds simultaneously. The SPLC classifies extremist factions promoting this argument as hate groups.",
+      academic:
+        "The largest genome-wide analysis of 1,774 samples from 106 populations found no particular Khazar-Caucasus similarity and confirmed shared Levantine ancestry for all major Jewish groups. The sole peer-reviewed study supporting the replacement claim was comprehensively refuted by a 20-co-author scientific response."
+    },
+    references: [
+      {
+        reference: "Exodus 20:16 (KJV)",
+        passage:
+          "Thou shalt not bear false witness against thy neighbour."
+      },
+      {
+        reference: "Acts 17:26 (KJV)",
+        passage:
+          "And hath made of one blood all nations of men for to dwell on all the face of the earth, and hath determined the times before appointed, and the bounds of their habitation;"
+      },
+      {
+        reference: "Titus 3:9 (KJV)",
+        passage:
+          "But avoid foolish questions, and genealogies, and contentions, and strivings about the law; for they are unprofitable and vain."
+      }
+    ]
   }
 ];
 
@@ -3421,7 +3613,19 @@ const replacementPropagandaTruthByTitle = {
   "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
     "Steelman concern: elite abuse networks are real in some cases, and distrust is understandable. Truth: exposing those crimes requires forensic evidence tied to named actors. Scandal clusters do not prove ethnic-total control.",
   "Myth: If Disproved, the Conspiracy Is Just Deeper":
-    "Steelman concern: real cover-ups do happen, so some counterevidence may be weak or managed. Truth: if every disconfirming fact is treated as confirmation, the claim is no longer testable. A valid theory must say what would disprove it and be willing to change."
+    "Steelman concern: real cover-ups do happen, so some counterevidence may be weak or managed. Truth: if every disconfirming fact is treated as confirmation, the claim is no longer testable. A valid theory must say what would disprove it and be willing to change.",
+  "Myth: The Protocols of the Elders of Zion Proves a Jewish Plan for World Domination":
+    "Steelman concern: coordinated elite conspiracies are historically documented, so a planning document could theoretically exist. Truth: the Protocols are a court-adjudicated forgery. Over 160 passages were plagiarized from an 1864 French political satire about Napoleon III with no connection to Jews. A Swiss court declared it 'plagiarisms and obscene literature' in 1935. FBI Director J. Edgar Hoover called it 'a vicious hoax.' No authentic original has ever been produced.",
+  "Myth: Jews Stabbed Germany in the Back and Caused the Loss of World War I":
+    "Steelman concern: internal political division can weaken wartime national effort. Truth: Germany's military position was catastrophic by late 1918 through documented battlefield failure. The German army's own 1916 Judenzählung troop census showed Jewish soldiers over-represented in frontline combat roles — results the military suppressed because they contradicted the betrayal thesis. About 100,000 German Jews served; approximately 12,000 died in combat.",
+  "Myth: QAnon's Adrenochrome Narrative Exposes a Real Jewish Blood-Harvesting Network":
+    "Steelman concern: child protection is a moral obligation, and documented elite abuse networks do exist. Truth: adrenochrome is an ordinary oxidation product of adrenaline with no proven life-extending effects, available commercially as a lab compound. The blood-harvesting narrative is structurally identical to the medieval blood libel — a 900-year accusation pattern that has never produced forensic evidence and has triggered mass violence repeatedly. The original Q drops never mentioned adrenochrome.",
+  "Myth: Jews Created or Profited from COVID-19 as a Control Operation":
+    "Steelman concern: pharmaceutical profits and pandemic origins deserve scrutiny. Truth: COVID-19 originated from documented natural zoonotic processes. The BioNTech vaccine was co-founded by Turkish-German Muslim scientists. Jewish communities were among the hardest hit by COVID-19. Pandemic scapegoating of Jews directly echoes the Black Death persecutions of 1348-1351, when over 200 Jewish communities were annihilated despite Jews dying at the same rate as everyone else.",
+  "Myth: Jesus Was Not Jewish and His Teaching Validates Hostility Toward Jews":
+    "Steelman concern: Jesus sharply rebuked certain religious leaders, which some read as anti-Jewish. Truth: internal prophetic rebuke of specific leaders is entirely within Jewish tradition — the Hebrew prophets did the same thing. Jesus was circumcised, observed the Sabbath, wore tzitzit, celebrated Passover, and was addressed as Rabbi. Every credible historical scholar places him within first-century Judaism, not outside it.",
+  "Myth: Modern Jews Are Impostors and Another Group Are the True Biblical Israelites":
+    "Steelman concern: ancestry research is legitimate and populations are historically complex. Truth: multiple independent genetic studies converge on the same finding — Ashkenazi, Sephardi, and Mizrahi Jews share significant Levantine Middle Eastern ancestry tracing to ancient Israel. The claim fails genetic, linguistic, archaeological, and literary evidence simultaneously. The 2019 Jersey City kosher market attack that killed four people was motivated in part by this belief."
 };
 
 const replacementPropagandaTruthDetailByTitle = {
@@ -3434,45 +3638,45 @@ const replacementPropagandaTruthDetailByTitle = {
   "Myth: Defending Jewish Dignity Means Endorsing Every State Policy":
     "This is a false choice. You can reject antisemitic propaganda, defend human dignity, and still critique any government policy with the same moral standards you apply everywhere else.",
   "Myth: The Jewish People Carry Eternal Deicide Guilt":
-    "The crucifixion involves specific historical actors under Roman execution authority, not permanent blood-guilt for every Jew in all generations. The same New Testament that records the event still offers repentance and denies final rejection of Israel.",
+    "Crucifixion was exclusively a Roman method of execution reserved for non-citizens and political rebels. The Roman historian Tacitus independently confirmed that 'Christus had undergone the death penalty in the reign of Tiberius, by sentence of the procurator Pontius Pilate.' Vatican II's Nostra Aetate (1965) formally declared: 'Neither all Jews indiscriminately at that time, nor Jews today, can be charged with the crimes committed during his passion.' The Council of Trent had already taught that the collectivity of sinful humanity — not any one people — bore responsibility. The deicide accusation provided theological cover exploited by Nazi propaganda.",
   "Myth: 'Synagogue of Satan' Means All Jews Everywhere":
     "Revelation 2-3 addresses local churches and local conflicts, and even the phrase itself says some \"say they are Jews, and are not,\" which already narrows scope. Turning local rebuke into universal ethnic condemnation is a misuse of genre and context.",
   "Myth: Secret Jewish World-Control Documents Prove a Global Cabal":
-    "Historically, forged-document ecosystems survive by recycling claims that cannot be independently verified and by reframing disproof as proof. Sound reasoning demands traceable sources, competing explanations, and claims that can actually fail.",
+    "The foundational document for most 'secret Jewish control' claims — the Protocols of the Elders of Zion — was definitively exposed as a plagiarism in 1921 by Times of London journalist Philip Graves, who traced over 160 passages to Maurice Joly's 1864 satirical novel 'The Dialogue in Hell Between Machiavelli and Montesquieu,' a work targeting Napoleon III with no Jewish content whatsoever. Russian historian Norman Cohn documented their fabrication by the Okhrana (Tsarist secret police) around 1897-1903 in 'Warrant for Genocide' (1967). A Swiss court declared them a forgery in 1935; a Moscow court confirmed the finding in 1992. Henry Ford published an American adaptation (500,000 copies) and publicly retracted and apologized in 1927. Despite three separate court rulings, the Protocols remain the template for recycled forgery ecosystems including fabricated rabbi speeches and attributed quotes that have no authentic source. Forged-document claims survive by reframing disproof as proof — which itself is a falsifiability failure, not evidence.",
   "Myth: 'Rothschild/Federal Reserve' Narratives Prove Jewish Control of All Wars":
-    "Real critique of banking policy is fair, but war causation is multi-actor and documented through governments, militaries, alliances, and economics, not one ethnic command center. Family names are not causal proof of total control.",
+    "The most famous Rothschild conspiracy — that Nathan Rothschild manipulated the London stock market after learning of Napoleon's defeat at Waterloo — is a fabrication originating in an 1846 antisemitic pamphlet published under the pseudonym 'Satan.' Nathan Rothschild was not at Waterloo or in Belgium. Today the entire Rothschild banking network manages assets representing less than 1% of global banking assets, dwarfed by JPMorgan Chase alone. There was never a Rothschild branch in the United States, yet American conspiracy theories about the family are among the most voluminous.",
   "Myth: George Soros Funding Claims Prove a Jewish Master-Plan Behind Protests and Elections":
-    "Large donors can shape politics, but that is true across many ideologies and donors. You can audit grants and influence without making the unsupported leap to collective Jewish orchestration.",
+    "Large donors influence politics across ideologies. FEC records and investigative journalism document that Koch Industries and affiliated networks spent over $400 million on conservative causes per 501(c) filings — dwarfing Soros's spending. Sheldon Adelson, a Jewish billionaire, donated over $218 million to Republican and Trump causes in the 2018 and 2020 cycles — directly contradicting the premise that Jewish donors act in a unified ideological direction. Soros's Open Society Foundations grant database is publicly searchable; the grants are documented, not secret. Soros himself survived the Holocaust as a Jewish child in Nazi-occupied Hungary. Auditing a donor's documented influence on policy is a legitimate journalistic exercise; the leap from one donor network to coordinated ethnic orchestration requires direct mechanism-level evidence that does not appear in any public record.",
   "Myth: Jews Control Hollywood/News and Script Society Through Media":
-    "Media systems are diverse, competitive, and often internally contradictory. Critique should target concrete editorial decisions, incentives, and ownership structures, not assume a single ethnic script explains all outcomes.",
+    "Media systems are diverse, competitive, and internally contradictory. Early Jewish Americans entered film — founders Goldwyn, Mayer, Zukor, and Laemmle — partly because established industries such as banking, law, and finance actively excluded them via formal and social quotas; entertainment was an open frontier. Today Rupert Murdoch (not Jewish) controls Fox News Corp, News Corp, and the New York Post. Disney's board is majority non-Jewish. AT&T/WarnerMedia, Comcast/NBCUniversal, and other major conglomerates are owned by diverse institutional shareholders with no ethnic command structure. Jewish media figures publicly and loudly disagree with each other on Israel, politics, and religion — the opposite of coordinated scripting. Critique should target specific editorial decisions, ownership incentives, and named actors, not an imagined ethnic command chain.",
   "Myth: 'Jewish Space Lasers' or Directed-Energy Claims Explain Fires and Disasters":
-    "Disaster frustration can make extreme explanations feel plausible, but technical claims need forensic evidence, reproducibility, and mechanism-level proof. Viral clips and pattern matching are not enough for such extraordinary allegations.",
+    "The 2018 Camp Fire — California's deadliest wildfire, 85 killed — was caused by a 97-year-old PG&E electrical transmission line at the Caribou-Palermo circuit; PG&E subsequently entered a $3.5 billion criminal settlement. CAL FIRE forensic investigators documented the ignition point with physical evidence consistent with equipment failure, not directed energy. Directed-energy weapons capable of igniting fires at the ranges claimed would require power inputs no known aircraft or orbital platform can generate — DARPA's High Energy Liquid Laser Area Defense System, the most advanced U.S. airborne laser program, was cancelled in 2011 after failing at much shorter ranges against simpler targets. The specific 'Jewish Space Lasers' claim originated in a January 2021 Facebook post by Rep. Marjorie Taylor Greene citing a Rothschild-affiliated company operating 'space solar generators'; Meta removed the post for violating misinformation policies. Wildfire forensic science documents mundane ignition causes — equipment failure, arson, dry lightning — in every major incident with reproducible physical evidence.",
   "Myth: 'Cultural Marxism' Is a Coordinated Jewish Plot to Destroy Christianity":
-    "Christians can oppose anti-biblical ideologies directly by naming teachings, institutions, and policies. Recasting broad social change as a hidden Jewish engine weakens argument quality and shifts from analysis to scapegoating.",
+    "Christians can and should engage anti-biblical ideas directly. The Frankfurt School (Institut für Sozialforschung, founded Frankfurt 1923) included Horkheimer, Adorno, Marcuse, Benjamin, and Fromm — many Jewish, many also Marxist — who published competing theories that other scholars debated and modified without ethnic coordination. The Nazi regime used virtually identical 'Jewish Marxist' rhetoric to persecute these same thinkers, driving them to flee to the United States in the 1930s. The specific term 'Cultural Marxism' as a conspiracy label was popularized by William S. Lind in the 1990s; it appeared prominently in Anders Breivik's 2011 manifesto shortly before he murdered 77 people in Norway. Ideas spread through academic peer processes across language barriers and national borders without ethnic command; proof of coordinated Jewish direction has never been produced. Name the teaching, the institution, or the policy — not a bloodline.",
   "Myth: October 7 Was a Jewish/Israeli Inside Job or Fabricated Atrocity":
-    "Wartime narratives should be tested carefully, but skepticism must be symmetrical. Blanket denial or fabricated-atrocity claims require hard corroboration and cannot rest on selective clips, internet fragments, or prior bias.",
+    "Over 40 nations sent forensic investigators to document the October 7 attacks; DNA identification of more than 1,200 victims was conducted by Israeli and international pathologists. UN-OHCHR's March 2024 report confirmed the killings and documented specific atrocity patterns. Recovered Hamas operational planning documents established years of preparation for the assault, including maps and attack schedules. Hamas leadership — including Yahya Sinwar, subsequently confirmed killed in an Israeli operation with recovered communications — publicly celebrated planning and execution. Hamas's own body-camera footage documented perpetrators' actions from their perspective. Released hostages provided consistent independent testimony on conditions and events. The specific 'no deaths at the Nova concert' claim is directly contradicted by the DNA identification and individualized family notification of 364 victims at that location alone. Inside-job claims uniformly fail to explain why Hamas would destroy its own Gaza governance infrastructure as part of an Israeli-orchestrated ruse. Symmetrical skepticism applies the same evidence standards to all parties.",
   "Myth: 'Judeo-Bolshevism' Proves Jews as a Group Engineered Atheist Revolution":
-    "Pointing to selected revolutionaries with Jewish ancestry does not establish collective ethnic responsibility for complex political movements. This is a classic guilt-transfer move that ignores counterexamples and collapses individual agency into bloodline blame.",
+    "The main organized Jewish political movement in pre-revolutionary Russia — the General Jewish Labour Bund — was explicitly and fiercely anti-Bolshevik, arguing Bolshevism would destroy Jewish communal and religious life. They were right: the Soviet Yevsektsiya (Jewish section of the Communist Party) was created specifically to dismantle Jewish religious institutions, close synagogues, and eliminate the Bund. By 1939 over 95% of synagogues in the Soviet Union had been forcibly closed. Leon Trotsky, the most prominent Jewish Bolshevik, was expelled from the party by Stalin in 1927 and assassinated by Stalin's agent in 1940. Lenin — the revolution's architect and primary theorist — was not Jewish. By the 1930s, Stalin's purges had disproportionately removed Jewish figures from Soviet leadership. Jewish religious and communal life was among Bolshevism's primary victims, not its beneficiaries. Ancestry does not establish collective command; the actual record documents the opposite of ethnic orchestration.",
   "Myth: 9/11 and Other Mass-Casualty Events Were Jewish/Israeli False Flags":
-    "Independent review of major events is legitimate, but ethnic attribution requires stronger proof than anomaly collections and insinuation. If a claim cannot meet chain-of-evidence standards, it should not be preached as settled fact.",
+    "The 9/11 Commission Report drew on 2.5 million pages of documents and testimony from over 1,200 witnesses across five separate government departments. NIST's three-year, $16 million engineering investigation documented the progressive collapse mechanisms of both towers in published technical reports. All 19 hijackers were Arab nationals — 15 Saudi, 2 UAE, 1 Egyptian, 1 Lebanese — and al-Qaeda publicly and repeatedly claimed the operation. The FBI intensively investigated the 'Dancing Israelis' (Urban Moving Systems employees) and determined they were tourists; the 2001 file documented no evidence of operational involvement. The 9/11 Commission's final report stated it found 'no credible evidence that any foreign government — including Israel — knowingly assisted the hijackers.' Independent review of official gaps is legitimate; ethnic attribution from anomaly catalogs and forum insinuations does not satisfy chain-of-evidence standards.",
   "Myth: The Talmud Commands Jews to Hate or Harm Gentiles":
-    "Many viral \"Talmud quotes\" are mistranslated, decontextualized, or fabricated. Serious critique of any religious tradition requires primary-text verification, language context, and representative interpretation, not screenshot theology.",
+    "Most viral 'Talmud quotes' circulating online trace to neo-Nazi sites such as talmudunmasked.com (1990s) and similar sources; when checked against the Soncino Talmud translation or Steinsaltz's critical edition, passages are routinely found mistranslated, pulled from narrow legal debates with no binding normative force, or fabricated entirely with no traceable source. The Talmud explicitly states: 'Whoever saves a single soul, Scripture accounts it as if he had saved an entire world' (Sanhedrin 4:5) — applying without ethnic qualification to all human beings. Rabbi Hillel's summary of Jewish ethics: 'That which is hateful to you, do not do to another; that is the whole Torah, the rest is commentary' (Shabbat 31a). The principle of dina d'malkhuta dina — 'the law of the land is the law' (Bava Kamma 113a) — requires Jews to follow host-nation civil law as a religious obligation. Serious critique of any religious text is legitimate when it verifies the primary source, reads the passage in its full legal and literary context, and tests it against mainstream interpretation — not screenshot theology.",
   "Myth: Noahide-Law Claims Prove a Coming Jewish Plan to Execute Christians":
     "Concern about religious liberty is reasonable, but global execution claims need concrete legal text, credible enforcement pathways, and institutional evidence. Speculative chains built from clips and hearsay are not enough to warrant certainty.",
   "Myth: 'Great Replacement' Panic Is a Biblical Mandate":
-    "Demographic and policy debates can be real civic questions, but Scripture does not authorize race-war framing or ethnic panic as Christian duty. Christian ethics require truth, neighbor love, and rejection of partiality.",
+    "This conspiracy has directly motivated mass murder. At the 2018 Tree of Life synagogue shooting in Pittsburgh — the deadliest antisemitic attack in U.S. history — Robert Bowers killed 11 Jewish worshippers citing this theory. At Charlottesville (2017), marchers chanted 'Jews will not replace us.' The Poway synagogue shooter (2019) wrote that 'every Jew is responsible for the meticulously planned genocide of the European race.' The Buffalo supermarket shooter (2022) mentioned Jews over 100 times in his manifesto. Scripture does not authorize race-war panic framing; it commands truth, neighbor love, and rejection of partiality.",
   "Myth: Blood Libel and Ritual-Murder Claims Are Credible":
-    "These accusations have repeatedly been used to trigger violence while lacking reliable evidence. Protecting children requires forensic process, accountable investigation, and due process, not mythic collective accusations.",
+    "The blood libel was first documented in Norwich, England in 1144, and spread across medieval Europe for nine centuries. The Simon of Trent case (1475) saw an entire Jewish community tortured into confessions; Pope Sixtus IV's investigator declared the Jews entirely innocent, and in 1965 the Catholic Church removed Simon from the Roman Martyrology. The Beilis case (1913) in Kyiv ended with acquittal by an all-Christian jury. Multiple popes condemned blood libel as false, including Innocent IV (1247) and Gregory X (1272). Remarkably, the 1946 Kielce pogrom — which killed Holocaust survivors — was also sparked by the same lie.",
   "Myth: Dual Loyalty / ZOG Proves Jews Are a Hidden Fifth Column":
-    "Governments can investigate influence and corruption, but the standard must be conduct-based and applied equally to all groups. Identity alone is not evidence, and blanket suspicion is not lawful or biblical judgment.",
+    "The accusation reached its most dramatic expression in the Dreyfus Affair (1894-1906), when French-Jewish Captain Alfred Dreyfus was falsely convicted of treason on fabricated evidence. He was eventually exonerated, but the affair directly spurred Theodor Herzl to found the Zionist movement. Over 500,000 Jewish Americans served in World War II. The term 'ZOG' (Zionist Occupation Government) was coined by neo-Nazi Eric Thomson in 1976 and has been cited in multiple mass shooters' manifestos. Identity alone is not evidence, and blanket suspicion is not lawful or biblical judgment.",
   "Myth: AIPAC or Pro-Israel Lobbying Proves Jews 'Own' the U.S. Government":
-    "Lobbying influence should be examined across the board, but influence is not ownership and disagreement is not proof of secret control. Claims of total capture require direct evidence, not rhetorical inflation.",
+    "FEC filings and OpenSecrets data show AIPAC's lobbying expenditures at approximately $14.5 million in 2022. By contrast, pharmaceutical industry lobbying totaled over $373 million that year; oil and gas spent $124 million; the Chamber of Commerce spent $66 million — all dwarfing AIPAC by multiples. In the 2022 NY-16 Democratic primary, AIPAC's United Democracy Project spent approximately $14 million against Rep. Jamaal Bowman; he won that race. Congress has repeatedly imposed documented conditions on Israeli military aid through the Leahy Law, and the Biden administration publicly restricted specific munitions transfers in 2024 over Israeli government objections. Jewish American voters supported Biden at 70%+ in 2020 while Sheldon Adelson — a Jewish billionaire — simultaneously donated over $218 million to Republican causes, demonstrating that no unified ethnic political direction exists. Lobbying that demonstrably fails and policy disagreement that is publicly documented are the opposite of ownership.",
   "Myth: Khazar Claims Prove Modern Jews Are 'Fake' Israel":
-    "Population history is complex for every people group, and mixed ancestry does not erase identity or dignity. Even strong ancestry arguments cannot justify dehumanization or theological cancellation of an entire people.",
+    "The largest genome-wide analysis of this question — Behar et al. (2013, Human Biology), examining 1,774 samples from 106 populations — concluded: 'No particular similarity of Ashkenazi Jews to populations from the Caucasus is evident.' Multiple independent teams (Atzmon et al. 2010, Costa et al. 2013) confirm all major Jewish groups share significant Levantine Middle Eastern ancestry. Y-chromosome studies found the Cohen modal haplotype in priestly-caste males from both Ashkenazi and Sephardic backgrounds, tracing to a single common ancestor approximately 3,000 years ago. The sole study supporting the Khazar hypothesis (Elhaik, 2012) was comprehensively refuted by a 20-co-author response in Human Biology.",
   "Myth: Jews Cause Plagues, Financial Collapse, or Social Corruption":
-    "Crisis scapegoating simplifies complex failures into one villain group and usually ignores contradictory evidence. Good analysis tracks mechanisms, policies, and actors directly instead of assigning civilizational guilt.",
+    "During the Black Death (1347-1353), Jews were accused of poisoning wells and massacred across Europe: 2,000 killed in Strasbourg (February 1349), thousands more in Mainz, Cologne, and Frankfurt. Modern archaeology has extracted Yersinia pestis DNA from confirmed mass graves documenting the bacterium as the sole cause. Pope Clement VI issued a papal bull explicitly stating that Jews were dying at the same rate as Christians and condemning the violence as baseless — yet massacres continued. For the 2008 financial crisis, the Financial Crisis Inquiry Commission (2011) identified primary causes as subprime mortgage origination (Countrywide Financial, Washington Mutual), rating agency failures (Moody's, S&P), deregulation under the Gramm-Leach-Bliley Act, and overleveraged derivatives — all documented in detail in Congressional testimony, with named executives and specific institutional decisions across ethnically diverse corporate structures. Pattern recognition that skips mechanism-level analysis is crisis scapegoating, not investigation.",
   "Myth: Holocaust Denial or Inversion Is Just Honest Skepticism":
-    "Real skepticism tests all claims by the same standard and weighs converging evidence, archives, testimony, and physical records together. Denial frameworks usually work by selective standards and omission, not balanced inquiry.",
+    "The evidence base is extraordinary: captured Nazi administrative documents presented at Nuremberg, Einsatzgruppen reports detailing mass shootings, the Wannsee Conference protocol, Himmler's 1943 Poznań speech openly discussing genocide, and the USC Shoah Foundation's archive of over 55,000 survivor testimonies. Not a single defendant at Nuremberg denied the Holocaust happened — they only minimized their individual roles. The landmark Irving v. Lipstadt trial (2000) provided definitive legal judgment: Justice Charles Gray ruled David Irving had 'persistently and deliberately misrepresented and manipulated historical evidence.' Denial and inversion methods apply asymmetric standards and suppress this converging record.",
   "Myth: Viral Organ-Harvesting Narratives Prove Group Conspiracy":
     "Even when a medical abuse allegation is serious, moving from local or disputed claims to ethnic conspiracy is a logical leap. Case-level adjudication and verified evidence are required before any broad conclusion.",
   "Myth: Coded Terms Like 'Globalists' Are Always Neutral":
@@ -3482,13 +3686,25 @@ const replacementPropagandaTruthDetailByTitle = {
   "Myth: Historic Expulsions Prove Jews Are Uniquely Evil":
     "Expulsions often reflected political pressures, debt conflicts, rulers' incentives, and religious hostility, not a single moral verdict on an ethnicity. Historical recurrence does not remove the need for case-by-case evidence.",
   "Myth: Jews Created the Slave Trade and Bear Collective Guilt Today":
-    "Slave systems were multinational and multi-actor across regions and centuries, so selective examples cannot carry unique civilizational blame. Moral accountability should be proportionate, documented, and not transferred by ancestry.",
+    "Historians Saul Friedman ('Jews and the American Slave Trade,' 1998) and Seymour Drescher documented Jewish slave traders as roughly 1.5-2% of American antebellum slave merchants, while Jews constituted under 0.5% of the Southern population — a statistical over-representation, but nowhere near domination. The Atlantic slave trade was built by Portuguese, British, and Dutch imperial enterprises: the Portuguese crown, the British Royal African Company, and the Dutch West India Company controlled the vast majority of transatlantic volume. Rabbi Marc Lee Raphael, the foremost American scholar on this question, estimated total Jewish Atlantic slave trade involvement at under 2% of total volume. The Nation of Islam's 'The Secret Relationship Between Blacks and Jews' (1991) — the primary modern source for this myth — was specifically rebutted by historian Henry Louis Gates Jr. in a New York Times op-ed (2010) for cherry-picking individual cases while omitting proportional and systemic context. Moral accountability must be proportionate to documented scale and cannot be transferred to living people by bloodline.",
   "Myth: Serpent-Seed or Edomite Bloodline Claims Prove Jews Are Literally Satanic":
     "These theories usually blend symbol, genealogy, and speculation into racial ontology that the text itself does not demand. Scripture's one-blood anthropology and gospel call cut against bloodline demonology.",
   "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
     "Criminal elite networks can exist and should be prosecuted, but group identity of some participants does not prove ethnic command architecture. Lawful inquiry follows named actors, evidence trails, and jurisdictional findings.",
   "Myth: If Disproved, the Conspiracy Is Just Deeper":
-    "A responsible hypothesis defines in advance what evidence would falsify it and what threshold would change your view. If no evidence can count against the claim, it is a belief system, not an investigation."
+    "A responsible hypothesis defines in advance what evidence would falsify it and what threshold would change your view. If no evidence can count against the claim, it is a belief system, not an investigation.",
+  "Myth: The Protocols of the Elders of Zion Proves a Jewish Plan for World Domination":
+    "Philip Graves of The Times of London exposed the plagiarism in 1921, identifying over 160 passages lifted from Maurice Joly's 1864 satire of Napoleon III. The text was compiled by the Russian Okhrana secret police around 1897-1903. A Swiss court declared it 'plagiarisms and obscene literature' in 1935. A 1992 Moscow court confirmed it as fake. Even Henry Ford, who published an adaptation (500,000 copies), retracted and apologized in 1927. The document remains the template for virtually every modern antisemitic conspiracy theory despite being conclusively debunked across three separate court systems.",
+  "Myth: Jews Stabbed Germany in the Back and Caused the Loss of World War I":
+    "By late 1918, Germany's Hindenburg Line was breached, Austria-Hungary and the Ottoman Empire had collapsed, and the U.S. entry in 1917 had brought overwhelming resources Germany could not match. The stab-in-the-back narrative was deliberately propagated by generals Ludendorff and Hindenburg to deflect blame for their own strategic failures. The army's 1916 census (Judenzählung) was ordered expecting to prove Jewish soldiers were shirking duty. It showed the opposite — Jews were over-represented in the army and in frontline combat — so the results were suppressed. The myth became central to Nazi ideology and directly facilitated Hitler's rise.",
+  "Myth: QAnon's Adrenochrome Narrative Exposes a Real Jewish Blood-Harvesting Network":
+    "The blood libel was first documented in Norwich 1144, spread across medieval Europe, and triggered the 1903 Kishinev pogrom (nearly 50 killed) and the 1946 Kielce pogrom (killing Holocaust survivors). The term 'cabal' derives from Kabbalah (Jewish mysticism), and leading QAnon influencers — such as GhostEzra (Robert Smart) — are openly pro-Hitler and promote 'fake Jews' content. Not one of Q's 4,952 drops ever mentioned adrenochrome; followers grafted the concept on from a separate source. No law enforcement investigation has ever found the networks described. The FBI classified QAnon as a domestic terrorism threat.",
+  "Myth: Jews Created or Profited from COVID-19 as a Control Operation":
+    "During the Black Death (1348-1351), Jews were accused of poisoning wells. Pope Clement VI tried to stop the resulting massacres by pointing out that Jews were dying of plague at the same rate as everyone else. Over 200 Jewish communities were annihilated before the violence subsided — for a cause they had nothing to do with. The COVID-19 pandemic repeated this exact pattern: Jewish communities, especially ultra-Orthodox communities in Israel and New York, were among the hardest hit. A UK government report found 79% of anti-vaccine networks contained antisemitic content, demonstrating how conspiracy thinking and antisemitism reliably converge in crisis moments.",
+  "Myth: Jesus Was Not Jewish and His Teaching Validates Hostility Toward Jews":
+    "E.P. Sanders placed Jesus firmly as part of 'a renewal movement within Judaism.' Amy-Jill Levine stated: 'That Jesus was a faithful Jew (there is no evidence that Jesus ever violated the Law) should not ever be again an issue.' Paula Fredriksen noted: 'What astonishes me when I read the stories about Jesus in the New Testament, is how completely embedded he is in this first-century Jewish world.' The Nazi-era 'Institute for the Study and Eradication of Jewish Influence on German Church Life' attempted to de-Judaize Jesus by claiming he was Aryan — an effort documented by Susannah Heschel in The Aryan Jesus (Princeton, 2008) as universally rejected pseudoscholarship that provided theological cover for genocide.",
+  "Myth: Modern Jews Are Impostors and Another Group Are the True Biblical Israelites":
+    "In December 2019, two Black Hebrew Israelite-affiliated individuals killed a police officer and three people at a kosher supermarket in Jersey City, motivated in part by 'fake Jews' ideology. The SPLC classifies extremist BHI factions as hate groups. Celebrity promotion of the film Hebrews to Negroes in 2022 brought these claims to mainstream audiences. Multiple independent genetic studies, linguistic continuity (Hebrew, Aramaic, Yiddish, Ladino), archaeological evidence, and unbroken literary traditions spanning over 2,700 years all confirm the historical continuity of Jewish identity. The sole peer-reviewed study supporting an alternative ancestry claim (Elhaik, 2012) was refuted by 20 co-authors in the same journal."
 };
 
 const replacementPropagandaSkepticObjectionByTitle = {
@@ -3555,7 +3771,19 @@ const replacementPropagandaSkepticObjectionByTitle = {
   "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
     "If scandal networks include Jewish actors, why not infer broader group command structure?",
   "Myth: If Disproved, the Conspiracy Is Just Deeper":
-    "If real cover-ups happen, why should contradictory evidence reduce confidence at all?"
+    "If real cover-ups happen, why should contradictory evidence reduce confidence at all?",
+  "Myth: The Protocols of the Elders of Zion Proves a Jewish Plan for World Domination":
+    "If elites do coordinate in documented conspiracies, why can't the Protocols represent a real one?",
+  "Myth: Jews Stabbed Germany in the Back and Caused the Loss of World War I":
+    "If internal political agitation accelerated military collapse, why isn't that still a form of betrayal?",
+  "Myth: QAnon's Adrenochrome Narrative Exposes a Real Jewish Blood-Harvesting Network":
+    "If elite abuse networks exist and some involve Jewish figures, why dismiss the QAnon version without investigation?",
+  "Myth: Jews Created or Profited from COVID-19 as a Control Operation":
+    "If pharmaceutical companies profited and some executives were Jewish, why not examine Jewish involvement specifically?",
+  "Myth: Jesus Was Not Jewish and His Teaching Validates Hostility Toward Jews":
+    "If Jesus rebuked Jewish religious leaders so sharply, doesn't that suggest he was breaking from Jewish identity itself?",
+  "Myth: Modern Jews Are Impostors and Another Group Are the True Biblical Israelites":
+    "If ancestry is legitimately complex and mixed, why can't alternative ancestry research support different identity claims?"
 };
 
 const replacementPropagandaWhyItFailsByTitle = {
@@ -3622,7 +3850,19 @@ const replacementPropagandaWhyItFailsByTitle = {
   "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
     "It fails by inferring ethnic command from criminal clusters instead of proving governance-level mechanisms.",
   "Myth: If Disproved, the Conspiracy Is Just Deeper":
-    "It fails because a theory that cannot be disproven cannot be tested, corrected, or trusted as knowledge."
+    "It fails because a theory that cannot be disproven cannot be tested, corrected, or trusted as knowledge.",
+  "Myth: The Protocols of the Elders of Zion Proves a Jewish Plan for World Domination":
+    "It fails because the document is a court-adjudicated forgery, plagiarized from an 1864 satire unrelated to Jews, with no authentic original ever produced.",
+  "Myth: Jews Stabbed Germany in the Back and Caused the Loss of World War I":
+    "It fails because the German army's own suppressed 1916 census contradicted the betrayal premise, and the military collapse is fully explained by documented battlefield failures.",
+  "Myth: QAnon's Adrenochrome Narrative Exposes a Real Jewish Blood-Harvesting Network":
+    "It fails because adrenochrome has no proven life-extending properties, the original Q drops never mentioned it, and no law enforcement investigation has found the claimed networks.",
+  "Myth: Jews Created or Profited from COVID-19 as a Control Operation":
+    "It fails because the pandemic followed documented natural zoonotic origins, Jewish communities were among the most severely harmed, and the accusation recycles a 700-year-old scapegoating pattern unchanged.",
+  "Myth: Jesus Was Not Jewish and His Teaching Validates Hostility Toward Jews":
+    "It fails because every piece of biblical and historical evidence places Jesus within first-century Jewish life, and the only 'Aryan Jesus' scholarship was produced by Nazi political operatives universally rejected by the academy.",
+  "Myth: Modern Jews Are Impostors and Another Group Are the True Biblical Israelites":
+    "It fails because multiple independent genetic studies from different research teams, using different methodologies, all converge on shared Levantine Israelite ancestry for all major Jewish groups."
 };
 
 const replacementPropagandaFalsificationByTitle = {
@@ -3689,7 +3929,19 @@ const replacementPropagandaFalsificationByTitle = {
   "Myth: Elite Blackmail Scandals Prove Jews Secretly Control Governments":
     "This rebuttal would fail if investigations repeatedly proved governance capture directed by an ethnic command architecture.",
   "Myth: If Disproved, the Conspiracy Is Just Deeper":
-    "This rebuttal would fail if non-falsifiable frameworks consistently produced more reliable truth than falsifiable methods."
+    "This rebuttal would fail if non-falsifiable frameworks consistently produced more reliable truth than falsifiable methods.",
+  "Myth: The Protocols of the Elders of Zion Proves a Jewish Plan for World Domination":
+    "This rebuttal would fail if the Protocols were authenticated by independent archival research as genuine council minutes rather than proved a plagiarism of an 1864 French satire unrelated to Jews.",
+  "Myth: Jews Stabbed Germany in the Back and Caused the Loss of World War I":
+    "This rebuttal would fail if the suppressed 1916 Judenzählung census had actually shown Jewish under-service, or if the military collapse could be causally attributed to internal betrayal rather than documented battlefield failure.",
+  "Myth: QAnon's Adrenochrome Narrative Exposes a Real Jewish Blood-Harvesting Network":
+    "This rebuttal would fail if forensic investigations documented adrenochrome harvesting networks with verified Jewish command structure, rather than the claim resting entirely on no verified law enforcement findings.",
+  "Myth: Jews Created or Profited from COVID-19 as a Control Operation":
+    "This rebuttal would fail if documented evidence showed coordinated Jewish engineering of the pandemic or vaccine programs rather than natural zoonotic origin and independently developed vaccines.",
+  "Myth: Jesus Was Not Jewish and His Teaching Validates Hostility Toward Jews":
+    "This rebuttal would fail if historical or textual evidence showed Jesus explicitly renouncing Jewish identity, not observing Jewish law, or being identified as non-Jewish by his contemporaries.",
+  "Myth: Modern Jews Are Impostors and Another Group Are the True Biblical Israelites":
+    "This rebuttal would fail if multiple independent, peer-reviewed genetic studies using different methodologies all converged on Caucasus or non-Levantine ancestry as primary for all major Jewish groups, overturning the current universal consensus."
 };
 
 const truthDepthSentence =
@@ -3706,38 +3958,274 @@ function toTruthParagraph(text) {
   return `${trimmed} Keep the same method: read passages in context, compare independent sources, and require claims that are testable and evidence-based. ${truthDepthSentence}`;
 }
 
-function buildReplacementPropagandaDebunkUrl(title) {
-  const topic = String(title || "").replace(/^Myth:\s*/, "").replace(/['"]/g, "");
-  const query = `${topic} debunking site:adl.org OR site:encyclopedia.ushmm.org OR site:wikipedia.org`;
-  return `https://duckduckgo.com/?q=${encodeURIComponent(query)}`;
+const defaultPinnedSources = [
+  {
+    label: "ADL: Antisemitism Backgrounder",
+    url: "https://www.adl.org/resources/backgrounder/antisemitism",
+    summary:
+      "ADL's primer defines core antisemitic narratives and shows how old canards are repackaged in modern discourse."
+  },
+  {
+    label: "USHMM Encyclopedia: Antisemitism",
+    url: "https://encyclopedia.ushmm.org/content/en/article/antisemitism",
+    summary:
+      "USHMM provides historical context for antisemitic myths, their social function, and their consequences over time."
+  },
+  {
+    label: "Wikipedia: Antisemitic Canard",
+    url: "https://en.wikipedia.org/wiki/Antisemitic_canard",
+    summary:
+      "A consolidated index of recurring conspiracy motifs with linked topic pages for deeper verification and cross-checking."
+  }
+];
+
+const replacementPropagandaSourcePackByTitle = {
+  "Myth: The Protocols of the Elders of Zion Proves a Jewish Plan for World Domination": {
+    furtherDebunkingUrl: "https://encyclopedia.ushmm.org/content/en/article/protocols-of-the-elders-of-zion",
+    pinnedSources: [
+      {
+        label: "USHMM: Protocols of the Elders of Zion",
+        url: "https://encyclopedia.ushmm.org/content/en/article/protocols-of-the-elders-of-zion",
+        summary:
+          "Primary historical overview documenting the Protocols as an antisemitic fabrication used for political incitement."
+      },
+      {
+        label: "Wikipedia: The Protocols of the Elders of Zion",
+        url: "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion",
+        summary:
+          "Background on provenance, plagiarism findings, and later propaganda use across multiple countries."
+      },
+      {
+        label: "Wikipedia: Berne Trial",
+        url: "https://en.wikipedia.org/wiki/Berne_Trial",
+        summary:
+          "Case summary of court proceedings that treated the Protocols as fabricated and defamatory material."
+      }
+    ],
+    evidenceAnchors: [
+      {
+        claim: "The Protocols were exposed as fabricated rather than authentic minutes of a Jewish council.",
+        sourceLabel: "USHMM: Protocols Article",
+        sourceUrl: "https://encyclopedia.ushmm.org/content/en/article/protocols-of-the-elders-of-zion"
+      },
+      {
+        claim: "The text has documented plagiarism links to earlier non-Jewish political satire material.",
+        sourceLabel: "Wikipedia: Protocols Provenance",
+        sourceUrl: "https://en.wikipedia.org/wiki/The_Protocols_of_the_Elders_of_Zion"
+      },
+      {
+        claim: "A court case is part of the historical record used in evaluating the forgery narrative.",
+        sourceLabel: "Wikipedia: Berne Trial",
+        sourceUrl: "https://en.wikipedia.org/wiki/Berne_Trial"
+      }
+    ]
+  },
+  "Myth: Jews Stabbed Germany in the Back and Caused the Loss of World War I": {
+    furtherDebunkingUrl: "https://en.wikipedia.org/wiki/Stab-in-the-back_myth",
+    pinnedSources: [
+      {
+        label: "Wikipedia: Stab-in-the-back Myth",
+        url: "https://en.wikipedia.org/wiki/Stab-in-the-back_myth",
+        summary:
+          "Historical overview of how the post-WWI betrayal narrative was constructed and politicized."
+      },
+      {
+        label: "Wikipedia: Judenzahlung",
+        url: "https://en.wikipedia.org/wiki/Judenz%C3%A4hlung",
+        summary:
+          "Background on the 1916 troop census often discussed in relation to anti-Jewish betrayal claims."
+      },
+      {
+        label: "USHMM Encyclopedia (WWI-era context)",
+        url: "https://encyclopedia.ushmm.org/content/en/article/antisemitism",
+        summary:
+          "Context for how anti-Jewish conspiracy narratives were normalized in Europe before Nazi rule."
+      }
+    ],
+    evidenceAnchors: [
+      {
+        claim: "The stab-in-the-back story is treated as a political myth rather than a military proof finding.",
+        sourceLabel: "Wikipedia: Stab-in-the-back Myth",
+        sourceUrl: "https://en.wikipedia.org/wiki/Stab-in-the-back_myth"
+      },
+      {
+        claim: "The Judenzahlung record is part of the primary historical debate on troop participation claims.",
+        sourceLabel: "Wikipedia: Judenzahlung",
+        sourceUrl: "https://en.wikipedia.org/wiki/Judenz%C3%A4hlung"
+      }
+    ]
+  },
+  "Myth: QAnon's Adrenochrome Narrative Exposes a Real Jewish Blood-Harvesting Network": {
+    furtherDebunkingUrl: "https://en.wikipedia.org/wiki/QAnon",
+    pinnedSources: [
+      {
+        label: "Wikipedia: QAnon",
+        url: "https://en.wikipedia.org/wiki/QAnon",
+        summary:
+          "Overview of QAnon's core claims, spread patterns, and documented harms from conspiratorial framing."
+      },
+      {
+        label: "Wikipedia: Blood Libel",
+        url: "https://en.wikipedia.org/wiki/Blood_libel",
+        summary:
+          "Historical continuity of child-blood accusations used against Jews across centuries."
+      },
+      {
+        label: "ADL: Antisemitism Backgrounder",
+        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        summary:
+          "Modern antisemitic narratives often repackage older canards under new symbolic language."
+      }
+    ],
+    evidenceAnchors: [
+      {
+        claim: "The blood-harvesting motif tracks long-standing blood libel patterns rather than new forensic discoveries.",
+        sourceLabel: "Wikipedia: Blood Libel",
+        sourceUrl: "https://en.wikipedia.org/wiki/Blood_libel"
+      },
+      {
+        claim: "QAnon operates as a broad conspiracy ecosystem with shifting, non-verifiable claims.",
+        sourceLabel: "Wikipedia: QAnon",
+        sourceUrl: "https://en.wikipedia.org/wiki/QAnon"
+      }
+    ]
+  },
+  "Myth: Jews Created or Profited from COVID-19 as a Control Operation": {
+    furtherDebunkingUrl: "https://en.wikipedia.org/wiki/Antisemitism_during_the_COVID-19_pandemic",
+    pinnedSources: [
+      {
+        label: "Wikipedia: Antisemitism During COVID-19",
+        url: "https://en.wikipedia.org/wiki/Antisemitism_during_the_COVID-19_pandemic",
+        summary:
+          "Catalog of anti-Jewish pandemic narratives and how they mirrored earlier scapegoating patterns."
+      },
+      {
+        label: "Wikipedia: COVID-19 Misinformation",
+        url: "https://en.wikipedia.org/wiki/COVID-19_misinformation",
+        summary:
+          "Overview of misinformation channels and debunked claims around pandemic origins and intent."
+      },
+      {
+        label: "ADL: Antisemitism Backgrounder",
+        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        summary:
+          "Framework for identifying recurring antisemitic scapegoat logic during social crises."
+      }
+    ],
+    evidenceAnchors: [
+      {
+        claim: "Pandemic-era anti-Jewish claims are documented as part of a broader misinformation wave.",
+        sourceLabel: "Wikipedia: Antisemitism During COVID-19",
+        sourceUrl: "https://en.wikipedia.org/wiki/Antisemitism_during_the_COVID-19_pandemic"
+      },
+      {
+        claim: "Origin and control-operation narratives are widely cataloged in debunking literature.",
+        sourceLabel: "Wikipedia: COVID-19 Misinformation",
+        sourceUrl: "https://en.wikipedia.org/wiki/COVID-19_misinformation"
+      }
+    ]
+  },
+  "Myth: Jesus Was Not Jewish and His Teaching Validates Hostility Toward Jews": {
+    furtherDebunkingUrl: "https://en.wikipedia.org/wiki/Jesus_in_Judaism",
+    pinnedSources: [
+      {
+        label: "Wikipedia: Jesus in Judaism",
+        url: "https://en.wikipedia.org/wiki/Jesus_in_Judaism",
+        summary:
+          "Background on Jewish contexts for Jesus and later interpretive disputes."
+      },
+      {
+        label: "Wikipedia: Historical Jesus",
+        url: "https://en.wikipedia.org/wiki/Historical_Jesus",
+        summary:
+          "Scholarly framing of Jesus in first-century Jewish social and religious settings."
+      },
+      {
+        label: "ADL: Antisemitism Backgrounder",
+        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        summary:
+          "Why theological polemic has often been misused as a basis for collective hostility."
+      }
+    ],
+    evidenceAnchors: [
+      {
+        claim: "Historical scholarship places Jesus in first-century Jewish life, not outside Jewish identity.",
+        sourceLabel: "Wikipedia: Historical Jesus",
+        sourceUrl: "https://en.wikipedia.org/wiki/Historical_Jesus"
+      },
+      {
+        claim: "Later anti-Jewish readings are interpretive moves, not direct historical proof.",
+        sourceLabel: "Wikipedia: Jesus in Judaism",
+        sourceUrl: "https://en.wikipedia.org/wiki/Jesus_in_Judaism"
+      }
+    ]
+  },
+  "Myth: Modern Jews Are Impostors and Another Group Are the True Biblical Israelites": {
+    furtherDebunkingUrl: "https://en.wikipedia.org/wiki/Khazar_hypothesis_of_Ashkenazi_ancestry",
+    pinnedSources: [
+      {
+        label: "Wikipedia: Khazar Hypothesis of Ashkenazi Ancestry",
+        url: "https://en.wikipedia.org/wiki/Khazar_hypothesis_of_Ashkenazi_ancestry",
+        summary:
+          "Overview of debate history and evidence limits in ancestry-based identity claims."
+      },
+      {
+        label: "Wikipedia: 2019 Jersey City Shooting",
+        url: "https://en.wikipedia.org/wiki/2019_Jersey_City_shooting",
+        summary:
+          "Case documentation of real-world violence influenced by identity-replacement narratives."
+      },
+      {
+        label: "ADL: Antisemitism Backgrounder",
+        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        summary:
+          "How identity-erasure claims function inside modern antisemitic propaganda ecosystems."
+      }
+    ],
+    evidenceAnchors: [
+      {
+        claim: "Ancestry debates do not support blanket identity erasure or group delegitimization.",
+        sourceLabel: "Wikipedia: Khazar Hypothesis",
+        sourceUrl: "https://en.wikipedia.org/wiki/Khazar_hypothesis_of_Ashkenazi_ancestry"
+      },
+      {
+        claim: "These narratives have had documented violent downstream effects in real incidents.",
+        sourceLabel: "Wikipedia: 2019 Jersey City Shooting",
+        sourceUrl: "https://en.wikipedia.org/wiki/2019_Jersey_City_shooting"
+      }
+    ]
+  }
+};
+
+const defaultFurtherDebunkingUrl = "https://www.adl.org/resources/backgrounder/antisemitism";
+
+function cloneSourceList(list) {
+  return (list || []).map((item) => ({ ...item }));
 }
 
-function buildMythQueryUrl(title, domainScope, focusSuffix) {
-  const topic = String(title || "").replace(/^Myth:\s*/, "").replace(/['"]/g, "");
-  const query = `${topic} ${focusSuffix} ${domainScope}`;
-  return `https://duckduckgo.com/?q=${encodeURIComponent(query)}`;
+function getSourcePackForMyth(title) {
+  return replacementPropagandaSourcePackByTitle[title] || {};
 }
 
-function buildPinnedSources(title) {
-  const topic = String(title || "").replace(/^Myth:\s*/, "");
+function getFurtherDebunkingUrlForMyth(title) {
+  return getSourcePackForMyth(title).furtherDebunkingUrl || defaultFurtherDebunkingUrl;
+}
+
+function getPinnedSourcesForMyth(title) {
+  const sources = getSourcePackForMyth(title).pinnedSources;
+  return cloneSourceList(sources || defaultPinnedSources);
+}
+
+function getEvidenceAnchorsForMyth(title) {
+  const anchors = getSourcePackForMyth(title).evidenceAnchors;
+  if (anchors && anchors.length) {
+    return cloneSourceList(anchors);
+  }
   return [
     {
-      label: `ADL evidence brief: ${topic}`,
-      url: buildMythQueryUrl(title, "site:adl.org", "backgrounder evidence"),
-      summary:
-        "ADL material tracks common versions of this claim, the language patterns used online, and where the evidence chain breaks."
-    },
-    {
-      label: `USHMM / historical record: ${topic}`,
-      url: buildMythQueryUrl(title, "site:encyclopedia.ushmm.org OR site:ushmm.org", "history documentation"),
-      summary:
-        "Historical documentation helps test recurring accusations against archival context, chronology, and primary-source verification."
-    },
-    {
-      label: `Independent fact-check trail: ${topic}`,
-      url: buildMythQueryUrl(title, "site:reuters.com OR site:apnews.com OR site:snopes.com", "fact check investigation"),
-      summary:
-        "Use independent reporting and fact-check investigations to see whether the claim survives transparent sourcing and falsifiability tests."
+      claim: "This myth should be tested using documented provenance, independent corroboration, and falsifiability.",
+      sourceLabel: "Topic Overview",
+      sourceUrl: getFurtherDebunkingUrlForMyth(title)
     }
   ];
 }
@@ -3748,22 +4236,47 @@ function buildReplacementPropagandaTruth(title) {
   return toTruthParagraph(`${base} ${depth}`.trim());
 }
 
+function validateReplacementPropagandaMappings() {
+  const titles = replacementPropagandaData.map((entry) => entry.title);
+  const requiredMaps = [
+    ["replacementPropagandaTruthByTitle", replacementPropagandaTruthByTitle],
+    ["replacementPropagandaTruthDetailByTitle", replacementPropagandaTruthDetailByTitle],
+    ["replacementPropagandaSkepticObjectionByTitle", replacementPropagandaSkepticObjectionByTitle],
+    ["replacementPropagandaWhyItFailsByTitle", replacementPropagandaWhyItFailsByTitle],
+    ["replacementPropagandaFalsificationByTitle", replacementPropagandaFalsificationByTitle]
+  ];
+
+  requiredMaps.forEach(([name, map]) => {
+    const missing = titles.filter((title) => !(title in map));
+    const extra = Object.keys(map).filter((key) => !titles.includes(key));
+    if (missing.length || extra.length) {
+      console.warn(
+        `[${name}] mapping mismatch: missing=${missing.join(" | ") || "none"}; extra=${extra.join(" | ") || "none"}. Continuing with graceful fallback values.`
+      );
+    }
+  });
+}
+
+validateReplacementPropagandaMappings();
+
 replacementPropagandaData.forEach((entry) => {
   entry.truthLabel = "Truth";
   entry.truthLinksLabel = "Further Debunking";
+  entry.evidenceAnchorsLabel = "Evidence Anchors";
   entry.skepticObjectionLabel = "Best Skeptic Objection";
   entry.whyItFailsLabel = "Why It Fails";
   entry.falsificationLabel = "What Would Falsify This Rebuttal?";
   entry.pinnedSourcesLabel = "Pinned Sources";
   entry.truth = buildReplacementPropagandaTruth(entry.title);
-  entry.skepticObjection = replacementPropagandaSkepticObjectionByTitle[entry.title] || "";
-  entry.whyItFails = replacementPropagandaWhyItFailsByTitle[entry.title] || "";
-  entry.falsificationTest = replacementPropagandaFalsificationByTitle[entry.title] || "";
-  entry.pinnedSources = buildPinnedSources(entry.title);
+  entry.evidenceAnchors = getEvidenceAnchorsForMyth(entry.title);
+  entry.skepticObjection = replacementPropagandaSkepticObjectionByTitle[entry.title];
+  entry.whyItFails = replacementPropagandaWhyItFailsByTitle[entry.title];
+  entry.falsificationTest = replacementPropagandaFalsificationByTitle[entry.title];
+  entry.pinnedSources = getPinnedSourcesForMyth(entry.title);
   entry.truthLinks = [
     {
-      label: `Further debunking: ${entry.title.replace(/^Myth:\s*/, "")}`,
-      url: buildReplacementPropagandaDebunkUrl(entry.title)
+      label: "Further Debunking Dossier",
+      url: getFurtherDebunkingUrlForMyth(entry.title)
     }
   ];
 });
@@ -5642,6 +6155,7 @@ const countEpistemic = document.querySelector("#count-epistemic");
 const countGlossary = document.querySelector("#count-glossary");
 const countReplacement = document.querySelector("#count-replacement");
 const countReplacementDrilldown = document.querySelector("#count-replacement-drilldown");
+const countPropaganda = document.querySelector("#count-propaganda");
 
 let currentTone = "pastoral";
 let currentCategory = "All";
@@ -6122,15 +6636,46 @@ function createPinnedSourceItem(source) {
   return item;
 }
 
+function createEvidenceAnchorItem(anchor) {
+  const item = document.createElement("li");
+  item.className = "proof-evidence-item";
+
+  const claim = document.createElement("p");
+  claim.className = "proof-evidence-claim";
+  setHighlightedText(claim, anchor.claim);
+
+  const sourceLink = document.createElement("a");
+  sourceLink.className = "proof-evidence-link";
+  sourceLink.href = anchor.sourceUrl;
+  sourceLink.target = "_blank";
+  sourceLink.rel = "noopener noreferrer";
+  setHighlightedText(sourceLink, anchor.sourceLabel);
+
+  item.append(claim, sourceLink);
+  return item;
+}
+
 function attachAccordionBehavior(root) {
   const toggle = root.querySelector(".argument-toggle");
   const body = root.querySelector(".argument-body");
   const symbol = root.querySelector(".symbol");
+  if (!toggle || !body || !symbol) {
+    return;
+  }
   body.style.maxHeight = "0px";
   body.style.opacity = "0";
 
+  // Track in-flight transitionend listeners so rapid clicks don't accumulate them
+  let pendingTransitionListener = null;
+
   toggle.addEventListener("click", () => {
     const expanded = toggle.getAttribute("aria-expanded") === "true";
+
+    // Cancel any in-flight transition listener before starting a new one
+    if (pendingTransitionListener) {
+      body.removeEventListener("transitionend", pendingTransitionListener);
+      pendingTransitionListener = null;
+    }
 
     if (prefersReducedMotion.matches) {
       toggle.setAttribute("aria-expanded", String(!expanded));
@@ -6156,7 +6701,9 @@ function attachAccordionBehavior(root) {
         }
         body.hidden = true;
         body.removeEventListener("transitionend", collapseDone);
+        pendingTransitionListener = null;
       };
+      pendingTransitionListener = collapseDone;
       body.addEventListener("transitionend", collapseDone);
     } else {
       body.hidden = false;
@@ -6175,7 +6722,9 @@ function attachAccordionBehavior(root) {
           body.style.maxHeight = "none";
         }
         body.removeEventListener("transitionend", expandDone);
+        pendingTransitionListener = null;
       };
+      pendingTransitionListener = expandDone;
       body.addEventListener("transitionend", expandDone);
     }
 
@@ -6228,8 +6777,10 @@ function setSectionExpanded(section, shouldExpand, instant = false) {
     return;
   }
 
-  const expanded = trigger.getAttribute("aria-expanded") === "true";
-  if (expanded === shouldExpand) {
+  const expandedAttr = trigger.getAttribute("aria-expanded");
+  const isInitialized = expandedAttr === "true" || expandedAttr === "false";
+  const expanded = expandedAttr === "true";
+  if (isInitialized && expanded === shouldExpand) {
     return;
   }
 
@@ -6304,7 +6855,6 @@ function ensureReplacementMythsOpen() {
   if (mythsSection?._sectionToggleTrigger) {
     setSectionExpanded(mythsSection, true, true);
   }
-  expandAllArgumentItems(propagandaList, true);
 }
 
 function initSectionAccordions() {
@@ -6535,6 +7085,11 @@ function matchesClaimResponseEntry(entry, toneKey) {
     source.url,
     source.summary
   ]);
+  const evidenceText = (entry.evidenceAnchors || []).flatMap((anchor) => [
+    anchor.claim,
+    anchor.sourceLabel,
+    anchor.sourceUrl
+  ]);
   return hasSearchMatch([
     entry.title,
     entry.claimLabel,
@@ -6546,6 +7101,7 @@ function matchesClaimResponseEntry(entry, toneKey) {
     entry.falsificationTest,
     ...truthLinks,
     ...sourceText,
+    ...evidenceText,
     entry.tones[toneKey],
     ...entry.references.flatMap((verse) => [verse.reference, verse.passage])
   ]);
@@ -6660,7 +7216,14 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
     article.classList.add("tilt-surface");
     applyStaggerClass(article, index);
 
-    setHighlightedText(article.querySelector(".argument-title"), entry.title);
+    const mythBadge = article.querySelector(".myth-badge");
+    if (entry.title.startsWith("Myth: ")) {
+      setHighlightedText(article.querySelector(".argument-title"), entry.title.replace(/^Myth:\s*/, ""));
+      if (mythBadge) mythBadge.hidden = false;
+    } else {
+      setHighlightedText(article.querySelector(".argument-title"), entry.title);
+      if (mythBadge) mythBadge.hidden = true;
+    }
     setHighlightedText(article.querySelector(".proof-claim-label"), entry.claimLabel);
     setHighlightedText(article.querySelector(".proof-response-label"), entry.responseLabel);
     setHighlightedText(article.querySelector(".proof-claim"), entry.claim);
@@ -6675,6 +7238,10 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
       if (entryTruth) {
         setHighlightedText(truthLabel, entry.truthLabel || "Truth");
         setHighlightedText(truthText, entryTruth);
+        truthText.innerHTML = truthText.innerHTML.replace(
+          /\b(Steelman concern:|Truth:)(\s*)/g,
+          '<strong class="truth-inline-label">$1</strong>$2'
+        );
         truthLabel.hidden = false;
         truthText.hidden = false;
       } else {
@@ -6701,6 +7268,27 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
         truthLinksWrap.hidden = truthLinksList.childElementCount === 0;
       } else {
         truthLinksWrap.hidden = true;
+      }
+    }
+
+    const evidenceWrap = article.querySelector(".proof-evidence-wrap");
+    const evidenceLabel = article.querySelector(".proof-evidence-label");
+    const evidenceList = article.querySelector(".proof-evidence-list");
+    const evidenceAnchors = Array.isArray(entry.evidenceAnchors) ? entry.evidenceAnchors : [];
+    if (evidenceWrap && evidenceList) {
+      evidenceList.innerHTML = "";
+      if (evidenceAnchors.length) {
+        if (evidenceLabel) {
+          setHighlightedText(evidenceLabel, entry.evidenceAnchorsLabel || "Evidence Anchors");
+        }
+        evidenceAnchors.forEach((anchor) => {
+          if (anchor?.claim && anchor?.sourceLabel && anchor?.sourceUrl) {
+            evidenceList.appendChild(createEvidenceAnchorItem(anchor));
+          }
+        });
+        evidenceWrap.hidden = evidenceList.childElementCount === 0;
+      } else {
+        evidenceWrap.hidden = true;
       }
     }
 
@@ -6771,9 +7359,11 @@ function renderClaimResponseList(container, entries, toneKey, emptyMessage) {
     }
 
     const referenceList = article.querySelector(".reference-list");
-    entry.references.forEach((verse) => {
-      referenceList.appendChild(createPassageDetail(verse.reference, verse.passage));
-    });
+    if (referenceList && Array.isArray(entry.references)) {
+      entry.references.forEach((verse) => {
+        referenceList.appendChild(createPassageDetail(verse.reference, verse.passage));
+      });
+    }
 
     attachAccordionBehavior(article);
     container.appendChild(node);
@@ -6935,6 +7525,11 @@ function updateQuickJumpCounts(toneKey) {
   if (countReplacementDrilldown) {
     countReplacementDrilldown.textContent = String(
       replacementDrilldownData.filter((entry) => matchesDrilldownEntry(entry)).length
+    );
+  }
+  if (countPropaganda) {
+    countPropaganda.textContent = String(
+      replacementPropagandaData.filter((entry) => matchesClaimResponseEntry(entry, toneKey)).length
     );
   }
 }
@@ -7260,6 +7855,7 @@ function renderComparisonFilters() {
         "Proof-Text",
         "Common Reply",
         "Epistemic Challenge",
+        "Myth / Propaganda",
         "Determinism Slope",
         "Objection Drilldown"
       ];
@@ -7426,9 +8022,21 @@ function buildComparisonItems(toneKey) {
     ...proofItems,
     ...replyItems,
     ...epistemicItems,
+    ...propagandaItems,
     ...tulipSlopeItems,
     ...drilldownItems
   ];
+}
+
+function syncInlineSearchState(inputElement) {
+  if (!inputElement) {
+    return;
+  }
+  const inner = inputElement.closest(".search-input-inner");
+  if (!inner) {
+    return;
+  }
+  inner.classList.toggle("has-value", inputElement.value.length > 0);
 }
 
 function renderComparison(toneKey) {
@@ -7514,6 +8122,19 @@ function renderAllForTone(toneKey) {
       toneKey,
       "No common replies matched your search."
     );
+    renderClaimResponseList(
+      propagandaList,
+      replacementPropagandaData,
+      toneKey,
+      "No myth-check entries matched your search."
+    );
+    if (currentSearchQuery && propagandaList) {
+      expandAllArgumentItems(propagandaList);
+      const propagandaSection = document.querySelector("#propaganda-checks");
+      if (propagandaSection && propagandaList.querySelector(".argument-item")) {
+        setSectionExpanded(propagandaSection, true);
+      }
+    }
     renderEpistemicChallenges(toneKey);
     renderDrilldown();
     renderTulipSlope();
@@ -7538,8 +8159,7 @@ const debouncedSearchRender = debounce((query) => {
 
 if (searchInput) {
   searchInput.addEventListener("input", (event) => {
-    const inner = event.target.closest(".search-input-inner");
-    if (inner) inner.classList.toggle("has-value", event.target.value.length > 0);
+    syncInlineSearchState(event.target);
     debouncedSearchRender(event.target.value);
   });
 }
@@ -7550,8 +8170,7 @@ if (searchClear) {
     setCurrentSearchQuery("");
     if (searchInput) {
       searchInput.value = "";
-      const inner = searchInput.closest(".search-input-inner");
-      if (inner) inner.classList.remove("has-value");
+      syncInlineSearchState(searchInput);
       searchInput.focus();
     }
     renderVerseCards(currentCategory);
@@ -7567,8 +8186,7 @@ const debouncedGlossaryRender = debounce((query) => {
 
 if (glossaryInput) {
   glossaryInput.addEventListener("input", (event) => {
-    const inner = event.target.closest(".search-input-inner");
-    if (inner) inner.classList.toggle("has-value", event.target.value.length > 0);
+    syncInlineSearchState(event.target);
     debouncedGlossaryRender(event.target.value);
   });
 }
@@ -7579,8 +8197,7 @@ if (glossaryClear) {
     setCurrentGlossaryQuery("");
     if (glossaryInput) {
       glossaryInput.value = "";
-      const inner = glossaryInput.closest(".search-input-inner");
-      if (inner) inner.classList.remove("has-value");
+      syncInlineSearchState(glossaryInput);
       glossaryInput.focus();
     }
     renderGlossary();
@@ -7647,6 +8264,8 @@ setupRevealStagger();
 initSectionAccordions();
 setCurrentSearchQuery(searchInput ? searchInput.value : "");
 setCurrentGlossaryQuery(glossaryInput ? glossaryInput.value : "");
+syncInlineSearchState(searchInput);
+syncInlineSearchState(glossaryInput);
 renderFilters();
 renderComparisonFilters();
 renderVerseCards(currentCategory);
