@@ -1627,8 +1627,8 @@ function toTruthParagraph(text) {
 
 const defaultPinnedSources = [
   {
-    label: "ADL: Antisemitism Backgrounder",
-    url: "https://www.adl.org/resources/backgrounder/antisemitism",
+    label: "ADL: Antisemitism Today",
+    url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
     summary:
       "ADL's primer defines core antisemitic narratives and shows how old canards are repackaged in modern discourse."
   },
@@ -1738,8 +1738,8 @@ const replacementPropagandaSourcePackByTitle = {
           "Historical continuity of child-blood accusations used against Jews across centuries."
       },
       {
-        label: "ADL: Antisemitism Backgrounder",
-        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        label: "ADL: Antisemitism Today",
+        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
         summary:
           "Modern antisemitic narratives often repackage older canards under new symbolic language."
       }
@@ -1758,11 +1758,11 @@ const replacementPropagandaSourcePackByTitle = {
     ]
   },
   "Myth: Jews Created or Profited from COVID-19 as a Control Operation": {
-    furtherDebunkingUrl: "https://en.wikipedia.org/wiki/Antisemitism_during_the_COVID-19_pandemic",
+    furtherDebunkingUrl: "https://www.adl.org/resources/article/coronavirus-antisemitism",
     pinnedSources: [
       {
-        label: "Wikipedia: Antisemitism During COVID-19",
-        url: "https://en.wikipedia.org/wiki/Antisemitism_during_the_COVID-19_pandemic",
+        label: "ADL: Coronavirus and Antisemitism",
+        url: "https://www.adl.org/resources/article/coronavirus-antisemitism",
         summary:
           "Catalog of anti-Jewish pandemic narratives and how they mirrored earlier scapegoating patterns."
       },
@@ -1773,8 +1773,8 @@ const replacementPropagandaSourcePackByTitle = {
           "Overview of misinformation channels and debunked claims around pandemic origins and intent."
       },
       {
-        label: "ADL: Antisemitism Backgrounder",
-        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        label: "ADL: Antisemitism Today",
+        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
         summary:
           "Framework for identifying recurring antisemitic scapegoat logic during social crises."
       }
@@ -1782,8 +1782,8 @@ const replacementPropagandaSourcePackByTitle = {
     evidenceAnchors: [
       {
         claim: "Pandemic-era anti-Jewish claims are documented as part of a broader misinformation wave.",
-        sourceLabel: "Wikipedia: Antisemitism During COVID-19",
-        sourceUrl: "https://en.wikipedia.org/wiki/Antisemitism_during_the_COVID-19_pandemic"
+        sourceLabel: "ADL: Coronavirus and Antisemitism",
+        sourceUrl: "https://www.adl.org/resources/article/coronavirus-antisemitism"
       },
       {
         claim: "Origin and control-operation narratives are widely cataloged in debunking literature.",
@@ -1808,8 +1808,8 @@ const replacementPropagandaSourcePackByTitle = {
           "Scholarly framing of Jesus in first-century Jewish social and religious settings."
       },
       {
-        label: "ADL: Antisemitism Backgrounder",
-        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        label: "ADL: Antisemitism Today",
+        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
         summary:
           "Why theological polemic has often been misused as a basis for collective hostility."
       }
@@ -1843,8 +1843,8 @@ const replacementPropagandaSourcePackByTitle = {
           "Case documentation of real-world violence influenced by identity-replacement narratives."
       },
       {
-        label: "ADL: Antisemitism Backgrounder",
-        url: "https://www.adl.org/resources/backgrounder/antisemitism",
+        label: "ADL: Antisemitism Today",
+        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
         summary:
           "How identity-erasure claims function inside modern antisemitic propaganda ecosystems."
       }
@@ -1864,7 +1864,7 @@ const replacementPropagandaSourcePackByTitle = {
   }
 };
 
-const defaultFurtherDebunkingUrl = "https://www.adl.org/resources/backgrounder/antisemitism";
+const defaultFurtherDebunkingUrl = "https://www.adl.org/resources/tools-and-strategies/antisemitism-today";
 
 function cloneSourceList(list) {
   return (list || []).map((item) => ({ ...item }));
