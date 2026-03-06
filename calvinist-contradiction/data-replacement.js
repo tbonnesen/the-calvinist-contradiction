@@ -1627,10 +1627,10 @@ function toTruthParagraph(text) {
 
 const defaultPinnedSources = [
   {
-    label: "ADL: Antisemitism Today",
-    url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
+    label: "USHMM: Antisemitism",
+    url: "https://encyclopedia.ushmm.org/content/en/article/antisemitism-1",
     summary:
-      "ADL's primer defines core antisemitic narratives and shows how old canards are repackaged in modern discourse."
+      "USHMM's overview defines antisemitism historically and shows how anti-Jewish canards recur across time and political settings."
   },
   {
     label: "USHMM Encyclopedia: Antisemitism",
@@ -1738,10 +1738,10 @@ const replacementPropagandaSourcePackByTitle = {
           "Historical continuity of child-blood accusations used against Jews across centuries."
       },
       {
-        label: "ADL: Antisemitism Today",
-        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
+        label: "USHMM: Antisemitism",
+        url: "https://encyclopedia.ushmm.org/content/en/article/antisemitism-1",
         summary:
-          "Modern antisemitic narratives often repackage older canards under new symbolic language."
+          "Historical overview showing how older anti-Jewish canards are repeatedly repackaged in modern language."
       }
     ],
     evidenceAnchors: [
@@ -1758,13 +1758,13 @@ const replacementPropagandaSourcePackByTitle = {
     ]
   },
   "Myth: Jews Created or Profited from COVID-19 as a Control Operation": {
-    furtherDebunkingUrl: "https://www.adl.org/resources/article/coronavirus-antisemitism",
+    furtherDebunkingUrl: "https://www.nature.com/articles/s41598-023-41794-y",
     pinnedSources: [
       {
-        label: "ADL: Coronavirus and Antisemitism",
-        url: "https://www.adl.org/resources/article/coronavirus-antisemitism",
+        label: "Scientific Reports: Coronavirus Conspiracism and Antisemitism",
+        url: "https://www.nature.com/articles/s41598-023-41794-y",
         summary:
-          "Catalog of anti-Jewish pandemic narratives and how they mirrored earlier scapegoating patterns."
+          "Open-access study documenting the measurable relationship between coronavirus conspiracy beliefs and antisemitic attitudes."
       },
       {
         label: "Wikipedia: COVID-19 Misinformation",
@@ -1773,8 +1773,8 @@ const replacementPropagandaSourcePackByTitle = {
           "Overview of misinformation channels and debunked claims around pandemic origins and intent."
       },
       {
-        label: "ADL: Antisemitism Today",
-        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
+        label: "USHMM: Antisemitism",
+        url: "https://encyclopedia.ushmm.org/content/en/article/antisemitism-1",
         summary:
           "Framework for identifying recurring antisemitic scapegoat logic during social crises."
       }
@@ -1782,8 +1782,8 @@ const replacementPropagandaSourcePackByTitle = {
     evidenceAnchors: [
       {
         claim: "Pandemic-era anti-Jewish claims are documented as part of a broader misinformation wave.",
-        sourceLabel: "ADL: Coronavirus and Antisemitism",
-        sourceUrl: "https://www.adl.org/resources/article/coronavirus-antisemitism"
+        sourceLabel: "Scientific Reports: Coronavirus Conspiracism and Antisemitism",
+        sourceUrl: "https://www.nature.com/articles/s41598-023-41794-y"
       },
       {
         claim: "Origin and control-operation narratives are widely cataloged in debunking literature.",
@@ -1808,8 +1808,8 @@ const replacementPropagandaSourcePackByTitle = {
           "Scholarly framing of Jesus in first-century Jewish social and religious settings."
       },
       {
-        label: "ADL: Antisemitism Today",
-        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
+        label: "USHMM: Antisemitism",
+        url: "https://encyclopedia.ushmm.org/content/en/article/antisemitism-1",
         summary:
           "Why theological polemic has often been misused as a basis for collective hostility."
       }
@@ -1843,8 +1843,8 @@ const replacementPropagandaSourcePackByTitle = {
           "Case documentation of real-world violence influenced by identity-replacement narratives."
       },
       {
-        label: "ADL: Antisemitism Today",
-        url: "https://www.adl.org/resources/tools-and-strategies/antisemitism-today",
+        label: "USHMM: Antisemitism",
+        url: "https://encyclopedia.ushmm.org/content/en/article/antisemitism-1",
         summary:
           "How identity-erasure claims function inside modern antisemitic propaganda ecosystems."
       }
@@ -1864,7 +1864,7 @@ const replacementPropagandaSourcePackByTitle = {
   }
 };
 
-const defaultFurtherDebunkingUrl = "https://www.adl.org/resources/tools-and-strategies/antisemitism-today";
+const defaultFurtherDebunkingUrl = "https://encyclopedia.ushmm.org/content/en/article/antisemitism-1";
 
 function cloneSourceList(list) {
   return (list || []).map((item) => ({ ...item }));
