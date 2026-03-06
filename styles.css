@@ -347,6 +347,13 @@ h1 {
   border-color: rgba(182, 132, 93, 0.62);
 }
 
+/* Section accordions contain lists — suppress misleading lift */
+.panel.section-accordion:hover {
+  transform: none;
+  box-shadow: var(--shadow-mid), inset 0 1px 0 rgba(255, 245, 230, 0.36);
+  border-color: rgba(173, 136, 108, 0.46);
+}
+
 .search-row {
   margin-bottom: 0.85rem;
 }
@@ -371,11 +378,25 @@ h1 {
   align-items: center;
 }
 
+.search-input-inner::before {
+  content: "";
+  position: absolute;
+  left: 0.82rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.9rem;
+  height: 0.9rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%238a7060' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='10' cy='10' r='7'/%3E%3Cline x1='21' y1='21' x2='15' y2='15'/%3E%3C/svg%3E") no-repeat center / contain;
+  pointer-events: none;
+  opacity: 0.65;
+  flex-shrink: 0;
+}
+
 .search-input-wrap input {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
-  padding: 0.58rem 2.6rem 0.58rem 0.78rem;
+  padding: 0.58rem 2.6rem 0.58rem 2.2rem;
   font-size: 0.95rem;
   color: var(--ink);
   background: var(--paper-alt);
@@ -558,21 +579,31 @@ h1 {
 }
 
 .section-head h2 {
-  padding-left: 0.75rem;
-  border-left: 3px solid var(--accent);
+  padding-left: 0.85rem;
+  border-left: 4px solid var(--accent);
   line-height: 1.1;
+  box-shadow: -3px 0 10px rgba(168, 77, 51, 0.18);
+  border-radius: 0 0 0 2px;
 }
 
 #text-disputes .section-head h2 {
   border-left-color: #8b5e3c;
+  box-shadow: -3px 0 10px rgba(139, 94, 60, 0.18);
 }
 
 #determinism-epistemics .section-head h2 {
   border-left-color: var(--accent-2);
+  box-shadow: -3px 0 10px rgba(53, 95, 78, 0.2);
 }
 
 #study-tools .section-head h2 {
   border-left-color: #7a6548;
+  box-shadow: -3px 0 10px rgba(122, 101, 72, 0.18);
+}
+
+#propaganda-checks .section-head h2 {
+  border-left-color: var(--accent);
+  box-shadow: -3px 0 10px rgba(168, 77, 51, 0.18);
 }
 
 #quick-jump .section-head h2 {
@@ -594,10 +625,11 @@ h1 {
   text-decoration: none;
   color: var(--text-heading-deep);
   border: 1px solid var(--border-surface-2);
-  border-left: 3px solid var(--accent);
-  background: var(--surface-2);
+  border-left: 4px solid var(--accent);
+  background:
+    linear-gradient(90deg, rgba(168, 77, 51, 0.05) 0%, var(--surface-2) 28%);
   border-radius: var(--radius-md);
-  padding: 0.58rem 0.72rem 0.58rem 0.9rem;
+  padding: 0.58rem 0.72rem 0.58rem 0.88rem;
   font-weight: 700;
   font-size: 0.9rem;
   transition:
@@ -781,18 +813,30 @@ h3.section-toggle {
 .section-symbol {
   margin-left: auto;
   color: var(--accent);
-  display: inline-block;
-  width: 1.1rem;
-  height: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
   position: relative;
   flex-shrink: 0;
   font-size: 0;
+  background: transparent;
+  transition:
+    background-color var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out);
+}
+
+.section-toggle:hover .section-symbol,
+.section-toggle:focus-visible .section-symbol {
+  background: rgba(168, 77, 51, 0.1);
 }
 
 .section-symbol::before {
   content: "";
   position: absolute;
-  inset: 0.18rem;
+  inset: 0.3rem;
   border-right: 2px solid currentColor;
   border-bottom: 2px solid currentColor;
   transform: rotate(45deg) translateY(-1px);
@@ -887,18 +931,33 @@ p {
 
 .symbol {
   color: var(--accent);
-  display: inline-block;
-  width: 1.1rem;
-  height: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
   position: relative;
   flex-shrink: 0;
   font-size: 0;
+  background: transparent;
+  transition:
+    background-color var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out);
+}
+
+.argument-toggle:hover .symbol {
+  background: rgba(168, 77, 51, 0.12);
+}
+
+.argument-item.is-open .argument-toggle:hover .symbol {
+  background: rgba(168, 77, 51, 0.1);
 }
 
 .symbol::before {
   content: "";
   position: absolute;
-  inset: 0.18rem;
+  inset: 0.3rem;
   border-right: 2px solid currentColor;
   border-bottom: 2px solid currentColor;
   transform: rotate(45deg) translateY(-1px);
@@ -921,6 +980,8 @@ p {
 .argument-item.is-open .argument-body {
   opacity: 1;
   transform: translateY(0);
+  border-left: 2px solid rgba(168, 77, 51, 0.18);
+  padding-left: calc(1.2rem - 2px);
 }
 
 .argument-item.is-open .symbol::before {
@@ -997,18 +1058,19 @@ p {
 .myth-badge {
   display: inline-flex;
   align-items: center;
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.09em;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--accent);
-  border: 1.5px solid var(--accent);
+  color: #fff3eb;
+  background: var(--accent);
+  border: none;
   border-radius: 4px;
-  padding: 0.1em 0.4em;
+  padding: 0.2em 0.55em;
   line-height: 1.5;
   flex-shrink: 0;
   font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
-  opacity: 0.85;
+  box-shadow: 0 1px 4px rgba(140, 47, 31, 0.35);
 }
 
 /* Claim block — visual "false claim" signal */
@@ -1043,11 +1105,13 @@ p {
   margin-top: 0;
 }
 
-/* Analysis block — secondary epistemic content */
+/* Analysis block — secondary epistemic content, subtle tint for visual depth */
 .proof-analysis-block {
-  border-top: 1px solid var(--line);
+  border-top: 2px solid rgba(168, 77, 51, 0.15);
   margin-top: var(--sp-5);
-  padding-top: var(--sp-4);
+  padding: var(--sp-4);
+  background: rgba(196, 174, 150, 0.22);
+  border-radius: var(--radius-sm);
 }
 
 /* Inline Steelman/Truth prefix labels in truth paragraph */
@@ -1117,12 +1181,39 @@ p {
 
 .passage-detail summary {
   cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   color: var(--text-body-deep);
   font-weight: 700;
   font-size: 0.84rem;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   padding: 0.45rem 0;
+}
+
+.passage-detail summary::marker,
+.passage-detail summary::-webkit-details-marker {
+  display: none;
+  content: "";
+}
+
+.passage-detail summary::before {
+  content: "";
+  display: inline-block;
+  flex-shrink: 0;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-right: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  transform: rotate(-45deg) translateY(1px);
+  transition: transform var(--dur-fast) var(--ease-out);
+  opacity: 0.8;
+}
+
+.passage-detail[open] summary::before {
+  transform: rotate(45deg) translateY(-1px);
 }
 
 .passage-text {
@@ -1549,7 +1640,7 @@ ol {
 }
 
 .site-footer {
-  padding: 0 0 3.2rem;
+  padding: 1.5rem 0 3.6rem;
   text-align: center;
   color: var(--text-secondary);
 }
@@ -1562,10 +1653,10 @@ ol {
 
 .footer-title {
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.5rem;
+  font-size: 1.85rem;
   font-weight: 700;
   color: var(--text-secondary);
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.4rem;
   letter-spacing: 0.01em;
 }
 
